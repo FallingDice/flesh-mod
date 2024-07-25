@@ -16,7 +16,7 @@ weapons: [
             width: 1
             height: 2
             lifetime: 20
-            sprite: flesh-panel
+            sprite: bullet
         }
     }
 ]
