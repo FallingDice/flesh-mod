@@ -1,4 +1,4 @@
-type: mech
+type: flying
 speed: 0.45
 health: 250
 flying: true
