@@ -1,22 +1,29 @@
 type: flying
-speed: 1.5
+speed: 2.5
 health: 250
 flying: true
 hitsize: 5
 accel: 0.08
 drag: 0.016
+engineOffset: 5.5
+range: 140
+
 weapons: [
     {
         name: none
+        mirror: false
         x: 0
         y: 0
         reload: 15
+        ejectEffect: casing1
+        shootSound: shoot
+
         bullet: {
             type: BasicBulletType
             damage: 12
             speed: 4.25
-            width: 3
-            height: 6
+            width: 6
+            height: 8
             lifetime: 35
             sprite: bullet
         }
