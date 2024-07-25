@@ -1,6 +1,6 @@
 type: SolarGenerator
 
-size: 1
+size: 3
 health: 300
 
 requirements: [
