@@ -1,1 +1,21 @@
-
+type: mech
+speed: 0.45
+health: 250
+flying: true
+hitsize: 5
+weapons: [
+    {
+        name: e
+        x: 0
+        y: 0
+        reload: 15
+        bullet: {
+            type: BasicBulletType
+            damage: 12
+            speed: 4.25
+            width: 6
+            height: 8
+            lifetime: 35
+        }
+    }
+]
