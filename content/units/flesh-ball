@@ -20,3 +20,11 @@ weapons: [
         }
     }
 ]
+
+research: {
+    parent: factory
+    requirements:
+    [
+        {item: silicon, amount: 10}
+    ]
+}
