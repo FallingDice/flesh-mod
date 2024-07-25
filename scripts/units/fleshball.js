@@ -1,5 +1,5 @@
-const spawnUnit = Vars.content.getByName(ContentType.unit, "arkyid");
+const spawnUnit = Vars.content.getByName(ContentType.unit, "fleshball");
 
 unitSpawn1.spawnEffect = mendSpawn;
 
-testunit4.abilities.add(new UnitSpawnAbility(spawnUnit, 7 * 60, 18, -7));
+fleshball.abilities.add(new UnitSpawnAbility(spawnUnit, 7 * 60, 18, -7));
