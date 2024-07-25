@@ -1,9 +1,15 @@
 type: SolarGenerator
 
 size: 1
-health: 30
+health: 300
+
+requirements: [
+      copper/1
+]
 
 powerProduction: 0.1
+
+craftTime: 5
 
 category: power
 buildVisibility: "shown"
