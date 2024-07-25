@@ -2,7 +2,9 @@ type: flying
 speed: 1.5
 health: 250
 flying: true
-hitsize: 5
+hitsize: 20
+accel: 0.08
+drag: 0.016
 weapons: [
     {
         name: fleshgun
