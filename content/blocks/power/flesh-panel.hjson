@@ -7,7 +7,7 @@ requirements: [
       copper/1
 ]
 
-powerProduction: 0.1
+powerProduction: 2
 
 craftTime: 5
 
