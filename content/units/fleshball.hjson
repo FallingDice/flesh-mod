@@ -1,20 +1,21 @@
 type: flying
-speed: 1.3
+speed: 1.5
 health: 250
 flying: true
 hitsize: 5
 weapons: [
     {
-        name: none
-        x: 0
-        y: 0
+        name: fleshgun
+        top: false
+        x: 2
+        y: 1
         reload: 15
         bullet: {
             type: BasicBulletType
             damage: 12
             speed: 4.25
-            width: 1
-            height: 2
+            width: 2
+            height: 4
             lifetime: 20
             sprite: bullet
         }
