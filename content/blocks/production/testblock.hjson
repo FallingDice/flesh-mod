@@ -5,5 +5,5 @@ health: 30
 
 powerProduction: 0.1
 
-category: powerProduction
+category: power
 buildVisibility: "shown"
