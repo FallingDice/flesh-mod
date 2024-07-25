@@ -5,7 +5,7 @@ flying: true
 hitsize: 5
 weapons: [
     {
-        name: flesh-panel
+        name: none
         x: 0
         y: 0
         reload: 15
