@@ -1,5 +1,5 @@
 type: flying
-speed: 0.45
+speed: 1.3
 health: 250
 flying: true
 hitsize: 5
@@ -13,9 +13,9 @@ weapons: [
             type: BasicBulletType
             damage: 12
             speed: 4.25
-            width: 6
-            height: 8
-            lifetime: 35
+            width: 1
+            height: 2
+            lifetime: 20
             sprite: flesh-panel
         }
     }
