@@ -49,7 +49,7 @@ abilities: [
 
 
 research: {
-    parent: factory
+    parent: flesh-factory
     requirements:
     [
         {item: silicon, amount: 10}
