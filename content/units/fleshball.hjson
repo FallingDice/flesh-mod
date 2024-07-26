@@ -1,3 +1,5 @@
+name: fleshball
+description: seed of disaster.
 type: flying
 speed: 2.5
 health: 250
