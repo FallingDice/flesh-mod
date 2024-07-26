@@ -30,6 +30,17 @@ weapons: [
     }
 ]
 
+abilities: [
+    {
+      type: UnitSpawnAbility
+      unit: fleshball
+      spawnX: 0
+      spawnY: 0
+      spawnTime: 200
+    }
+}
+
+
 research: {
     parent: factory
     requirements:
