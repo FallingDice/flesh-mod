@@ -1,1 +1,59 @@
+type: flying
+speed: 1.5
+health: 830
+flying: true
+hitsize: 5
+accel: 0.08
+drag: 0.016
+engineOffset: 5.5
+range: 140
+armor: 2
 
+weapons: [
+    {
+        name: fleshgun
+        mirror: false
+        rotate: true
+        x: 0
+        y: 1
+        reload: 15
+        ejectEffect: casing1
+        shootSound: shoot
+
+        bullet: {
+            type: BasicBulletType
+            damage: 12
+            speed: 4.25
+            width: 6
+            height: 8
+            lifetime: 35
+            sprite: bullet
+        }
+    }
+]
+
+abilities: [
+    {
+      type: UnitSpawnAbility
+      unit: fleshball
+      spawnX: 0
+      spawnY: 0
+      spawnTime: 600
+    },
+    {
+    type: SpawnDeathAbility
+    amount: 3
+    spread: 45
+    faceOutwards: true
+    unit: fleshball
+  }
+]
+
+
+research: {
+    parent: flesh-factory
+    requirements:
+    [
+        {item: silicon, amount: 10}
+    ]
+}
