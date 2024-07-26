@@ -37,8 +37,15 @@ abilities: [
       spawnX: 0
       spawnY: 0
       spawnTime: 200
-    }
-}
+    },
+    {
+    type: SpawnDeathAbility
+    amount: 8
+    spread: 45
+    faceOutwards: true
+    unit: dagger
+  }
+]
 
 
 research: {
