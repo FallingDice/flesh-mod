@@ -36,11 +36,11 @@ abilities: [
       unit: fleshball
       spawnX: 0
       spawnY: 0
-      spawnTime: 200
+      spawnTime: 2000
     },
     {
     type: SpawnDeathAbility
-    amount: 8
+    amount: 4
     spread: 45
     faceOutwards: true
     unit: dagger
