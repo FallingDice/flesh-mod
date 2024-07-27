@@ -18,7 +18,7 @@ weapons: [
         y: 0
         reload: 15
         ejectEffect: casing1
-        shootSound: shoot
+        shootSound: pew
 
         bullet: {
             type: BasicBulletType
@@ -27,7 +27,7 @@ weapons: [
             width: 6
             height: 8
             lifetime: 35
-            sprite: bullet
+            sprite: missile-large
         }
     }
 ]

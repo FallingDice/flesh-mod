@@ -14,9 +14,8 @@ weapons: [
         name: fleshgun
         mirror: false
         rotate: true
-        top: false
         x: 0
-        y: 4
+        y: 0
         reload: 15
         ejectEffect: casing1
         shootSound: shoot
@@ -28,7 +27,7 @@ weapons: [
             width: 6
             height: 8
             lifetime: 35
-            sprite: bullet
+            sprite: missile-large
         }
     }
 ]
