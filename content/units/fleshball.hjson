@@ -28,6 +28,11 @@ weapons: [
             height: 8
             lifetime: 35
             sprite: missile-large
+            trailWidth: 3
+            trailLength: 4.6
+            trailColor: "486acd"
+            shootEffect: none
+            smokeEffect: none
         }
     }
 ]
@@ -38,7 +43,7 @@ abilities: [
       unit: fleshball
       spawnX: 0
       spawnY: 0
-      spawnTime: 2000
+      spawnTime: 1800
     },
     {
     type: SpawnDeathAbility

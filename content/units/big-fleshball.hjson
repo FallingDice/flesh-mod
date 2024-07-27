@@ -28,6 +28,11 @@ weapons: [
             height: 8
             lifetime: 35
             sprite: missile-large
+            trailWidth: 3
+            trailLength: 4.6
+            trailColor: "486acd"
+            shootEffect: none
+            smokeEffect: none
         }
     }
 ]

@@ -19,6 +19,22 @@ plans: [
             lead/2
         ]
         time: 120
+    },
+    {
+        unit: big-fleshball
+        requirements: [
+            silicon/2
+            lead/2
+        ]
+        time: 120
+    },
+    {
+        unit: small-flesh
+        requirements: [
+            silicon/2
+            lead/2
+        ]
+        time: 120
     }
 ]
 
