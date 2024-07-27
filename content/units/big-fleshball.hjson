@@ -5,7 +5,6 @@ flying: true
 hitsize: 5
 accel: 0.08
 drag: 0.016
-engineOffset: 5.5
 range: 140
 armor: 2
 
@@ -14,15 +13,16 @@ weapons: [
         name: fleshgun
         mirror: false
         rotate: true
+        top: false
         x: 0
-        y: 1
+        y: 4
         reload: 15
         ejectEffect: casing1
         shootSound: shoot
 
         bullet: {
             type: BasicBulletType
-            damage: 12
+            damage: 28
             speed: 4.25
             width: 6
             height: 8
