@@ -7,6 +7,7 @@ accel: 0.08
 drag: 0.016
 range: 140
 armor: 2
+drawCell: false
 
 weapons: [
     {
