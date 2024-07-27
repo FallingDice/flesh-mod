@@ -29,7 +29,7 @@ plans: [
         time: 120
     },
     {
-        unit: small-flesh
+        unit: smallflesh
         requirements: [
             silicon/2
             lead/2
