@@ -52,7 +52,7 @@ abilities: [
     amount: 4
     spread: 45
     faceOutwards: true
-    unit: small-flesh
+    unit: smallflesh
   }
 ]
 
