@@ -8,6 +8,7 @@ drag: 0.016
 range: 140
 armor: 2
 drawCell: false
+outlines: false
 
 weapons: [
     {
@@ -31,6 +32,7 @@ weapons: [
             trailWidth: 3
             trailLength: 4.6
             trailColor: "486acd"
+            recoil: 0
             shootEffect: none
             smokeEffect: none
         }
