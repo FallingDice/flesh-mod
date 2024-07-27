@@ -44,7 +44,7 @@ abilities: [
     amount: 4
     spread: 45
     faceOutwards: true
-    unit: dagger
+    unit: small-flesh
   }
 ]
 
