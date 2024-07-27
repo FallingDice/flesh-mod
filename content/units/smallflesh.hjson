@@ -8,14 +8,14 @@ hitSize: 6
 omniMovement: false
 rotateSpeed: 2.6
 drownTimeMultiplier: 2
-segments: 4
+segments: 3
 drawBody: false
 drawCell: false
 outlines: false
 crushDamage: 0.5
 controller: HugAI
-segmentScl:4
-segmentPhase: 4
+segmentScl:3
+segmentPhase: 3
 segmentMag: 0.5
 template: ErekirUnitType
 weapons: [
