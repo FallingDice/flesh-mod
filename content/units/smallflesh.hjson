@@ -1,17 +1,17 @@
 type: crawl
+deathSound: squish
 health: 150
 flying: false
 range: 100
 speed: 1.2
 armor: 2
-hitSize: 6
+hitSize: 9
+outlineColor: 727c81
 omniMovement: false
 rotateSpeed: 2.6
-drownTimeMultiplier: 2
 segments: 3
 drawBody: false
 drawCell: false
-outlines: false
 crushDamage: 0.5
 controller: HugAI
 segmentScl:3
