@@ -31,7 +31,7 @@ weapons: [
             sprite: missile-large
             trailWidth: 3
             trailLength: 4.6
-            trailColor: "486acd"
+            trailColor: "ff1744"
             recoil: 0
             shootEffect: none
             smokeEffect: none
@@ -58,7 +58,7 @@ abilities: [
 
 
 research: {
-    parent: flesh-factory
+    parent: flesh-hive
     requirements:
     [
         {item: silicon, amount: 10}
