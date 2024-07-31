@@ -1,6 +1,6 @@
 type: UnitFactory
 
-squareSprite: false
+configurable: false
 health: 500
 size: 3
 itemCapacity: 30
@@ -28,7 +28,7 @@ plans: [
         time: 120
     },
     {
-        unit: smallflesh
+        unit: flesh-bug
         requirements: [
             silicon/2
             lead/2
