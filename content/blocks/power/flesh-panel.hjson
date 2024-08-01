@@ -11,6 +11,7 @@ requirements: [
 
 powerProduction: 1
 
-craftTime: 60
+craftTime: 10
 
 research: flesh
+researchCostMultiplier: 0.5

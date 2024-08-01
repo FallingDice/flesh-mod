@@ -75,6 +75,6 @@ research: {
     parent: flesh-hive
     requirements:
     [
-        {item: silicon, amount: 10}
+        {item: flesh, amount: 10}
     ]
 }
