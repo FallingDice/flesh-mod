@@ -26,7 +26,7 @@ consumes: {
     ]
   }
   liquid: {
-        liquid: watter
+        liquid: water
         amount: 10
     }
 }
