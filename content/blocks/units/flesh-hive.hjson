@@ -1,9 +1,45 @@
+name: Flesh Hive
+description: oh, no...
 type: unitFactory
 category: units
 size: 3
 health: 500
 
+craftTime: 1800
+drawTeamOverlay: false
+unitCapModifier: 5
+
 requirements: [
     copper/100
     lead/250
 ]
+
+plans: [
+  {
+    unit: flesh-bug
+    requirements: [
+        copper/1
+    ]
+    time: 3600
+  },
+  {
+    unit: big-flesh
+    requirements: [
+        copper/1
+    ]
+    time: 3600
+  },
+  {
+    unit: fleshball
+    requirements: []
+    time: 600
+  },
+  {
+    unit: fleshnugget
+    requirements: []
+    time: 300
+  }
+
+]
+
+consumes: {}
