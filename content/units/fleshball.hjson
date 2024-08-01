@@ -31,7 +31,7 @@ weapons: [
             sprite: missile-large
             trailWidth: 3
             trailLength: 4.6
-            trailColor: "ff1744"
+            trailColor: ff1744
             recoil: 0
             shootEffect: none
             smokeEffect: none
@@ -52,7 +52,7 @@ abilities: [
     amount: 4
     spread: 45
     faceOutwards: true
-    unit: smallflesh
+    unit: flesh-bug
   }
 ]
 

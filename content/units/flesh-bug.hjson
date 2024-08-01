@@ -6,7 +6,7 @@ range: 100
 speed: 1.2
 armor: 2
 hitSize: 9
-outlineColor: 727c81
+outlineColor: ff1744
 omniMovement: false
 rotateSpeed: 2.6
 segments: 3
@@ -37,7 +37,7 @@ weapons: [
       height: 8
       trailWidth: 3
       trailLength: 4.6
-      trailColor: "ff1744"
+      trailColor: ff1744
       recoil: 0
       shootEffect: none
       smokeEffect: none
