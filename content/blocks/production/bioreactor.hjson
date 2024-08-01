@@ -7,7 +7,7 @@ hasItems: true
 hasPower: true
 hasLiquids: true
 itemCapacity: 20
-liquidCapacity: 20
+liquidCapacity: 24
 
 requirements: [
   lead/40
@@ -27,7 +27,7 @@ consumes: {
   }
   liquid: {
         liquid: water
-        amount: 10
+        amount: 0.2
     }
 }
 outputItem: flesh/3

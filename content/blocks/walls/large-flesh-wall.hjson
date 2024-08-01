@@ -1,0 +1,9 @@
+type: Wall
+size: 2
+health: 1680
+category: defense
+requirements: [
+  flesh/24
+]
+research: flesh
+researchCostMultiplier: 0.5
