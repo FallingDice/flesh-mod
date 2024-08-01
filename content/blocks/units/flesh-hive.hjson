@@ -2,11 +2,10 @@ name: Flesh Hive
 description: oh, no...
 type: unitFactory
 category: units
-size: 2
+size: 3
 health: 500
 
 craftTime: 1800
-drawTeamOverlay: false
 unitCapModifier: 5
 
 requirements: [

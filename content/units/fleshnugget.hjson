@@ -23,7 +23,7 @@ weapons: [
         mirror: false
         x: 0
         y: 0
-        reload: 10
+        reload: 1
 
         bullet: {
             type: BasicBulletType
@@ -31,7 +31,7 @@ weapons: [
             speed: 10
             width: 1
             height: 1
-            lifetime: 1
+            lifetime: 3
             
             status: spore-slowed
         }
