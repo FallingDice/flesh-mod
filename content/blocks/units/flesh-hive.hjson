@@ -1,9 +1,10 @@
-type: UnitFactory
+type: unitFactory
+category: units
+size: 3
+health: 500
+itemCapacity: 10
 
 configurable: false
-health: 500
-size: 3
-itemCapacity: 30
 
 requirements: [
     copper/100
@@ -36,8 +37,6 @@ plans: [
         time: 120
     }
 ]
-
-category: units
 
 consumes: {
     power: 2.5

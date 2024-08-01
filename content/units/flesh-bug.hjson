@@ -1,23 +1,30 @@
+name: Flesh Bug
+description: seed of disaster.
 type: crawl
-deathSound: squish
-health: 150
 flying: false
-range: 100
-speed: 1.2
+health: 1320
 armor: 2
-hitSize: 9
+speed: 1.2
+hitSize: 16
+range: 100
+
 outlineColor: ff1744
-omniMovement: false
-rotateSpeed: 2.6
-segments: 3
 drawBody: false
 drawCell: false
-crushDamage: 0.5
+
 controller: HugAI
+omniMovement: false
+crushDamage: 0.5
+rotateSpeed: 2.6
+segments: 3
 segmentScl:3
 segmentPhase: 3
 segmentMag: 0.5
+
 template: ErekirUnitType
+
+deathSound: squish
+
 weapons: [
  {
     name: fleshgun

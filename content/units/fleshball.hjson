@@ -1,15 +1,20 @@
-name: fleshball
+name: Fleshball
 description: seed of disaster.
 type: flying
-speed: 2.5
-health: 250
 flying: true
+health: 250
+speed: 2.5
 hitsize: 9
+range: 140
+
 accel: 0.08
 drag: 0.016
-range: 140
+
 drawCell: false
-outlines: false
+drawEngine: false
+outlineColor: ff1744
+
+template: ErekirUnitType
 
 weapons: [
     {

@@ -1,14 +1,20 @@
+name: Big Fleshball
+description: seed of disaster.
 type: flying
-speed: 1.5
-health: 830
 flying: true
-hitsize: 16
+health: 830
+armor: 2
+speed: 1.5
+hitsize: 8
+range: 140
+
 accel: 0.08
 drag: 0.016
-range: 140
-armor: 2
+
 drawCell: false
-outlines: false
+drawEngine: false
+outlineColor: ff1744
+
 template: ErekirUnitType
 
 weapons: [
