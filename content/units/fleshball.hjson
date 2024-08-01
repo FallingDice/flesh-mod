@@ -2,10 +2,10 @@ name: Fleshball
 description: seed of disaster.
 type: flying
 flying: true
-health: 250
+health: 120
 speed: 2.5
 hitsize: 12
-range: 140
+range: 120
 
 accel: 0.08
 drag: 0.016
@@ -14,21 +14,19 @@ drawCell: false
 engineSize: 0
 outlineColor: ff1744
 
-template: ErekirUnitType
-
 weapons: [
     {
         name: none
         mirror: false
         x: 0
         y: 0
-        reload: 15
+        reload: 20
         ejectEffect: casing1
         shootSound: pew
 
         bullet: {
             type: BasicBulletType
-            damage: 12
+            damage: 6
             speed: 4.25
             width: 6
             height: 8
@@ -51,7 +49,7 @@ weapons: [
 abilities: [
     {
         type: SpawnDeathAbility
-        amount: 5
+        amount: 3
         spread: 20
         faceOutwards: true
         unit: fleshnugget
@@ -59,7 +57,7 @@ abilities: [
     {
         type: LiquidExplodeAbility
         liquid: blood
-        amount: 350
+        amount: 120
     }
 ]
 

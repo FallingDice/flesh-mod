@@ -6,25 +6,25 @@ size: 3
 health: 500
 
 craftTime: 1800
-unitCapModifier: 5
+unitCapModifier: 3
+
 
 requirements: [
-    copper/100
-    lead/250
+    flesh/100
 ]
 
 plans: [
   {
     unit: flesh-bug
     requirements: [
-        copper/1
+        flesh/50
     ]
     time: 3600
   },
   {
     unit: big-fleshball
     requirements: [
-        copper/1
+        flesh/50
     ]
     time: 3600
   },
@@ -42,3 +42,5 @@ plans: [
 ]
 
 consumes: {}
+
+research: flesh

@@ -2,7 +2,7 @@ name: Flesh Bug
 description: seed of disaster.
 type: crawl
 flying: false
-health: 1320
+health: 620
 armor: 2
 speed: 1.2
 hitSize: 12
@@ -21,8 +21,6 @@ segmentScl:3
 segmentPhase: 3
 segmentMag: 0.5
  drownTimeMultiplier: 3
-
-template: ErekirUnitType
 
 weapons: [
  {
@@ -56,6 +54,13 @@ weapons: [
 ]
 
 abilities: [
+    {
+        type: SpawnDeathAbility
+        amount: 6
+        spread: 20
+        faceOutwards: true
+        unit: fleshnugget
+    },
     {
         type: LiquidExplodeAbility
         liquid: blood

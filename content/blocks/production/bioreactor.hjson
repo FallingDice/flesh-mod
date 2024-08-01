@@ -1,0 +1,41 @@
+type: GenericCrafter
+category: crafting
+health: 380
+size: 3
+
+hasItems: true
+hasPower: true
+hasLiquids: true
+itemCapacity: 20
+liquidCapacity: 20
+
+requirements: [
+  lead/40
+  metaglass/30
+  titanium/40
+  thorium/5
+  silicon/20
+]
+
+consumes: {
+  power: 5
+  items: {
+    items: [
+      scrap/5
+      spore-pod/5
+    ]
+  }
+  liquid: {
+        liquid: watter
+        amount: 10
+    }
+}
+outputItem: flesh/3
+outputLiquid : {
+    liquid: blood
+    amount: 0.1
+}
+
+craftTime: 40
+craftEffect: blastExplosion
+research: cultivator

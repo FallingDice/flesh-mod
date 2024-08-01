@@ -1,15 +1,16 @@
+name: Flesh Panel
+description: oh, no...
 type: SolarGenerator
-
+category: power
 size: 1
 health: 300
 
 requirements: [
-      copper/1
+      flesh/10
 ]
 
-powerProduction: 2
+powerProduction: 1
 
-craftTime: 5
+craftTime: 60
 
-category: power
-buildVisibility: "shown"
+research: flesh

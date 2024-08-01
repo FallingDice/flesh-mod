@@ -15,8 +15,6 @@ omniMovement: false
 crushDamage: 0.5
 rotateSpeed: 3
 
-template: ErekirUnitType
-
 weapons: [
     {
         name: none
@@ -27,7 +25,7 @@ weapons: [
 
         bullet: {
             type: BasicBulletType
-            damage: 5
+            damage: 1
             speed: 10
             width: 1
             height: 1
@@ -42,7 +40,7 @@ abilities: [
     {
         type: LiquidExplodeAbility
         liquid: blood
-        amount: 350
+        amount: 60
     }
 ]
 
