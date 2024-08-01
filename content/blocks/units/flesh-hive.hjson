@@ -23,7 +23,7 @@ plans: [
     time: 3600
   },
   {
-    unit: big-flesh
+    unit: big-fleshball
     requirements: [
         copper/1
     ]
