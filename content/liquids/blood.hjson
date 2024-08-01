@@ -1,0 +1,13 @@
+name: Blood
+description: more..
+type: CellLiquid
+cells: 30
+
+colorFrom: ff0000
+colorTo: 8B0000
+color: ff0000
+
+maxSpread: 4
+
+viscosity: 0.65
+heatCapacity: 0.4

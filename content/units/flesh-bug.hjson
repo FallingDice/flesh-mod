@@ -55,6 +55,14 @@ weapons: [
   }
 ]
 
+abilities: [
+    {
+        type: LiquidExplodeAbility
+        liquid: blood
+        amount: 350
+    }
+]
+
 research: {
     parent: flesh-hive
     requirements:

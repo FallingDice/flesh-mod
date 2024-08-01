@@ -55,16 +55,21 @@ abilities: [
       type: UnitSpawnAbility
       unit: fleshball
       spawnX: 0
-      spawnY: -3
+      spawnY: -10
       spawnTime: 600
     },
     {
-    type: SpawnDeathAbility
-    amount: 3
-    spread: 45
-    faceOutwards: true
-    unit: fleshball
-  }
+        type: SpawnDeathAbility
+        amount: 3
+        spread: 45
+        faceOutwards: true
+        unit: fleshball
+    },
+    {
+        type: LiquidExplodeAbility
+        liquid: blood
+        amount: 350
+    }
 ]
 
 

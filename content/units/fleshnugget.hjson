@@ -23,7 +23,7 @@ weapons: [
         mirror: false
         x: 0
         y: 0
-        reload: 1
+        reload: 3
 
         bullet: {
             type: BasicBulletType
@@ -35,6 +35,14 @@ weapons: [
             
             status: spore-slowed
         }
+    }
+]
+
+abilities: [
+    {
+        type: LiquidExplodeAbility
+        liquid: blood
+        amount: 350
     }
 ]
 

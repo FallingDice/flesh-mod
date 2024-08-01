@@ -55,6 +55,11 @@ abilities: [
         spread: 20
         faceOutwards: true
         unit: fleshnugget
+    },
+    {
+        type: LiquidExplodeAbility
+        liquid: blood
+        amount: 350
     }
 ]
 
