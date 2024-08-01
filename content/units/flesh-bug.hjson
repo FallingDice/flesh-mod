@@ -32,7 +32,7 @@ weapons: [
     y: 0
     mirror: false
     shootSound: cannon
-    reload: 22
+    reload: 30
     bullet: {
       type: BasicBulletType
       sprite: missile-large

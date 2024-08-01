@@ -50,14 +50,13 @@ weapons: [
 
 abilities: [
     {
-      type: UnitSpawnAbility
-      unit: fleshball
-      spawnX: 0
-      spawnY: -3
-      spawnTime: 1800
+        type: SpawnDeathAbility
+        amount: 5
+        spread: 20
+        faceOutwards: true
+        unit: fleshnugget
     }
 ]
-
 
 research: {
     parent: flesh-hive
