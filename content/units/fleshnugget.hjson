@@ -8,7 +8,6 @@ hitsize: 6
 range: 40
 
 drawCell: false
-drawBody: false
 outlineColor: ff1744
 
 controller: HugAI

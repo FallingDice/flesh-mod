@@ -2,7 +2,7 @@ name: Flesh Hive
 description: oh, no...
 type: unitFactory
 category: units
-size: 3
+size: 2
 health: 500
 
 craftTime: 1800
