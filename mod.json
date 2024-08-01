@@ -2,7 +2,7 @@
     "name": "flesh-mod",
     "displayName": "Flesh Mod",
     "author": "FallingDice",
-    "version": "0.32",
+    "version": "0.33",
     "minGameVersion": "146",
-    "description": "add flesh units and blocks //version: 0.32"
+    "description": "add flesh units and blocks //version: 0.33"
 }
