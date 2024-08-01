@@ -4,8 +4,6 @@ size: 3
 health: 500
 itemCapacity: 10
 
-configurable: false
-
 requirements: [
     copper/100
     lead/250

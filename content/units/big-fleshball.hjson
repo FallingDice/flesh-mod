@@ -5,14 +5,14 @@ flying: true
 health: 830
 armor: 2
 speed: 1.5
-hitsize: 8
+hitsize: 16
 range: 140
 
 accel: 0.08
 drag: 0.016
 
 drawCell: false
-drawEngine: false
+engineSize: 0
 outlineColor: ff1744
 
 template: ErekirUnitType
@@ -39,9 +39,13 @@ weapons: [
             trailWidth: 3
             trailLength: 4.6
             trailColor: ff1744
+            frontColor: ff0000
+            backColor: f00000
             recoil: 0
             shootEffect: none
             smokeEffect: none
+
+            status: spore-slowed
         }
     }
 ]
@@ -51,7 +55,7 @@ abilities: [
       type: UnitSpawnAbility
       unit: fleshball
       spawnX: 0
-      spawnY: 0
+      spawnY: -3
       spawnTime: 600
     },
     {

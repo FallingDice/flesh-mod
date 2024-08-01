@@ -5,7 +5,7 @@ flying: false
 health: 1320
 armor: 2
 speed: 1.2
-hitSize: 16
+hitSize: 12
 range: 100
 
 outlineColor: ff1744
@@ -24,9 +24,6 @@ segmentMag: 0.5
 
 template: ErekirUnitType
 
-squareShape: false
-deathSound: squish
-
 weapons: [
  {
     name: fleshgun
@@ -39,7 +36,7 @@ weapons: [
     bullet: {
       type: BasicBulletType
       sprite: missile-large
-      damage: 12
+      damage: 30
       speed: 10
       lifetime: 14
       width: 5
@@ -47,9 +44,13 @@ weapons: [
       trailWidth: 3
       trailLength: 4.6
       trailColor: ff1744
+      frontColor: ff0000
+      backColor: f00000
       recoil: 0
       shootEffect: none
       smokeEffect: none
+
+      status: spore-slowed
     }
   }
 ]
