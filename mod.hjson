@@ -1,0 +1,6 @@
+name: flesh-mod
+displayName: Flesh Mod
+author: [accent]FallingDice
+version: 0.4
+minGameVersion: 146
+description: "add flesh units and blocks"
