@@ -6,4 +6,3 @@ requirements: [
   flesh/24
 ]
 research: flesh
-researchCostMultiplier: 0.5

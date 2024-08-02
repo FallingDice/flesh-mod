@@ -18,9 +18,8 @@ outlineColor: ff1744
 weapons: [
     {
         name: fleshgun
-        mirror: false
         rotate: true
-        x: 0
+        x: 5
         y: 0
         reload: 15
         ejectEffect: casing1
@@ -75,6 +74,6 @@ research: {
     parent: flesh-hive
     requirements:
     [
-        {item: flesh, amount: 10}
+        {item: flesh, amount: 100}
     ]
 }

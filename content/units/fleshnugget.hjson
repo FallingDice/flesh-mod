@@ -12,7 +12,7 @@ outlineColor: ff1744
 
 controller: HugAI
 omniMovement: false
-crushDamage: 0.5
+crushDamage: 0.2
 rotateSpeed: 3
 
 abilities: [
