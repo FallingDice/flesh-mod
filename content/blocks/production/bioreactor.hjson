@@ -3,6 +3,28 @@ category: crafting
 health: 380
 size: 3
 
+drawer: {
+    type: DrawMulti
+    drawers: [
+      {
+        type: DrawRegion
+        suffix: -bottom
+      },
+      {
+        type: DrawLiquidTile
+        drawLiquid: blood
+        suffix: -liquid
+      },
+      {
+        type: DrawDefault
+      },
+      {
+        type: DrawRegion
+        suffix: -top
+      }
+    ]
+}
+
 hasItems: true
 hasPower: true
 hasLiquids: true
