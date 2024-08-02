@@ -1,8 +1,8 @@
 {
     "name": "flesh-mod",
-    "displayName": "[scarlet]Flesh Mod",
+    "displayName": "Flesh Mod",
     "author": "[accent]FallingDice",
-    "version": "[lightgrey]0.4",
-    "minGameVersion": "146",
+    "version": "0.4",
+    "minGameVersion": "136",
     "description": "add flesh units and blocks"
 }
