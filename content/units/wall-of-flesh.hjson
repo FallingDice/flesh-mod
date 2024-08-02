@@ -1,0 +1,13 @@
+type: flying
+flying: true
+health: 999999999
+speed: 0.1
+hitsize: 100
+range: 300
+
+accel: 0.08
+drag: 0.016
+
+drawCell: false
+engineSize: 0
+outlineColor: ff1744

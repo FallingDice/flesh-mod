@@ -31,7 +31,7 @@ plans: [
   {
     unit: fleshball
     requirements: []
-    time: 600
+    time: 1200
   },
   {
     unit: fleshnugget

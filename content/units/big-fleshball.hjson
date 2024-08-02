@@ -53,7 +53,7 @@ abilities: [
       unit: fleshball
       spawnX: 0
       spawnY: -10
-      spawnTime: 600
+      spawnTime: 1800
     },
     {
         type: SpawnDeathAbility
