@@ -1,6 +1,6 @@
 type: Wall
 size: 2
-health: 1680
+health: 2400
 category: defense
 requirements: [
   flesh/24

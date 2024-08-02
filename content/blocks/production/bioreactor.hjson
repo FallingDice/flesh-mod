@@ -21,8 +21,8 @@ consumes: {
   power: 5
   items: {
     items: [
-      scrap/5
-      spore-pod/5
+      scrap/1
+      spore-pod/2
     ]
   }
   liquid: {
