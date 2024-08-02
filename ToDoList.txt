@@ -1,0 +1,7 @@
+DeadLine: 8/3
+
+1. 로고 만들기
+size: 3:1 * 200
+color: 
+
+2. README에 적용
