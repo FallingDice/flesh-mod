@@ -9,7 +9,7 @@ craftTime: 30
 unitCapModifier: 3
 
 requirements: [
-    flesh/100
+    flesh/350
 ]
 
 plans: [
@@ -43,4 +43,4 @@ plans: [
 consumes: {}
 
 research: flesh
-researchCostMultiplier: 0.5
+researchCostMultiplier: 0.3

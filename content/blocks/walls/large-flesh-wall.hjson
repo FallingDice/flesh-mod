@@ -1,4 +1,4 @@
-type: Wall
+type: PowerTurret
 size: 2
 health: 2400
 category: defense
@@ -6,3 +6,28 @@ requirements: [
   flesh/24
 ]
 research: flesh
+
+consumes: {}
+reload: 20
+shootSound: sap
+rotateSpeed: 0
+
+recoil: 0
+inaccuracy: 0
+shoot: {
+  shots: 8
+  firstShotDelay: 18
+  shotDelay: 1
+}
+
+shootType: {
+  type: SapBulletType
+  damage: 5
+  width: 1
+  height: 1
+  lifetime: 20
+
+  frontColor: ff0000
+  backColor: df0000
+  status: spore-slowed
+}

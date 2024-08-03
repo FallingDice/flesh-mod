@@ -6,7 +6,7 @@ size: 1
 health: 120
 
 requirements: [
-      flesh/10
+      flesh/30
 ]
 
 powerProduction: 1

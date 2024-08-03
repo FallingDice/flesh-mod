@@ -8,7 +8,7 @@ shootSound: missileLaunch
 chargeSound: lasercharge
 
 requirements: [
-  flesh/50
+  flesh/420
 ]
 
 moveWhileCharging: false
@@ -37,7 +37,6 @@ shoot: {
 }
 ammoTypes: {
  flesh: {
-    type: ArtilleryBulletType
     ammoMultiplier: 2
     reloadMultiplier: 0.75
     shootEffect: shootBig
@@ -67,4 +66,4 @@ research: {
     flesh/100
   ]
 }
-researchCostMultiplier: 0.05
+researchCostMultiplier: 0.2
