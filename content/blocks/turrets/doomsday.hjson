@@ -1,7 +1,7 @@
 type: ItemTurret
 category: turret
 health: 740
-size: 2
+size: 3
 
 requirements: [
   flesh/50
@@ -11,10 +11,8 @@ outlineColor: ff1744
 targetAir: false
 targetGround: true
 reload: 60
-range: 8000
 velocityRnd: 0.15
 inaccuracy: 5
-shootSound: artillery
 
 coolant: {
   type: ConsumeCoolant
@@ -24,22 +22,28 @@ coolant: {
 }
 
 shoot: {
-  shots: 3
-  shotDelay: 0.75
+  shots: 2
+  shotDelay: 50
 }
 ammoTypes: {
  flesh: {
     type: ArtilleryBulletType
-    width: 7
-    height: 9
-    speed: 2
-    lifetime: 80
-    splashDamage: 38
-    splashDamageRadius:13
+    range: 480
+    ammoMultiplier: 12
+    reloadMultiplier: 0.75
+    shootEffect: shootBig
+    smokeEffect: shootBigSmoke
+    instantDisappear: true
+    damage: 0
+    recoil: 0
+    shootX: 0
+    shootY: 0
+    shootSound: missileLaunch
     spawnUnit: flesh-missile
   }
   spore-pod: {
     type: ArtilleryBulletType
+    range: 320
     width: 7
     height: 9
     speed: 2
@@ -47,6 +51,7 @@ ammoTypes: {
     splashDamage: 38
     splashDamageRadius: 13
     status: spore-slowed
+    shootSound: artillery
   }
 }
 drawer: {
