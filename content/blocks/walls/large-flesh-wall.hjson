@@ -5,18 +5,25 @@ category: defense
 requirements: [
   flesh/24
 ]
-research: flesh
 
 consumes: {}
 reload: 20
 shootSound: sap
+rotateSpeed: 0
 
 recoil: 0
 inaccuracy: 0
 shoot: {
+  type: ShootBarrel
   shots: 8
   firstShotDelay: 18
   shotDelay: 1
+  barrels: [
+    15, 15, 0,
+    15, 15, 0,
+    -15, -15, 0,
+    -15, 15, 0
+  ]
 }
 
 shootType: {
@@ -30,3 +37,5 @@ shootType: {
   backColor: df0000
   status: spore-slowed
 }
+
+research: flesh
