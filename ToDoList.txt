@@ -3,8 +3,11 @@ DeadLine: 8/3
 1. 로고 만들기
 size: 3:1 * 200
 color: 
+/end
 
 2. README에 적용
+/end
 
+DeadLine: 8/6
 3. 모드탐색기에 icon 표시 되도록 하기
 뭐가 다른지 확인
