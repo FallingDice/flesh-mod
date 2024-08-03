@@ -11,7 +11,7 @@ outlineColor: ff1744
 targetAir: false
 targetGround: true
 reload: 60
-range: 160
+range: 8000
 velocityRnd: 0.15
 inaccuracy: 5
 shootSound: artillery
