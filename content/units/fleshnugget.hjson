@@ -4,8 +4,7 @@ type: crawl
 flying: false
 health: 80
 speed: 3
-hitsize: 6
-range:120
+hitsize: 4
 
 drawCell: false
 outlineColor: ff1744
@@ -13,8 +12,8 @@ outlineColor: ff1744
 controller: HugAI
 omniMovement: false
 crushDamage: 0.2
-recoil: -0.5
 rotateSpeed: 3
+shootSound: none
 
 weapons: [
     {
@@ -26,11 +25,6 @@ weapons: [
 
         bullet: {
             type: BasicBulletType
-            damage: 0
-            speed: 0
-            width: 0
-            height: 0
-            lifetime: 0
             recoil: -0.5
             
             status: spore-slowed
