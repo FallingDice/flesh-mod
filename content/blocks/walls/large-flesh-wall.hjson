@@ -16,13 +16,15 @@ inaccuracy: 0
 shoot: {
   type: ShootBarrel
   shots: 8
-  firstShotDelay: 18
-  shotDelay: 1
+  firstShotDelay: 35
   barrels: [
-    15, 15, 0,
-    15, 15, 0,
-    -15, -15, 0,
-    -15, 15, 0
+    0, 0, 0,
+    0, 0, 45,
+    0, 0, 90,
+    0, 0, 135,
+    0, 0, 180,
+    0, 0, 225,
+    0, 0, 270
   ]
 }
 
