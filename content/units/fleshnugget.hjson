@@ -16,20 +16,22 @@ crushDamage: 0.2
 recoil: -0.5
 rotateSpeed: 3
 
-weapons [
+weapons: [
     {
         name: none
         mirror: false
         x: 0
         y: 0
         reload: 1
+
         bullet: {
             type: BasicBulletType
-            damage: 1
-            speed: 1
-            width: 1
-            height: 1
-            lifetime: 1
+            damage: 6
+            speed: 4.25
+            width: 6
+            height: 8
+            lifetime: 35
+            sprite: missile-large
             recoil: -0.5
             
             status: spore-slowed
