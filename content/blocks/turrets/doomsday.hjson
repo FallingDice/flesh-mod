@@ -1,6 +1,6 @@
 type: ItemTurret
 category: turret
-health: 740
+health: 1000
 size: 3
 range: 800
 
@@ -16,7 +16,7 @@ accurateDelay: false
 outlineColor: ff1744
 targetAir: false
 targetGround: true
-reload: 200
+reload: 500
 velocityRnd: 0.15
 inaccuracy: 5
 shootWarmupSpeed: 0.05
@@ -27,7 +27,7 @@ coolant: {
   type: ConsumeCoolant
   allowGas: true
   allowLiquid: true
-  amount: 0.1
+  amount: 0.3
 }
 
 shoot: {
@@ -50,9 +50,9 @@ ammoTypes: {
     type: ArtilleryBulletType
     width: 7
     height: 9
-    speed: 2
-    splashDamage: 38
-    splashDamageRadius: 13
+    speed: 3
+    splashDamage: 40
+    splashDamageRadius: 80
     status: spore-slowed
   }
 }

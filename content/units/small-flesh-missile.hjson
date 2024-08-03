@@ -2,37 +2,36 @@ type: missile
 physics: false
 template: MissileUnitType
 flying: true
-speed: 4
-deathExplosionEffect: massiveExplosion
+speed: 1
 
 missileAccelTime: 30
 useUnitCap: false
-engineSize: 0.5
+engineSize: 0.3
 engineOffset: 2.5
-lifetime: 200
+lifetime: 80
 rotateSpeed: 0
-hitSize: 3
-trailLength: 15
-homingDelay: 0
-health: 100
+hitSize: 2
+trailLength: 5
+homingDelay: 0.2
+health: 50
 trailColor: ff1744
-aimDst: 10
+aimDst: 5
 drawCell: false
 outlines: true
-outlineRadius: 2
+outlineRadius: 1
 outlineColor: ff1744
 range: 120
 hidden: true
 weapons: [
   {
     reload: 1
-    shake: 3
+    shake: 1
     shootOnDeath: true
     mirror: false
     bullet: {
       type: ExplosionBulletType
-      splashDamage: 50
-      splashDamageRadius: 40
+      splashDamage: 20
+      splashDamageRadius: 30
       buildingDamageMultiplier: 0.5
       hitEffect: titanExplosion
     }
@@ -41,22 +40,8 @@ weapons: [
 
 abilities: [
     {
-        type: SpawnDeathAbility
-        amount: 3
-        spread: 20
-        faceOutwards: true
-        unit: fleshball
-    },
-    {
-        type: UnitSpawnAbility
-        unit: small-flesh-missile
-        spawnX: 0
-        spawnY: -20
-        spawnTime: 60
-    },
-    {
         type: LiquidExplodeAbility
         liquid: blood
-        amount: 150
+        amount: 50
     }
 ]

@@ -6,3 +6,5 @@ This is my first time modding. I'm still inexperienced, but, I hope you'll show 
 0.511v - missile damage fetch
 
 0.512v - missile ai fetch
+
+0.513v - missile ability fetch

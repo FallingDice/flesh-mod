@@ -5,7 +5,7 @@ flying: false
 health: 80
 speed: 3
 hitsize: 6
-range:60
+range:120
 
 drawCell: false
 outlineColor: ff1744

@@ -1,6 +1,6 @@
 type: flying
 flying: true
-health: 999999999
+health: 9999999
 speed: 0.1
 hitsize: 100
 range: 300

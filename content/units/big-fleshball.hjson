@@ -6,7 +6,7 @@ health: 530
 armor: 2
 speed: 1.5
 hitsize: 12
-range: 140
+range: 160
 
 accel: 0.08
 drag: 0.016
@@ -48,13 +48,6 @@ weapons: [
 ]
 
 abilities: [
-    {
-      type: UnitSpawnAbility
-      unit: fleshball
-      spawnX: 0
-      spawnY: -10
-      spawnTime: 1800
-    },
     {
         type: SpawnDeathAbility
         amount: 3
