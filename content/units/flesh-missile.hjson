@@ -15,14 +15,14 @@ autoFindTarget: false
 homingDelay: 0.2
 circleTarget: false
 faceTarget: true
-health: 100
+health: 500
 trailColor: ff1744
 aimDst: 4
 drawCell: false
 outlines: true
 outlineRadius: 2
 outlineColor: ff1744
-range: 4
+range: 10
 hidden: true
 weapons: [
   {

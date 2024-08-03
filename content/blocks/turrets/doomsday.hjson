@@ -2,6 +2,7 @@ type: ItemTurret
 category: turret
 health: 740
 size: 3
+range: 800
 
 requirements: [
   flesh/50
@@ -28,7 +29,6 @@ shoot: {
 ammoTypes: {
  flesh: {
     type: ArtilleryBulletType
-    range: 480
     ammoMultiplier: 12
     reloadMultiplier: 0.75
     shootEffect: shootBig
@@ -43,7 +43,6 @@ ammoTypes: {
   }
   spore-pod: {
     type: ArtilleryBulletType
-    range: 320
     width: 7
     height: 9
     speed: 2
