@@ -1,0 +1,62 @@
+type: ItemTurret
+category: turret
+size: 2
+
+requirements: [
+  flesh/40
+]
+
+outlineColor: ff1744
+targetAir: false
+targetGround: true
+reload: 60
+range: 160
+velocityRnd: 0.15
+inaccuracy: 5
+shootSound: artillery
+
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.1
+}
+
+shoot: {
+  shots: 2
+  shotDelay: 0.75
+}
+ammoTypes: {
+ flesh: {
+    type: ArtilleryBulletType
+    width: 7
+    height: 9
+    speed: 2
+    lifetime: 80
+    splashDamage: 38
+    splashDamageRadius:13
+    spawnUnit: fleshnugget
+  }
+  spore-pod: {
+    type: ArtilleryBulletType
+    width: 7
+    height: 9
+    speed: 2
+    lifetime: 80
+    splashDamage: 16
+    splashDamageRadius: 9
+    status: shocked
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: doomsday-base
+}
+
+research: {
+  parent: flesh
+  requirements: [
+    flesh/100
+  ]
+}
+researchCostMultiplier: 0.05

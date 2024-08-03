@@ -7,7 +7,6 @@ health: 500
 
 craftTime: 30
 unitCapModifier: 3
-drawTeamOverlay: false
 
 requirements: [
     flesh/100

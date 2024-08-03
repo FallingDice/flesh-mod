@@ -45,8 +45,8 @@ weapons: [
       frontColor: ff0000
       backColor: f00000
       recoil: 0
-      shootEffect: none
-      smokeEffect: none
+      shootEffect: shootBig
+      smokeEffect: shootBigSmoke
 
       status: spore-slowed
     }
