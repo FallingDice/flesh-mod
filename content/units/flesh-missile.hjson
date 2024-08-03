@@ -1,0 +1,63 @@
+type: missile
+physics: false
+template: MissileUnitType
+flying: true
+speed: 2
+missileAccelTime: 30
+useUnitCap: false
+engineSize: 0.5
+engineOffset: 2.5
+lifetime: 75
+rotateSpeed: 0
+hitSize: 3
+trailLength: 0
+autoFindTarget: false
+homingDelay: 0.2
+circleTarget: false
+faceTarget: true
+health: 100
+trailColor: ff1744
+aimDst: 4
+drawCell: false
+outlines: true
+outlineRadius: 2
+outlineColor: ff1744
+range: 4
+hidden: true
+weapons: [
+  {
+    reload: 1
+    shake: 0
+    shootOnDeath: true
+    mirror: true
+    shootCone: 360
+    shake: 1
+    bullet: {
+      type: ExplosionBulletType
+      splashDamage: 10
+      splashDamageRadius: 20
+    }
+  } 
+]
+
+abilities: [
+    {
+        type: SpawnDeathAbility
+        amount: 3
+        spread: 20
+        faceOutwards: true
+        unit: fleshball
+    },
+    {
+        type: UnitSpawnAbility
+        unit: fleshnugget
+        spawnX: 0
+        spawnY: 0
+        spawnTime: 60
+    },
+    {
+        type: LiquidExplodeAbility
+        liquid: blood
+        amount: 400
+    }
+]

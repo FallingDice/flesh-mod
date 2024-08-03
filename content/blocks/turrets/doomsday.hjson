@@ -1,9 +1,10 @@
 type: ItemTurret
 category: turret
+health: 740
 size: 2
 
 requirements: [
-  flesh/40
+  flesh/50
 ]
 
 outlineColor: ff1744
@@ -23,7 +24,7 @@ coolant: {
 }
 
 shoot: {
-  shots: 2
+  shots: 3
   shotDelay: 0.75
 }
 ammoTypes: {
@@ -35,7 +36,7 @@ ammoTypes: {
     lifetime: 80
     splashDamage: 38
     splashDamageRadius:13
-    spawnUnit: fleshnugget
+    spawnUnit: flesh-missile
   }
   spore-pod: {
     type: ArtilleryBulletType
@@ -43,9 +44,9 @@ ammoTypes: {
     height: 9
     speed: 2
     lifetime: 80
-    splashDamage: 16
-    splashDamageRadius: 9
-    status: shocked
+    splashDamage: 38
+    splashDamageRadius: 13
+    status: spore-slowed
   }
 }
 drawer: {
