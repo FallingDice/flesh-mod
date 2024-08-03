@@ -5,7 +5,7 @@ flying: false
 health: 40
 speed: 3
 hitsize: 4
-range: 100
+range: 1
 
 drawCell: false
 outlineColor: ff1744
@@ -30,7 +30,7 @@ weapons: [
             speed: 1
             width: 1
             height: 1
-            lifetime: 50
+            lifetime: 10
             recoil: -2
             
             status: spore-slowed

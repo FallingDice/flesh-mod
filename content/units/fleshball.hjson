@@ -37,7 +37,6 @@ weapons: [
             trailColor: ff1744
             frontColor: ff0000
             backColor: f00000
-            recoil: -0.2
             shootEffect: none
             smokeEffect: none
             
