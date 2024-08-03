@@ -37,4 +37,6 @@ drawer: {
   basePrefix: large-flesh-wall-base
 }
 
-research: flesh
+research: {
+  parent: flesh-wall
+}

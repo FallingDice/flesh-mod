@@ -6,12 +6,15 @@ requirements: [
   flesh/6
 ]
 
-reload: 20
 healPercent: 1
 phaseBoost: 0
 phaseRangeBoost: 0
-useTime: 100
+baseColor: fd1744
+phaseColor: d71744
 consumes: {}
-range: 40
+range: 16
+
+reload: 2500
+nsulated: true
 
 research: flesh
