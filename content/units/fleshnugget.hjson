@@ -5,6 +5,7 @@ flying: false
 health: 80
 speed: 3
 hitsize: 4
+range: 1
 
 drawCell: false
 outlineColor: ff1744
@@ -13,7 +14,7 @@ controller: HugAI
 omniMovement: false
 crushDamage: 0.2
 rotateSpeed: 3
-shootSound: mud
+shootSound: sap
 
 weapons: [
     {
@@ -21,16 +22,16 @@ weapons: [
         mirror: false
         x: 0
         y: 0
-        reload: 3
+        reload: 20
 
         bullet: {
             type: SapBulletType
             damage: 1
             speed: 1
-            width: 2
-            height: 5
-            lifetime: 5
-            recoil: -1
+            width: 1
+            height: 1
+            lifetime: 20
+            recoil: -2
             
             status: spore-slowed
         }
