@@ -1,4 +1,4 @@
-type: MendProjector
+type: PowerTurret
 size: 2
 health: 2400
 armor: 3
@@ -9,14 +9,6 @@ requirements: [
 
 reload: 20
 shootSound: sap
-
-healPercent: 0.8
-baseColor: ff0000
-phaseColor: fd1744
-phaseBoost: 0
-phaseRangeBoost: 0
-useTime: 100
-range: 40
 consumes: {}
 
 recoil: 0
