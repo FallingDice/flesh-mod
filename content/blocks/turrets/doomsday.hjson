@@ -38,7 +38,7 @@ shoot: {
 ammoTypes: {
  flesh: {
     type: ArtilleryBulletType
-    ammoMultiplier: 0.5
+    ammoMultiplier: 2
     reloadMultiplier: 0.75
     shootEffect: shootBig
     smokeEffect: shootSmokeMissile
