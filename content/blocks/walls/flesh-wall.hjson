@@ -5,4 +5,7 @@ category: defense
 requirements: [
   flesh/6
 ]
+
+healPercent: 0.8
+
 research: flesh

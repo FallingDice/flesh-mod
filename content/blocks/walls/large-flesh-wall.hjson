@@ -9,28 +9,19 @@ requirements: [
 consumes: {}
 reload: 20
 shootSound: sap
-rotateSpeed: 0
+healPercent: 0.8
 
 recoil: 0
 inaccuracy: 0
 shoot: {
-  type: ShootBarrel
   shots: 8
   firstShotDelay: 35
   ShotDelay: 0.75
-  barrels: [
-    0, -2, 0,
-    0, -2, 45,
-    0, -2, 90,
-    0, -2, 135,
-    0, -2, 180,
-    0, -2, 225,
-    0, -2, 270
-  ]
 }
 
 shootType: {
   type: SapBulletType
+  knockback: -1
   damage: 5
   width: 1
   height: 1
@@ -39,6 +30,11 @@ shootType: {
   frontColor: ff0000
   backColor: df0000
   status: spore-slowed
+}
+
+drawer: {
+  type: DrawTurret
+  basePrefix: large-flesh-wall-base
 }
 
 research: flesh
