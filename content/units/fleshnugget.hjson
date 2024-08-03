@@ -16,6 +16,27 @@ crushDamage: 0.2
 recoil: -0.5
 rotateSpeed: 3
 
+weapons [
+    {
+        name: none
+        mirror: false
+        x: 0
+        y: 0
+        reload: 1
+        bullet: {
+            type: BasicBulletType
+            damage: 1
+            speed: 0
+            width: 0
+            height: 0
+            lifetime: 0
+            recoil: -0.5
+            
+            status: spore-slowed
+        }
+    }
+]
+
 abilities: [
     {
         type: LiquidExplodeAbility

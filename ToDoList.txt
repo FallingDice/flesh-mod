@@ -3,7 +3,7 @@ DeadLine: 8/4
 
 2.small-F-missile 스프라이트 제작하기 /e
 
-3. -1 recoil 테스트/
+3. -1 recoil 테스트/e
 
 DeadLine: 8/5
 1. 환경 조성할 만한 요소들 제작
