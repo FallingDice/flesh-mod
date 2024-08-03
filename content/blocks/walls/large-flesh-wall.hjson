@@ -10,7 +10,6 @@ research: flesh
 consumes: {}
 reload: 20
 shootSound: sap
-rotateSpeed: 0
 
 recoil: 0
 inaccuracy: 0
