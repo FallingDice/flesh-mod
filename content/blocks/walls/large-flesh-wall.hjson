@@ -10,13 +10,14 @@ requirements: [
 consumes: {}
 reload: 20
 shootSound: sap
+
+healPercent: 0.8
 baseColor: ff0000
 phaseColor: fd1744
 phaseBoost: 0
 phaseRangeBoost: 0
 useTime: 100
-canOverdrive: false
-consumes: {}
+range: 40
 
 recoil: 0
 inaccuracy: 0
