@@ -2,27 +2,27 @@ type: missile
 physics: false
 template: MissileUnitType
 flying: true
-speed: 7
+speed: 4
 deathExplosionEffect: massiveExplosion
 missileAccelTime: 30
 useUnitCap: false
 engineSize: 0.5
 engineOffset: 2.5
-lifetime: 320
+lifetime: 100
 rotateSpeed: 0
 hitSize: 3
 trailLength: 15
-homingDelay: 0.2
+homingDelay: 0
 circleTarget: false
 faceTarget: true
-health: 500
+health: 100
 trailColor: ff1744
-aimDst: 4
+aimDst: 10
 drawCell: false
 outlines: true
 outlineRadius: 2
 outlineColor: ff1744
-range: 10
+range: 40
 hidden: true
 weapons: [
   {
@@ -30,7 +30,6 @@ weapons: [
     shake: 5
     shootOnDeath: true
     mirror: false
-    shootCone: 360
     bullet: {
       type: ExplosionBulletType
       splashDamage: 50
