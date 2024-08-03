@@ -2,7 +2,7 @@ type: missile
 physics: false
 template: MissileUnitType
 flying: true
-speed: 1
+speed: 10
 
 missileAccelTime: 30
 useUnitCap: false

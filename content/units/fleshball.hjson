@@ -39,7 +39,8 @@ weapons: [
             backColor: f00000
             shootEffect: none
             smokeEffect: none
-            
+            recoil: -0.05
+
             status: spore-slowed
         }
     },
@@ -58,7 +59,7 @@ weapons: [
             width: 1
             height: 1
             lifetime: 10
-            recoil: -0.1
+            recoil: -0.05
             
             status: spore-slowed
         }
