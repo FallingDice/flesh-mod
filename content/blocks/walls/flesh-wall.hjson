@@ -7,9 +7,7 @@ requirements: [
 ]
 
 reload: 20
-healPercent: 0.8
-baseColor: ff0000
-phaseColor: fd1744
+healPercent: 1
 phaseBoost: 0
 phaseRangeBoost: 0
 useTime: 100
