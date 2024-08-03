@@ -2,15 +2,16 @@ type: missile
 physics: false
 template: MissileUnitType
 flying: true
-speed: 2
+speed: 7
+deathExplosionEffect: massiveExplosion
 missileAccelTime: 30
 useUnitCap: false
 engineSize: 0.5
 engineOffset: 2.5
-lifetime: 100
+lifetime: 320
 rotateSpeed: 0
 hitSize: 3
-trailLength: 0
+trailLength: 15
 autoFindTarget: false
 homingDelay: 0.2
 circleTarget: false
@@ -27,15 +28,16 @@ hidden: true
 weapons: [
   {
     reload: 1
-    shake: 0
+    shake: 5
     shootOnDeath: true
-    mirror: true
+    mirror: false
     shootCone: 360
-    shake: 1
     bullet: {
       type: ExplosionBulletType
       splashDamage: 10
       splashDamageRadius: 20
+      buildingDamageMultiplier: 0.5
+      hitEffect: titanExplosion
     }
   } 
 ]
@@ -52,7 +54,7 @@ abilities: [
         type: UnitSpawnAbility
         unit: fleshnugget
         spawnX: 0
-        spawnY: 0
+        spawnY: -20
         spawnTime: 60
     },
     {

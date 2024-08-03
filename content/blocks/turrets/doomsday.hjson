@@ -3,22 +3,25 @@ category: turret
 health: 740
 size: 3
 range: 800
+
 shootSound: missileLaunch
+chargeSound: lasercharge
 
 requirements: [
   flesh/50
 ]
 
+moveWhileCharging: false
+accurateDelay: false
 outlineColor: ff1744
 targetAir: false
 targetGround: true
-reload: 20
+reload: 200
 velocityRnd: 0.15
 inaccuracy: 5
 shootWarmupSpeed: 0.05
 minWarmup: 0.9
 warmupMaintainTime: 90
-shootCone: 360
 
 coolant: {
   type: ConsumeCoolant
@@ -29,7 +32,8 @@ coolant: {
 
 shoot: {
   shots: 3
-  shotDelay: 0.75
+  firstShotDelay: 60
+  shotDelay: 10
 }
 ammoTypes: {
  flesh: {
@@ -37,13 +41,9 @@ ammoTypes: {
     ammoMultiplier: 12
     reloadMultiplier: 0.75
     shootEffect: shootBig
-    smokeEffect: shootBigSmoke
+    smokeEffect: shootSmokeMissile
     instantDisappear: true
     damage: 0
-    recoil: 0
-    shootX: 0
-    shootY: 0
-    lifetime: 100
     spawnUnit: flesh-missile
   }
   spore-pod: {
@@ -51,7 +51,6 @@ ammoTypes: {
     width: 7
     height: 9
     speed: 2
-    lifetime: 80
     splashDamage: 38
     splashDamageRadius: 13
     status: spore-slowed
