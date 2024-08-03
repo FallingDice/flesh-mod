@@ -25,6 +25,11 @@ weapons: [
 
         bullet: {
             type: BasicBulletType
+            damage: 1
+            speed: 0
+            width: 0
+            height: 0
+            sprite: none
             recoil: -0.5
             
             status: spore-slowed
