@@ -1,20 +1,9 @@
-type: MendProjector
+type: wall
 size: 1
 health: 600
 category: defense
 requirements: [
   flesh/6
 ]
-
-healPercent: 1
-phaseBoost: 0
-phaseRangeBoost: 0
-baseColor: fd1744
-phaseColor: d71744
-consumes: {}
-range: 16
-
-reload: 2500
-nsulated: true
 
 research: flesh
