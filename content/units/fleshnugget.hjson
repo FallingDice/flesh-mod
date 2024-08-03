@@ -26,12 +26,11 @@ weapons: [
 
         bullet: {
             type: BasicBulletType
-            damage: 6
-            speed: 4.25
-            width: 6
-            height: 8
-            lifetime: 35
-            sprite: missile-large
+            damage: 0
+            speed: 0
+            width: 0
+            height: 0
+            lifetime: 0
             recoil: -0.5
             
             status: spore-slowed
