@@ -8,3 +8,6 @@ This is my first time modding. I'm still inexperienced, but, I hope you'll show 
 0.512v - missile ai fetch
 
 0.513v - missile ability fetch
+
+0.514v - small missile fetch
+some bugfix

@@ -8,7 +8,7 @@ missileAccelTime: 30
 useUnitCap: false
 engineSize: 0.3
 engineOffset: 2.5
-lifetime: 80
+lifetime: 200
 rotateSpeed: 0
 hitSize: 2
 trailLength: 5
