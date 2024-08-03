@@ -13,7 +13,7 @@ controller: HugAI
 omniMovement: false
 crushDamage: 0.2
 rotateSpeed: 3
-shootSound: none
+shootSound: mud
 
 weapons: [
     {
@@ -21,16 +21,16 @@ weapons: [
         mirror: false
         x: 0
         y: 0
-        reload: 1
+        reload: 3
 
         bullet: {
-            type: BasicBulletType
+            type: SapBulletType
             damage: 1
-            speed: 0
-            width: 0
-            height: 0
-            sprite: none
-            recoil: -0.5
+            speed: 1
+            width: 2
+            height: 5
+            lifetime: 5
+            recoil: -1
             
             status: spore-slowed
         }
