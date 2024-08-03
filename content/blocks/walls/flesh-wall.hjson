@@ -1,4 +1,4 @@
-type: Wall
+type: MendProjector
 size: 1
 health: 600
 category: defense
@@ -13,7 +13,9 @@ phaseColor: fd1744
 phaseBoost: 0
 phaseRangeBoost: 0
 useTime: 100
-consumes: {}
+consumes: {
+  power: 0.7
+}
 range: 40
 
 research: flesh
