@@ -20,7 +20,7 @@ weapons: [
         name: fleshgun
         rotate: true
         x: 5
-        y: 0
+        y: 5
         reload: 15
         ejectEffect: casing1
         shootSound: shoot
@@ -31,7 +31,7 @@ weapons: [
             speed: 4.25
             width: 6
             height: 8
-            lifetime: 35
+            lifetime: 60
             sprite: missile-large
             trailWidth: 3
             trailLength: 4.6

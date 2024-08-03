@@ -36,7 +36,7 @@ weapons: [
       sprite: missile-large
       damage: 30
       speed: 10
-      lifetime: 14
+      lifetime: 100
       width: 5
       height: 8
       trailWidth: 3
@@ -44,7 +44,7 @@ weapons: [
       trailColor: ff1744
       frontColor: ff0000
       backColor: f00000
-      recoil: 0
+      recoil: 0.1
       shootEffect: shootBig
       smokeEffect: shootBigSmoke
 

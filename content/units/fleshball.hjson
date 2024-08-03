@@ -5,7 +5,7 @@ flying: true
 health: 120
 speed: 2.5
 hitsize: 12
-range: 160
+range: 120
 
 accel: 0.08
 drag: 0.016
@@ -30,16 +30,35 @@ weapons: [
             speed: 4.25
             width: 6
             height: 8
-            lifetime: 35
+            lifetime: 50
             sprite: missile-large
             trailWidth: 3
             trailLength: 4.6
             trailColor: ff1744
             frontColor: ff0000
             backColor: f00000
-            recoil: -0.1
+            recoil: -0.2
             shootEffect: none
             smokeEffect: none
+            
+            status: spore-slowed
+        }
+
+        name: none
+        mirror: true
+        x: 3
+        y: 0
+        reload: 20
+        shootSound: sap
+
+        bullet: {
+            type: SapBulletType
+            damage: 1
+            speed: 1
+            width: 1
+            height: 1
+            lifetime: 10
+            recoil: -0.1
             
             status: spore-slowed
         }

@@ -2,7 +2,7 @@ name: Flesh Nugget
 description: seed of disaster.
 type: crawl
 flying: false
-health: 80
+health: 40
 speed: 3
 hitsize: 4
 range: 1
@@ -14,7 +14,6 @@ controller: HugAI
 omniMovement: false
 crushDamage: 0.2
 rotateSpeed: 3
-shootSound: sap
 
 weapons: [
     {
@@ -23,6 +22,7 @@ weapons: [
         x: 0
         y: 0
         reload: 20
+        shootSound: sap
 
         bullet: {
             type: SapBulletType
@@ -30,7 +30,7 @@ weapons: [
             speed: 1
             width: 1
             height: 1
-            lifetime: 20
+            lifetime: 10
             recoil: -2
             
             status: spore-slowed

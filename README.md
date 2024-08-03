@@ -11,3 +11,5 @@ This is my first time modding. I'm still inexperienced, but, I hope you'll show 
 
 0.514v - small missile fetch
 some bugfix
+
+0.514v - unit ai fetch
