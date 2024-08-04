@@ -18,6 +18,7 @@ rotateSpeed: 3
 weapons: [
     {
         name: none
+        rotate: true
         mirror: false
         x: 0
         y: 0
