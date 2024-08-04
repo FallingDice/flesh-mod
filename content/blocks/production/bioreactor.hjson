@@ -55,7 +55,7 @@ consumes: {
 outputItem: flesh/3
 outputLiquid : {
     liquid: blood
-    amount: 0.1
+    amount: 0.2
 }
 
 craftTime: 40

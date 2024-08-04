@@ -61,6 +61,13 @@ drawer: {
   basePrefix: doomsday-base
 }
 
+consumes: {
+  liquid: {
+        liquid: blood
+        amount: 0.1
+    }
+}
+
 research: {
   parent: flesh
   requirements: [

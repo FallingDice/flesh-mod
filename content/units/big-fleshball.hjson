@@ -21,13 +21,13 @@ weapons: [
         rotate: true
         x: 5
         y: 10
-        reload: 10
+        reload: 30
         ejectEffect: casing1
         shootSound: shoot
 
         shoot: {
         shots: 2
-        shotDelay: 3
+        shotDelay: 2
         }
 
         bullet: {

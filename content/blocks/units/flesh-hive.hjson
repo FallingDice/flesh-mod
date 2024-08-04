@@ -6,7 +6,7 @@ size: 3
 health: 500
 
 craftTime: 30
-unitCapModifier: 3
+unitCapModifier: 5
 
 requirements: [
     flesh/350
@@ -40,7 +40,12 @@ plans: [
 
 ]
 
-consumes: {}
+consumes: {
+  liquid: {
+        liquid: blood
+        amount: 0.1
+    }
+}
 
 research: flesh
 researchCostMultiplier: 0.3

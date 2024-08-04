@@ -5,6 +5,7 @@ armor: 3
 category: defense
 requirements: [
   flesh/24
+  thorium/6
 ]
 
 reload: 20
