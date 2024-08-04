@@ -52,7 +52,7 @@ weapons: [
       }
     },
     {
-    name: none
+        name: none
         mirror: true
         x: 5
         y: 0

@@ -31,11 +31,11 @@ weapons: [
       mirror: false
       shootCone = 360
       bullet: {
-      type: ExplosionBulletType
-      splashDamage: 50
-      splashDamageRadius: 40
-      buildingDamageMultiplier: 0.5
-      hitEffect: titanExplosion
+        type: ExplosionBulletType
+        splashDamage: 50
+        splashDamageRadius: 40
+        buildingDamageMultiplier: 0.5
+        hitEffect: titanExplosion
     }
   } 
 ]
