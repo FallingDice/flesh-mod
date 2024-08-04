@@ -24,20 +24,20 @@ outlineColor: ff1744
 hidden: true
 range: 40
 weapons: [
-  {
-      reload: 1
-      shake: 3
-      shootOnDeath: true
-      mirror: false
-      shootCone = 360
-      bullet: {
+{
+    reload: 1
+    shake: 3
+    shootOnDeath: true
+    mirror: false
+    shootCone: 360
+    bullet: {
         type: ExplosionBulletType
         splashDamage: 50
         splashDamageRadius: 40
         buildingDamageMultiplier: 0.5
         hitEffect: titanExplosion
-        }
-  } 
+    }
+} 
 ]
 
 abilities: [

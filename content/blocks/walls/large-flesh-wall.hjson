@@ -26,6 +26,7 @@ shootType: {
   width: 1
   height: 1
   lifetime: 20
+   healAmount: 5
 
   frontColor: ff0000
   backColor: df0000

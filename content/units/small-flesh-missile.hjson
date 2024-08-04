@@ -28,7 +28,7 @@ weapons: [
       shake: 1
       shootOnDeath: true
       mirror: false
-      shootCone = 360
+      shootCone: 360
       bullet: {
         type: ExplosionBulletType
         splashDamage: 20

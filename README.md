@@ -18,3 +18,5 @@ some bugfix
 
 0.518v - add flesh bug weapon
 edit missile ai
+
+0.521v - bugfix

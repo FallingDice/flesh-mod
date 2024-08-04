@@ -23,54 +23,53 @@ segmentMag: 0.5
  drownTimeMultiplier: 3
 
 weapons: [
-    {
-        name: fleshgun
-        rotate: true
-        x: 0
-        y: 0
-        mirror: false
-        shootSound: cannon
-        reload: 30
-        bullet: {
-            type: BasicBulletType
-            sprite: missile-large
-            damage: 30
-            speed: 10
-            lifetime: 100
-            width: 5
-            height: 8
-            trailWidth: 3
-            trailLength: 4.6
-            trailColor: ff1744
-            frontColor: ff0000
-            backColor: f00000
-            recoil: 0.1
-            shootEffect: shootBig
-            smokeEffect: shootBigSmoke
+{
+    name: fleshgun
+    rotate: true
+    x: 0
+    y: 0
+    mirror: false
+    shootSound: cannon
+    reload: 30
+    bullet: {
+        type: BasicBulletType
+        sprite: missile-large
+        damage: 30
+        speed: 10
+        lifetime: 100
+        width: 5
+        height: 8
+        trailWidth: 3
+        trailLength: 4.6
+        trailColor: ff1744
+        frontColor: ff0000
+        backColor: f00000
+        recoil: 0.1
+        shootEffect: shootBig
+        smokeEffect: shootBigSmoke
 
-            status: spore-slowed
-      }
-    },
-    {
-        name: none
-        mirror: true
-        x: 5
-        y: 0
-        cooldownTime = 60
-        reload: 200
-        shootSound: missileLaunch
-        
-        bullet: {
-            reloadMultiplier: 0.75
-            shootEffect: shootBig
-            smokeEffect: shootBigSmoke2
-            instantDisappear: true
-            damage: 0
-            speed: 5
-            lifetime: 10
-            spawnUnit: flesh-missile
-        }
+        status: spore-slowed
     }
+},
+{
+    name: none
+    mirror: true
+    x: 5
+    y: 0
+    cooldownTime: 60
+    reload: 200
+    shootSound: missileLaunch
+    bullet: {
+        type: BasicBulletType
+        reloadMultiplier: 0.75
+        shootEffect: shootBig
+        smokeEffect: shootBigSmoke2
+        instantDisappear: true
+        damage: 0
+        speed: 0
+        spawnUnit: small-flesh-missile
+    }
+}
 ]
 
 abilities: [
