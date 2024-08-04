@@ -5,7 +5,6 @@ flying: true
 speed: 4
 deathExplosionEffect: massiveExplosion
 
-maxRange = 6
 missileAccelTime: 30
 useUnitCap: false
 engineSize: 0.5

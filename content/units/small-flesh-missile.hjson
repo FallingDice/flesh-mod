@@ -4,7 +4,6 @@ template: MissileUnitType
 flying: true
 speed: 2.5
 
-maxRange = 20
 missileAccelTime: 30
 useUnitCap: false
 engineSize: 0.3

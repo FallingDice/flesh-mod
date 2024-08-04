@@ -15,11 +15,6 @@ drawCell: false
 engineSize: 0
 outlineColor: ff1744
 
-shoot: {
-  shots: 2
-  shotDelay: 3
-}
-
 weapons: [
     {
         name: fleshgun
@@ -29,6 +24,11 @@ weapons: [
         reload: 10
         ejectEffect: casing1
         shootSound: shoot
+
+        shoot: {
+        shots: 2
+        shotDelay: 3
+        }
 
         bullet: {
             type: BasicBulletType
