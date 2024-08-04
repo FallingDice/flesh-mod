@@ -50,26 +50,6 @@ weapons: [
 
       status: spore-slowed
         }
-    },
-    {
-    name: none
-        mirror: true
-        x: 5
-        y: 0
-        cooldownTime = 60
-        reload: 200
-        shootSound: missileLaunch
-
-        bullet: {
-            type: SapBulletType
-            reloadMultiplier: 0.75
-            shootEffect: shootBig
-            smokeEffect: shootBigSmoke2
-            instantDisappear: true
-            damage: 0
-            spawnUnit: small-flesh-missile
-            lowAltitude = true
-        }
     }
 ]
 
