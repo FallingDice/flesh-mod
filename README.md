@@ -22,3 +22,6 @@ edit missile ai
 0.521v - bugfix
 
 0.522v - add doomsday sprite
+
+0.6v - update blood
+-some bugfix
