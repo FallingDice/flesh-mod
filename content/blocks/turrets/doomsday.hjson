@@ -23,6 +23,7 @@ inaccuracy: 5
 shootWarmupSpeed: 0.05
 minWarmup: 0.9
 warmupMaintainTime: 90
+heatColor: ff1744
 
 coolant: {
   type: ConsumeCoolant
