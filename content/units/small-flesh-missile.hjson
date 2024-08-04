@@ -21,13 +21,13 @@ outlines: true
 outlineRadius: 1
 outlineColor: ff1744
 hidden: true
+range: 40
 weapons: [
   {
     reload: 1
     shake: 1
     shootOnDeath: true
     mirror: false
-    shootCone = 360
     bullet: {
       type: ExplosionBulletType
       splashDamage: 20
