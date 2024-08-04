@@ -35,7 +35,7 @@ weapons: [
         splashDamageRadius: 30
         buildingDamageMultiplier: 0.5
         hitEffect: titanExplosion
-    }
+      }
   } 
 ]
 

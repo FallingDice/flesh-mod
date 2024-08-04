@@ -59,7 +59,7 @@ weapons: [
         cooldownTime = 60
         reload: 200
         shootSound: missileLaunch
-
+        
         bullet: {
             reloadMultiplier: 0.75
             shootEffect: shootBig
