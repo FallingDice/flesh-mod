@@ -15,13 +15,18 @@ drawCell: false
 engineSize: 0
 outlineColor: ff1744
 
+shoot: {
+  shots: 2
+  shotDelay: 3
+}
+
 weapons: [
     {
         name: fleshgun
         rotate: true
         x: 5
-        y: 5
-        reload: 15
+        y: 10
+        reload: 10
         ejectEffect: casing1
         shootSound: shoot
 

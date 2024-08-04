@@ -15,3 +15,6 @@ some bugfix
 0.514v - unit ai fetch
 
 0.516v - add wall action
+
+0.518v - add flesh bug weapon
+edit missile ai

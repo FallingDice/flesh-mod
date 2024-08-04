@@ -4,23 +4,23 @@ template: MissileUnitType
 flying: true
 speed: 2.5
 
+maxRange = 20
 missileAccelTime: 30
 useUnitCap: false
 engineSize: 0.3
 engineOffset: 2.5
 lifetime: 200
-rotateSpeed: 0
 hitSize: 2
+rotateSpeed: 4
 trailLength: 5
 homingDelay: 0.2
-health: 50
+health: 30
 trailColor: ff1744
 aimDst: 5
 drawCell: false
 outlines: true
 outlineRadius: 1
 outlineColor: ff1744
-range: 120
 hidden: true
 weapons: [
   {
@@ -28,6 +28,7 @@ weapons: [
     shake: 1
     shootOnDeath: true
     mirror: false
+    shootCone = 360
     bullet: {
       type: ExplosionBulletType
       splashDamage: 20

@@ -5,15 +5,16 @@ flying: true
 speed: 4
 deathExplosionEffect: massiveExplosion
 
+maxRange = 6
 missileAccelTime: 30
 useUnitCap: false
 engineSize: 0.5
 engineOffset: 2.5
 lifetime: 200
-rotateSpeed: 0
+rotateSpeed: 0.3
 hitSize: 3
 trailLength: 15
-homingDelay: 0
+homingDelay: 0.1
 health: 100
 trailColor: ff1744
 aimDst: 10
@@ -21,7 +22,6 @@ drawCell: false
 outlines: true
 outlineRadius: 2
 outlineColor: ff1744
-range: 120
 hidden: true
 weapons: [
   {
@@ -29,6 +29,7 @@ weapons: [
     shake: 3
     shootOnDeath: true
     mirror: false
+    shootCone = 360
     bullet: {
       type: ExplosionBulletType
       splashDamage: 50
