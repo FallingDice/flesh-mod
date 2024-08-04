@@ -24,32 +24,32 @@ segmentMag: 0.5
 
 weapons: [
     {
-    name: fleshgun
-    rotate: true
-    x: 0
-    y: 0
-    mirror: false
-    shootSound: cannon
-    reload: 30
-    bullet: {
-      type: BasicBulletType
-      sprite: missile-large
-      damage: 30
-      speed: 10
-      lifetime: 100
-      width: 5
-      height: 8
-      trailWidth: 3
-      trailLength: 4.6
-      trailColor: ff1744
-      frontColor: ff0000
-      backColor: f00000
-      recoil: 0.1
-      shootEffect: shootBig
-      smokeEffect: shootBigSmoke
+        name: fleshgun
+        rotate: true
+        x: 0
+        y: 0
+        mirror: false
+        shootSound: cannon
+        reload: 30
+        bullet: {
+            type: BasicBulletType
+            sprite: missile-large
+            damage: 30
+            speed: 10
+            lifetime: 100
+            width: 5
+            height: 8
+            trailWidth: 3
+            trailLength: 4.6
+            trailColor: ff1744
+            frontColor: ff0000
+            backColor: f00000
+            recoil: 0.1
+            shootEffect: shootBig
+            smokeEffect: shootBigSmoke
 
-      status: spore-slowed
-        }
+            status: spore-slowed
+      }
     },
     {
     name: none

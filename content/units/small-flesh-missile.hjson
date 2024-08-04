@@ -24,11 +24,12 @@ hidden: true
 range: 40
 weapons: [
   {
-    reload: 1
-    shake: 1
-    shootOnDeath: true
-    mirror: false
-    bullet: {
+      reload: 1
+      shake: 1
+      shootOnDeath: true
+      mirror: false
+      shootCone = 360
+      bullet: {
       type: ExplosionBulletType
       splashDamage: 20
       splashDamageRadius: 30

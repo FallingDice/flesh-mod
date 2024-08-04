@@ -46,11 +46,11 @@ weapons: [
     },
     {
     name: none
-        mirror: true
-        x: 3
-        y: 0
-        reload: 20
-        shootSound: sap
+            mirror: true
+            x: 3
+            y: 0
+            reload: 20
+            shootSound: sap
 
         bullet: {
             type: SapBulletType
