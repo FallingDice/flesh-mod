@@ -68,7 +68,7 @@ weapons: [
             damage: 0
             speed: 5
             lifetime: 10
-            spawnUnit: small-flesh-missile
+            spawnUnit: flesh-missile
         }
     }
 ]
