@@ -52,7 +52,7 @@ ammoTypes: {
 }
 drawer: {
   type: DrawTurret
-  basePrefix: doomsday-base
+  basePrefix: turrets3-base
 }
 
 consumes: {
