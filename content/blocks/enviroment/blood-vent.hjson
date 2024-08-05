@@ -1,4 +1,4 @@
-type: SteamVent
+type: steamVent
 blendGroup: hardened-blood-floor
 parent: hardened-blood-floor
 effect: ventSteam

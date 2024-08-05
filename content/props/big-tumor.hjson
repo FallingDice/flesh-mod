@@ -1,4 +1,4 @@
-type: TallBlock
+type: prop
 variants: 2
 clipSize: 96
 shadowAlpha: 0.5
