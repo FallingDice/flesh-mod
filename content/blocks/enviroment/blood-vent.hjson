@@ -6,3 +6,5 @@ effectColor: 862020
 attributes: {
    heat: 0.1
 }
+
+variants: 2
