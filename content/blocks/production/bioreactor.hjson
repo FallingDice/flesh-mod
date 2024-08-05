@@ -60,4 +60,6 @@ outputLiquid : {
 
 craftTime: 40
 craftEffect: blastExplosion
+craftSound: drillImpact
+
 research: cultivator

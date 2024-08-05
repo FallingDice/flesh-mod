@@ -8,13 +8,15 @@ colorTo: 8B0000
 color: ff0000
 
 coolant: false
-spreadDamage: 1
 maxSpread: 4
 spreadTarget: water
+spreadDamage: 0.1
 blockReactive: false
 viscosity: 0.65
 heatCapacity: 0.4
-
-effect: wet
+boilPoint: 0.5
+capPuddles: false
+moveThroughBlocks: true
+gasColor: dddddd
 
 research: flesh

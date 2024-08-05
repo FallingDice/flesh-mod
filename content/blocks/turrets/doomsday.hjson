@@ -25,13 +25,6 @@ minWarmup: 0.9
 warmupMaintainTime: 90
 heatColor: ff1744
 
-coolant: {
-  type: ConsumeCoolant
-  allowGas: true
-  allowLiquid: true
-  amount: 0.3
-}
-
 shoot: {
   shots: 3
   firstShotDelay: 60
@@ -69,10 +62,5 @@ consumes: {
     }
 }
 
-research: {
-  parent: flesh
-  requirements: [
-    flesh/100
-  ]
-}
-researchCostMultiplier: 0.2
+research: parent: butcher
+researchCostMultiplier: 0.3

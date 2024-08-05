@@ -1,0 +1,50 @@
+type: ItemTurret
+category: turret
+health: 1000
+armor: 1
+size: 3
+range: 200
+
+requirements: [
+  flesh/120
+]
+
+shootSound: shoot
+
+outlineColor: ff1744
+reload: 20
+heatColor: ff1744
+
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.3
+}
+
+shoot: {
+  shots: 2
+  shotDelay: 1
+}
+ammoTypes: {
+  flesh: {
+    type: BasicBulletType
+    width: 7
+    height: 9
+    speed: 3
+    damage: 35
+    splashDamage: 20
+    splashDamageRadius: 10
+    homingPower: 0.1
+    hitSound: explosion
+
+    status: spore-slowed
+  }
+}
+drawer: {
+  type: DrawTurret
+  basePrefix: butcher-base
+}
+
+research: flesh
+researchCostMultiplier: 0.4
