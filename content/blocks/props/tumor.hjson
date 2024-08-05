@@ -1,6 +1,7 @@
 type: Prop
 clipSize: 64
-shadowAlpha: 0.5
-damageTaken: 0.1
+damageTaken: 0.3
 customShadow: true
+
+breakSound: rock-crush
 variants: 2

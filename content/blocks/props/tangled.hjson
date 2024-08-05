@@ -1,5 +1,6 @@
 type: Prop
 shadowAlpha: 0.3
+shadowOffset: -1
 
 breakSound: rock-crush
 variants: 3
