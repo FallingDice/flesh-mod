@@ -25,3 +25,5 @@ edit missile ai
 
 0.6v - update blood
 -some bugfix
+
+0.61v - add enviroments
