@@ -9,4 +9,3 @@ speedMultiplier: 0.5
 emitLight: true
 lightRadius: 2
 lightColor: ff1744
-placeableOn: false
