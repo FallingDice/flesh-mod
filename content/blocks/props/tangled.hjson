@@ -1,5 +1,4 @@
 type: prop
-
-variants: 2
+shadowAlpha: 0.3
 
 breakSound: rock-crush

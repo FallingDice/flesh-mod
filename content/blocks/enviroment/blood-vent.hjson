@@ -1,4 +1,4 @@
-type: steamVent
+type: SteamVent
 blendGroup: hardened-blood-floor
 parent: hardened-blood-floor
 effect: ventSteam
@@ -6,5 +6,3 @@ effectColor: 862020
 attributes: {
    heat: 0.1
 }
-
-variants: 2

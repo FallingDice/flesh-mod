@@ -43,7 +43,7 @@ ammoTypes: {
 }
 drawer: {
   type: DrawTurret
-  basePrefix: turrets3-base
+  basePrefix: -base
 }
 
 research: flesh
