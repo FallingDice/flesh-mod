@@ -5,3 +5,4 @@ isLiquid: true
 cacheLayer: water
 shallow: true
 albedo: 0.3
+variants: 3
