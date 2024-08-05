@@ -18,6 +18,5 @@ boilPoint: 0.5
 capPuddles: false
 moveThroughBlocks: true
 gasColor: dddddd
-canStayOn: water
 
 research: flesh
