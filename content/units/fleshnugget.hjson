@@ -47,7 +47,7 @@ weapons: [
       mirror: false
       reload: 200
       shootCone: 20
-      shootSound: lasercharge
+      shootSound: spark
       bullet: {
         width: 0
         height: 0
@@ -59,20 +59,19 @@ weapons: [
         damage: 0
         pierce: true
         pierceBuilding: true
-        recoil: -10
+        recoil: -20
         impact: true
       }
     },
     { 
       shootWarmupSpeed: 0.05
       minWarmup: 0.9
-      warmupMaintainTime: 120
-      display: false
+      warmupMaintainTime: 180
       x: 0
       y: 0
       rotate: false
       mirror: false
-      reload: 260
+      reload: 200
       shootCone: 20
       shootSound: laser
       bullet: {
@@ -90,7 +89,7 @@ weapons: [
             backColor: f00000
             pierce: true
             pierceBuilding: true
-            recoil: 5
+            recoil: 10
             impact: true
       }
     }

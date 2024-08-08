@@ -49,6 +49,59 @@ weapons: [
 
             status: spore-slowed
         }
+    },
+    {  
+      shootWarmupSpeed: 0.05
+      minWarmup: 0.9
+      warmupMaintainTime: 90
+      x: 0
+      y: 0
+      display: false
+      rotate: false
+      mirror: false
+      reload: 200
+      shootCone: 20
+      shootSound: spark
+      bullet: {
+        width: 0
+        height: 0
+        speed: 8
+        lifetime: 5
+        despawnEffect: none
+        hitEffect: none
+        collides: false
+        damage: 0
+        pierce: true
+        pierceBuilding: true
+        recoil: -3
+        impact: true
+      }
+    },
+    { 
+      shootWarmupSpeed: 0.05
+      minWarmup: 0.9
+      warmupMaintainTime: 180
+      x: 0
+      y: 0
+      rotate: false
+      mirror: false
+      reload: 200
+      shootCone: 20
+      shootSound: laser
+      bullet: {
+            type: LaserBulletType
+            damage: 80
+            speed: 4.25
+            width: 6
+            height: 8
+            lifetime: 50
+            frontColor: ff0000
+            backColor: f00000
+            pierce: true
+            pierceBuilding: true
+            recoil: 5
+            impact: true
+      }
     }
 ]
 
