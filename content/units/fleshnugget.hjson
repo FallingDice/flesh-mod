@@ -62,7 +62,7 @@ weapons: [
       }
     },
     { 
-      firstShotDelay: 10
+      firstShotDelay: 30
       display: false
       x: 0
       y: 0
