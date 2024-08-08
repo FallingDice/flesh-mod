@@ -36,7 +36,7 @@ weapons: [
         sprite: missile-large
         damage: 30
         speed: 10
-        lifetime: 60
+        lifetime: 30
         width: 5
         height: 8
         trailWidth: 3

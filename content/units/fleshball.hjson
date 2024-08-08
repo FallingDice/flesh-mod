@@ -94,7 +94,7 @@ weapons: [
             backColor: f00000
             pierce: true
             pierceBuilding: true
-            recoil: -0.2
+            recoil: -2
             impact: true
       }
     }
