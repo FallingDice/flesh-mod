@@ -8,8 +8,8 @@ speed: 1.5
 hitsize: 16
 range: 160
 
-accel: 0.08
-drag: 0.016
+accel: 0.2
+drag: 0.03
 
 drawCell: false
 engineSize: 0
@@ -19,7 +19,7 @@ weapons: [
     {
         name: fleshgun
         rotate: true
-        x: 5
+        x: 10
         y: 15
         reload: 25
         ejectEffect: casing1
@@ -63,7 +63,7 @@ weapons: [
       shootSound: spark
       bullet: {
         type: LaserBoltBulletType
-        lifetime: 10
+        lifetime: 30
         damage: 20
         pierce: true
         pierceBuilding: true
@@ -73,6 +73,10 @@ weapons: [
       }
     },
     { 
+      shoot: {
+            shots: 2
+            shotDelay: 10
+            }
       shootWarmupSpeed: 0.04
       minWarmup: 0.9
       warmupMaintainTime: 90
@@ -106,7 +110,7 @@ abilities: [
     {
         type: LiquidExplodeAbility
         liquid: blood
-        amount: 300
+        amount: 65
     }
     {
     type: MoveEffectAbility

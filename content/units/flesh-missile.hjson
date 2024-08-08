@@ -58,6 +58,6 @@ abilities: [
     {
         type: LiquidExplodeAbility
         liquid: blood
-        amount: 150
+        amount: 30
     }
 ]

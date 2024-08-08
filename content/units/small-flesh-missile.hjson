@@ -43,15 +43,6 @@ abilities: [
     {
         type: LiquidExplodeAbility
         liquid: blood
-        amount: 50
+        amount: 10
     }
-    {
-    type: MoveEffectAbility
-    minVelocity: 1.3
-    x: 0
-    y: -0.5
-    effect: artilleryTrailSmoke
-    teamColor: true
-    interval: 1
-  }
 ]

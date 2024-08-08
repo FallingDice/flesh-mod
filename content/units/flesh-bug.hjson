@@ -44,7 +44,7 @@ weapons: [
         trailColor: ff1744
         frontColor: ff0000
         backColor: f00000
-        recoil: 0.1
+        recoil: 0.5
         shootEffect: shootBig
         smokeEffect: shootBigSmoke
 
@@ -85,7 +85,7 @@ abilities: [
     {
         type: LiquidExplodeAbility
         liquid: blood
-        amount: 350
+        amount: 70
     }
 ]
 

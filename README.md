@@ -31,3 +31,5 @@ edit missile ai
 0.62v - add unit skills
 
 0.63v - bugfix
+
+0.64v - some ai fix

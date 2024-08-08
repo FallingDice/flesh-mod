@@ -93,7 +93,7 @@ weapons: [
             backColor: f00000
             pierce: true
             pierceBuilding: true
-            recoil: 10
+            recoil: 5
             impact: true
       }
     }
@@ -103,7 +103,7 @@ abilities: [
     {
         type: LiquidExplodeAbility
         liquid: blood
-        amount: 60
+        amount: 20
     }
     {
     type: MoveEffectAbility
