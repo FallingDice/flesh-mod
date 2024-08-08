@@ -60,6 +60,7 @@ weapons: [
     y: 0
     cooldownTime: 60
     reload: 200
+    smoothReloadSpeed: 0.15
     shootSound: missileLaunch
     bullet: {
         type: BasicBulletType

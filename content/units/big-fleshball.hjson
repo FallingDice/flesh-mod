@@ -64,6 +64,7 @@ weapons: [
         type: LaserBoltBulletType
         lifetime: 30
         damage: 20
+        length: 50
         pierce: true
         pierceBuilding: true
         recoil: -3
@@ -89,6 +90,7 @@ weapons: [
       bullet: {
             type: LaserBulletType
             damage: 80
+            length: 50
             lifetime: 30
             pierce: true
             pierceBuilding: true
