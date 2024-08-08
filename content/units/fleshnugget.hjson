@@ -67,8 +67,8 @@ weapons: [
       y: 0
       rotate: false
       mirror: false
-      reload: 200
-      cooldownTime: 70
+      reload: 220
+      cooldownTime: 60
       shootCone: 20
       shootSound: laser
       bullet: {
