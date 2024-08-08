@@ -35,3 +35,5 @@ edit missile ai
 0.64v - some ai fix
 
 0.67v - some bugfix
+
+0.68v - halo update
