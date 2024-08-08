@@ -54,6 +54,7 @@ weapons: [
 {
     name: none
     mirror: true
+    rotate: true
     x: 5
     y: 0
     cooldownTime: 60

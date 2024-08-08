@@ -45,6 +45,15 @@ abilities: [
         liquid: blood
         amount: 60
     }
+    {
+    type: MoveEffectAbility
+    minVelocity: 1.5
+    x: 0
+    y: -0.4
+    effect: artilleryTrailSmoke
+    teamColor: true
+    interval: 5
+  }
 ]
 
 research: {
