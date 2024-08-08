@@ -51,27 +51,6 @@ weapons: [
         status: spore-slowed
         statusDuration: 360
     }
-},
-{
-    name: none
-    mirror: true
-    rotate: true
-    x: 5
-    y: 0
-    cooldownTime: 60
-    reload: 200
-    smoothReloadSpeed: 0.15
-    shootSound: missileLaunch
-    bullet: {
-        type: BasicBulletType
-        reloadMultiplier: 0.75
-        shootEffect: shootBig
-        smokeEffect: shootBigSmoke2
-        instantDisappear: true
-        damage: 0
-        speed: 0
-        spawnUnit: small-flesh-missile
-    }
     parts: [
         {
           type: shapePart
@@ -100,6 +79,27 @@ weapons: [
           triLength: 0
         }
       ]
+},
+{
+    name: none
+    mirror: true
+    rotate: true
+    x: 5
+    y: 0
+    cooldownTime: 60
+    reload: 200
+    smoothReloadSpeed: 0.15
+    shootSound: missileLaunch
+    bullet: {
+        type: BasicBulletType
+        reloadMultiplier: 0.75
+        shootEffect: shootBig
+        smokeEffect: shootBigSmoke2
+        instantDisappear: true
+        damage: 0
+        speed: 0
+        spawnUnit: small-flesh-missile
+    }
 }
 ]
 
