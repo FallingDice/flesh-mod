@@ -41,7 +41,9 @@ ammoTypes: {
 
     status: spore-slowed
   }
-  parts: [
+}
+
+parts: [
         {
           type: shapePart
           hollow: true
@@ -71,7 +73,6 @@ ammoTypes: {
           y: 3
         }
       ]
-}
 
 drawer: {
   type: DrawTurret

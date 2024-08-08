@@ -49,6 +49,8 @@ ammoTypes: {
     splashDamageRadius: 80
     status: spore-slowed
   }
+}
+
   parts: [
         {
           type: shapePart
@@ -79,7 +81,6 @@ ammoTypes: {
           y: 3
         }
       ]
-}
 
 drawer: {
   type: DrawTurret
