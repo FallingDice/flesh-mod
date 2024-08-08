@@ -43,11 +43,10 @@ weapons: [
       display: false
       rotate: false
       mirror: false
-      reload: 210
+      reload: 200
       shootCone: 5
       shootSound: lasercharge
       bullet: {
-        cooldownTime: 60
         width: 0
         height: 0
         speed: 8
@@ -58,23 +57,22 @@ weapons: [
         damage: 0
         pierce: true
         pierceBuilding: true
-        recoil: -5
+        recoil: -10
         impact: true
       }
     },
-    {  
-      firstShotDelay: 80
+    { 
+      firstShotDelay: 10
       display: false
       x: 0
       y: 0
       rotate: false
       mirror: false
-      reload: 230
+      reload: 200
       shootCone: 20
       shootSound: laser
       bullet: {
             type: BasicBulletType
-            cooldownTime: 60
             damage: 6
             speed: 4.25
             width: 6
@@ -88,7 +86,7 @@ weapons: [
             backColor: f00000
             pierce: true
             pierceBuilding: true
-            recoil: 2
+            recoil: 5
             impact: true
       }
     }
