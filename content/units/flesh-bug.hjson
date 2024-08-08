@@ -6,7 +6,7 @@ health: 620
 armor: 2
 speed: 1.2
 hitSize: 16
-range: 130
+range: 120
 
 outlineColor: ff1744
 drawBody: false
@@ -49,6 +49,7 @@ weapons: [
         smokeEffect: shootBigSmoke
 
         status: spore-slowed
+        statusDuration: 360
     }
 },
 {

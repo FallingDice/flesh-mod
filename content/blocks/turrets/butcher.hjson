@@ -23,8 +23,8 @@ coolant: {
 }
 
 shoot: {
-  shots: 2
-  shotDelay: 1
+  shots: 4
+  shotDelay: 3
 }
 ammoTypes: {
   flesh: {
@@ -35,7 +35,7 @@ ammoTypes: {
     damage: 35
     splashDamage: 20
     splashDamageRadius: 10
-    homingPower: 0.1
+    homingPower: 0.3
     hitSound: explosion
 
     status: spore-slowed

@@ -27,3 +27,5 @@ edit missile ai
 -some bugfix
 
 0.61v - add enviroments
+
+0.62v - add unit skills

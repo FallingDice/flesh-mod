@@ -20,7 +20,7 @@ weapons: [
         name: fleshgun
         rotate: true
         x: 5
-        y: 10
+        y: 15
         reload: 25
         ejectEffect: casing1
         shootSound: shoot
@@ -56,25 +56,20 @@ weapons: [
       warmupMaintainTime: 90
       x: 0
       y: 0
-      display: false
       rotate: false
       mirror: false
       reload: 200
       shootCone: 20
       shootSound: spark
       bullet: {
-        width: 0
-        height: 0
-        speed: 8
-        lifetime: 5
-        despawnEffect: none
-        hitEffect: none
-        collides: false
-        damage: 0
+        type: LaserBoltBulletType
+        lifetime: 10
+        damage: 20
         pierce: true
         pierceBuilding: true
         recoil: -3
-        impact: true
+
+        status: electrified
       }
     },
     { 
@@ -94,7 +89,7 @@ weapons: [
             lifetime: 30
             pierce: true
             pierceBuilding: true
-            recoil: 5
+            recoil: 3
             impact: true
       }
     }
@@ -113,6 +108,16 @@ abilities: [
         liquid: blood
         amount: 300
     }
+    {
+    type: MoveEffectAbility
+    minVelocity: 1.7
+    x: 0
+    y: -0.4
+    effect: artilleryTrailSmoke
+    teamColor: false
+    color: ff1744
+    interval: 5
+  }
 ]
 
 

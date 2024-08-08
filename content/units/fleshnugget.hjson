@@ -74,6 +74,10 @@ weapons: [
       reload: 200
       shootCone: 20
       shootSound: laser
+      shoot: {
+            shots: 3
+            shotDelay: 10
+            }
       bullet: {
             type: BasicBulletType
             damage: 6
