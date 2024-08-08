@@ -2,7 +2,7 @@
 DeadLine: 8/8
 
 3. butcher 스프라이트 제작/
->base, def
+>base
 
 2. 번들로 번역작업/
 
