@@ -1,5 +1,6 @@
 type: Prop
 shadowAlpha: 0.1
+blendGroup: hardened-blood-floor
 
 breakSound: rock-crush
 variants: 3

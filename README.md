@@ -33,3 +33,5 @@ edit missile ai
 0.63v - bugfix
 
 0.64v - some ai fix
+
+0.67v - some bugfix

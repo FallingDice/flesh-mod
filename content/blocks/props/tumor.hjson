@@ -2,6 +2,7 @@ type: Prop
 clipSize: 64
 damageTaken: 0.3
 customShadow: true
+blendGroup: flesh-floor
 
 breakSound: rock-crush
 variants: 2

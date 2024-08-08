@@ -17,7 +17,6 @@ outlineColor: ff1744
 
 weapons: [
     {
-        name: fleshgun
         rotate: true
         x: 10
         y: 0

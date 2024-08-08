@@ -1,4 +1,5 @@
 type: Prop
+blendGroup: flesh-floor
 
 breakSound: rock-crush
 variants: 2
