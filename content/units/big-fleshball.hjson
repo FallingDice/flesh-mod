@@ -78,9 +78,9 @@ weapons: [
       }
     },
     { 
-      shootWarmupSpeed: 0.05
+      shootWarmupSpeed: 0.04
       minWarmup: 0.9
-      warmupMaintainTime: 180
+      warmupMaintainTime: 90
       x: 0
       y: 0
       rotate: false
@@ -91,12 +91,7 @@ weapons: [
       bullet: {
             type: LaserBulletType
             damage: 80
-            speed: 4.25
-            width: 6
-            height: 8
-            lifetime: 50
-            frontColor: ff0000
-            backColor: f00000
+            lifetime: 30
             pierce: true
             pierceBuilding: true
             recoil: 5
