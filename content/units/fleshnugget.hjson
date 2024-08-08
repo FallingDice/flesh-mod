@@ -37,6 +37,7 @@ weapons: [
         }
     },
     {  
+      firstShotDelay: 60
       x: 0
       y: 0
       display: false
@@ -44,7 +45,7 @@ weapons: [
       mirror: false
       reload: 210
       shootCone: 5
-      shootSound: laser
+      shootSound: lasercharge
       bullet: {
         cooldownTime: 60
         width: 0
@@ -62,6 +63,7 @@ weapons: [
       }
     },
     {  
+      firstShotDelay: 80
       display: false
       x: 0
       y: 0
@@ -69,10 +71,10 @@ weapons: [
       mirror: false
       reload: 230
       shootCone: 20
-      shootSound: pew
+      shootSound: laser
       bullet: {
             type: BasicBulletType
-            cooldownTime: 80
+            cooldownTime: 60
             damage: 6
             speed: 4.25
             width: 6
