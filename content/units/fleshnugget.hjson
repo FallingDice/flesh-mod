@@ -35,7 +35,7 @@ weapons: [
             
             status: spore-slowed
         }
-    }
+    },
     {  
       x: 0
       y: 0
@@ -60,7 +60,7 @@ weapons: [
         recoil: -5
         impact: true
       }
-    }
+    },
     {  
       display: false
       x: 0
