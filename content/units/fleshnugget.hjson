@@ -37,7 +37,9 @@ weapons: [
         }
     },
     {  
-      firstShotDelay: 60
+      shootWarmupSpeed: 0.05
+      minWarmup: 0.9
+      warmupMaintainTime: 90
       x: 0
       y: 0
       display: false
@@ -62,7 +64,9 @@ weapons: [
       }
     },
     { 
-      firstShotDelay: 30
+      shootWarmupSpeed: 0.05
+      minWarmup: 0.9
+      warmupMaintainTime: 100
       display: false
       x: 0
       y: 0
