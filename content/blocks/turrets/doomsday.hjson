@@ -39,19 +39,8 @@ ammoTypes: {
     instantDisappear: true
     damage: 0
     spawnUnit: flesh-missile
-  }
-  spore-pod: {
-    type: ArtilleryBulletType
-    width: 7
-    height: 9
-    speed: 3
-    splashDamage: 40
-    splashDamageRadius: 80
-    status: spore-slowed
-  }
-}
 
-  parts: [
+    parts: [
         {
           type: shapePart
           hollow: true
@@ -81,6 +70,17 @@ ammoTypes: {
           y: 3
         }
       ]
+  }
+  spore-pod: {
+    type: ArtilleryBulletType
+    width: 7
+    height: 9
+    speed: 3
+    splashDamage: 40
+    splashDamageRadius: 80
+    status: spore-slowed
+  }
+}
 
 drawer: {
   type: DrawTurret

@@ -40,10 +40,8 @@ ammoTypes: {
     hitSound: explosion
 
     status: spore-slowed
-  }
-}
 
-parts: [
+    parts: [
         {
           type: shapePart
           hollow: true
@@ -73,6 +71,8 @@ parts: [
           y: 3
         }
       ]
+  }
+}
 
 drawer: {
   type: DrawTurret

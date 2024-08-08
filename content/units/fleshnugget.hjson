@@ -99,7 +99,7 @@ weapons: [
       parts: [
         {
           type: RegionPart
-          layer: 100
+          layer: -1
           colorTo: ff0000AA
           color: ff0000AA
           outline: false
