@@ -64,7 +64,7 @@ weapons: [
       }
     },
     { 
-      shootWarmupSpeed: 0.03
+      shootWarmupSpeed: 0.05
       minWarmup: 0.9
       warmupMaintainTime: 120
       display: false
