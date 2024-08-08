@@ -99,7 +99,7 @@ weapons: [
       parts: [
         {
           type: RegionPart
-          layer: effect
+          layer: -1
           colorTo: ff0000AA
           color: ff0000AA
           outline: false
@@ -111,7 +111,7 @@ weapons: [
           type: shapePart
           hollow: true
           circle: true
-          layer: effect
+          layer: 100
           color: ffb98b
           stroke: 0
           strokeTo: 1.5
@@ -122,7 +122,7 @@ weapons: [
           type: HaloPart
           radius: 1
           tri: true
-          layer: effect
+          layer: 100
           color: ffb98b
           haloRotateSpeed: 0.3
           haloRadius: 3
