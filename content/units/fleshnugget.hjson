@@ -36,25 +36,7 @@ weapons: [
             status: spore-slowed
         }
     }
-]
-
-abilities: [
-    {
-        type: LiquidExplodeAbility
-        liquid: blood
-        amount: 60
-    }
-    {
-    type: MoveEffectAbility
-    minVelocity: 3.2
-    x: 0
-    y: -0.4
-    effect: artilleryTrailSmoke
-    teamColor: false
-    color: ff1744
-    interval: 5
-  }
-  {  
+    {  
       x: 0
       y: 0
       display: false
@@ -107,6 +89,24 @@ abilities: [
             impact: true
       }
     }
+]
+
+abilities: [
+    {
+        type: LiquidExplodeAbility
+        liquid: blood
+        amount: 60
+    }
+    {
+    type: MoveEffectAbility
+    minVelocity: 3.2
+    x: 0
+    y: -0.4
+    effect: artilleryTrailSmoke
+    teamColor: false
+    color: ff1744
+    interval: 5
+  }
 ]
 
 research: {
