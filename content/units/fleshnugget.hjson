@@ -46,7 +46,7 @@ weapons: [
       rotate: false
       mirror: false
       reload: 200
-      shootCone: 5
+      shootCone: 20
       shootSound: lasercharge
       bullet: {
         width: 0
@@ -66,7 +66,7 @@ weapons: [
     { 
       shootWarmupSpeed: 0.05
       minWarmup: 0.9
-      warmupMaintainTime: 120
+      warmupMaintainTime: 180
       display: false
       x: 0
       y: 0
