@@ -110,7 +110,17 @@ abilities: [
         type: LiquidExplodeAbility
         liquid: blood
         amount: 40
-    }
+    },
+    {
+    type: MoveEffectAbility
+    minVelocity: 2.7
+    x: 0
+    y: -0.4
+    effect: artilleryTrailSmoke
+    teamColor: false
+    color: ff1744
+    interval: 5
+  }
 ]
 
 research: {
