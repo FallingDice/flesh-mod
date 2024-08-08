@@ -81,20 +81,20 @@ weapons: [
             }
       bullet: {
             type: BasicBulletType
-            damage: 6
-            speed: 4.25
+            damage: 4
+            speed: 8
             width: 6
             height: 8
-            lifetime: 50
+            lifetime: 60
             sprite: missile-large
-            trailWidth: 3
-            trailLength: 4.6
+            trailWidth: 2
+            trailLength: 5
             trailColor: ff1744
             frontColor: ff0000
             backColor: f00000
             pierce: true
             pierceBuilding: true
-            recoil: 5
+            recoil: -0.2
             impact: true
       }
     }

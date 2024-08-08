@@ -20,7 +20,7 @@ weapons: [
         name: fleshgun
         rotate: true
         x: 10
-        y: 15
+        y: 0
         reload: 25
         ejectEffect: casing1
         shootSound: shoot
