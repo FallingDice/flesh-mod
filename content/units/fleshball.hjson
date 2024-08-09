@@ -29,7 +29,7 @@ weapons: [
             speed: 4.25
             width: 6
             height: 8
-            lifetime: 50
+            lifetime: 40
             sprite: missile-large
             trailWidth: 3
             trailLength: 4.6
@@ -83,7 +83,7 @@ weapons: [
             speed: 8
             width: 6
             height: 8
-            lifetime: 60
+            lifetime: 35
             sprite: missile-large
             trailWidth: 2
             trailLength: 5

@@ -163,7 +163,7 @@ abilities: [
         type: UnitSpawnAbility
         unit: spider-egg
         spawnX: 0
-        spawnY: -10
+        spawnY: -20
         spawnTime: 1800
     }
 ]

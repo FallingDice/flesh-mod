@@ -80,11 +80,11 @@ weapons: [
             }
       bullet: {
             type: BasicBulletType
-            damage: 6
+            damage: 3
             speed: 4.25
             width: 6
             height: 8
-            lifetime: 50
+            lifetime: 25
             sprite: missile-large
             trailWidth: 3
             trailLength: 4.6

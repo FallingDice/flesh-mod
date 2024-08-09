@@ -94,5 +94,5 @@ consumes: {
     }
 }
 
-research: parent: butcher
+research: butcher
 researchCostMultiplier: 0.3

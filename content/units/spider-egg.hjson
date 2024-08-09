@@ -5,7 +5,7 @@ rotateSpeed: 0
 hitSize: 6
 engineSize: 0
 
-lifetime: 300
+lifetime: 1800
 health: 500
 drawCell: false
 outlines: true
