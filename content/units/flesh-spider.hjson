@@ -202,9 +202,5 @@ abilities: [
 ]
 
 research: {
-    parent: flesh-hive
-    requirements:
-    [
-        {item: flesh, amount: 10}
-    ]
+    parent: big-flesh-spider
 }

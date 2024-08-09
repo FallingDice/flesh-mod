@@ -13,6 +13,13 @@ requirements: [
 ]
 
 plans: [
+    {
+    unit: big-flesh-spider
+    requirements: [
+        flesh/70
+    ]
+    time: 3600
+  },
   {
     unit: flesh-bug
     requirements: [
