@@ -18,7 +18,7 @@ legForwardScl: 1
 legExtension: 5
 legStraightness: 0.5
 legBaseOffset: 3
-legMoveSpace: 2
+legMoveSpace: 20
 legLength: 5
 legSpeed: 0.5
 
