@@ -17,14 +17,14 @@ hovering: true
 legMaxLength: 1.2
 legMinLength: 0.8
 
-legLengthScl: 5.95
+legLengthScl: 0.95
 legForwardScl: 2.1
 
 legExtension: -4
 legStraightness: 0.6
 legStraightLength: 0.9
 legBaseOffset: 6
-legLength: 18
+legLength: 30
 legSpeed: 0.5
 stepShake: 0.1
 legGroupSize: 3
