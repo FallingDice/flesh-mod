@@ -6,7 +6,7 @@ hitsize: 12
 range: 120
 
 fogRadius: 80
-groundLayer: 15
+groundLayer: 39
 singleTarget: true
 lightRadius: 80
 rotateSpeed: 3
