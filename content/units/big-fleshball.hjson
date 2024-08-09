@@ -5,7 +5,7 @@ flying: true
 health: 530
 armor: 2
 speed: 1.5
-hitsize: 16
+hitsize: 24
 range: 160
 
 accel: 0.2
@@ -86,6 +86,7 @@ weapons: [
       mirror: false
       reload: 200
       shootCone: 20
+      shootStatus: overdrive
       shootSound: laser
       bullet: {
             type: LaserBulletType
