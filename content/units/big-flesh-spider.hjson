@@ -48,20 +48,22 @@ outlineColor: ff1744
 
 weapons: [
     {
-        mirror: false
-        x: 0
+        name: flesh-cannon
+        rotate: true
+        mirror: true
+        x: 30
         y: 0
-        reload: 50
+        reload: 100
         ejectEffect: casing1
-        shootSound: pew
+        shootSound: cannon
 
         bullet: {
             type: BasicBulletType
-            damage: 14
-            speed: 4.25
+            damage: 30
+            speed: 6
             width: 6
             height: 8
-            lifetime: 50
+            lifetime: 45
             sprite: missile-large
             trailWidth: 3
             trailLength: 4.6
