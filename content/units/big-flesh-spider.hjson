@@ -15,10 +15,9 @@ lockLegBase: true
 hovering: true
 
 legMaxLength: 1.2
-legMinLength: 0.8
 
 legLengthScl: 0.95
-legForwardScl: 2.1
+legForwardScl: 0.7
 
 legExtension: -4
 legStraightness: 0.6
