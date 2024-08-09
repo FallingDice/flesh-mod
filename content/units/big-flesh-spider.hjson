@@ -14,8 +14,8 @@ legCount: 6
 legMaxLength: 1.4
 legMinLength: 0.6
 legLengthScl: 1.3
-legForwardScl: 2
-legExtension: -4
+legForwardScl: 4
+legExtension: -2
 legStraightness: 0.3
 legPhysicsLayer: false
 legContinuousMove: true
@@ -23,7 +23,7 @@ lockLegBase: true
 rippleScale: 0.3
 legBaseOffset: 3
 legMoveSpace: 0.8
-legLength: 30
+legLength: 15
 legSpeed: 0.5
 legSplashDamage: 156
 legSplashRange: 60
