@@ -8,40 +8,38 @@ range: 120
 fogRadius: 80
 lightRadius: 80
 groundLayer: 60
-rotateSpeed: 3
+rotateSpeed: 1.6
 legCount: 6
-
-legMaxLength: 2.5
-legMinLength: 2
-legLengthScl: 5
-legForwardScl: 1
-legExtension: 5
-legStraightness: 0.5
-legBaseOffset: 3
-legLength: 15
-legSpeed: 0.5
-
-
-legSplashDamage: 156
-legSplashRange: 60
-
-//걷는 간격 walk interval
-legMoveSpace: 5
-
-//foot effect
-rippleScale: 0.3
-
-singleTarget: true
-legPhysicsLayer: false
 legContinuousMove: true
 lockLegBase: true
-allowLegStep: true
 hovering: true
+
+legMaxLength: 1.2
+legLengthScl: 0.95
+legForwardScl: 2.1
+legExtension: -6
+legStraightness: 0.6
+legStraightLength: 0.9
+legBaseOffset: 19
+legLength: 18
+legSpeed: 0.5
+stepShake: 0.2
+legGroupSize: 3
+
+legSplashDamage: 15
+legSplashRange: 20
+
+//걷는 간격 walk interval
+legMoveSpace: 1
+
+//foot effect
+rippleScale: 1.3
 
   immunities: [
     spore-slowed
   ]
 
+shadowElevation: 0.3
 drawCell: false
 outlineColor: ff1744
 
