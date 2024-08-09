@@ -7,26 +7,32 @@ range: 120
 
 fogRadius: 80
 groundLayer: 50
-singleTarget: true
 lightRadius: 80
 rotateSpeed: 3
 legCount: 6
+
 legMaxLength: 2.5
 legMinLength: 2
 legLengthScl: 5
 legForwardScl: 1
-legExtension: 3
+legExtension: 10
 legStraightness: 0.5
+legBaseOffset: 3
+legMoveSpace: 5
+legLength: 20
+legSpeed: 0.5
+
+
+legSplashDamage: 156
+legSplashRange: 60
+
+//foot effect
+rippleScale: 0.3
+
+singleTarget: true
 legPhysicsLayer: false
 legContinuousMove: true
 lockLegBase: true
-rippleScale: 30
-legBaseOffset: 3
-legMoveSpace: 0.8
-legLength: 20
-legSpeed: 0.5
-legSplashDamage: 156
-legSplashRange: 60
 allowLegStep: true
 hovering: true
 
