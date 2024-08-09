@@ -6,7 +6,7 @@ hitsize: 12
 range: 120
 
 fogRadius: 80
-groundLayer: 73
+groundLayer: 74
 lightRadius: 80
 rotateSpeed: 3
 legCount: 4
@@ -34,6 +34,10 @@ rippleScale: 0.3
 
 drawCell: false
 outlineColor: ff1744
+
+  immunities: [
+    spore-slowed
+  ]
 
 weapons: [
     {

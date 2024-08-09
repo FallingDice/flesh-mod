@@ -1,0 +1,29 @@
+type: flying
+flying: false
+speed: 0
+rotateSpeed: 0
+hitSize: 6
+engineSize: 0
+
+useUnitCap: false
+lifetime: 1200
+health: 100
+drawCell: false
+outlines: true
+outlineColor: ff1744
+hidden: true
+
+abilities: [
+    {
+        type: SpawnDeathAbility
+        amount: 1
+        spread: 20
+        faceOutwards: true
+        unit: flesh-spider
+    },
+    {
+        type: LiquidExplodeAbility
+        liquid: blood
+        amount: 10
+    }
+]

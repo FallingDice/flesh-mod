@@ -7,7 +7,7 @@ range: 120
 
 fogRadius: 80
 lightRadius: 80
-groundLayer: 74
+groundLayer: 75
 rotateSpeed: 1.6
 legCount: 6
 legContinuousMove: true
@@ -179,7 +179,14 @@ abilities: [
     teamColor: false
     color: ff1744
     interval: 5
-  }
+  },
+    {
+        type: UnitSpawnAbility
+        unit: spider-egg
+        spawnX: 0
+        spawnY: -10
+        spawnTime: 600
+    }
 ]
 
 research: {
