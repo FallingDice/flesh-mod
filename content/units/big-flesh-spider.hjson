@@ -15,7 +15,7 @@ lockLegBase: true
 hovering: true
 
 legMaxLength: 1.2
-legLengthScl: 0.95
+legLengthScl: 1.95
 legForwardScl: 2.1
 legExtension: -4
 legStraightness: 0.6
@@ -23,7 +23,7 @@ legStraightLength: 0.9
 legBaseOffset: 7
 legLength: 18
 legSpeed: 0.5
-stepShake: 0.2
+stepShake: 0.1
 legGroupSize: 3
 
 legSplashDamage: 15
@@ -33,7 +33,7 @@ legSplashRange: 20
 legMoveSpace: 1
 
 //foot effect
-rippleScale: 1.3
+rippleScale: 0.8
 
   immunities: [
     spore-slowed
