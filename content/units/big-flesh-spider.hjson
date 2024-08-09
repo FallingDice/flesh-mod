@@ -2,12 +2,12 @@ type: legs
 flying: false
 health: 120
 speed: 1.5
-hitsize: 12
+hitsize: 21
 range: 120
 
 fogRadius: 80
 lightRadius: 80
-groundLayer: 60
+groundLayer: 65
 rotateSpeed: 1.6
 legCount: 6
 legContinuousMove: true
@@ -17,10 +17,10 @@ hovering: true
 legMaxLength: 1.2
 legLengthScl: 0.95
 legForwardScl: 2.1
-legExtension: -6
+legExtension: -4
 legStraightness: 0.6
 legStraightLength: 0.9
-legBaseOffset: 19
+legBaseOffset: 7
 legLength: 18
 legSpeed: 0.5
 stepShake: 0.2
