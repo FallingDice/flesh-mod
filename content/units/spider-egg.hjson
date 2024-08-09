@@ -5,9 +5,8 @@ rotateSpeed: 0
 hitSize: 6
 engineSize: 0
 
-useUnitCap: false
-lifetime: 1200
-health: 100
+lifetime: 300
+health: 500
 drawCell: false
 outlines: true
 outlineColor: ff1744

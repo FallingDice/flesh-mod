@@ -50,13 +50,13 @@ weapons: [
         mirror: false
         x: 0
         y: 0
-        reload: 20
+        reload: 50
         ejectEffect: casing1
         shootSound: pew
 
         bullet: {
             type: BasicBulletType
-            damage: 6
+            damage: 14
             speed: 4.25
             width: 6
             height: 8
@@ -74,34 +74,15 @@ weapons: [
             status: spore-slowed
         }
     },
-    {
-            mirror: true
-            x: 3
-            y: 0
-            reload: 20
-            shootSound: sap
-
-        bullet: {
-            type: SapBulletType
-            damage: 1
-            speed: 1
-            width: 1
-            height: 1
-            lifetime: 10
-            recoil: -0.05
-            
-            status: spore-slowed
-        }
-    },
     { 
-      shootWarmupSpeed: 0.03
+      shootWarmupSpeed: 0.01
       minWarmup: 0.9
       warmupMaintainTime: 90
       x: 0
       y: 0
       rotate: false
       mirror: false
-      reload: 250
+      reload: 400
       shootCone: 15
       shootSound: cannon
       shoot: {
@@ -110,20 +91,20 @@ weapons: [
             }
       bullet: {
             type: BasicBulletType
-            damage: 4
-            speed: 8
+            damage: 80
+            speed: 12
             width: 6
             height: 8
-            lifetime: 60
+            lifetime: 40
             sprite: missile-large
             trailWidth: 2
-            trailLength: 5
+            trailLength: 10
             trailColor: ff1744
             frontColor: ff0000
             backColor: f00000
             pierce: true
             pierceBuilding: true
-            recoil: -2
+            recoil: 10
             impact: true
       }
       parts: [
@@ -185,7 +166,7 @@ abilities: [
         unit: spider-egg
         spawnX: 0
         spawnY: -10
-        spawnTime: 600
+        spawnTime: 1800
     }
 ]
 

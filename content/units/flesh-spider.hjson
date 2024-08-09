@@ -98,14 +98,10 @@ weapons: [
       reload: 250
       shootCone: 15
       shootSound: cannon
-      shoot: {
-            shots: 5
-            shotDelay: 15
-            }
       bullet: {
             type: BasicBulletType
-            damage: 4
-            speed: 8
+            damage: 30
+            speed: 10
             width: 6
             height: 8
             lifetime: 60
@@ -117,7 +113,7 @@ weapons: [
             backColor: f00000
             pierce: true
             pierceBuilding: true
-            recoil: -2
+            recoil: 5
             impact: true
       }
       parts: [
@@ -148,6 +144,33 @@ weapons: [
           triLength: 0
         }
       ]
+    },
+    {  
+      shootWarmupSpeed: 0.04
+      minWarmup: 0.9
+      warmupMaintainTime: 90
+      x: 0
+      y: 0
+      display: false
+      rotate: false
+      mirror: false
+      reload: 250
+      shootCone: 20
+      shootSound: spark
+      bullet: {
+        width: 0
+        height: 0
+        speed: 8
+        lifetime: 5
+        despawnEffect: none
+        hitEffect: none
+        collides: false
+        damage: 0
+        pierce: true
+        pierceBuilding: true
+        recoil: -20
+        impact: true
+      }
     }
 ]
 
