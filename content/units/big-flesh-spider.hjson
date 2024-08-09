@@ -11,12 +11,12 @@ singleTarget: true
 lightRadius: 80
 rotateSpeed: 3
 legCount: 6
-legMaxLength: 2.4
-legMinLength: 1.8
-legLengthScl: 1.3
+legMaxLength: 3.5
+legMinLength: 3
+legLengthScl: 5
 legForwardScl: 1
 legExtension: -4
-legStraightness: 0.3
+legStraightness: 0.5
 legPhysicsLayer: false
 legContinuousMove: true
 lockLegBase: true
