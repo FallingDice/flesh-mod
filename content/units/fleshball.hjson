@@ -92,7 +92,7 @@ weapons: [
             backColor: f00000
             pierce: true
             pierceBuilding: true
-            recoil: -2
+            recoil: -0.2
             impact: true
       }
       parts: [
