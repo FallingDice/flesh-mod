@@ -51,7 +51,7 @@ weapons: [
         name: flesh-cannon
         rotate: true
         mirror: true
-        x: 30
+        x: 10
         y: 0
         reload: 100
         ejectEffect: casing1
