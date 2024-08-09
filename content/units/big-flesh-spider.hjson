@@ -23,7 +23,7 @@ lockLegBase: true
 rippleScale: 0.3
 legBaseOffset: 3
 legMoveSpace: 0.8
-legLength: 15
+legLength: 30
 legSpeed: 0.5
 legSplashDamage: 156
 legSplashRange: 60
