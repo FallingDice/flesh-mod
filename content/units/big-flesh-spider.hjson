@@ -6,8 +6,8 @@ hitsize: 12
 range: 120
 
 fogRadius: 80
-groundLayer: 50
 lightRadius: 80
+groundLayer: 60
 rotateSpeed: 3
 legCount: 6
 
@@ -18,13 +18,15 @@ legForwardScl: 1
 legExtension: 5
 legStraightness: 0.5
 legBaseOffset: 3
-legMoveSpace: 20
-legLength: 5
+legLength: 15
 legSpeed: 0.5
 
 
 legSplashDamage: 156
 legSplashRange: 60
+
+//걷는 간격 walk interval
+legMoveSpace: 5
 
 //foot effect
 rippleScale: 0.3
