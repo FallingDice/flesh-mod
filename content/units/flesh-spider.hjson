@@ -22,8 +22,8 @@ legForwardScl: 0.7
 legExtension: -4
 legStraightness: 0.6
 legStraightLength: 0.9
-legBaseOffset: 6
-legLength: 24
+legBaseOffset: 3
+legLength: 22
 legGroupSize: 3
 
 legSplashDamage: 15
