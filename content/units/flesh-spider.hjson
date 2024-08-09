@@ -6,28 +6,31 @@ hitsize: 12
 range: 120
 
 fogRadius: 80
-groundLayer: 39
-singleTarget: true
+groundLayer: 73
 lightRadius: 80
 rotateSpeed: 3
-legCount: 6
-legMaxLength: 1.1
-legMinLength: 0.6
-legLengthScl: 0.9
-legForwardScl: 2
-legExtension: -4
-legStraightness: 0.3
-legPhysicsLayer: false
+legCount: 4
 legContinuousMove: true
 lockLegBase: true
-rippleScale: 0.2
-legBaseOffset: 3
-legMoveSpace: 0.6
-legLength: 18
-legSplashDamage: 156
-legSplashRange: 60
-allowLegStep: true
 hovering: true
+
+legMaxLength: 1.2
+
+legLengthScl: 0.95
+legForwardScl: 0.7
+
+legExtension: -4
+legStraightness: 0.6
+legStraightLength: 0.9
+legBaseOffset: 6
+legLength: 24
+legGroupSize: 3
+
+legSplashDamage: 15
+legSplashRange: 20
+
+legMoveSpace: 1
+rippleScale: 0.3
 
 drawCell: false
 outlineColor: ff1744
