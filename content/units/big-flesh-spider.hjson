@@ -15,10 +15,10 @@ legMaxLength: 2.5
 legMinLength: 2
 legLengthScl: 5
 legForwardScl: 1
-legExtension: 10
+legExtension: 20
 legStraightness: 0.5
 legBaseOffset: 3
-legMoveSpace: 5
+legMoveSpace: 2
 legLength: 20
 legSpeed: 0.5
 
