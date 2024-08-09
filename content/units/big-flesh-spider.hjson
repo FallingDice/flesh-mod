@@ -11,10 +11,10 @@ singleTarget: true
 lightRadius: 80
 rotateSpeed: 3
 legCount: 6
-legMaxLength: 1.4
-legMinLength: 0.8
+legMaxLength: 2.4
+legMinLength: 1.8
 legLengthScl: 1.3
-legForwardScl: 40
+legForwardScl: 1
 legExtension: -4
 legStraightness: 0.3
 legPhysicsLayer: false
@@ -23,7 +23,7 @@ lockLegBase: true
 rippleScale: 0.3
 legBaseOffset: 3
 legMoveSpace: 0.8
-legLength: 15
+legLength: 20
 legSpeed: 0.5
 legSplashDamage: 156
 legSplashRange: 60
