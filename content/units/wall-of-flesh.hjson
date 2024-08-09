@@ -4,7 +4,7 @@ health: 9999999
 speed: 0.1
 hitsize: 100
 range: 300
-rotateSpeed: 0.1
+rotateSpeed: 0.2
 
 accel: 0.08
 drag: 0.016

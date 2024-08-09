@@ -1,7 +1,8 @@
 type: legs
 flying: false
-health: 120
-speed: 1.5
+health: 260
+armor: 1
+speed: 1.2
 hitsize: 12
 range: 120
 
@@ -26,7 +27,7 @@ legBaseOffset: 3
 legLength: 22
 legGroupSize: 3
 
-legSplashDamage: 15
+legSplashDamage: 10
 legSplashRange: 20
 
 legMoveSpace: 1
@@ -113,7 +114,7 @@ weapons: [
             backColor: f00000
             pierce: true
             pierceBuilding: true
-            recoil: 5
+            recoil: 2
             impact: true
             homingPower: 0.5
       }
