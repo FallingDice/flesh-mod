@@ -7,7 +7,7 @@ range: 120
 
 fogRadius: 80
 lightRadius: 80
-groundLayer: 65
+groundLayer: 70
 rotateSpeed: 1.6
 legCount: 6
 legContinuousMove: true
@@ -15,12 +15,15 @@ lockLegBase: true
 hovering: true
 
 legMaxLength: 1.2
+legMinLength: 0.2
+
 legLengthScl: 1.95
 legForwardScl: 2.1
+
 legExtension: -4
 legStraightness: 0.6
 legStraightLength: 0.9
-legBaseOffset: 7
+legBaseOffset: 6
 legLength: 18
 legSpeed: 0.5
 stepShake: 0.1
