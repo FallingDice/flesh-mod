@@ -1,4 +1,4 @@
-type: flying
+type: missile
 flying: false
 speed: 0
 rotateSpeed: 0

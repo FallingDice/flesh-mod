@@ -115,6 +115,7 @@ weapons: [
             pierceBuilding: true
             recoil: 5
             impact: true
+            homingPower: 0.5
       }
       parts: [
         {

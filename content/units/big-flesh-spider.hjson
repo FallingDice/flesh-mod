@@ -1,6 +1,7 @@
 type: legs
 flying: false
-health: 120
+health: 1200
+armor: 9
 speed: 1.5
 hitsize: 21
 range: 120
@@ -85,10 +86,6 @@ weapons: [
       reload: 400
       shootCone: 15
       shootSound: cannon
-      shoot: {
-            shots: 5
-            shotDelay: 15
-            }
       bullet: {
             type: BasicBulletType
             damage: 80
@@ -106,6 +103,7 @@ weapons: [
             pierceBuilding: true
             recoil: 10
             impact: true
+            homingPower: 0.8
       }
       parts: [
         {
