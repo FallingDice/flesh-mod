@@ -1,7 +1,7 @@
 type: flying
 flying: true
 health: 9999999
-speed: 0.1
+speed: 0.2
 hitsize: 100
 range: 300
 rotateSpeed: 0.4
@@ -9,6 +9,10 @@ rotateSpeed: 0.4
 accel: 1.3
 drag: 0.5
 
+mineSpeed: 3
+buildSpeed: 2
+mineTier: 3
+itemCapacity: 200
 drawCell: false
 engineSize: 0
 outlineColor: ff1744
