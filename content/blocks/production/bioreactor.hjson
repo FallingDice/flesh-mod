@@ -1,6 +1,6 @@
 type: GenericCrafter
 category: crafting
-health: 380
+health: 520
 size: 3
 
 drawer: {
@@ -28,37 +28,37 @@ drawer: {
 hasItems: true
 hasPower: true
 hasLiquids: true
-itemCapacity: 20
-liquidCapacity: 24
+itemCapacity: 40
+liquidCapacity: 48
 
 requirements: [
-  lead/40
-  metaglass/30
-  titanium/40
-  thorium/5
-  silicon/20
+  lead/80
+  metaglass/60
+  titanium/80
+  thorium/10
+  silicon/40
 ]
 
 consumes: {
   power: 5
   items: {
     items: [
-      scrap/1
-      spore-pod/2
+      scrap/2
+      spore-pod/4
     ]
   }
   liquid: {
         liquid: water
-        amount: 0.2
+        amount: 0.4
     }
 }
-outputItem: flesh/3
+outputItem: flesh/6
 outputLiquid : {
     liquid: blood
-    amount: 0.2
+    amount: 0.4
 }
 
-craftTime: 40
+craftTime: 120
 craftEffect: blastExplosion
 craftSound: drillImpact
 
