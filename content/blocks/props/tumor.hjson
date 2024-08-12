@@ -1,6 +1,6 @@
 type: Prop
 clipSize: 64
-damageTaken: 0.3
+damageTaken: 5
 customShadow: true
 blendGroup: flesh-floor
 
