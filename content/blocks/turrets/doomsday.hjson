@@ -92,5 +92,7 @@ consumes: {
     }
 }
 
+unitCapModifier: -3
+
 research: butcher
 researchCostMultiplier: 0.4
