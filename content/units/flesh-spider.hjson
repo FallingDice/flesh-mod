@@ -105,7 +105,7 @@ weapons: [
             speed: 10
             width: 5
             height: 9
-            lifetime: 60
+            lifetime: 40
             sprite: missile-large
             trailWidth: 2
             trailLength: 5
