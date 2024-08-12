@@ -79,10 +79,10 @@ weapons: [
         bullet: {
             type: SapBulletType
             damage: 4
-            speed: 1
+            speed: 1.5
             width: 1
             height: 1
-            lifetime: 10
+            lifetime: 15
             recoil: -0.05
             
             status: spore-slowed
