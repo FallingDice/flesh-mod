@@ -1,9 +1,9 @@
 type: ItemTurret
 category: turret
 health: 1000
-armor: 1
+armor: 2
 size: 3
-range: 800
+range: 600
 
 shootSound: missileLaunch
 chargeSound: lasercharge
@@ -25,21 +25,6 @@ minWarmup: 0.9
 warmupMaintainTime: 90
 heatColor: ff1744
 
-shoot: {
-  shots: 3
-  firstShotDelay: 60
-  shotDelay: 10
-}
-ammoTypes: {
- flesh: {
-    ammoMultiplier: 2
-    reloadMultiplier: 0.75
-    shootEffect: shootBig
-    smokeEffect: shootSmokeMissile
-    instantDisappear: true
-    damage: 0
-    spawnUnit: flesh-missile
-
     parts: [
         {
           type: shapePart
@@ -51,7 +36,6 @@ ammoTypes: {
           strokeTo: 1.5
           radiusTo: 3
           radius: 1
-          y: 3
         },
         {
           type: HaloPart
@@ -67,15 +51,30 @@ ammoTypes: {
           shapes: 4
           triLengthTo: 4
           triLength: 0
-          y: 3
         }
       ]
+
+shoot: {
+  shots: 2
+  firstShotDelay: 60
+  shotDelay: 10
+}
+ammoTypes: {
+ flesh: {
+    ammoMultiplier: 0.25
+    reloadMultiplier: 0.75
+    shootEffect: shootBig
+    smokeEffect: shootSmokeMissile
+    instantDisappear: true
+    damage: 0
+    spawnUnit: flesh-missile
+
   }
   spore-pod: {
     type: ArtilleryBulletType
     width: 7
     height: 9
-    speed: 3
+    speed: 8
     splashDamage: 40
     splashDamageRadius: 80
     status: spore-slowed
@@ -90,9 +89,9 @@ drawer: {
 consumes: {
   liquid: {
         liquid: blood
-        amount: 0.1
+        amount: 0.3
     }
 }
 
 research: butcher
-researchCostMultiplier: 0.3
+researchCostMultiplier: 0.4
