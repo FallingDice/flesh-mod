@@ -117,11 +117,11 @@ weapons: [
           stroke: 0
           strokeTo: 1.5
           radiusTo: 3
-          radius: 1
+          radius: 2
         },
         {
           type: HaloPart
-          radius: 1
+          radius: 2
           tri: true
           layer: 251
           color: ff6993
@@ -141,15 +141,15 @@ weapons: [
 abilities: [
     {
         type: SpawnDeathAbility
-        amount: 3
+        amount: 2
         spread: 20
         faceOutwards: true
-        unit: fleshnugget
+        unit: flesh-spider
     },
     {
         type: LiquidExplodeAbility
         liquid: blood
-        amount: 40
+        amount: 45
     },
     {
     type: MoveEffectAbility
@@ -174,6 +174,6 @@ research: {
     parent: flesh-hive
     requirements:
     [
-        {item: flesh, amount: 100}
+        {item: flesh, amount: 250}
     ]
 }
