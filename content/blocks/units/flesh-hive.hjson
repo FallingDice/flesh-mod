@@ -5,7 +5,7 @@ category: units
 size: 3
 health: 500
 
-craftTime: 30
+craftTime: 40
 unitCapModifier: 5
 
 requirements: [
@@ -55,4 +55,4 @@ consumes: {
 }
 
 research: flesh
-researchCostMultiplier: 0.3
+researchCostMultiplier: 0.4
