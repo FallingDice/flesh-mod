@@ -40,7 +40,7 @@ legMoveSpace: 1
 rippleScale: 0.8
 
   immunities: [
-    spore-slowed
+    spore-slowed, wet
   ]
 
 shadowElevation: 0.3
