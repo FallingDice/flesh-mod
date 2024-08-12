@@ -6,9 +6,9 @@ speed: 1.2
 hitsize: 12
 range: 120
 
-fogRadius: 80
+fogRadius: 60
 groundLayer: 74
-lightRadius: 80
+lightRadius: 60
 rotateSpeed: 3
 legCount: 4
 legContinuousMove: true
@@ -45,20 +45,20 @@ weapons: [
         mirror: false
         x: 0
         y: 0
-        reload: 20
+        reload: 30
         ejectEffect: casing1
         shootSound: pew
 
         bullet: {
             type: BasicBulletType
-            damage: 6
-            speed: 4.25
+            damage: 8
+            speed: 4
             width: 6
             height: 8
-            lifetime: 50
+            lifetime: 40
             sprite: missile-large
-            trailWidth: 3
-            trailLength: 4.6
+            trailWidth: 1
+            trailLength: 2
             trailColor: ff1744
             frontColor: ff0000
             backColor: f00000
@@ -78,7 +78,7 @@ weapons: [
 
         bullet: {
             type: SapBulletType
-            damage: 1
+            damage: 4
             speed: 1
             width: 1
             height: 1
@@ -114,7 +114,7 @@ weapons: [
             backColor: f00000
             pierce: true
             pierceBuilding: true
-            recoil: 2
+            recoil: 1
             impact: true
             homingPower: 0.5
       }
@@ -141,7 +141,7 @@ weapons: [
           haloRadiusTo: 3
           stroke: 0
           strokeTo: 2
-          shapes: 4
+          shapes: 3
           triLengthTo: 4
           triLength: 0
         }
@@ -158,6 +158,8 @@ weapons: [
       mirror: false
       reload: 250
       shootCone: 20
+
+//퓨즈 사운드로 교체요함
       shootSound: spark
       bullet: {
         width: 0
@@ -187,7 +189,7 @@ abilities: [
     {
         type: LiquidExplodeAbility
         liquid: blood
-        amount: 40
+        amount: 30
     },
     {
     type: MoveEffectAbility
