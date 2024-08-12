@@ -64,7 +64,7 @@ weapons: [
             backColor: f00000
             shootEffect: none
             smokeEffect: none
-            recoil: -0.05
+            recoil: -0.1
 
             status: spore-slowed
         }
@@ -114,7 +114,7 @@ weapons: [
             backColor: f00000
             pierce: true
             pierceBuilding: true
-            recoil: 1
+            recoil: 0.3
             impact: true
             homingPower: 0.5
       }
