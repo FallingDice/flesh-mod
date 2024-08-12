@@ -44,7 +44,7 @@ weapons: [
         trailColor: ff1744
         frontColor: ff0000
         backColor: f00000
-        recoil: 0.5
+        recoil: 0
         shootEffect: shootBig
         smokeEffect: shootBigSmoke
 
