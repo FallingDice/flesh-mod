@@ -96,7 +96,7 @@ weapons: [
       y: 0
       rotate: false
       mirror: false
-      reload: 250
+      reload: 300
       shootCone: 15
       shootSound: cannon
       bullet: {
@@ -156,7 +156,7 @@ weapons: [
       display: false
       rotate: false
       mirror: false
-      reload: 250
+      reload: 150
       shootCone: 20
 
 //퓨즈 사운드로 교체요함
