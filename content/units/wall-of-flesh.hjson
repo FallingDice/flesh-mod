@@ -4,11 +4,13 @@ health: 9999999
 speed: 0.1
 hitsize: 100
 range: 300
-rotateSpeed: 0.2
+rotateSpeed: 0.4
 
-accel: 0.08
-drag: 0.016
+accel: 1.3
+drag: 0.5
 
 drawCell: false
 engineSize: 0
 outlineColor: ff1744
+
+unitCapModifier: 20
