@@ -9,3 +9,5 @@ range: 80
 rotateSpeed: 0.7
 immunities: [wet, burning, spore-slowed]
 itemCapacity: 200
+
+crushDamage: 20
