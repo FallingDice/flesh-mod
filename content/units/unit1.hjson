@@ -85,7 +85,7 @@ weapons: [
       mirror: false
       reload: 250
       shootSound: cannon
-					inaccuracy: 70
+      inaccuracy: 70
       shoot: {
             shots: 20
             shotDelay: 5
