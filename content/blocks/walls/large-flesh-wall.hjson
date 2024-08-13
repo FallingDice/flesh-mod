@@ -8,8 +8,6 @@ requirements: [
   thorium/6
 ]
 
-healAmount: 5
-
 reload: 20
 shootSound: sap
 consumes: {}
@@ -29,7 +27,6 @@ shootType: {
   width: 1
   height: 1
   lifetime: 20
-   
 
   frontColor: ff0000
   backColor: df0000
