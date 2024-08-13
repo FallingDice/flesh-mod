@@ -1,0 +1,183 @@
+"키워드> 들어갈 수 있는 내용, 들어갈 수 있는 내용" 또다른 키워드
+"키워드:b" 불값
+"키워드:n" 숫자 f는 소수 가능
+"!키워드"는 긴 내용을 가진 함수를 포함하는 코드
+
+#유닛 구성 기본 요소
+type> mech, flying, legs, carwl, missile
+flying:b
+speed:nf
+health:n
+(armor):n
+hitSize:n
+range:n
+
+선택요소
+outlineColor
+rotateSpeed:nf
+lowAltitude:b
+immunities:[]> wet, burning, spore-slowed...
+mineSpeed:nf
+buildSpeed:nf
+mineTier:n
+itemCapacity:n
+
+drawCell:b
+fogRadius:n
+lightRadius:n
+groundLayer:n
+drownTimeMultiplier:nf
+
+불투명요소
+shadowElevation:nf
+circleTarget:b
+
+##공중유닛 기본요소
+flying: true
+accel:nf
+drag:nf
+
+선택요소
+engineSize:nf
+
+##다리유닛 기본요소
+legCount:n
+legContinuousMove: true
+hovering: true
+
+선택요소
+lockLegBase:b
+legMaxLength:nf
+legMinLength:nf
+
+legLengthScl:nf
+legForwardScl:nf
+
+legExtension:nf?
+legStraightness:nf
+legStraightLength:nf
+legBaseOffset:nf
+legLength:nf
+legSpeed:nf
+stepShake:nf
+legGroupSize:nf
+
+legSplashDamage:nf?
+legSplashRange:nf?
+legMoveSpace:nf
+rippleScale:nf
+
+##기는유닛 기본요소
+controller: HugAI
+omniMovement: false
+crushDamage:nf
+segments:n
+
+선택요소
+segmentScl:nf
+segmentPhase: nf
+segmentMag: nf
+
+##미사일유닛 기본요소
+
+선택요소
+
+#무기구성 기본요소[]
+name:str
+x:nf
+y:nf
+reload:n
+!bullet{}
+
+선택요소
+rotate:b
+mirror:b
+ejectEffect> 
+shootSound> 
+
+##총알구성 기본요소{}
+type> BasicBulletType, 
+damage:n
+speed:nf
+width:nf
+height:nf
+lifetime:n
+
+선택요소
+sprite> 
+shootCone:n(360)
+frontColor
+backColor
+status[]?> wet, burning, spore-slowed...
+
+trailWidth:nf
+trailLength:nf
+trailColor
+recoil:nf
+pierce:b
+pierceBuilding:b
+!parts[]
+
+shootWarmupSpeed:nf
+minWarmup:nf
+warmupMaintainTime:n
+shootEffect> 
+smokeEffect> 
+impact:b
+homingPower:nf
+homingDelay:nf
+homingRange:n
+
+##파츠구성 기본요소[]
+type> shapePart, HaloPart...
+radius:nf
+stroke:nf
+haloRadius:nf
+layer:n
+color
+
+선택요소
+hollow:b
+circle:b
+tri: b
+radiusTo:nf
+strokeTo:nf
+haloRadiusTo:nf
+shapes:n
+triLength:nf
+triLengthTo:nf
+
+#능력구성 요소[]
+type> RepairFieldAbility, MoveEffectAbility, SpawnDeathAbility,UnitSpawnAbility, LiquidExplodeAbility
+
+##리페어
+range:n
+amount:n
+reload:n
+
+##무브이펙
+x:nf
+y:nf
+effect> artilleryTrailSmoke
+color
+
+minVelocity:nf
+interval:nf?
+teamColor:b
+
+##스폰데스
+amount:n
+spread:n
+unit:str
+
+faceOutwards:b
+
+##유닛스폰
+unit:str
+spawnX:nf
+spawnY:nf
+spawnTime:n
+
+##액체폭발
+liquid:str
+amount:n

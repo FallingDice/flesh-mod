@@ -1,5 +1,6 @@
-dead 8/12
-pull github
+8.14 dead
+make u0-c1 sprite
+> (def), base, leg
 
 
 
@@ -11,7 +12,7 @@ pull github
 - 공성개체 abomination (건물파괴용)
 특성: 크기가 큼, 속도 0.2, 벽 통과 불가, 벽에 달라붙어 도트딜, 하이코스트 ArmorPlateAbility
 
-- 방어개체 taitan
+- 방어개체 gigant
 특성: 공성개체보다 작지만 크가가 큼, 속도 0.4, 공격기능x ShieldRegenFieldAbility
 
 - 방어개체2 flesh-lencer
