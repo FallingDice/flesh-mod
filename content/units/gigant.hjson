@@ -1,0 +1,7 @@
+type: mech
+flying: false
+speed: 0.2
+health: 10000
+armor: 50
+hitSize: 60
+range: 40
