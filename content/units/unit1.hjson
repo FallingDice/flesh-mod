@@ -88,7 +88,7 @@ weapons: [
       reload: 250
       shootCone: 15
       shootSound: cannon
-					inaccuracy: 35
+					inaccuracy: 70
       shoot: {
             shots: 20
             shotDelay: 5
