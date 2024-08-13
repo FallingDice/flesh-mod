@@ -46,13 +46,12 @@ weapons: [
 			    { 
       shootWarmupSpeed: 0.05
       minWarmup: 0.9
-      warmupMaintainTime: 90
       x: 0
       y: 0
       rotate: false
       mirror: false
       reload: 250
-      shootCone: 15
+      shootCone: 35
       shootSound: cannon
       inaccuracy: 35
       shoot: {
@@ -61,8 +60,8 @@ weapons: [
             }
       bullet: {
             type: BasicBulletType
-            damage: 1
-            speed: 5
+            damage: 5
+            speed: 6
             width: 6
             height: 8
             lifetime: 40
@@ -74,21 +73,17 @@ weapons: [
             backColor: f00000
             recoil: -0.1
             impact: true
-										homingDelay: 0.5
+										homingDelay: 0.3
             homingPower: 0.2
-            homingRange: 60
+            homingRange: 80
       }
 			},
     { 
-      shootWarmupSpeed: 0.04
-      minWarmup: 0.9
-      warmupMaintainTime: 90
       x: 0
       y: 0
       rotate: false
       mirror: false
       reload: 250
-      shootCone: 15
       shootSound: cannon
 					inaccuracy: 70
       shoot: {
@@ -97,7 +92,7 @@ weapons: [
             }
       bullet: {
             type: BasicBulletType
-            damage: 1
+            damage: 7
             speed: 0.7
             width: 5
             height: 5
@@ -107,7 +102,7 @@ weapons: [
             backColor: f00000
             impact: true
            		homingPower: 1
-										homingDelay: 1
+										homingDelay: 0.5
       }
       parts: [
         {
