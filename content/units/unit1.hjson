@@ -159,5 +159,30 @@ weapons: [
         speed: 0
         spawnUnit: small-flesh-missile
     }
+},
+    {  
+      shootWarmupSpeed: 0.05
+      minWarmup: 0.9
+      warmupMaintainTime: 90
+      x: 0
+      y: 0
+      display: false
+      rotate: false
+      mirror: false
+      reload: 250
+      shootCone: 20
+      shootSound: spark
+      bullet: {
+        width: 0
+        height: 0
+        speed: 8
+        lifetime: 5
+        despawnEffect: none
+        hitEffect: none
+        collides: false
+        damage: 0
+        recoil: 20
+        impact: true
+      }
 }
 ]
