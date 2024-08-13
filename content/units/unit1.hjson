@@ -9,7 +9,6 @@ range: 80
 
 outlineColor: ff1744
 
-circleTarget: true
 canBoost: true
 riseSpeed: 3
 rotationLimit: 15
@@ -57,7 +56,7 @@ weapons: [
       shootSound: cannon
       shoot: {
             shots: 20
-            shotDelay: 3
+            shotDelay: 5
             }
       bullet: {
             type: BasicBulletType
@@ -67,8 +66,8 @@ weapons: [
             height: 8
             lifetime: 35
             sprite: missile-large
-            trailWidth: 2
-            trailLength: 5
+            trailWidth: 3
+            trailLength: 3
             trailColor: ff1744
             frontColor: ff0000
             backColor: f00000
