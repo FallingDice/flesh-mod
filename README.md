@@ -46,3 +46,5 @@ edit missile ai
 
 0.73v - some bugfix & balance fetch
 
+0.74v - add new units
+
