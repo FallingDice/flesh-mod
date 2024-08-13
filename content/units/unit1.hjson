@@ -23,7 +23,7 @@ weapons: [
         y: 0
         reload: 400
         ejectEffect: casing1
-        shootSound: Artillery
+        shootSound: artillery
 
         bullet: {
             type: BasicBulletType
