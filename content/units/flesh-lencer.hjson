@@ -17,3 +17,4 @@ segments: 8
 segmentScl: 8
 segmentPhase: 8
 segmentMag: 0.5
+omniMovement: false
