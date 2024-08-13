@@ -73,9 +73,7 @@ weapons: [
             backColor: f00000
             recoil: -0.1
             impact: true
-										homingDelay: 0.3
-            homingPower: 0.2
-            homingRange: 80
+			        homingPower: 0.2
       }
 			},
     { 
