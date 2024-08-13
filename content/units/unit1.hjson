@@ -45,7 +45,7 @@ weapons: [
             homingPower: 0.8
         }
        },
-			    { 
+        { 
       shootWarmupSpeed: 0.05
       minWarmup: 0.9
       x: 0
@@ -137,7 +137,7 @@ weapons: [
         }
       ]
      },
-				{
+      {
     mirror: true
     rotate: true
     x: 0
