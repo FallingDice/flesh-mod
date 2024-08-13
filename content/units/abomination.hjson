@@ -11,3 +11,8 @@ immunities: [wet, burning, spore-slowed]
 itemCapacity: 600
 
 outlineColor: ff1744
+drawCell: false
+
+controller: HugAI
+crushDamage: 50
+segments: 2
