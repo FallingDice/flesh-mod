@@ -2,5 +2,6 @@
 
 circleTarget: true
 canBoost: true
-riseSpeed: 0.05F                                     
-rotationLimit: 15f
+riseSpeed: 0.2                                    
+rotationLimit: 15
+boostMultiplier: 5
