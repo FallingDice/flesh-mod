@@ -1,9 +1,9 @@
 type: carwl
 flying: false
-speed: 0.2
-health: 10000
-armor: 50
-hitSize: 60
-range: 40
+speed: 1.3
+health: 1000
+armor: 3
+hitSize: 10
+range: 80
 
 itemCapacity: 80
