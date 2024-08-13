@@ -32,7 +32,7 @@ weapons: [
     shootCone: 360
     bullet: {
         type: ExplosionBulletType
-        splashDamage: 50
+        splashDamage: 150
         splashDamageRadius: 40
         buildingDamageMultiplier: 0.5
         hitEffect: titanExplosion
