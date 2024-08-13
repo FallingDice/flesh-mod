@@ -10,3 +10,12 @@ mineSpeed: 5
 buildSpeed: 2
 mineTier: 3
 itemCapacity: 80
+
+outlineColor: ff1744
+drawCell: false
+
+controller: HugAI
+segments: 2
+segmentScl: 2
+segmentPhase: 2
+segmentMag: 0.5
