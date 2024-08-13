@@ -6,4 +6,7 @@ armor: 3
 hitSize: 10
 range: 80
 
+mineSpeed: 5
+buildSpeed: 2
+mineTier: 3
 itemCapacity: 80
