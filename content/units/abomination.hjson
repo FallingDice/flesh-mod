@@ -9,3 +9,5 @@ range: 40
 rotateSpeed: 0.5
 immunities: [wet, burning, spore-slowed]
 itemCapacity: 600
+
+outlineColor: ff1744
