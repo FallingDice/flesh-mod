@@ -1,5 +1,14 @@
 //부스팅 가능, 속도 매우 빠름, 공중상태 공격시 연발 미사일, 지상에서는 초고속 총탄 발사
 
+type: mech
+flying: false
+health: 400
+speed: 0.75
+hitsize: 10
+range: 80
+
+outlineColor: ff1744
+
 circleTarget: true
 canBoost: true
 riseSpeed: 0.2                                    
