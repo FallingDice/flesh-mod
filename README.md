@@ -44,5 +44,5 @@ edit missile ai
 
 0.71v - some bugfix
 
-0.72v - some bugfix & balance fetch
+0.73v - some bugfix & balance fetch
 
