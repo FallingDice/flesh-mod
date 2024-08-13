@@ -193,5 +193,15 @@ abilities: [
       range: 80
       amount: 200
       reload: 200
-    }
+    },
+    {
+    type: MoveEffectAbility
+    minVelocity: 5
+    x: 0
+    y: -0.4
+    effect: artilleryTrailSmoke
+    teamColor: false
+    color: ff1744
+    interval: 5
+  }
 ]
