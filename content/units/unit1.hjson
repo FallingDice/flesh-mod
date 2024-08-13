@@ -74,6 +74,8 @@ weapons: [
             backColor: f00000
             recoil: -0.2
             impact: true
+           		homingPower: 0.5
+            homingRange: 30
       }
       parts: [
         {
