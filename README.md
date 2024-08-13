@@ -43,3 +43,6 @@ edit missile ai
 0.7v - add spider units
 
 0.71v - some bugfix
+
+0.72v - some bugfix & balance fetch
+
