@@ -44,7 +44,7 @@ weapons: [
             pierce: true
             homingPower: 0.8
         }
-    },
+       },
 			    { 
       shootWarmupSpeed: 0.05
       minWarmup: 0.9
@@ -77,7 +77,7 @@ weapons: [
             impact: true
             homingPower: 0.2
       }
-			},
+   },
     { 
       x: 0
       y: 0
@@ -105,9 +105,9 @@ weapons: [
             backColor: f00000
             impact: true
             pierce: true
-           		homingPower: 1
-										homingDelay: 0.5
-      }
+            homingPower: 1
+            homingDelay: 0.5
+        }
       parts: [
         {
           type: shapePart
