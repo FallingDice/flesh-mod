@@ -19,3 +19,21 @@ segments: 2
 segmentScl: 2
 segmentPhase: 2
 segmentMag: 0.5
+
+abilities: [
+    {
+        type: LiquidExplodeAbility
+        liquid: blood
+        amount: 20
+    },
+    {
+        type: UnitSpawnAbility
+        unit: cancer
+        spawnX: 0
+        spawnY: 0
+        spawnTime: 3600
+    },
+    {
+        type: 
+    }
+]
