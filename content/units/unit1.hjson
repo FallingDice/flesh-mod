@@ -2,7 +2,8 @@
 
 type: mech
 flying: false
-health: 400
+health: 1000
+armor: 10
 speed: 0.5
 hitsize: 10
 range: 60
@@ -25,7 +26,7 @@ weapons: [
 
         bullet: {
             type: BasicBulletType
-            damage: 3
+            damage: 10
             speed: 4
             width: 12
             height: 16
@@ -41,7 +42,7 @@ weapons: [
             recoil: -0.05
             status: spore-slowed
             pierce: true
-           		homingPower: 1
+           		homingPower: 0.8
         }
     },
 			    { 
