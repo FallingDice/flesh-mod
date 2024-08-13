@@ -42,7 +42,7 @@ weapons: [
             recoil: -0.05
             status: spore-slowed
             pierce: true
-           		homingPower: 0.8
+            homingPower: 0.8
         }
     },
 			    { 
@@ -75,7 +75,7 @@ weapons: [
             backColor: f00000
             recoil: -0.1
             impact: true
-			        homingPower: 0.2
+            homingPower: 0.2
       }
 			},
     { 
@@ -136,7 +136,7 @@ weapons: [
           triLength: 0
         }
       ]
-    },
+     },
 				{
     mirror: true
     rotate: true
@@ -146,7 +146,7 @@ weapons: [
     reload: 500
     smoothReloadSpeed: 0.15
     shootSound: missileLaunch
-				shoot: {
+    shoot: {
             shots: 6
             shotDelay: 15
             }
