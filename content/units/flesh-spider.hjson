@@ -118,6 +118,7 @@ weapons: [
             recoil: 0.3
             impact: true
             homingPower: 0.5
+            homingRange: 60
       }
       parts: [
         {
