@@ -26,6 +26,6 @@ abilities: [
         amount: 45
     },
     {
-        type: 
+        type: ShieldRegenFieldAbility
     }
 ]
