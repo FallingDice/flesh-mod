@@ -7,3 +7,13 @@ range: 160
 
 rotateSpeed: 0.3
 itemCapacity: 60
+
+outlineColor: ff1744
+drawCell: false
+
+controller: HugAI
+crushDamage: 5
+segments: 8
+segmentScl: 8
+segmentPhase: 8
+segmentMag: 0.5
