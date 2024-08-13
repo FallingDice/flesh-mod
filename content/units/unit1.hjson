@@ -3,7 +3,7 @@
 type: mech
 flying: false
 health: 400
-speed: 0.75
+speed: 0.5
 hitsize: 10
 range: 80
 
@@ -11,7 +11,7 @@ outlineColor: ff1744
 
 circleTarget: true
 canBoost: true
-riseSpeed: 0.2
+riseSpeed: 3
 rotationLimit: 15
 boostMultiplier: 5
 
@@ -57,7 +57,7 @@ weapons: [
       shootSound: cannon
       shoot: {
             shots: 20
-            shotDelay: 15
+            shotDelay: 3
             }
       bullet: {
             type: BasicBulletType
