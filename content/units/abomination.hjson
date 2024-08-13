@@ -19,3 +19,18 @@ segments: 2
 segmentScl: 2
 segmentPhase: 2
 segmentMag: 0.5
+
+abilities: [
+    {
+        type: SpawnDeathAbility
+        amount: 5
+        spread: 40
+        faceOutwards: true
+        unit: cancer
+    },
+    {
+        type: LiquidExplodeAbility
+        liquid: blood
+        amount: 80
+    }
+]
