@@ -186,3 +186,9 @@ weapons: [
       }
 }
 ]
+
+abilities: [
+    {
+        type: LiquidExplodeAbili
+    }
+]
