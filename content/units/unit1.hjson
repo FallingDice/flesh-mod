@@ -196,7 +196,7 @@ abilities: [
     },
     {
     type: MoveEffectAbility
-    minVelocity: 3
+    minVelocity: 1
     x: 0
     y: -0.4
     effect: artilleryTrailSmoke
