@@ -16,3 +16,6 @@ drawCell: false
 controller: HugAI
 crushDamage: 50
 segments: 2
+segmentScl: 2
+segmentPhase: 2
+segmentMag: 0.5
