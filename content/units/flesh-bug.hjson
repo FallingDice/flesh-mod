@@ -81,7 +81,6 @@ weapons: [
       ]
 },
 {
-    name: none
     mirror: true
     rotate: true
     x: 5
