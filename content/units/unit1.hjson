@@ -1,5 +1,6 @@
 //부스팅 가능, 속도 매우 빠름, 공중상태 공격시 연발 미사일, 지상에서는 초고속 총탄 발사
 
+name: C1
 type: mech
 flying: false
 health: 1000
