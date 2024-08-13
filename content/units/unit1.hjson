@@ -10,7 +10,7 @@ range: 80
 outlineColor: ff1744
 
 canBoost: true
-riseSpeed: 3
+riseSpeed: 0.05
 rotationLimit: 15
 boostMultiplier: 5
 
