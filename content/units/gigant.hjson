@@ -11,3 +11,21 @@ immunities: [wet, burning, spore-slowed]
 itemCapacity: 200
 
 crushDamage: 20
+
+abilities: [
+    {
+        type: SpawnDeathAbility
+        amount: 3
+        spread: 30
+        faceOutwards: true
+        unit: cancer
+    },
+    {
+        type: LiquidExplodeAbility
+        liquid: blood
+        amount: 45
+    },
+    {
+        type: 
+    }
+]
