@@ -32,5 +32,8 @@ abilities: [
         type: LiquidExplodeAbility
         liquid: blood
         amount: 80
+    },
+    {
+        type: 
     }
 ]
