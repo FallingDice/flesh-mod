@@ -102,6 +102,7 @@ weapons: [
             frontColor: ff0000
             backColor: f00000
             impact: true
+            pierce: true
            		homingPower: 1
 										homingDelay: 0.5
       }
