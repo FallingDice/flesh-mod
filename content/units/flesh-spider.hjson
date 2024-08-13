@@ -38,7 +38,7 @@ drawCell: false
 outlineColor: ff1744
 
   immunities: [
-    spore-slowed
+    spore-slowed, wet
   ]
 
 weapons: [
