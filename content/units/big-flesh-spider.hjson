@@ -57,10 +57,6 @@ weapons: [
         reload: 100
         ejectEffect: casing1
         shootSound: cannon
-
-						//add new
-						rotationLimit: 35
-
         bullet: {
             type: BasicBulletType
             damage: 30
