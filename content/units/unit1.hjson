@@ -163,24 +163,23 @@ weapons: [
     {  
       shootWarmupSpeed: 0.05
       minWarmup: 0.9
-      warmupMaintainTime: 90
       x: 0
       y: 0
       display: false
       rotate: false
       mirror: false
       reload: 250
-      shootCone: 20
+      shootCone: 40
       shootSound: spark
       bullet: {
-        width: 0
-        height: 0
-        speed: 8
-        lifetime: 5
+						type: 
+        width: 4
+        height: 6
+        speed: 6
+        lifetime: 30
         despawnEffect: none
         hitEffect: none
-        collides: false
-        damage: 0
+        damage: 60
         recoil: 20
         impact: true
       }
