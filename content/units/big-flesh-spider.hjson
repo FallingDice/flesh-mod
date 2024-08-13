@@ -6,9 +6,6 @@ speed: 1
 hitsize: 21
 range: 120
 
-//add new
-rotationLimit: 15
-
 fogRadius: 80
 lightRadius: 80
 groundLayer: 75
@@ -60,6 +57,9 @@ weapons: [
         reload: 100
         ejectEffect: casing1
         shootSound: cannon
+
+						//add new
+						rotationLimit: 35
 
         bullet: {
             type: BasicBulletType
