@@ -5,3 +5,5 @@ health: 10000
 armor: 50
 hitSize: 60
 range: 40
+
+itemCapacity: 80
