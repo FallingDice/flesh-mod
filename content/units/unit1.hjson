@@ -190,13 +190,13 @@ weapons: [
 abilities: [
     {
         type: RepairFieldAbility
-      range: 80
-      amount: 200
-      reload: 200
+      range: 40
+      amount: 100
+      reload: 300
     },
     {
     type: MoveEffectAbility
-    minVelocity: 5
+    minVelocity: 3
     x: 0
     y: -0.4
     effect: artilleryTrailSmoke
