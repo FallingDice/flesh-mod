@@ -189,6 +189,9 @@ weapons: [
 
 abilities: [
     {
-        type: LiquidExplodeAbili
+        type: RepairFieldAbility
+      range: 80
+      amount: 200
+      reload: 200
     }
 ]
