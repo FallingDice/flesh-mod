@@ -5,3 +5,7 @@ health: 10000
 armor: 50
 hitSize: 60
 range: 40
+
+rotateSpeed: 0.5
+immunities: [wet, burning, spore-slowed]
+itemCapacity: 600
