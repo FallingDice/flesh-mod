@@ -7,9 +7,7 @@ hitSize: 60
 range: 40
 
 rotateSpeed: 0.5
-immunities: [
-      wet, spore-slowed
-            ]
+immunities: [wet, burning, spore-slowed]
 itemCapacity: 600
 
 outlineColor: ff1744
@@ -21,7 +19,7 @@ segments: 2
 segmentScl: 2
 segmentPhase: 2
 segmentMag: 0.5
-//knockback: 0.5
+knockback: 0.5
 
 abilities: [
     {
