@@ -22,10 +22,10 @@ weapons: [
         x: 4
         y: 0
         reload: 20
-        shootSound: sap
+        shootSound: pew
 
         bullet: {
-            type: SapBulletType
+            type: BasicBulletType
             damage: 10
             speed: 1
             width: 1
