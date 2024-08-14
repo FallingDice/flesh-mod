@@ -12,7 +12,7 @@ isFirstTier: true
 squareSprite: false
 alwaysUnlocked: true
 
-unitType: alpha
+unitType: mind-dominator
 
 unitCapModifier: 100
 research: {

@@ -1,6 +1,6 @@
 planet: vermillion
 sector: 16
-difficulty: 8
+difficulty: 10
 research: {
   parent: first-encounter
   objectives: [

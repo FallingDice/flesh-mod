@@ -1,0 +1,22 @@
+alwaysUnlocked: true
+
+type: flying
+flying: true
+health: 100
+speed: 3
+hitSize: 8
+
+accel: 0.3
+drag: 0.2
+
+mineSpeed: 3
+buildSpeed: 1
+mineTier: 1
+itemCapacity: 100
+drawCell: false
+engineSize: 0
+outlineColor: ff1744
+
+mineFloor: true
+mineWalls: true
+isEnemy: false

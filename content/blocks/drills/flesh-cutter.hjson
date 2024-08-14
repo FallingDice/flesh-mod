@@ -1,0 +1,23 @@
+type: Drill
+category: production
+size: 2
+health: 80
+itemCapacity: 10
+tier: 2
+drillTime: 200
+
+requirements: [
+      flesh/24
+]
+
+consumes: {
+    liquid: {
+      liquid: blood
+      amount: 0.018
+      optional: true
+      booster: true
+    }
+  }
+
+research: flesh
+researchCostMultiplier: 0.5

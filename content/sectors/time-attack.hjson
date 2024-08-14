@@ -1,7 +1,7 @@
 planet: vermillion
 sector: 7
 research: core-aggregate
-difficulty: 6
+difficulty: 7
 alwaysUnlocked: true
 
 attackAfterWaves: true

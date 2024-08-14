@@ -18,4 +18,4 @@ capPuddles: false
 moveThroughBlocks: true
 gasColor: dddddd
 
-research: flesh
+research: core-aggregate

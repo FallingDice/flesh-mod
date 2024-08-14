@@ -119,7 +119,7 @@ prebuildBase: false
 
 launchCandidates: []
 itemWhitelist: [
-    flesh
+    flesh, water
 ]
 
 updateLighting: true
