@@ -3,7 +3,7 @@ flying: false
 health: 2200
 armor: 3
 speed: 1
-hitsize: 40
+hitSize: 40
 range: 120
 
 fogRadius: 80
