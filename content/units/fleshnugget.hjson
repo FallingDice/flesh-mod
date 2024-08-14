@@ -17,7 +17,6 @@ circleTarget: true
 
 weapons: [
     {
-        name: none
         rotate: true
         mirror: false
         x: 0
