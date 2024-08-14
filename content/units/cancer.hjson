@@ -20,7 +20,7 @@ defaultCommand: UnitCommand.rebuildCommand
 weapons: [
     {
         rotate: true
-        x: 0
+        x: 4
         y: 0
         reload: 20
         shootSound: sap
