@@ -26,7 +26,6 @@ abilities: [
         type: SpawnDeathAbility
         amount: 5
         spread: 40
-        faceOutwards: true
         unit: cancer
     },
     {
