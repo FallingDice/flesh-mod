@@ -16,6 +16,8 @@ engineSize: 0
 outlineColor: ff1744
 lowAltitude: true
 
+targetFlags: [provides, core]
+
 weapons: [
     {
         rotate: true
