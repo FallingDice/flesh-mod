@@ -7,13 +7,11 @@ hitSize: 60
 range: 80
 
 rotateSpeed: 0.7
-immunities: [
-        wet, spore-slowed
-      ]
+immunities: [wet, spore-slowed]
 itemCapacity: 200
 
 crushDamage: 20
-//knockback: 0.3
+knockback: 0.3
 
 abilities: [
     {
