@@ -22,10 +22,10 @@ weapons: [
         x: 4
         y: 0
         reload: 20
-        shootSound: pew
+        shootSound: sap
 
         bullet: {
-            type: BasicBulletType
+            type: SapBulletType
             damage: 10
             speed: 1
             width: 1
@@ -33,7 +33,7 @@ weapons: [
             lifetime: 10
             healPercent: 3.5
             collidesTeam: true
-            status: [wet, spore-slowed]
+            status: spore-slowed
         }
     }
 ]
