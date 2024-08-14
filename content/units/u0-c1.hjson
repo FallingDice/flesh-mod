@@ -44,6 +44,7 @@ weapons: [
             status: spore-slowed
             pierce: true
             homingPower: 0.8
+            keepVelocity: false
         }
        },
         { 
@@ -77,6 +78,7 @@ weapons: [
             recoil: -0.1
             impact: true
             homingPower: 0.2
+            keepVelocity: false
       }
    },
     { 
@@ -108,6 +110,7 @@ weapons: [
             pierce: true
             homingPower: 1
             homingDelay: 0.5
+            keepVelocity: false
         }
       parts: [
         {
