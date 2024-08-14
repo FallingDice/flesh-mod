@@ -4,7 +4,7 @@
 "!키워드"는 긴 내용을 가진 함수를 포함하는 코드
 
 #유닛 구성 기본 요소
-type> mech, flying, legs, carwl, missile
+type> mech, flying, legs, crawl, missile
 flying:b
 speed:nf
 health:n
