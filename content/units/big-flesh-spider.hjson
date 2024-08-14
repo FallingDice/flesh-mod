@@ -1,6 +1,6 @@
 type: legs
 flying: false
-health: 1200
+health: 2200
 armor: 3
 speed: 1
 hitsize: 40
