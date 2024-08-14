@@ -46,3 +46,17 @@ research: {
         {item: thorium, amount: 50}
     ]
 }
+
+abilities: [
+    {
+        type: LiquidExplodeAbility
+        liquid: blood
+        amount: 20
+    },
+    {
+        type: RepairFieldAbility
+      range: 80
+      amount: 40
+      reload: 300
+    }
+]
