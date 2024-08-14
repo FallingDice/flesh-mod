@@ -15,7 +15,7 @@ outlineColor: ff1744
 drawCell: false
 
 controller: HugAI
-//defaultCommand: UnitCommand.rebuildCommand
+defaultCommand: UnitCommand.rebuildCommand
 
 weapons: [
     {
