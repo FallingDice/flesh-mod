@@ -16,7 +16,7 @@ engineSize: 0
 outlineColor: ff1744
 lowAltitude: true
 
-targetFlags: [battery, storage, core]
+targetFlags: [factory, battery, storage, core]
 
 weapons: [
     {
