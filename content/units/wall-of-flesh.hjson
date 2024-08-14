@@ -17,3 +17,14 @@ itemCapacity: 200
 drawCell: false
 engineSize: 0
 outlineColor: ff1744
+knockback: 0.3
+
+abilities: [
+{
+        type: ShieldRegenFieldAbility
+        range: 80
+        amount: 40
+        reload: 300
+        max:200
+    }
+]
