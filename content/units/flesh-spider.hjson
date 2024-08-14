@@ -49,7 +49,7 @@ weapons: [
         x: 0
         y: 0
         reload: 30
-        ejectEffect: casing1
+        ejectEffect: casing2
         shootSound: pew
 
         bullet: {
@@ -82,10 +82,9 @@ weapons: [
         bullet: {
             type: SapBulletType
             damage: 4
-            speed: 1.5
             width: 1
             height: 1
-            lifetime: 15
+            lifetime: 20
             recoil: -0.05
             
             status: spore-slowed
