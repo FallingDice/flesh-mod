@@ -16,8 +16,8 @@ unitType: 17q-01-zeta
 
 unitCapModifier: 100
 research: {
-  planet: 
+  planet: vermillion
   root: true
-  name: 
+  name: vermillion
   requiresUnlock: false
 }

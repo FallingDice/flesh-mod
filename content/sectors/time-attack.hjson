@@ -1,0 +1,9 @@
+planet: vermillion
+sector: 7
+research: core-aggregate
+difficulty: 6
+alwaysUnlocked: true
+
+attackAfterWaves: true
+
+//도전, 이벤트 구역

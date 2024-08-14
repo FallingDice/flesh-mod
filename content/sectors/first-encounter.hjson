@@ -1,0 +1,9 @@
+planet: vermillion
+sector: 0
+research: core-aggregate
+difficulty: 1
+alwaysUnlocked: true
+
+captureWave: 15
+
+//첫번째 구역
