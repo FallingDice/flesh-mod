@@ -1,6 +1,6 @@
 type: wall
 size: 1
-health: 60 * wallHealthMultiplier
+health: 600
 category: defense
 requirements: [
   flesh/6
