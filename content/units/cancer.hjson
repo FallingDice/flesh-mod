@@ -17,6 +17,29 @@ drawCell: false
 controller: HugAI
 defaultCommand: UnitCommand.rebuildCommand
 
+weapons: [
+    {
+        rotate: true
+        x: 0
+        y: 0
+        reload: 20
+        shootSound: sap
+
+        bullet: {
+            type: SapBulletType
+            damage: 10
+            speed: 1
+            width: 1
+            height: 1
+            lifetime: 10
+            healPercent: 3.5
+            collidesTeam: true
+
+            status: spore-slowed
+        }
+    }
+]
+
 abilities: [
     {
         type: LiquidExplodeAbility
