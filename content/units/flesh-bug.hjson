@@ -11,6 +11,7 @@ range: 120
 outlineColor: ff1744
 drawBody: false
 drawCell: false
+shadowElevation: 0.3
 
 controller: HugAI
 omniMovement: false

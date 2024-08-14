@@ -6,7 +6,7 @@ flying: false
 health: 1000
 armor: 10
 speed: 0.5
-hitSize: 10
+hitSize: 8
 range: 60
 
 outlineColor: ff1744

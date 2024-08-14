@@ -11,7 +11,7 @@ engineSize: 0.5
 engineOffset: 2.5
 lifetime: 200
 rotateSpeed: 0.3
-hitSize: 3
+hitSize: 6
 trailLength: 15
 homingDelay: 0.1
 health: 100

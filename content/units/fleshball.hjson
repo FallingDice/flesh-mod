@@ -4,7 +4,7 @@ type: flying
 flying: true
 health: 120
 speed: 2.5
-hitSize: 12
+hitSize: 9
 range: 120
 
 accel: 0.16

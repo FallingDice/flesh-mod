@@ -48,3 +48,4 @@ edit missile ai
 
 0.74v - add new units
 
+0.741v - size bugfix

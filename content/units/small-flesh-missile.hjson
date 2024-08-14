@@ -9,7 +9,7 @@ useUnitCap: false
 engineSize: 0.3
 engineOffset: 2.5
 lifetime: 200
-hitSize: 2
+hitSize: 3
 rotateSpeed: 4
 trailLength: 5
 homingDelay: 0.2
