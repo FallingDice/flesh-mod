@@ -1,9 +1,15 @@
 type: wall
 size: 1
-health: 600
+health: 60 * 
 category: defense
 requirements: [
   flesh/6
 ]
+
+insulated: true
+absorbLasers: true
+schematicPriority: 10
+chanceDeflect: 10
+flashHit: true
 
 research: flesh
