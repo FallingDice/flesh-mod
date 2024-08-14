@@ -32,9 +32,8 @@ weapons: [
             width: 1
             height: 1
             lifetime: 10
-            healPercent: 3.5
-            collidesTeam: true
-
+            //healPercent: 3.5
+            //collidesTeam: true
             status: spore-slowed
         }
     }
@@ -48,7 +47,7 @@ abilities: [
     },
     {
         type: UnitSpawnAbility
-        unit: cancer
+        unit: fleshnugget
         spawnX: 0
         spawnY: 0
         spawnTime: 3600
