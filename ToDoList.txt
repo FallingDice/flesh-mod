@@ -1,9 +1,21 @@
-8.14 dead
+8.15 dead
 make u0-c1 sprite
 > (def), base, leg
 
+drill sprite 제작
 
+core spprite 제작
 
+코어유닛 스프라이트 제작
+
+남은 두맵, 환경조성 및 기지건설 까지 완료하기
+
+첫번째맵 목표 추가
+
+8.16 dead
+번들 손보기
+
+스프라이트 없는 각 유닛의 틀만 잡아놓기
 
 
 아이디어 노트
