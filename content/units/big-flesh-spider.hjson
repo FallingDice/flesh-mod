@@ -144,7 +144,6 @@ abilities: [
         type: SpawnDeathAbility
         amount: 2
         spread: 20
-        faceOutwards: true
         unit: flesh-spider
     },
     {
