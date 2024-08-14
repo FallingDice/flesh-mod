@@ -24,7 +24,7 @@ weapons: [
         reload: 20
         shootSound: sap
 
-        bullets: {
+        bullet: {
             type: SapBulletType
             damage: 10
             speed: 1
