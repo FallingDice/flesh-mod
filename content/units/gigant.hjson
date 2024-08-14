@@ -13,6 +13,7 @@ immunities: [
 itemCapacity: 200
 
 crushDamage: 20
+//knockback: 0.3
 
 abilities: [
     {
