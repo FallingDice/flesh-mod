@@ -1,5 +1,5 @@
 name: the worm
-type: carwl
+type: crawl
 flying: false
 speed: 1.5
 health: 25000
