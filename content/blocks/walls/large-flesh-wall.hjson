@@ -46,17 +46,3 @@ research: {
         {item: thorium, amount: 50}
     ]
 }
-
-abilities: [
-    {
-        type: SpawnDeathAbility
-        amount: 3
-        spread: 20
-        unit: fleshnugget
-    },
-    {
-        type: LiquidExplodeAbility
-        liquid: blood
-        amount: 30
-    }
-]
