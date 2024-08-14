@@ -30,10 +30,9 @@ weapons: [
         bullet: {
             type: SapBulletType
             damage: 10
-            speed: 5
             width: 1
             height: 1
-            lifetime: 20
+            lifetime: 45
             healPercent: 3.5
             collidesTeam: true
           }
