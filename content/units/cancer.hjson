@@ -1,3 +1,4 @@
+type: crawl
 hovering: true
 flying: false
 speed: 2.3
