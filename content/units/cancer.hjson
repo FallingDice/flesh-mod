@@ -24,7 +24,7 @@ weapons: [
         reload: 20
         shootSound: sap
 
-        bullet: {
+        bullets: {
             type: SapBulletType
             damage: 10
             speed: 1
@@ -33,8 +33,7 @@ weapons: [
             lifetime: 10
             healPercent: 3.5
             collidesTeam: true
-            status: spore-slowed
-        }
+          }
     }
 ]
 
