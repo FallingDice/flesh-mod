@@ -13,6 +13,7 @@ hitSize:n
 range:n
 
 선택요소
+engineOffset:nf
 outlineColor
 rotateSpeed:nf
 lowAltitude:b
