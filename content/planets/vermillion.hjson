@@ -122,8 +122,8 @@ itemWhitelist: [
     flesh
 ]
 
-updateLighting = true
+updateLighting: true
 defaultCore: core-aggregate
 parent: sun
 solarSystem: sun
-sectorSeed = 13743
+sectorSeed: 13743

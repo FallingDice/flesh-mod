@@ -12,7 +12,7 @@ isFirstTier: true
 squareSprite: false
 alwaysUnlocked: true
 
-unitType: 17q-01-zeta
+unitType: alpha
 
 unitCapModifier: 100
 research: {
