@@ -82,7 +82,7 @@ cloudMesh: [
 generator: {
   octaves: 3
   persistence: 0.52
-  scale: 22
+  scale: 40
   mag: 0.721
   thresh: 1.152
   min: 100
@@ -94,7 +94,7 @@ generator: {
   berylChance: 0
   ferricChance: 0.26
 }
-sectorSize: 1
+sectorSize: 2
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
