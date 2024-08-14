@@ -55,6 +55,7 @@ weapons: [
         x: 10
         y: 0
         reload: 100
+        shootCone: 30
         ejectEffect: casing1
         shootSound: cannon
         bullet: {

@@ -8,13 +8,6 @@ requirements: [
   thorium/6
 ]
 
-insulated: true
-absorbLasers: true
-schematicPriority: 10
-chanceDeflect: 10
-flashHit: true
-lightningChance: 0.05
-
 reload: 20
 shootSound: sap
 consumes: {}

@@ -4,7 +4,7 @@ type: crawl
 flying: false
 health: 40
 speed: 3
-hitSize: 4
+hitSize: 6
 range: 100
 
 outlineColor: ff1744

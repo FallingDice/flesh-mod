@@ -11,5 +11,6 @@ absorbLasers: true
 schematicPriority: 10
 chanceDeflect: 10
 flashHit: true
+lightningChance: 0.05
 
 research: flesh
