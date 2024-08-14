@@ -25,36 +25,6 @@ minWarmup: 0.9
 warmupMaintainTime: 90
 heatColor: ff1744
 
-    parts: [
-        {
-          type: shapePart
-          hollow: true
-          circle: true
-          layer: effect
-          color: ff6993
-          stroke: 0
-          strokeTo: 1.5
-          radiusTo: 3
-          radius: 1
-          y: haloY
-        },
-        {
-          type: HaloPart
-          radius: 1
-          tri: true
-          layer: effect
-          color: ff6993
-          haloRotateSpeed: 1.3
-          haloRadius: 3
-          haloRadiusTo: 3
-          stroke: 0
-          strokeTo: 2
-          shapes: 4
-          triLengthTo: 4
-          triLength: 0
-        }
-      ]
-
 shoot: {
   shots: 2
   firstShotDelay: 60
@@ -85,6 +55,35 @@ ammoTypes: {
 drawer: {
   type: DrawTurret
   basePrefix: -base
+    parts: [
+        {
+          type: shapePart
+          hollow: true
+          circle: true
+          layer: effect
+          color: ff6993
+          stroke: 0
+          strokeTo: 1.5
+          radiusTo: 3
+          radius: 1
+          y: haloY
+        },
+        {
+          type: HaloPart
+          radius: 1
+          tri: true
+          layer: effect
+          color: ff6993
+          haloRotateSpeed: 1.3
+          haloRadius: 3
+          haloRadiusTo: 3
+          stroke: 0
+          strokeTo: 2
+          shapes: 4
+          triLengthTo: 4
+          triLength: 0
+        }
+      ]
 }
 
 consumes: {
