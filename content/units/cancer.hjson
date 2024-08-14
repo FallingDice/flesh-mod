@@ -33,6 +33,7 @@ weapons: [
             lifetime: 10
             healPercent: 3.5
             collidesTeam: true
+            baseRotation: -15
           }
     }
 ]
