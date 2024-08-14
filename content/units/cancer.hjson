@@ -15,7 +15,7 @@ outlineColor: ff1744
 drawCell: false
 
 controller: HugAI
-defaultCommand: UnitCommand.rebuildCommand
+//defaultCommand: UnitCommand.rebuildCommand
 
 weapons: [
     {
@@ -35,7 +35,7 @@ weapons: [
             healPercent: 3.5
             collidesTeam: true
 
-            status: [spore-slowed, wet]
+            status: spore-slowed
         }
     }
 ]
