@@ -100,7 +100,7 @@ allowLaunchToNumbered: false
 allowLaunchLoadout: false
 allowSectorInvasion: false
 startSector: 0
-tidalLock = true
+tidalLock: true
 orbitSpacing: 3
 radius: 1.2
 minZoom: 1.5
