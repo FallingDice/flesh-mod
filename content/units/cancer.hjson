@@ -1,4 +1,4 @@
-type: crawl
+hovering: true
 flying: false
 speed: 2.3
 health: 1000
@@ -10,6 +10,8 @@ mineSpeed: 3
 buildSpeed: 2
 mineTier: 3
 itemCapacity: 80
+shadowElevation: 0.1
+useEngineElevation: false
 
 outlineColor: ff1744
 drawCell: false
