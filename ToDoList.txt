@@ -44,3 +44,18 @@ ex. 총 발사 후, 앞으로 돌진 레이저
 웜업<-유력후보
 
 리로드
+
+abilities: [
+    {
+        type: LiquidExplodeAbility
+        liquid: blood
+        amount: 20
+    },
+    {
+        type: RepairFieldAbility
+      range: 80
+      amount: 40
+      reload: 300
+    }
+]
+어빌리티를 포탑에 적용시키면 어케될까
