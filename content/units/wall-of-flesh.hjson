@@ -1,6 +1,7 @@
 type: flying
 flying: true
 health: 9999999
+armor: 200
 speed: 0.2
 hitsize: 100
 range: 300
