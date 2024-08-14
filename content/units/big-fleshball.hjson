@@ -5,7 +5,7 @@ flying: true
 health: 1530
 armor: 2
 speed: 1.5
-hitsize: 50
+hitSize: 24
 range: 160
 
 accel: 0.2
@@ -24,7 +24,7 @@ weapons: [
         x: 10
         y: 0
         reload: 25
-        ejectEffect: casing1
+        ejectEffect: casing2
         shootSound: shoot
 
         shoot: {
@@ -90,6 +90,7 @@ weapons: [
       reload: 200
       shootCone: 20
       shootStatus: overdrive
+      
       shootSound: laser
       bullet: {
             type: LaserBulletType
