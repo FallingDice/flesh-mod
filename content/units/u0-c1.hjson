@@ -69,7 +69,7 @@ weapons: [
             width: 6
             height: 8
             lifetime: 30
-            sprite: missile-large
+            sprite: large-orb
             trailWidth: 1
             trailLength: 3
             trailColor: ff1744

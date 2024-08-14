@@ -43,9 +43,8 @@ weapons: [
 abilities: [
     {
         type: SpawnDeathAbility
-        amount: 3
+        randAmount: 3
         spread: 20
-        faceOutwards: true
         unit: fleshball
     },
     {
