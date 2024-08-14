@@ -5,7 +5,6 @@
 
 #유닛 구성 기본 요소
 type> mech, flying, legs, crawl, missile
-flying:b
 speed:nf
 health:n
 (armor):n
