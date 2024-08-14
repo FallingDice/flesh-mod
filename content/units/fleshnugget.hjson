@@ -1,6 +1,5 @@
 name: Flesh Nugget
 description: seed of disaster.
-type: crawl
 flying: false
 health: 40
 speed: 3
