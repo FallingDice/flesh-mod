@@ -62,6 +62,7 @@ shoot: {
 }
 ammoTypes: {
  flesh: {
+    ammoPerShot: 5
     reloadMultiplier: 0.75
     shootEffect: shootBig
     smokeEffect: shootSmokeMissile
