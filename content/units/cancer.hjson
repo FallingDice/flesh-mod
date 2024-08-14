@@ -15,6 +15,7 @@ outlineColor: ff1744
 drawCell: false
 
 controller: HugAI
+defaultCommand: UnitCommand.rebuildCommand
 
 abilities: [
     {
