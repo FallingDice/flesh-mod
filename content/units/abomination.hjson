@@ -1,4 +1,4 @@
-type: carwl
+type: crawl
 flying: false
 speed: 0.2
 health: 10000
