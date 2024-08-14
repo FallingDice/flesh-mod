@@ -16,6 +16,8 @@ lockLegBase: true
 hovering: true
 lowAltitude: true
 
+targetFlags: [battery, storage]
+
 legMaxLength: 1.2
 
 legLengthScl: 0.95
