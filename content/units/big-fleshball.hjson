@@ -2,7 +2,7 @@ name: Big Fleshball
 description: seed of disaster.
 type: flying
 flying: true
-health: 530
+health: 1530
 armor: 2
 speed: 1.5
 hitsize: 50
