@@ -1,0 +1,14 @@
+type: StorageBlock
+category: effect
+scaledHealth: 80
+size: 2
+itemCapacity: 200
+
+requirements: [
+  flesh/60
+]
+
+squareSprite: false
+
+research: flesh
+researchCostMultiplier: 0.5

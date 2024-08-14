@@ -2,8 +2,10 @@ type: missile
 flying: false
 speed: 0
 rotateSpeed: 0
-hitSize: 6
 engineSize: 0
+hitSize: 12
+
+controller: u
 
 lifetime: 3600
 health: 500
