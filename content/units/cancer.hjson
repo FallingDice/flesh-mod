@@ -35,7 +35,7 @@ weapons: [
             healPercent: 3.5
             collidesTeam: true
 
-            status: spore-slowed
+            status: slow
         }
     }
 ]
