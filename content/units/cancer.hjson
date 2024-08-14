@@ -1,5 +1,4 @@
 type: crawl
-hovering: true
 flying: false
 speed: 2.3
 health: 1000
@@ -26,17 +25,17 @@ weapons: [
         y: 0
         reload: 20
         shootSound: sap
+        baseRotation: -45
 
         bullet: {
             type: SapBulletType
             damage: 10
-            speed: 1
+            speed: 5
             width: 1
             height: 1
-            lifetime: 10
+            lifetime: 20
             healPercent: 3.5
             collidesTeam: true
-            baseRotation: -15
           }
     }
 ]
