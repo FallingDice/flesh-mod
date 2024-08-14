@@ -35,6 +35,10 @@ abilities: [
         amount: 80
     },
     {
-        type: ArmorPlateAbility
+        type: ShieldRegenFieldAbility
+        range: 80
+        amount: 60
+        reload: 300
+        max:600
     }
 ]
