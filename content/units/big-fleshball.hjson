@@ -14,7 +14,6 @@ drag: 0.03
 drawCell: false
 engineSize: 0
 outlineColor: ff1744
-lowAltitude: true
 
 targetFlags: [factory, battery, storage, core]
 
