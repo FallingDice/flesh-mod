@@ -14,17 +14,8 @@ drawer: {
     type: DrawMulti
     drawers: [
       {
-        type: DrawRegion
-        suffix: -bottom
-      },
-      {
         type: DrawLiquidRegion
         drawLiquid: blood
-      },
-      {
-        type: DrawBlurSpin
-        suffix: -rotator
-        rotateSpeed: 1.2
       },
       {
         type: DrawDefault
