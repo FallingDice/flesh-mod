@@ -1,9 +1,5 @@
 8.15 dead
 
-컨베이어 like 추가
-
-펌프 추가
-
 피->물 정화장치 추가
 
 make u0-c1 sprite

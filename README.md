@@ -51,3 +51,5 @@ edit missile ai
 0.741v - size bugfix
 
 0.75v - planet update
+
+0.76v - distribution update
