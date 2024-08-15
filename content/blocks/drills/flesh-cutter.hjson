@@ -10,6 +10,24 @@ requirements: [
       flesh/24
 ]
 
+drawer: {
+    type: DrawMulti
+    drawers: [
+      {
+        type: DrawDefault
+      },
+      {
+        type: DrawRegion
+        suffix: -rotator
+        rotateSpeed: 1.2
+      },
+      {
+        type: DrawRegion
+        suffix: -top
+      }
+    ]
+  }
+
 consumes: {
     liquid: {
       liquid: blood
