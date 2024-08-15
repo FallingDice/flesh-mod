@@ -2,7 +2,7 @@ type: Conduit
 category: liquid
 size: 1
 health: 40
-leaks: false
+leaks: true
 underBullets: true
 solid: false
 
