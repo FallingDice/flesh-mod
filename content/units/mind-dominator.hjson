@@ -1,9 +1,8 @@
 alwaysUnlocked: true
 
-controller: BuilderAI[
-    alwaysFlee: true
-    fleeRange: 500
-]
+controller: BuilderAI
+alwaysFlee: true
+fleeRange: 500
 
 type: flying
 flying: true
