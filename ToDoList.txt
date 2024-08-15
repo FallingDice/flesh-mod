@@ -12,29 +12,6 @@ make u0-c1 sprite
 피->물 정화장치 추가
 
 
-
-crossroads-4 추가>
-
-planet: vermillion
-sector: 4
-difficulty: 2
-
-captureWave: 20
-
-research: {
-  parent: first-encounter
-  objectives: [
-    {
-      type: SectorComplete
-      preset: first-encounter
-    }
-  ]
-}
-
-//두번째 구역
-
-
-
 8.17 dead
 
 컨베이어 계열 스프라이트 다듬고 수정
