@@ -10,4 +10,10 @@ requirements: [
       flesh/1
 ]
 
-research: intestine
+research: {
+    parent: intestine
+    requirements:
+    [
+        flesh/10
+    ]
+}

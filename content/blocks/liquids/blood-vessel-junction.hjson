@@ -9,4 +9,10 @@ requirements: [
       flesh/1
 ]
 
-research: blood-vessel
+research: {
+    parent: blood-vessel
+    requirements:
+    [
+        flesh/20
+    ]
+}

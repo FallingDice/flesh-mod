@@ -34,5 +34,10 @@ drawer: {
 
 squareSprite: false
 
-research: flesh
-researchCostMultiplier: 0.3
+research: {
+    parent: flesh
+    requirements:
+    [
+        flesh/50
+    ]
+}

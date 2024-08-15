@@ -11,4 +11,10 @@ requirements: [
       flesh/3
 ]
 
-research: intestine-junction
+research: {
+    parent: intestine-junction
+    requirements:
+    [
+        flesh/20
+    ]
+}

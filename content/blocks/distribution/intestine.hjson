@@ -1,8 +1,8 @@
-type: Conveyor
+type: Duct
 category: distribution
 size: 1
 health: 40
-speed: 0.1
+speed: 4
 displayedSpeed: 10
 underBullets: true
 solid: false
@@ -13,4 +13,10 @@ requirements: [
 
 junctionReplacement: intestine-junction
 
-research: flesh
+research: {
+    parent: flesh
+    requirements:
+    [
+        flesh/5
+    ]
+}

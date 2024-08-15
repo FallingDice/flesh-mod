@@ -12,4 +12,10 @@ requirements: [
 
 junctionReplacement: blood-vessel-junction
 
-research: flesh
+research: {
+    parent: bloodsucker
+    requirements:
+    [
+        flesh/10
+    ]
+}
