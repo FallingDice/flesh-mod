@@ -1,4 +1,11 @@
 8.15 dead
+
+컨베이어 like 추가
+
+펌프 추가
+
+피->물 정화장치 추가
+
 make u0-c1 sprite
 > (def), base, leg
 
@@ -13,6 +20,7 @@ core spprite 제작
 첫번째맵 목표 추가
 
 8.16 dead
+
 번들 손보기
 
 스프라이트 없는 각 유닛의 틀만 잡아놓기

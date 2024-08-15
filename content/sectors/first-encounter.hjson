@@ -3,6 +3,7 @@ sector: 0
 research: core-aggregate
 difficulty: 1
 alwaysUnlocked: true
+addStartingItems: true
 
 captureWave: 15
 

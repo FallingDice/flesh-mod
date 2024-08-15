@@ -12,7 +12,6 @@ legCount: 6
 legContinuousMove: true
 lockLegBase: true
 hovering: true
-lowAltitude: true
 
 legMaxLength: 1.2
 

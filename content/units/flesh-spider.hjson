@@ -12,7 +12,6 @@ legCount: 4
 legContinuousMove: true
 lockLegBase: true
 hovering: true
-lowAltitude: true
 
 targetFlags: [battery, storage]
 
