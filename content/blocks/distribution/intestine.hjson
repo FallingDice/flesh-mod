@@ -1,4 +1,4 @@
-type: Conveyor
+type: Duct
 category: distribution
 size: 1
 health: 40
@@ -12,20 +12,6 @@ requirements: [
 ]
 
 junctionReplacement : intestine-junction
-
-drawer: {
-    type: DrawMulti
-    drawers: [
-      {
-        type: DrawRegion
-        suffix: -bottom
-      },
-      {
-        type: DrawRegion
-        suffix: -top
-      }
-    ]
-}
 
 research: {
     parent: flesh
