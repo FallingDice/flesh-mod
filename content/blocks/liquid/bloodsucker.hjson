@@ -14,11 +14,11 @@ drawer: {
     type: DrawMulti
     drawers: [
       {
-        type: DrawLiquidRegion
-        drawLiquid: blood
+        type: DrawDefault
       },
       {
-        type: DrawDefault
+        type: DrawLiquidRegion
+        drawLiquid: blood
       }
     ]
   }

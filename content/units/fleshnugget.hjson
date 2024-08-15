@@ -72,7 +72,7 @@ weapons: [
       mirror: false
       reload: 200
       shootCone: 20
-      shootSound: laser
+      shootSound: pew
       shoot: {
             shots: 3
             shotDelay: 10

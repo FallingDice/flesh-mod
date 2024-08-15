@@ -5,7 +5,7 @@ health: 3000
 itemCapacity: 6000
 
 requirements: [
-  flesh/3200
+  flesh/3000
 ]
 
 isFirstTier: true

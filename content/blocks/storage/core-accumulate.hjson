@@ -1,0 +1,16 @@
+type: CoreBlock
+category: effect
+size: 4
+health: 6000
+itemCapacity: 8000
+
+requirements: [
+  flesh/6000
+]
+
+squareSprite: false
+
+unitType: mind-dominator
+
+unitCapModifier: 150
+research: core-aggregate
