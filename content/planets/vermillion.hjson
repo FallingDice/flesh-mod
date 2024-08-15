@@ -118,6 +118,7 @@ clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
 fog: true
+staticFog: true
 
 launchCandidates: []
 itemWhitelist: [
