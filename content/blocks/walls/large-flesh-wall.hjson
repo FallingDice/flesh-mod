@@ -41,7 +41,6 @@ research: {
   parent: flesh-wall
   requirements:
     [
-        {item: flesh, amount: 700},
-        {item: thorium, amount: 50}
+        {item: flesh, amount: 700}
     ]
 }
