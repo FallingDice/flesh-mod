@@ -110,12 +110,14 @@ lightSrcTo: 0.5
 lightDstFrom: 0.2
 visible: true
 atmosphereColor: ff1744
+landCloudColor: d00000
 iconColor: ff1744
 hasAtmosphere: true
 allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
+fog: true
 
 launchCandidates: []
 itemWhitelist: [
