@@ -11,6 +11,7 @@ research: {
   ]
 }
 
+isLastSector: true
 attackAfterWaves: true
 
 //마지막 구역

@@ -109,8 +109,8 @@ atmosphereRadOut: 0.3
 lightSrcTo: 0.5
 lightDstFrom: 0.2
 visible: true
-atmosphereColor: 666359
-iconColor: 666359
+atmosphereColor: ff1744
+iconColor: ff1744
 hasAtmosphere: true
 allowWaveSimulation: true
 clearSectorOnLose: true

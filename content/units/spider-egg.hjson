@@ -5,8 +5,6 @@ rotateSpeed: 0
 engineSize: 0
 hitSize: 12
 
-controller: u
-
 lifetime: 3600
 health: 500
 drawCell: false

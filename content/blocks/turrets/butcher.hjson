@@ -59,7 +59,6 @@ drawer: {
           strokeTo: 1.5
           radiusTo: 3
           radius: 1
-								y:20
         },
         {
           type: HaloPart
@@ -75,7 +74,6 @@ drawer: {
           shapes: 4
           triLengthTo: 4
           triLength: 0
-								y:20
         }
       ]
 }

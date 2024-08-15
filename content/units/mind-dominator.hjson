@@ -1,15 +1,21 @@
 alwaysUnlocked: true
 
+controller: BuilderAI{
+    alwaysFlee: true
+    fleeRange: 500 //기본값
+}
+
 type: flying
 flying: true
 health: 100
-speed: 3
+speed: 5.6
 hitSize: 8
 
-accel: 0.3
-drag: 0.2
+accel: 0.09
+drag: 0.08
 
-mineSpeed: 3
+rotateSpeed: 7
+mineSpeed: 6
 buildSpeed: 1
 mineTier: 1
 itemCapacity: 100
@@ -20,3 +26,11 @@ outlineColor: ff1744
 mineFloor: true
 mineWalls: true
 isEnemy: false
+envDisabled: 0
+coreUnitDock: true
+targetPriority: -2
+faceTarget: true
+lowAltitude: false
+mineHardnessScaling: false
+targetable: false
+hittable: false

@@ -20,4 +20,4 @@ consumes: {
   }
 
 research: flesh
-researchCostMultiplier: 0.5
+researchCostMultiplier: 0.1
