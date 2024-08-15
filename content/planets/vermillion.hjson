@@ -104,7 +104,7 @@ tidalLock: true
 orbitSpacing: 3
 radius: 1.2
 minZoom: 1.5
-atmosphereRadIn: 0
+atmosphereRadIn: 0.02
 atmosphereRadOut: 0.3
 lightSrcTo: 0.5
 lightDstFrom: 0.2
@@ -119,6 +119,7 @@ allowWaves: true
 prebuildBase: false
 fog: true
 staticFog: true
+waveTeam:  crux
 
 launchCandidates: []
 itemWhitelist: [
