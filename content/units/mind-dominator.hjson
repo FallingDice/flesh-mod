@@ -1,9 +1,10 @@
 alwaysUnlocked: true
 
-controller: BuilderAI{
+controller: [BuilderAI{
     alwaysFlee: true
-    fleeRange: 500 //기본값
+    fleeRange: 500
 }
+]
 
 type: flying
 flying: true
