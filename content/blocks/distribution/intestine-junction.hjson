@@ -1,0 +1,14 @@
+type: Junction
+category: distribution
+size: 1
+health: 40
+speed: 0.1
+underBullets: true
+solid: false
+
+requirements: [
+      flesh/1
+]
+
+research: intestine
+researchCostMultiplier: 0.1

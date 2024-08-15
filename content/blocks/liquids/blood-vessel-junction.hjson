@@ -1,0 +1,13 @@
+type: LiquidJunction
+category: liquid
+size: 1
+health: 40
+underBullets: true
+solid: false
+
+requirements: [
+      flesh/1
+]
+
+research: blood-vessel
+researchCostMultiplier: 0.1

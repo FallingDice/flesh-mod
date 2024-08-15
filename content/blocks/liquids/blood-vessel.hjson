@@ -1,0 +1,16 @@
+type: Conduit
+category: liquid
+size: 1
+health: 40
+leaks: false
+underBullets: true
+solid: false
+
+requirements: [
+      flesh/1
+]
+
+junctionReplacement: blood-vessel-junction
+
+research: flesh
+researchCostMultiplier: 0.1

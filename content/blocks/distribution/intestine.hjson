@@ -1,0 +1,17 @@
+type: Conveyor
+category: distribution
+size: 1
+health: 40
+speed: 0.1
+displayedSpeed: 10
+underBullets: true
+solid: false
+
+requirements: [
+      flesh/1
+]
+
+junctionReplacement: intestine-junction
+
+research: flesh
+researchCostMultiplier: 0.1

@@ -1,0 +1,15 @@
+type: Router
+category: distribution
+size: 1
+health: 40
+speed: 0.1
+dumpTime: 1
+underBullets: true
+solid: false
+
+requirements: [
+      flesh/3
+]
+
+research: intestine-junction
+researchCostMultiplier: 0.1

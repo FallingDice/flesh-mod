@@ -1,0 +1,38 @@
+type: Pump
+category: liquid
+size: 1
+health: 40
+hasLiquids: true
+liquidCapacity: 20
+pumpAmount: 0.1
+
+requirements: [
+      flesh/10
+]
+
+drawer: {
+    type: DrawMulti
+    drawers: [
+      {
+        type: DrawRegion
+        suffix: -bottom
+      },
+      {
+        type: DrawLiquidRegion
+        drawLiquid: blood
+      },
+      {
+        type: DrawBlurSpin
+        suffix: -rotator
+        rotateSpeed: 1.2
+      },
+      {
+        type: DrawDefault
+      }
+    ]
+  }
+
+squareSprite: false
+
+research: flesh
+researchCostMultiplier: 0.1

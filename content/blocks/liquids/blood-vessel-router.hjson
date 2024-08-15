@@ -1,0 +1,14 @@
+type: LiquidRouter
+category: liquid
+size: 1
+health: 40
+liquidCapacity: 10
+underBullets: true
+solid: false
+
+requirements: [
+      flesh/1
+]
+
+research: blood-vessel-junction
+researchCostMultiplier: 0.1
