@@ -1,8 +1,17 @@
 planet: vermillion
 sector: 4
-research: core-aggregate
 difficulty: 2
 
 captureWave: 20
+
+research: {
+  parent: first-encounter
+  objectives: [
+    {
+      type: SectorComplete
+      preset: first-encounter
+    }
+  ]
+}
 
 //두번째 구역
