@@ -13,4 +13,3 @@ requirements: [
 junctionReplacement: blood-vessel-junction
 
 research: flesh
-researchCostMultiplier: 0.1

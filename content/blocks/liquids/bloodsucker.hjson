@@ -35,4 +35,4 @@ drawer: {
 squareSprite: false
 
 research: flesh
-researchCostMultiplier: 0.1
+researchCostMultiplier: 0.3
