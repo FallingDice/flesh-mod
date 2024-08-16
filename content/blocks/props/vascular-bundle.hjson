@@ -1,4 +1,4 @@
-type: Prop
+type: SteamVent
 clipSize: 64
 shadowAlpha: 0.3
 blendGroup: flesh-floor
