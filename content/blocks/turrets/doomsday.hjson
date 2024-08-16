@@ -96,6 +96,10 @@ unitCapModifier: -5
 
 research: {
     parent: butcher
+    requirements:
+    [
+        flesh/10
+    ]
     objectives: [
     {
       type: SectorComplete
