@@ -118,8 +118,6 @@ allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
-fog: true
-staticFog: true
 waveTeam:  crux
 
 launchCandidates: []
