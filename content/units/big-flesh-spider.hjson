@@ -170,12 +170,13 @@ abilities: [
     }
 ]
 
+//여섯번째 스테이지로 추후 변경
 research: {
     parent: flesh-hive
     objectives: [
     {
       type: SectorComplete
-      preset: first-encounter //여섯번째 스테이지로 추후 변경
+      preset: first-encounter
     }
   ]
     requirements:
