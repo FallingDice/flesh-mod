@@ -53,3 +53,5 @@ edit missile ai
 0.75v - planet update
 
 0.76v - distribution update
+
+0.77v - add campaign
