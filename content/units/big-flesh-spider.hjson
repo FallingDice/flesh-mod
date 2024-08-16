@@ -180,6 +180,6 @@ research: {
   ]
     requirements:
     [
-        flesh/5000
+        flesh/7500
     ]
 }
