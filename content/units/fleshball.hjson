@@ -159,7 +159,7 @@ research: {
     objectives: [
     {
       type: SectorComplete
-      preset: crossroads-4
+      preset: first-encounter
     }
   ]
     requirements:
