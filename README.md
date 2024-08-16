@@ -54,4 +54,4 @@ edit missile ai
 
 0.76v - distribution update
 
-0.77v - add campaign
+0.771v - update bundles
