@@ -52,7 +52,7 @@ consumes: {
 }
 
 research: {
-    parent: core-agrregate
+    parent: core-aggregate
     objectives: [
     {
       type: SectorComplete
