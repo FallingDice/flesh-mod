@@ -18,7 +18,6 @@ inaccuracy: 15
 
 coolant: {
   type: ConsumeCoolant
-  allowGas: true
   allowLiquid: true
   amount: 0.3
 }
