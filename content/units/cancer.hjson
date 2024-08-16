@@ -15,7 +15,7 @@ shadowElevation: 0.1
 outlineColor: ff1744
 drawCell: false
 
-controller: HugAI
+controller: rebuildAI
 omniMovement: false
 UnitCommand: rebuildCommand
 
