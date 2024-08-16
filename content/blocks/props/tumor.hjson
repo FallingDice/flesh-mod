@@ -4,5 +4,8 @@ damageTaken: 5
 customShadow: true
 blendGroup: flesh-floor
 
+emitLight: true
+lightRadius: 30
+
 breakSound: rock-crush
 variants: 2
