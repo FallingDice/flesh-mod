@@ -26,7 +26,7 @@ drawer: {
 squareSprite: false
 
 research: {
-    parent: core-agrregate
+    parent: core-aggregate
     requirements:
     [
         flesh/50
