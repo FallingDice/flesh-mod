@@ -79,7 +79,7 @@ drawer: {
 }
 
 research: {
-    parent: flesh
+    parent: core-aggregate
     requirements:
     [
         flesh/1200
