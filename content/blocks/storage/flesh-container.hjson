@@ -10,5 +10,5 @@ requirements: [
 
 squareSprite: false
 
-research: flesh
+research: core-agrregate
 researchCostMultiplier: 0.5
