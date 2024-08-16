@@ -27,13 +27,13 @@ heatColor: ff1744
 
 shoot: {
   shots: 2
-  firstShotDelay: 60
+  firstShotDelay: 20
   shotDelay: 10
 }
 ammoTypes: {
  flesh: {
     ammoPerShot: 0.5
-    reloadMultiplier: 0.75
+    reloadMultiplier: 0.6
     shootEffect: shootBig
     smokeEffect: shootSmokeMissile
     instantDisappear: true
