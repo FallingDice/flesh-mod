@@ -124,7 +124,7 @@ research: {
     objectives: [
     {
       type: SectorComplete
-      preset: first-encounter
+      preset: first-encounter  //네번째 스테이지로 추후 변경
     }
   ]
     requirements:
