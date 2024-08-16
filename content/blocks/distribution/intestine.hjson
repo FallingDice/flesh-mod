@@ -14,7 +14,7 @@ requirements: [
 junctionReplacement : intestine-junction
 
 research: {
-    parent: flesh
+    parent: core-agrregate
     requirements:
     [
         flesh/5
