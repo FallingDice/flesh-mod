@@ -7,6 +7,8 @@ requirements: [
   flesh/6
 ]
 
+rotateSpeed: 0
+
 //insulated: true
 //absorbLasers: true
 //schematicPriority: 10
@@ -28,6 +30,7 @@ shoot: {
 
 shootType: {
   type: SapBulletType
+  rotate: true
   knockback: -1
   damage: 2
   width: 1
