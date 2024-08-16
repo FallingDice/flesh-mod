@@ -121,8 +121,14 @@ abilities: [
 
 research: {
     parent: flesh-hive
+    objectives: [
+    {
+      type: SectorComplete
+      preset: first-encounter
+    }
+  ]
     requirements:
     [
-        {item: flesh, amount: 100}
+        flesh/5000
     ]
 }
