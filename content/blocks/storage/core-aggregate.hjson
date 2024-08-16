@@ -20,5 +20,4 @@ research: {
   planet: vermillion
   root: true
   name: vermillion
-  requiresUnlock: false
 }
