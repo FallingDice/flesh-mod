@@ -164,6 +164,6 @@ research: {
   ]
     requirements:
     [
-        flesh/1000
+        flesh/1500
     ]
 }
