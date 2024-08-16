@@ -78,5 +78,16 @@ drawer: {
       ]
 }
 
-research: flesh
-researchCostMultiplier: 0.1
+research: {
+    parent: flesh
+    requirements:
+    [
+        flesh/1200
+    ]
+    objectives: [
+    {
+      type: SectorComplete
+      preset: first-encounter
+    }
+  ]
+}
