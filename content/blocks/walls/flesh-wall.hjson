@@ -4,7 +4,7 @@ health: 600
 armor: 1
 category: defense
 requirements: [
-  flesh/6
+  flesh/12
 ]
 
 //insulated: true
