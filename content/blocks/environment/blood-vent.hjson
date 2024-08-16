@@ -1,5 +1,4 @@
 type: SteamVent
-parent: hardened-blood-floor
 effect: ventSteam
 effectColor: ff1744
 attributes: {
