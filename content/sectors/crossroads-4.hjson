@@ -1,8 +1,8 @@
 planet: vermillion
 sector: 4
-difficulty: 2
+difficulty: 3
 
-captureWave: 20
+captureWave: 25
 
 research: {
   parent: first-encounter
