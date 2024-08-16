@@ -10,5 +10,5 @@ requirements: [
 
 squareSprite: false
 
-research: core-agrregate
+research: core-aggregate
 researchCostMultiplier: 0.5
