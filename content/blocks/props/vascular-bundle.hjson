@@ -1,6 +1,8 @@
 type: SteamVent
 clipSize: 64
 shadowAlpha: 0.3
+
 blendGroup: flesh-floor
+parent: flesh-floor
 
 variants: 2

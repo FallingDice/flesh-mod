@@ -5,4 +5,7 @@ attributes: {
    heat: 0.5
 }
 
+blendGroup: flesh-floor
+parent: flesh-floor
+
 variants: 2
