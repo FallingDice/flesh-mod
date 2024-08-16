@@ -172,6 +172,12 @@ abilities: [
 
 research: {
     parent: flesh-hive
+    objectives: [
+    {
+      type: SectorComplete
+      preset: first-encounter
+    }
+  ]
     requirements:
     [
         flesh/5000
