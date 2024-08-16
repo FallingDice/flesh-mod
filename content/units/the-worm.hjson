@@ -3,7 +3,7 @@ type: crawl
 flying: false
 speed: 1.5
 health: 25000
-hitSize: 100
+hitSize: 12
 range: 30
 
 rotateSpeed: 3.5
