@@ -30,7 +30,7 @@ drawer: {
 
 consumes: {
     liquid: {
-      liquid: blood
+      liquid: water
       amount: 0.018
       optional: true
       booster: true
