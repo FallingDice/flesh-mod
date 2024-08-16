@@ -52,7 +52,7 @@ consumes: {
 }
 
 research: {
-    parent: flesh
+    parent: core-agrregate
     objectives: [
     {
       type: SectorComplete
