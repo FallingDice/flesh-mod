@@ -6,34 +6,34 @@ size: 3
 health: 500
 
 requirements: [
-    flesh/350
+    flesh/800
 ]
 
 plans: [
     {
     unit: big-flesh-spider
     requirements: [
-        flesh/70
+        flesh/750
     ]
     time: 3600
   },
   {
     unit: flesh-bug
     requirements: [
-        flesh/50
+        flesh/500
     ]
     time: 3600
   },
   {
     unit: big-fleshball
     requirements: [
-        flesh/50
+        flesh/500
     ]
     time: 3600
   },
   {
     unit: fleshball
-    requirements: []
+    requirements: [flesh/10]
     time: 1200
   },
   {
@@ -60,4 +60,4 @@ research: {
     }
   ]
 }
-researchCostMultiplier: 0.4
+researchCostMultiplier: 0.2
