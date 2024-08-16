@@ -94,5 +94,13 @@ consumes: {
 
 unitCapModifier: -5
 
-research: butcher
+research: {
+    parent: butcher
+    objectives: [
+    {
+      type: SectorComplete
+      preset: first-encounter
+    }
+  ]
+}
 researchCostMultiplier: 0.4
