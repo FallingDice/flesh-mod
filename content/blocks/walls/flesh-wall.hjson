@@ -1,16 +1,47 @@
-type: wall
+type: PowerTurret
 size: 1
 health: 600
+armor: 1
 category: defense
 requirements: [
   flesh/6
 ]
 
-insulated: true
-absorbLasers: true
-schematicPriority: 10
-chanceDeflect: 10
-flashHit: true
-lightningChance: 0.05
+//insulated: true
+//absorbLasers: true
+//schematicPriority: 10
+//chanceDeflect: 10
+//flashHit: true
+//lightningChance: 0.05
+
+reload: 40
+shootSound: sap
+consumes: {}
+
+recoil: 0
+inaccuracy: 0
+shoot: {
+  shots: 4
+  firstShotDelay: 35
+  ShotDelay: 0.75
+}
+
+shootType: {
+  type: SapBulletType
+  knockback: -1
+  damage: 2
+  width: 1
+  height: 1
+  lifetime: 20
+
+  frontColor: ff0000
+  backColor: df0000
+  status: spore-slowed
+}
+
+drawer: {
+  type: DrawTurret
+  basePrefix: flesh-wall-base
+}
 
 research: flesh
