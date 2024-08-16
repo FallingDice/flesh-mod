@@ -98,7 +98,7 @@ research: {
     parent: butcher
     requirements:
     [
-        flesh/10
+        flesh/4200
     ]
     objectives: [
     {
@@ -107,4 +107,3 @@ research: {
     }
   ]
 }
-researchCostMultiplier: 0.4
