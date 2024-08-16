@@ -37,5 +37,5 @@ consumes: {
     }
   }
 
-research: flesh
+research: core-agrregate
 researchCostMultiplier: 0.1
