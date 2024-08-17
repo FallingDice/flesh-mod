@@ -7,8 +7,6 @@
 
 core spprite 제작 수정 및 마무리
 
-drill sprite 제작 수정 및 마무리
-
 make u0-c1 sprite
 > (def), base, leg
 
