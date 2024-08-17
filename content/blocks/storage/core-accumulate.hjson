@@ -15,3 +15,5 @@ unitType: mind-dominator
 unitCapModifier: 150
 research: core-aggregate
 researchCostMultiplier: 0.1
+
+squareSprite: false
