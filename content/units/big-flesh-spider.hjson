@@ -163,10 +163,9 @@ abilities: [
   },
     {
         type: UnitSpawnAbility
-        layerOffset: -0.005
         unit: spider-egg
         spawnX: 0
-        spawnY: -15
+        spawnY: -20
         spawnTime: 1800
     }
 ]

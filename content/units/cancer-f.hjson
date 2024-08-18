@@ -17,6 +17,7 @@ itemCapacity: 80
 outlineColor: ff1744
 drawCell: false
 engineSize: 0
+lowAltitude: true
 
 weapons: [
     {
@@ -24,17 +25,17 @@ weapons: [
         x: 4
         y: 0
         reload: 15
-        shootSound: shoot
+        shootSound: lasershoot
         baseRotation: -45
         alternate: true
 
         bullet: {
-            type: BasicBulletType
+            type: LaserBoltBulletType
             damage: 12
-            speed: 5
+            speed: 6
             width: 1
             height: 1
-            lifetime: 10
+            lifetime: 20
             healPercent: 3.5
             collidesTeam: true
             reflectable: false
@@ -44,6 +45,7 @@ weapons: [
             hitEffect: hitLaser
             despawnEffect: hitLaser
             frontColor: ffffff
+            backColor: 98ffa9
           }
     }
 ]
@@ -56,12 +58,10 @@ abilities: [
     },
     {
         type: UnitSpawnAbility
-        layerOffset: -0.005
         unit: cancer-f
         spawnX: 0
         spawnY: 0
         spawnTime: 3600
-        layer: -1
     },
     {
         type: RepairFieldAbility
