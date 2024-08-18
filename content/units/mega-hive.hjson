@@ -21,7 +21,7 @@ targetFlags: [core]
 weapons: [
     { 
       shootWarmupSpeed: 0.01
-      minWarmup: 2
+      minWarmup: 0.9
       warmupMaintainTime: 90
       x: 0
       y: 0
