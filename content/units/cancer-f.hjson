@@ -6,25 +6,23 @@ armor: 3
 hitSize: 10
 range: 80
 
-mineSpeed: 3
-buildSpeed: 2
-mineTier: 3
+mineSpeed: 1
+buildSpeed: 1
+mineTier: 1
 itemCapacity: 80
-shadowElevation: 0.1
+shadowElevation: 0.5
 
 outlineColor: ff1744
 drawCell: false
 
-controller: rebuildAI
 omniMovement: false
-UnitCommand: rebuildCommand
 
 weapons: [
     {
         rotate: true
         x: 4
         y: 0
-        reload: 20
+        reload: 10
         shootSound: sap
         baseRotation: -45
 
@@ -33,7 +31,7 @@ weapons: [
             damage: 10
             width: 1
             height: 1
-            lifetime: 45
+            lifetime: 10
             healPercent: 3.5
             collidesTeam: true
           }
@@ -48,6 +46,7 @@ abilities: [
     },
     {
         type: UnitSpawnAbility
+        layerOffset: -0.005
         unit: cancer-f
         spawnX: 0
         spawnY: 0

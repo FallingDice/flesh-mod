@@ -33,3 +33,12 @@ lowAltitude: false
 mineHardnessScaling: false
 targetable: false
 hittable: false
+
+abilities: [
+    {
+        type: RepairFieldAbility
+      range: 40
+      amount: 20
+      reload: 500
+    }
+]

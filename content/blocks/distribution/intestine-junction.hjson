@@ -2,7 +2,7 @@ type: Junction
 category: distribution
 size: 1
 health: 40
-speed: 0.1
+speed: 4
 underBullets: true
 solid: false
 
