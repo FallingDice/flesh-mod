@@ -55,3 +55,5 @@ edit missile ai
 0.76v - distribution update
 
 0.771v - update bundles
+
+0.772v - update sprite
