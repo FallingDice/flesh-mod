@@ -10,19 +10,6 @@ requirements: [
       flesh/10
 ]
 
-drawer: {
-    type: DrawMulti
-    drawers: [
-      {
-        type: DrawDefault
-      },
-      {
-        type: DrawLiquidRegion
-        drawLiquid: blood
-      }
-    ]
-  }
-
 squareSprite: false
 
 research: {
