@@ -7,8 +7,8 @@ speed: 5
 hitSize: 9
 range: 120
 
-accel: 0.3
-drag: 0.032
+accel: 2
+drag: 0.2
 
 outlineColor: ff1744
 lowAltitude: true
