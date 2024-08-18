@@ -79,6 +79,8 @@ weapons: [
             impact: true
             homingPower: 0.2
             keepVelocity: false
+            weaveMag: 2
+            weaveScale: 2
       }
    },
     { 
@@ -111,8 +113,8 @@ weapons: [
             homingPower: 1
             homingDelay: 0.5
             keepVelocity: false
-            weaveMag: 2
-            weaveScale: 8
+            weaveMag: 4
+            weaveScale: 4
         }
       parts: [
         {
