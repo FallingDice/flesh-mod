@@ -111,6 +111,8 @@ weapons: [
             homingPower: 1
             homingDelay: 0.5
             keepVelocity: false
+            weaveMag: 2
+            weaveScale: 8
         }
       parts: [
         {

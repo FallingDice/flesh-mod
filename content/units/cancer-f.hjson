@@ -23,14 +23,15 @@ weapons: [
         rotate: true
         x: 4
         y: 0
-        reload: 10
-        shootSound: sap
+        reload: 15
+        shootSound: shoot
         baseRotation: -45
         alternate: true
 
         bullet: {
-            type: SapBulletType
+            type: BasicBulletType
             damage: 12
+            speed: 5
             width: 1
             height: 1
             lifetime: 10

@@ -50,8 +50,8 @@ weapons: [
         shootEffect: shootBig
         smokeEffect: shootBigSmoke
 
-        weaveMag: 4
-        weaveScale: 4
+        weaveMag: 2
+        weaveScale: 2
 
         status: spore-slowed
         statusDuration: 360
