@@ -5,7 +5,7 @@ flying: true
 health: 10000
 armor: 100
 speed: 0.3
-hitSize: 40
+hitSize: 80
 range: 120
 
 accel: 0.8
@@ -109,25 +109,43 @@ abilities: [
     },
         {
         type: UnitSpawnAbility
-        mirror: true
         unit: fleshball
         spawnX: 20
-        spawnY: 10
+        spawnY: 30
+        spawnTime: 1200
+    },
+            {
+        type: UnitSpawnAbility
+        unit: fleshball
+        spawnX: -20
+        spawnY: 30
         spawnTime: 1200
     },
         {
         type: UnitSpawnAbility
-        mirror: true
         unit: fleshball
         spawnX: 20
-        spawnY: -10
+        spawnY: -30
+        spawnTime: 1200
+    },
+            {
+        type: UnitSpawnAbility
+        unit: fleshball
+        spawnX: -20
+        spawnY: -30
         spawnTime: 1200
     },
     {
         type: UnitSpawnAbility
-        mirror: true
         unit: spider-egg
         spawnX: 20
+        spawnY: 0
+        spawnTime: 1800
+    },
+        {
+        type: UnitSpawnAbility
+        unit: spider-egg
+        spawnX: -20
         spawnY: 0
         spawnTime: 1800
     },
@@ -138,8 +156,7 @@ abilities: [
     },
     {
     type: MoveEffectAbility
-    mirror: true
-    x: 5
+    x: 0
     y: -0.4
     effect: artilleryTrailSmoke
     teamColor: false
