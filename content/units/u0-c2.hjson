@@ -7,7 +7,7 @@ speed: 5
 hitSize: 9
 range: 120
 
-accel: 0.01
+accel: 0.1
 drag: 0.2
 
 outlineColor: ff1744
@@ -16,15 +16,21 @@ circleTarget: true
 
 weapons: [
     { 
-      x: 4
+      x: 0
       y: 0
+      mirror: false
       rotate: false
       reload: 250
       shootCone: 15
       shootSound: shoot
       shoot: {
-            shots: 15
-            shotDelay: 5
+            type: ShootBarrel
+            shots: 20
+            shotDelay: 7
+            barrels: [
+              10, 0, 0,
+              -10, 0, 0,
+            ]
             }
       bullet: {
             type: BasicBulletType
