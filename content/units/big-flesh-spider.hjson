@@ -39,7 +39,7 @@ rippleScale: 0.8
     spore-slowed, wet
   ]
 
-shadowElevation: 0.3
+shadowElevation: 0.6
 drawCell: false
 outlineColor: ff1744
 

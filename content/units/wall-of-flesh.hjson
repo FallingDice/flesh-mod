@@ -17,7 +17,6 @@ itemCapacity: 200
 drawCell: false
 engineSize: 0
 outlineColor: ff1744
-knockback: 0.3
 
 abilities: [
 {

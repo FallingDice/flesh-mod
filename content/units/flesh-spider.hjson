@@ -31,6 +31,7 @@ legSplashRange: 20
 
 legMoveSpace: 1
 rippleScale: 0.3
+shadowElevation: 0.3
 
 drawCell: false
 outlineColor: ff1744
