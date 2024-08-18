@@ -16,8 +16,8 @@ circleTarget: true
 
 weapons: [
     {
-        mirror: false
-        x: 0
+        alternate: true
+        x: 3
         y: 0
         reload: 40
         ejectEffect: casing1
@@ -47,10 +47,10 @@ weapons: [
       shootWarmupSpeed: 0.03
       minWarmup: 0.9
       warmupMaintainTime: 90
-      x: 0
+      x: 4
       y: 0
       rotate: false
-      mirror: false
+      alternate: true
       reload: 250
       shootCone: 15
       shootSound: shoot
@@ -71,7 +71,7 @@ weapons: [
             trailColor: ff1744
             frontColor: ff0000
             backColor: f00000
-            homingPower: 0.2
+            homingPower: 0.3
             impact: true
       }
       parts: [
