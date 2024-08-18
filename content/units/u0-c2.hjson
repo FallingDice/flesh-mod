@@ -7,7 +7,7 @@ speed: 5
 hitSize: 9
 range: 120
 
-accel: 2
+accel: 0.01
 drag: 0.2
 
 outlineColor: ff1744
