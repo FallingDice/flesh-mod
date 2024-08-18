@@ -15,42 +15,10 @@ lowAltitude: true
 circleTarget: true
 
 weapons: [
-    {
-        alternate: true
-        x: 3
-        y: 0
-        reload: 40
-        ejectEffect: casing1
-        shootSound: shoot
-
-        bullet: {
-            type: BasicBulletType
-            damage: 6
-            speed: 4.25
-            width: 6
-            height: 8
-            lifetime: 40
-            sprite: missile-large
-            trailWidth: 3
-            trailLength: 4.6
-            trailColor: ff1744
-            frontColor: ff0000
-            backColor: f00000
-            shootEffect: none
-            smokeEffect: none
-            recoil: -0.05
-
-            status: spore-slowed
-        }
-    },
     { 
-      shootWarmupSpeed: 0.03
-      minWarmup: 0.9
-      warmupMaintainTime: 90
       x: 4
       y: 0
       rotate: false
-      alternate: true
       reload: 250
       shootCone: 15
       shootSound: shoot
