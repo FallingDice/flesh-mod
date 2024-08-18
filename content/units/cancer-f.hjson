@@ -6,6 +6,9 @@ armor: 3
 hitSize: 10
 range: 80
 
+drag: 0.05
+accel: 0.1
+
 mineSpeed: 1
 buildSpeed: 1
 mineTier: 1
@@ -23,15 +26,23 @@ weapons: [
         reload: 10
         shootSound: sap
         baseRotation: -45
+        alternate: true
 
         bullet: {
             type: SapBulletType
-            damage: 10
+            damage: 12
             width: 1
             height: 1
             lifetime: 10
             healPercent: 3.5
             collidesTeam: true
+            reflectable: false
+
+            shootEffect: shootHeal
+            smokeEffect: hitLaser
+            hitEffect: hitLaser
+            despawnEffect: hitLaser
+            frontColor: ffffff
           }
     }
 ]
