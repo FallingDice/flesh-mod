@@ -33,8 +33,6 @@ weapons: [
             type: LaserBoltBulletType
             damage: 12
             speed: 6
-            width: 1
-            height: 1
             lifetime: 20
             healPercent: 3.5
             collidesTeam: true
