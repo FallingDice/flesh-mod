@@ -1,8 +1,9 @@
 type: Prop
-clipSize: 32
 shadowAlpha: 0.3
 
 blendGroup: flesh-floor
 parent: flesh-floor
 
 variants: 2
+
+//spritesize 32로 수정 바람
