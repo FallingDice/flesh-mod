@@ -1,10 +1,18 @@
 type: ConsumeGenerator
+category: power
+size: 2
+health: 400
 
+requirements: [
+      flesh/120
+]
+
+powerProduction: 3
 
   consumes: {
     liquid: {
       liquid: water
-      amount: 0.2
+      amount: 0.1
     },
     itemFlammable: {}
     itemExplode: {}
