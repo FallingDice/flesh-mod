@@ -1,0 +1,17 @@
+type: ConsumeGenerator
+
+
+  consumes: {
+    liquid: {
+      liquid: water
+      amount: 0.2
+    },
+    itemFlammable: {}
+    itemExplode: {}
+  }
+  hasLiquids: true
+  liquidCapacity: 20
+
+  generateEffect: generatespark
+  ambientSound: smelter
+  ambientSoundVolume: 0.1
