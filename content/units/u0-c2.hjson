@@ -92,3 +92,18 @@ abilities: [
     interval: 5
   }
 ]
+
+//네번째 스테이지로 추후 변경
+research: {
+    parent: crimson-factory
+    objectives: [
+    {
+      type: SectorComplete
+      preset: first-encounter
+    }
+  ]
+    requirements:
+    [
+        flesh/5000
+    ]
+}
