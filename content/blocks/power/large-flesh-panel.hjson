@@ -1,0 +1,13 @@
+type: SolarGenerator
+category: power
+size: 3
+health: 320
+
+requirements: [
+      flesh/150
+]
+
+powerProduction: 2.5
+
+research: flesh-panel
+researchCostMultiplier: 0.3
