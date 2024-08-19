@@ -1,4 +1,4 @@
-type: Props
+type: Prop
 shadowAlpha: 0.3
 
 blendGroup: flesh-floor
