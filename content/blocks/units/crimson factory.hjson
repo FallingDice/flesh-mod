@@ -1,1 +1,43 @@
-type: Unit
+type: unitFactory
+category: units
+size: 3
+health: 500
+
+requirements: [
+    flesh/400
+]
+
+plans: [
+  {
+    unit: u0-c1
+    requirements: [
+        flesh/500
+    ]
+    time: 3600
+  },
+  {
+    unit: u0-c2
+    requirements: [
+        flesh/300
+    ]
+    time: 1800
+  }
+]
+
+consumes: {
+  liquid: {
+        liquid: blood
+        amount: 0.1
+    }
+}
+
+research: {
+    parent: core-aggregate
+    objectives: [
+    {
+      type: SectorComplete
+      preset: first-encounter
+    }
+  ]
+}
+researchCostMultiplier: 0.2
