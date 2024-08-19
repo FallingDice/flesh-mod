@@ -5,76 +5,78 @@
 
 #유닛 구성 기본 요소
 type> mech, flying, legs, crawl, missile
-speed:nf
-health:n
-(armor):n
-hitSize:n
-range:n
+speed: 1.0
+health: 100
+armor: 0
+
+//1*1크기
+hitSize: 8
+range: n
 
 선택요소
-engineOffset:nf
-outlineColor
-rotateSpeed:nf
-lowAltitude:b
-immunities:[]> wet, burning, spore-slowed...
-mineSpeed:nf
-buildSpeed:nf
-mineTier:n
-itemCapacity:n
+engineOffset: nf
+outlineColor: c
+rotateSpeed: 1.0
+lowAltitude: b
+immunities: []> wet, burning, spore-slowed...
+mineSpeed: 1.0?
+buildSpeed: 1.0?
+mineTier: 1
+itemCapacity: 20
 
-drawCell:b
-fogRadius:n
-lightRadius:n
-groundLayer:n
-drownTimeMultiplier:nf
+drawCell: b
+fogRadius: n
+lightRadius: n
+groundLayer: n
+drownTimeMultiplier: 1.0
 
 불투명요소
-shadowElevation:nf
-circleTarget:b
+shadowElevation: nf
+circleTarget: b
 
 ##공중유닛 기본요소
 flying: true
-accel:nf
-drag:nf
+accel: nf
+drag: nf
 
 선택요소
-engineSize:nf
+engineSize: nf
 
 ##다리유닛 기본요소
-legCount:n
+legCount: n
 legContinuousMove: true
 hovering: true
 
 선택요소
-lockLegBase:b
-legMaxLength:nf
-legMinLength:nf
+lockLegBase: b
+legMaxLength: nf
+legMinLength: nf
 
-legLengthScl:nf
-legForwardScl:nf
+legLengthScl: nf
+legForwardScl: nf
 
-legExtension:nf?
-legStraightness:nf
-legStraightLength:nf
-legBaseOffset:nf
-legLength:nf
-legSpeed:nf
-stepShake:nf
-legGroupSize:nf
+legExtension: nf?
+legStraightness: nf
+legStraightLength: nf
+legBaseOffset: nf
+legLength: nf
+legSpeed: 1.0
+stepShake: nf
+legGroupSize: nf
 
-legSplashDamage:nf?
-legSplashRange:nf?
-legMoveSpace:nf
-rippleScale:nf
+legSplashDamage: nf?
+legSplashRange: nf?
+legMoveSpace: nf
+rippleScale: nf
 
 ##기는유닛 기본요소
 controller: HugAI
 omniMovement: false
-crushDamage:nf
-segments:n
+crushDamage: nf
+segments: n
 
 선택요소
-segmentScl:nf
+segmentScl: nf
 segmentPhase: nf
 segmentMag: nf
 
@@ -83,101 +85,105 @@ segmentMag: nf
 선택요소
 
 #무기구성 기본요소[]
-name:str
-x:nf
-y:nf
-reload:n
+name: str
+x: 0
+y: 0
+reload: n
 !bullet{}
 
 선택요소
-rotate:b
-mirror:b
+rotate: b
+mirror: b
+layerOffset: -0.001
 ejectEffect> 
 shootSound> 
 
 ##총알구성 기본요소{}
 type> BasicBulletType, 
-damage:n
-speed:nf
-width:nf
-height:nf
-lifetime:n
+damage: n
+speed: nf
+width: nf
+height: nf
+lifetime: n
 
 선택요소
 sprite> 
-shootCone:n(360)
+shootCone: n(360)
 frontColor
 backColor
-status[]?> wet, burning, spore-slowed...
+status: []?> wet, burning, spore-slowed...
 
-trailWidth:nf
-trailLength:nf
+trailWidth: nf
+trailLength: nf
 trailColor
-recoil:nf
-pierce:b
-pierceBuilding:b
-!parts[]
+recoil: nf
+pierce: b
+pierceBuilding: b
+!parts: []
 
-shootWarmupSpeed:nf
-minWarmup:nf
-warmupMaintainTime:n
+shootWarmupSpeed: nf
+minWarmup: nf
+warmupMaintainTime: n
 shootEffect> 
 smokeEffect> 
-impact:b
-homingPower:nf
-homingDelay:nf
-homingRange:n
+impact: b
+homingPower: nf
+homingDelay: nf
+homingRange: n
 
 ##파츠구성 기본요소[]
 type> shapePart, HaloPart...
-radius:nf
-stroke:nf
-haloRadius:nf
-layer:n
+radius: nf
+stroke: nf
+haloRadius: nf
+layer: n
 color
 
 선택요소
-hollow:b
-circle:b
+hollow: b
+circle: b
 tri: b
-radiusTo:nf
-strokeTo:nf
-haloRadiusTo:nf
-shapes:n
-triLength:nf
-triLengthTo:nf
+radiusTo: nf
+strokeTo: nf
+haloRadiusTo: nf
+shapes: n
+triLength: nf
+triLengthTo: nf
 
 #능력구성 요소[]
 type> RepairFieldAbility, MoveEffectAbility, SpawnDeathAbility,UnitSpawnAbility, LiquidExplodeAbility
 
 ##리페어
-range:n
-amount:n
-reload:n
+range: n
+amount: n
+reload: n
 
 ##무브이펙
-x:nf
-y:nf
+x: 0
+y: 0
 effect> artilleryTrailSmoke
 color
 
-minVelocity:nf
-interval:nf?
-teamColor:b
+minVelocity: nf
+interval: nf?
+teamColor: b
 
 ##스폰데스
-amount:n
-spread:n
-unit:str
+amount: n
+randAmount: n
+[연산법: amount+randAmount]
 
-faceOutwards:b
+spread: n
+unit: str
+
+faceOutwards: b
 
 ##유닛스폰
-unit:str
-spawnX:nf
-spawnY:nf
-spawnTime:n
+unit: str
+spawnX: 0
+spawnY: 0
+spawnTime: n
 
 ##액체폭발
-liquid:str
-amount:n
+liquid: str
+amount: n
