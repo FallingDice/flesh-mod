@@ -1,5 +1,4 @@
-type: TallBlock
-clipSize: 64
+type: Props
 shadowAlpha: 0.3
 
 blendGroup: flesh-floor
