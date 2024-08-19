@@ -3,7 +3,7 @@ description: oh, no...
 type: SolarGenerator
 category: power
 size: 1
-health: 120
+health: 40
 
 requirements: [
       flesh/30
