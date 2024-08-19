@@ -23,3 +23,6 @@ powerProduction: 3
   generateEffect: generatespark
   ambientSound: smelter
   ambientSoundVolume: 0.1
+
+research: core-aggregate
+researchCostMultiplier: 0.3
