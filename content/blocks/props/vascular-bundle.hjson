@@ -1,4 +1,5 @@
 type: Prop
+clipSize: 32
 shadowAlpha: 0.3
 
 blendGroup: flesh-floor
