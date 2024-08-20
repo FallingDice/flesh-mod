@@ -1,11 +1,12 @@
 flying: false
-health: 200
+health: 40
+armor: 10
 speed: 2
 hitSize: 6
 range: 120
 
 outlineColor: ff1744
-groundLayer: 60
+hovering: true
 
 circleTarget: true
 
