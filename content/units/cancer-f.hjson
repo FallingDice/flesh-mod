@@ -59,7 +59,7 @@ abilities: [
         unit: cancer-f
         spawnX: 0
         spawnY: 0
-        spawnTime: 3600
+        spawnTime: 7200
     },
     {
         type: RepairFieldAbility
