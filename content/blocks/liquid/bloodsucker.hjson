@@ -16,6 +16,6 @@ research: {
     parent: core-aggregate
     requirements:
     [
-        flesh/50
+        flesh/250
     ]
 }
