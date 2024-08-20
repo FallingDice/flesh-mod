@@ -7,9 +7,12 @@ requirements: [
     flesh/1
 ]
 
-unit: the-cell
-time: 1
-
+plans: [
+  {
+    unit: the-cell
+    time: 1
+  }
+]
 consumes: {}
 
 research: {
