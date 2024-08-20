@@ -13,7 +13,7 @@ outlineColor: ff1744
 drawCell: false
 
 controller: HugAI
-crushDamage: 30
+crushDamage: 10
 segments: 10
 segmentScl: 10
 segmentPhase: 10
