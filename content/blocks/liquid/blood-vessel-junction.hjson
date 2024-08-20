@@ -13,6 +13,6 @@ research: {
     parent: blood-vessel
     requirements:
     [
-        flesh/20
+        flesh/100
     ]
 }
