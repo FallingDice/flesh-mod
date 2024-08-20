@@ -5,6 +5,7 @@ hitSize: 6
 range: 120
 
 outlineColor: ff1744
+groundLayer: 60
 
 circleTarget: true
 
@@ -23,7 +24,7 @@ weapons: [
             width: 1
             height: 1
             lifetime: 2
-            recoil: -1
+            recoil: -0.5
         }
     },
     {  
@@ -32,7 +33,7 @@ weapons: [
       display: false
       rotate: false
       mirror: false
-      reload: 10
+      reload: 1
       shootSound: none
       bullet: {
         width: 0
@@ -46,7 +47,7 @@ weapons: [
         damage: 0
         pierce: true
         pierceBuilding: true
-        recoil: -2
+        recoil: -0.5
         impact: true
       }
     }
