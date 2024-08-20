@@ -39,7 +39,7 @@ weapons: [
         height: 0
         speed: 5
         lifetime: 80
-        shootErfect: none
+        shootEffect: none
         despawnEffect: none
         hitEffect: none
         collides: false
