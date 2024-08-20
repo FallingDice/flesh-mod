@@ -23,6 +23,7 @@ weapons: [
             width: 1
             height: 1
             lifetime: 1
+            recoil: -1
         }
     },
     {  
@@ -37,7 +38,8 @@ weapons: [
         width: 0
         height: 0
         speed: 0
-        lifetime: 20
+        lifetime: 80
+        shootErfect: none
         despawnEffect: none
         hitEffect: none
         collides: false
