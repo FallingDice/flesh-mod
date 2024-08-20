@@ -34,21 +34,22 @@ weapons: [
       display: false
       rotate: false
       mirror: false
-      reload: 3
+      reload: 20
       shootCone: 20
-      shootSound: spark
+      shootSound: none
       bullet: {
         width: 0
         height: 0
         speed: 8
         lifetime: 40
+        shootEffect: none
         despawnEffect: none
         hitEffect: none
         collides: false
         damage: 0
         pierce: true
         pierceBuilding: true
-        recoil: -0.1
+        recoil: -0.3
         impact: true
       }
     }
