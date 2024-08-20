@@ -46,7 +46,7 @@ weapons: [
         damage: 0
         pierce: true
         pierceBuilding: true
-        recoil: -1
+        recoil: -3
         impact: true
       }
     }
