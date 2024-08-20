@@ -10,6 +10,7 @@ requirements: [
 plans: [
   {
     unit: the-cell
+    requirements: []
     time: 1
   }
 ]
