@@ -7,7 +7,7 @@ requirements: [
     flesh/1
 ]
 
-unit: cell
+unit: the-cell
 time: 1
 
 consumes: {}
