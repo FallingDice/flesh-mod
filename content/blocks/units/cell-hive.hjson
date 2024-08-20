@@ -1,1 +1,18 @@
-h
+type: unitFactory
+category: units
+size: 3
+health: 500
+
+requirements: [
+    flesh/1
+]
+
+unit: cell
+time: 1
+
+consumes: {}
+
+research: {
+    parent: core-aggregate
+}
+researchCostMultiplier: 0.2
