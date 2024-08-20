@@ -2,7 +2,7 @@ flying: false
 health: 60
 speed: 2
 hitSize: 6
-fleeRange: 500
+range: 500
 
 outlineColor: ff1744
 
