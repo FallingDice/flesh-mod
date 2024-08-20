@@ -24,6 +24,33 @@ weapons: [
             height: 1
             lifetime: 1
         }
+    },
+    {  
+      shootWarmupSpeed: 0.03
+      minWarmup: 0.9
+      warmupMaintainTime: 90
+      x: 0
+      y: 0
+      display: false
+      rotate: false
+      mirror: false
+      reload: 3
+      shootCone: 20
+      shootSound: spark
+      bullet: {
+        width: 0
+        height: 0
+        speed: 8
+        lifetime: 40
+        despawnEffect: none
+        hitEffect: none
+        collides: false
+        damage: 0
+        pierce: true
+        pierceBuilding: true
+        recoil: -0.1
+        impact: true
+      }
     }
 ]
 
