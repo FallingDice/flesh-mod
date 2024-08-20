@@ -1,0 +1,18 @@
+localizedName: Red Zone
+planet: vermillion
+sector: 3
+difficulty: 4
+
+captureWave: 25
+
+research: {
+  parent: first-encounter
+  objectives: [
+    {
+      type: SectorComplete
+      preset: first-encounter
+    }
+  ]
+}
+
+//두번째 구역2
