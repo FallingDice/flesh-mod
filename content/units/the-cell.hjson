@@ -65,3 +65,17 @@ abilities: [
       reload: 1000
     }
 ]
+
+research: {
+    parent: cell-hive
+    objectives: [
+    {
+      type: SectorComplete
+      preset: first-encounter
+    }
+  ]
+    requirements:
+    [
+        flesh/1000
+    ]
+}
