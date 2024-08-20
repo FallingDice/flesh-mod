@@ -23,7 +23,7 @@ weapons: [
             width: 1
             height: 1
             lifetime: 1
-            recoil: -0.9
+            recoil: -1
         }
     },
     {  
@@ -37,7 +37,7 @@ weapons: [
       bullet: {
         width: 0
         height: 0
-        speed: 0
+        speed: 5
         lifetime: 80
         shootErfect: none
         despawnEffect: none
@@ -46,7 +46,7 @@ weapons: [
         damage: 0
         pierce: true
         pierceBuilding: true
-        recoil: -0.9
+        recoil: -3
         impact: true
       }
     }
