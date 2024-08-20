@@ -12,7 +12,7 @@ weapons: [
         rotate: true
         x: 0
         y: 0
-        reload: 3
+        reload: 20
         shootSound: sap
 
         bullet: {
@@ -20,7 +20,7 @@ weapons: [
             damage: 1
             width: 1
             height: 1
-            lifetime: 1
+            lifetime: 3
         }
     }
 ]
