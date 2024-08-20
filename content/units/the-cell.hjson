@@ -2,7 +2,7 @@ flying: false
 health: 200
 speed: 2
 hitSize: 6
-range: 180
+range: 120
 
 outlineColor: ff1744
 
@@ -37,8 +37,8 @@ weapons: [
       bullet: {
         width: 0
         height: 0
-        speed: 5
-        lifetime: 80
+        speed: 1
+        lifetime: 40
         shootEffect: none
         despawnEffect: none
         hitEffect: none
