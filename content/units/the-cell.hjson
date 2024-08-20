@@ -23,7 +23,7 @@ weapons: [
             width: 1
             height: 1
             lifetime: 1
-            recoil: -1
+            recoil: -0.9
         }
     },
     {  
@@ -46,7 +46,7 @@ weapons: [
         damage: 0
         pierce: true
         pierceBuilding: true
-        recoil: -3
+        recoil: -0.9
         impact: true
       }
     }
