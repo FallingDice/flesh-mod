@@ -2,7 +2,7 @@ flying: false
 health: 200
 speed: 2
 hitSize: 6
-range: 120
+range: 180
 
 outlineColor: ff1744
 
@@ -32,7 +32,6 @@ weapons: [
       rotate: false
       mirror: false
       reload: 20
-      shootCone: 20
       shootSound: none
       bullet: {
         width: 0
