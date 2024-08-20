@@ -1,11 +1,10 @@
 flying: false
-health: 40
+health: 60
 speed: 2
 hitSize: 6
 
 outlineColor: ff1744
 
-rotateSpeed: 3
 circleTarget: true
 
 weapons: [
