@@ -35,6 +35,7 @@ weapons: [
       mirror: false
       reload: 1
       shootSound: none
+      ejectEffect: none
       bullet: {
         width: 0
         height: 0
@@ -47,7 +48,7 @@ weapons: [
         damage: 0
         pierce: true
         pierceBuilding: true
-        recoil: -0.5
+        recoil: -0.7
         impact: true
       }
     }
