@@ -33,8 +33,10 @@ itemCapacity: 20
 drawCell: b
 fogRadius: n
 lightRadius: n
-groundLayer: n
 drownTimeMultiplier: 1.0
+
+groundLayer: n
+>60 유닛 기본값, 75 레그유닛 기본값, 110 이펙트 기본값, 220 max
 
 불투명요소
 shadowElevation: nf
@@ -157,7 +159,7 @@ triLength: nf
 triLengthTo: nf
 
 #능력구성 요소[]
-type> RepairFieldAbility, MoveEffectAbility, SpawnDeathAbility,UnitSpawnAbility, LiquidExplodeAbility
+type> RepairFieldAbility, MoveEffectAbility, SpawnDeathAbility,UnitSpawnAbility, LiquidExplodeAbility, ShieldRegenFieldAbility
 
 ##리페어
 range: n
@@ -193,3 +195,9 @@ spawnTime: n
 ##액체폭발
 liquid: str
 amount: n
+
+##실드 생성
+range: n
+amount: n ||percent: n
+reload: n
+max:n
