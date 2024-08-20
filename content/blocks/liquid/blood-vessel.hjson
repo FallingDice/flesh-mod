@@ -16,6 +16,6 @@ research: {
     parent: bloodsucker
     requirements:
     [
-        flesh/10
+        flesh/150
     ]
 }
