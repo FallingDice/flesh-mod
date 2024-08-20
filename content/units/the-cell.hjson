@@ -1,5 +1,5 @@
 flying: false
-health: 60
+health: 200
 speed: 2
 hitSize: 6
 range: 120
