@@ -7,7 +7,7 @@ hitSize: 6
 range: 120
 
 outlineColor: ff1744
-hovering: true
+aimDst: 160
 
 circleTarget: true
 
