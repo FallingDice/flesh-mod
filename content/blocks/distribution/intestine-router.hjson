@@ -15,6 +15,6 @@ research: {
     parent: intestine-junction
     requirements:
     [
-        flesh/20
+        flesh/100
     ]
 }
