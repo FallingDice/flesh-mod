@@ -210,8 +210,8 @@ max:n
 #테크트리 요소 research: {}
 parent: str
 requirements: [str/n]
-objectives: {}
+objectives: []
 
-##objectives: {}
-type:> SectorComplete
-preset: str
+##objectives: []
+{}type:> SectorComplete
+{}preset: str
