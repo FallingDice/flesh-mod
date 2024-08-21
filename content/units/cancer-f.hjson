@@ -12,7 +12,7 @@ accel: 0.1
 mineSpeed: 3
 buildSpeed: 1
 mineTier: 1
-itemCapacity: 80
+itemCapacity: 40
 
 outlineColor: ff1744
 drawCell: false
