@@ -1,4 +1,4 @@
-type: ItemTurret
+type: LiquidTurret
 category: turret
 health: 200
 size: 1
@@ -9,6 +9,10 @@ requirements: [
 ]
 
 shootSound: splash
+
+hasLiquids: true
+liquidCapacity: 10
+recoil: 0
 
 outlineColor: ff1744
 reload: 20
@@ -35,6 +39,7 @@ ammoTypes: {
     despawnSound: splash
 
     status: spore-slowed
+    statusDuration: 20
 
   }
 }
