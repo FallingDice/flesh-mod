@@ -9,6 +9,7 @@ range: 120
 outlineColor: ff1744
 aimDst: 160
 
+drawCell: false
 circleTarget: true
 
 weapons: [
