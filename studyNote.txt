@@ -4,6 +4,8 @@
 
 #능력구성 요소[]
 
+#테크트리 요소{}
+
 "키워드> 들어갈 수 있는 내용, 들어갈 수 있는 내용" 또다른 키워드
 "키워드:b" 불값
 "키워드:n" 숫자 f는 소수 가능
@@ -119,7 +121,10 @@ sprite>
 shootCone: n(360)
 frontColor
 backColor
-status: []?> wet, burning, spore-slowed...
+status:> wet, burning, spore-slowed...
+
+//밀리초 기준, 1초에 60값임.
+statusDuration: 60
 
 trailWidth: nf
 trailLength: nf
@@ -201,3 +206,5 @@ range: n
 amount: n ||percent: n
 reload: n
 max:n
+
+#테크트리 요소reserch{}
