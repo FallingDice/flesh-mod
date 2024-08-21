@@ -1,17 +1,17 @@
 type: unitFactory
 category: units
 size: 3
-health: 500
+health: 100
 
 requirements: [
-    flesh/1
+    flesh/1000
 ]
 
 plans: [
   {
     unit: the-cell
     requirements: []
-    time: 1
+    time: 600
   }
 ]
 consumes: {}
@@ -19,4 +19,4 @@ consumes: {}
 research: {
     parent: core-aggregate
 }
-researchCostMultiplier: 0.2
+researchCostMultiplier: 0.5
