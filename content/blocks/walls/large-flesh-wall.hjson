@@ -41,6 +41,6 @@ research: {
   parent: flesh-wall
   requirements:
     [
-        {item: flesh, amount: 700}
+        {item: flesh, amount: 1200}
     ]
 }
