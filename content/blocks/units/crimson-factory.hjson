@@ -4,14 +4,14 @@ size: 3
 health: 500
 
 requirements: [
-    flesh/400
+    flesh/600
 ]
 
 plans: [
   {
     unit: u0-c1
     requirements: [
-        flesh/500
+        flesh/1000
     ]
     time: 3600
   },
