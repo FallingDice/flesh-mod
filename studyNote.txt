@@ -155,8 +155,12 @@ homingPower: nf
 homingDelay: nf
 homingRange: n
 
+##
+explosionEffect, multiEffect, particleEffect, radialEffect, seqEffect, soundEffect, waveEffect, warpEffect
+
 ##파츠구성 기본요소 parts: []
-type> shapePart, HaloPart...
+type:> DrawPart, FlarePart, HaloPart, HoverPart, RegionPart, shapePart
+
 radius: nf
 stroke: nf
 haloRadius: nf
