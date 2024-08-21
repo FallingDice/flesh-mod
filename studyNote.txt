@@ -50,7 +50,8 @@ shadowElevation: nf
 circleTarget: true
 
 ##매크유닛 기본요소
-boost: true
+canBoost: true
+riseSpeed: nf
 
 ##공중유닛 기본요소
 flying: true
