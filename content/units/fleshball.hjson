@@ -10,6 +10,7 @@ range: 120
 accel: 0.16
 drag: 0.032
 
+controller: BoostAI
 drawCell: false
 engineSize: 0
 outlineColor: ff1744
