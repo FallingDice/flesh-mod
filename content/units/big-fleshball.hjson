@@ -90,7 +90,7 @@ weapons: [
       reload: 200
       shootCone: 20
       shootStatus: overdrive
-      shootStatusDuration: 30
+      shootStatusDuration: 180
       
       shootSound: laser
       bullet: {
