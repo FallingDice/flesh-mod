@@ -208,3 +208,10 @@ reload: n
 max:n
 
 #테크트리 요소 research: {}
+parent: str
+requirements: [str/n]
+objectives: {}
+
+##objectives: {}
+type:> SectorComplete
+preset: str
