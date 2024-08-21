@@ -78,7 +78,7 @@ drawer: {
 }
 
 research: {
-    parent: core-aggregate
+    parent: bloodshot
     requirements:
     [
         flesh/1200
