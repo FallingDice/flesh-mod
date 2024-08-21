@@ -1,8 +1,8 @@
 #유닛 구성 기본 요소(##공중유닛 기본요소, ##다리유닛 기본요소, ##기는유닛 기본요소, ##미사일유닛 기본요소)
 
-#무기구성 기본요소 weapons: [](##총알구성 기본요소 bullet: {}, ##파츠구성 기본요소[])
+#무기구성 기본요소 weapons: [](##총알구성 기본요소 bullet: {}, ##파츠구성 기본요소 parts: [])
 
-#능력구성 요소 ability: []
+#능력구성 요소 abilities: []
 
 #테크트리 요소 research: {}
 
@@ -144,7 +144,7 @@ homingPower: nf
 homingDelay: nf
 homingRange: n
 
-##파츠구성 기본요소[]
+##파츠구성 기본요소 parts: []
 type> shapePart, HaloPart...
 radius: nf
 stroke: nf
@@ -163,7 +163,7 @@ shapes: n
 triLength: nf
 triLengthTo: nf
 
-#능력구성 요소 ability: []
+#능력구성 요소 abilities: []
 type> RepairFieldAbility, MoveEffectAbility, SpawnDeathAbility,UnitSpawnAbility, LiquidExplodeAbility, ShieldRegenFieldAbility
 
 ##리페어
