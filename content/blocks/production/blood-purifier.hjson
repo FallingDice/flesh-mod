@@ -21,7 +21,7 @@ hasLiquids: true
 liquidCapacity: 24
 
 requirements: [
-  flesh/30
+  flesh/130
 ]
 
 consumes: {
@@ -37,7 +37,18 @@ outputLiquid : {
     amount: 0.2
 }
 
-craftTime: 40
-
-research: bloodsucker
+//어텍맵 점령 이후
+research: {
+    parent: core-aggregate
+    requirements:
+    [
+        flesh/600
+    ]
+    objectives: [
+    {
+      type: SectorComplete
+      preset: red-zone
+    }
+  ]
+}
 researchCostMultiplier: 0.33
