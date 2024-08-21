@@ -4,6 +4,7 @@ template: MissileUnitType
 flying: true
 speed: 2.5
 
+controller: MissileAI
 missileAccelTime: 30
 useUnitCap: false
 engineSize: 0.3
