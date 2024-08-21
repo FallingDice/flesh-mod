@@ -25,21 +25,21 @@ ammoTypes: {
   blood: {
     type: LiquidBulletType
     speed: 6
-    damage: 20
-    knockback: 0.7
-    drag: 0.01
+    damage: 5
+    knockback: 0.5
+    drag: 0.05
     lifetime: 20
-    splashDamage: 20
+    splashDamage: 10
     splashDamageRadius: 40
     homingPower: 0.15
     liquid: blood
-    orbSize: 3
-    puddleSize: 16
+    orbSize: 4
+    puddleSize: 8
     despawnHit: true
     despawnSound: splash
 
     status: spore-slowed
-    statusDuration: 20
+    statusDuration: 60
 
   }
 }
