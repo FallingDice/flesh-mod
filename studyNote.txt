@@ -26,11 +26,12 @@ engineOffset: nf
 outlineColor: c
 rotateSpeed: 1.0
 lowAltitude: b
-immunities: []> wet, burning, spore-slowed...
 mineSpeed: 1.0?
 buildSpeed: 1.0?
 mineTier: 1
 itemCapacity: 20
+
+immunities: []> none, burning, freezing, unmoving, slow, fast, wet, muddy, melting, sapped, tarred, overdrive, overclock, shielded, shocked, blasted, corroded, boss, sporeSlowed, disarmed, electrified, invincible, dynamic
 
 drawCell: b
 fogRadius: n
@@ -38,10 +39,12 @@ lightRadius: n
 drownTimeMultiplier: 1.0
 
 groundLayer: n
->60 유닛 기본값, 75 레그유닛 기본값, 110 이펙트 기본값, 220 max
+>60(유닛 기본값), 75(레그유닛 기본값), 110(이펙트 기본값), 220 max
 
-불투명요소
+//그림자 높이 조절
 shadowElevation: nf
+
+//원을 그리며 타깃 추적
 circleTarget: b
 
 ##공중유닛 기본요소
@@ -121,7 +124,8 @@ sprite>
 shootCone: n(360)
 frontColor
 backColor
-status:> wet, burning, spore-slowed...
+
+status:> none, burning, freezing, unmoving, slow, fast, wet, muddy, melting, sapped, tarred, overdrive, overclock, shielded, shocked, blasted, corroded, boss, sporeSlowed, disarmed, electrified, invincible, dynamic
 
 //밀리초 기준, 1초에 60값임.
 statusDuration: 60
