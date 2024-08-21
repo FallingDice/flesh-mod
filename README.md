@@ -57,3 +57,5 @@ edit missile ai
 0.771v - update bundles
 
 0.772v - update sprite
+
+0.777v - fixbugs and update sprite

@@ -36,7 +36,7 @@ research: {
     objectives: [
     {
       type: SectorComplete
-      preset: first-encounter
+      preset: contaminated-area
     }
   ]
 }

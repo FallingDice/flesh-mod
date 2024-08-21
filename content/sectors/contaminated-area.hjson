@@ -1,0 +1,17 @@
+localizedName: Contaminated Area
+planet: vermillion
+sector: 3
+research: core-aggregate
+difficulty: 6
+
+research: {
+  parent: red-zone
+  objectives: [
+    {
+      type: SectorComplete
+      preset: fred-zone
+    }
+  ]
+}
+
+//세번째 구역

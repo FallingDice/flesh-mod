@@ -21,7 +21,7 @@ research: {
     objectives: [
     {
       type: SectorComplete
-      preset: red-zone
+      preset: contaminated-area
     }
   ]
 }
