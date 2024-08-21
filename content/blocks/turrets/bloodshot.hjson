@@ -14,14 +14,16 @@ outlineColor: ff1744
 reload: 20
 heatColor: ff1744
 inaccuracy: 35
+shootCone: 50
+
 
 ammoTypes: {
-  flesh: {
+  blood: {
     type: LiquidBulletType
-    width: 7
-    height: 9
     speed: 6
     damage: 20
+    knockback: 0.7
+    drag: 0.01
     lifetime: 20
     splashDamage: 20
     splashDamageRadius: 40
