@@ -8,7 +8,7 @@ requirements: [
   flesh/50
 ]
 
-shootSound: shoot
+shootSound: splash
 
 outlineColor: ff1744
 reload: 20
@@ -28,6 +28,11 @@ ammoTypes: {
     splashDamage: 20
     splashDamageRadius: 40
     homingPower: 0.15
+    liquid: blood
+    orbSize: 3
+    puddleSize: 16
+    despawnHit: true
+    despawnSound: splash
 
     status: spore-slowed
 
