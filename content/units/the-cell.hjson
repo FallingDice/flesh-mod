@@ -11,6 +11,7 @@ aimDst: 160
 
 drawCell: false
 circleTarget: true
+airTarget: false
 
 weapons: [
     {
