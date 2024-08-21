@@ -9,7 +9,7 @@ research: {
   objectives: [
     {
       type: SectorComplete
-      preset: fred-zone
+      preset: red-zone
     }
   ]
 }
