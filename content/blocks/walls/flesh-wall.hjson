@@ -44,4 +44,10 @@ drawer: {
   basePrefix: flesh-wall-base
 }
 
-research: core-aggregate
+research: {
+  parent: core-aggregate
+  requirements:
+    [
+        {item: flesh, amount: 100}
+    ]
+}
