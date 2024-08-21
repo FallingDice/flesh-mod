@@ -1,10 +1,10 @@
 #유닛 구성 기본 요소(##공중유닛 기본요소, ##다리유닛 기본요소, ##기는유닛 기본요소, ##미사일유닛 기본요소)
 
-#무기구성 기본요소[](##총알구성 기본요소{}, ##파츠구성 기본요소[])
+#무기구성 기본요소 weapons: [](##총알구성 기본요소{}, ##파츠구성 기본요소[])
 
-#능력구성 요소[]
+#능력구성 요소 ability: []
 
-#테크트리 요소{}
+#테크트리 요소 research: {}
 
 "키워드> 들어갈 수 있는 내용, 들어갈 수 있는 내용" 또다른 키워드
 "키워드:b" 불값
@@ -94,7 +94,7 @@ segmentMag: nf
 
 선택요소
 
-#무기구성 기본요소[]
+#무기구성 기본요소 weapons: []
 name: str
 x: 0
 y: 0
@@ -108,7 +108,7 @@ layerOffset: -0.001
 ejectEffect> 
 shootSound> 
 
-##총알구성 기본요소{}
+##총알구성 기본요소 bullet: {}
 type> BasicBulletType, 
 damage: n
 speed: nf
@@ -163,7 +163,7 @@ shapes: n
 triLength: nf
 triLengthTo: nf
 
-#능력구성 요소[]
+#능력구성 요소 ability: []
 type> RepairFieldAbility, MoveEffectAbility, SpawnDeathAbility,UnitSpawnAbility, LiquidExplodeAbility, ShieldRegenFieldAbility
 
 ##리페어
@@ -207,4 +207,4 @@ amount: n ||percent: n
 reload: n
 max:n
 
-#테크트리 요소reserch{}
+#테크트리 요소 research: {}
