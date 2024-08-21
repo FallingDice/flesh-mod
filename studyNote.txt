@@ -12,13 +12,14 @@
 "!키워드"는 긴 내용을 가진 함수를 포함하는 코드
 
 #유닛 구성 기본 요소
-type> mech, flying, legs, crawl, missile, tank
+type:> mech, flying, legs, tank, crawl, missile
 speed: 1.0
 health: 100
-armor: 0
+armor: 1
 
 //1*1크기
 hitSize: 8
+
 range: n
 
 선택요소
@@ -31,9 +32,10 @@ buildSpeed: 1.0?
 mineTier: 1
 itemCapacity: 20
 
-immunities: []> none, burning, freezing, unmoving, slow, fast, wet, muddy, melting, sapped, tarred, overdrive, overclock, shielded, shocked, blasted, corroded, boss, sporeSlowed, disarmed, electrified, invincible, dynamic
+immunities: []
+> none, burning, freezing, unmoving, slow, fast, wet, muddy, melting, sapped, tarred, overdrive, overclock, shielded, shocked, blasted, corroded, boss, sporeSlowed, disarmed, electrified, invincible, dynamic
 
-drawCell: b
+drawCell: false
 fogRadius: n
 lightRadius: n
 drownTimeMultiplier: 1.0
@@ -45,7 +47,10 @@ groundLayer: n
 shadowElevation: nf
 
 //원을 그리며 타깃 추적
-circleTarget: b
+circleTarget: true
+
+##매크유닛 기본요소
+boost: true
 
 ##공중유닛 기본요소
 flying: true
@@ -125,7 +130,8 @@ shootCone: n(360)
 frontColor
 backColor
 
-status:> none, burning, freezing, unmoving, slow, fast, wet, muddy, melting, sapped, tarred, overdrive, overclock, shielded, shocked, blasted, corroded, boss, sporeSlowed, disarmed, electrified, invincible, dynamic
+status:
+> none, burning, freezing, unmoving, slow, fast, wet, muddy, melting, sapped, tarred, overdrive, overclock, shielded, shocked, blasted, corroded, boss, sporeSlowed, disarmed, electrified, invincible, dynamic
 
 //밀리초 기준, 1초에 60값임.
 statusDuration: 60
