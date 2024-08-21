@@ -18,5 +18,11 @@ consumes: {}
 
 research: {
     parent: core-aggregate
+    objectives: [
+    {
+      type: SectorComplete
+      preset: first-encounter
+    }
+  ]
 }
 researchCostMultiplier: 0.5
