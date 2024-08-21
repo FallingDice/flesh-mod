@@ -9,7 +9,7 @@ range: 80
 drag: 0.05
 accel: 0.1
 
-mineSpeed: 1
+mineSpeed: 3
 buildSpeed: 1
 mineTier: 1
 itemCapacity: 80
