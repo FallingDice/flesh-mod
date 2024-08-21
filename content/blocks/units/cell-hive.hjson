@@ -4,7 +4,7 @@ size: 3
 health: 100
 
 requirements: [
-    flesh/1000
+    flesh/300
 ]
 
 plans: [
