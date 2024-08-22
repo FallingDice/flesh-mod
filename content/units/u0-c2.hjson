@@ -4,8 +4,7 @@ type: flying
 flying: true
 health: 500
 armor: 10
-//speed: 5
-maxVelocity: 7
+speed: 5
 hitSize: 9
 range: 120
 
@@ -15,7 +14,6 @@ drag: 0.09
 outlineColor: ff1744
 lowAltitude: true
 circleTarget: true
-attackLength: 150
 
 weapons: [
     { 
