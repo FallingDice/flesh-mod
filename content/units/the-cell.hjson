@@ -37,7 +37,7 @@ weapons: [
       display: false
       rotate: true
       mirror: false
-      reload: 100
+      reload: 75
       shootSound: none
       ejectEffect: none
       bullet: {
