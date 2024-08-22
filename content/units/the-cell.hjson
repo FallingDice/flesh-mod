@@ -12,6 +12,7 @@ aimDst: 120
 drawCell: false
 circleTarget: true
 targetAir: false
+controller: HugAI
 
 weapons: [
     {
