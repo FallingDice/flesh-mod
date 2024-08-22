@@ -39,16 +39,6 @@ ammoTypes: {
     instantDisappear: true
     damage: 0
     spawnUnit: flesh-missile
-
-  }
-  spore-pod: {
-    type: ArtilleryBulletType
-    width: 7
-    height: 9
-    speed: 8
-    splashDamage: 40
-    splashDamageRadius: 80
-    status: spore-slowed
   }
 }
 

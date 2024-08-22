@@ -13,6 +13,7 @@ drawCell: false
 circleTarget: true
 targetAir: false
 controller: HugAI
+crushDamage: 0.3
 
 weapons: [
     {

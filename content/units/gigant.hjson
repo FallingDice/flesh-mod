@@ -9,9 +9,8 @@ range: 80
 rotateSpeed: 0.7
 immunities: [wet, spore-slowed]
 itemCapacity: 200
-
-crushDamage: 20
-knockback: 0.3
+mechFrontSway: 1
+mechStepParticles: true
 
 abilities: [
     {
@@ -28,7 +27,7 @@ abilities: [
     },
     {
         type: ShieldRegenFieldAbility
-        range: 80
+        range: 60
         amount: 40
         reload: 300
         max:200

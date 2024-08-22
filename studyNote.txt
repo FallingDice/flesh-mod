@@ -38,6 +38,7 @@ immunities: []
 drawCell: false
 fogRadius: n
 lightRadius: n
+singleTarget: true
 drownTimeMultiplier: 1.0
 
 groundLayer: n
@@ -50,6 +51,8 @@ shadowElevation: nf
 circleTarget: true
 
 ##매크유닛 기본요소
+mechFrontSway: nf
+mechStepParticles: true
 canBoost: true
 riseSpeed: nf
 
