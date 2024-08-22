@@ -44,8 +44,8 @@ weapons: [
       bullet: {
         width: 0
         height: 0
-        speed: 1
-        lifetime: 10
+        speed: 8
+        lifetime: 30
         shootEffect: none
         despawnEffect: none
         hitEffect: none
