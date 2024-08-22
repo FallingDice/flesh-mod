@@ -30,12 +30,15 @@ shootType: {
   type: SapBulletType
   knockback: -0.5
   damage: 2
-  width: 1
-  height: 1
+  sapStrength: 0.85
+  length: 55
+  shootEffect: shootSmall
+  hitColor: bf92f9
+  color: bf92f9
+  despawnEffect: none
+  width: 0.55
   lifetime: 20
 
-  frontColor: ff0000
-  backColor: df0000
   status: spore-slowed
 }
 

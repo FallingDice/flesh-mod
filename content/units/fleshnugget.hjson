@@ -27,10 +27,16 @@ weapons: [
         bullet: {
             type: SapBulletType
             damage: 1
-            width: 1
-            height: 1
+            sapStrength: 0.85
+            length: 55
+            shootEffect: shootSmall
+            hitColor: ff6993
+            color: ff6993
+            despawnEffect: none
+            width: 0.55
             lifetime: 10
             recoil: -2
+            knockback: -0.3
             
             status: spore-slowed
         }
