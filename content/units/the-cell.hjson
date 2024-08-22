@@ -28,7 +28,7 @@ weapons: [
             width: 1
             height: 1
             lifetime: 2
-            recoil: -0.5
+            recoil: -1
         }
     },
     {  
@@ -37,7 +37,7 @@ weapons: [
       display: false
       rotate: false
       mirror: false
-      reload: 1
+      reload: 100
       shootSound: none
       ejectEffect: none
       bullet: {
@@ -52,7 +52,7 @@ weapons: [
         damage: 0
         pierce: true
         pierceBuilding: true
-        recoil: -0.7
+        recoil: -10
         impact: true
       }
     }
