@@ -42,14 +42,3 @@ abilities: [
       reload: 500
     }
 ]
-
-weapons: [
-  {
-    reload: 16
-    x: 0
-    y: 0
-    rotate: true
-    ejectEffect: casing1
-    bullet: smallBullet
-  }
-]
