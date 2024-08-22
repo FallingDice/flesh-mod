@@ -181,12 +181,8 @@ weapons: [
       shootSound: spark
       bullet: {
         type: LaserBoltBulletType
-        width: 4
-        height: 6
         speed: 6
         lifetime: 30
-        despawnEffect: none
-        hitEffect: none
         damage: 60
         recoil: 20
         impact: true
