@@ -39,7 +39,7 @@ ammoTypes: {
     despawnSound: splash
 
     status: spore-slowed
-    statusDuration: 60
+    statusDuration: 360
 
   }
 }
