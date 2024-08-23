@@ -115,15 +115,15 @@ weapons: [
             shootEffect: {
                 type: WaveEffect
                 lifetime: 30
-                sizeFrom: 20
+                sizeFrom: 30
                 sizeTo: 0
-                strokeFrom: 0
+                strokeFrom: 1
                 strokeTO: 0.5
                 colorFrom: ffffffff
                 colorTo: ff1174ff
                 lightColor: ff0000aa
-                  }
-      }
+                 }
+         },
       parts: [
         {
           type: shapePart
