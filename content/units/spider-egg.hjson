@@ -12,6 +12,34 @@ outlines: true
 outlineColor: ff1744
 hidden: true
 
+weapons: [
+{ 
+  x: 0
+  y: 0
+  mirror: false
+  faceTarget: false
+  bullet: {
+    type: LiquidBulletType
+    speed: 6
+    damage: 5
+    knockback: 0.5
+    drag: 0.05
+    lifetime: 20
+    splashDamage: 10
+    splashDamageRadius: 40
+    homingPower: 0.15
+    liquid: blood
+    orbSize: 4
+    puddleSize: 8
+    despawnHit: true
+    despawnSound: splash
+
+    status: spore-slowed
+    statusDuration: 360
+          }
+   }
+]
+
 abilities: [
     {
         type: SpawnDeathAbility
