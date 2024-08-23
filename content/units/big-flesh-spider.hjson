@@ -134,7 +134,7 @@ weapons: [
           layer: 110
           color: ff6993
           stroke: 0
-          strokeTo: 1
+          strokeTo: 0.5
           radiusTo: 5
           radius: 2
         },
@@ -148,7 +148,7 @@ weapons: [
           haloRadius: 2
           haloRadiusTo: 5
           stroke: 0
-          strokeTo: 2
+          strokeTo: 0.5
           shapes: 4
           triLengthTo: 5
           triLength: 0
