@@ -114,12 +114,14 @@ weapons: [
             lightningDamage: 10
             shootEffect: {
                 type: WaveEffect
-                sizeFrom: 10
+                lifetime: 30
+                sizeFrom: 20
                 sizeTo: 0
                 strokeFrom: 0
                 strokeTO: 0.5
                 colorFrom: ffffffff
                 colorTo: ff1174ff
+                lightColor: ff0000aa
                   }
       }
       parts: [
