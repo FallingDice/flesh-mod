@@ -103,6 +103,17 @@ weapons: [
         damage: 0
         speed: 0
         spawnUnit: small-flesh-missile
+        shootEffect: {
+                type: WaveEffect
+                lifetime: 30
+                sizeFrom: 40
+                sizeTo: 0
+                strokeFrom: 2
+                strokeTO: 8
+                colorFrom: ffffffff
+                colorTo: ff117488
+                lightColor: ff0000aa
+           }
     }
 }
 ]
