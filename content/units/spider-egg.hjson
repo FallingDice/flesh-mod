@@ -16,8 +16,10 @@ weapons: [
 { 
   x: 0
   y: 0
+  rotate: true
   mirror: false
   faceTarget: false
+  reload: 120
   bullet: {
     type: LiquidBulletType
     speed: 6
