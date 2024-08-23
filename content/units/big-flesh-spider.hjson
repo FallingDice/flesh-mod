@@ -47,6 +47,7 @@ weapons: [
     {
         name: flesh-cannon
         rotate: true
+        rotateSpeed: 0.6
         mirror: true
         x: 10
         y: 0
