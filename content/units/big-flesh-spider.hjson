@@ -87,6 +87,7 @@ weapons: [
       shootCone: 15
       shootSound: shootBig
       ejectEffect: casing4
+      shake: 2
       bullet: {
             type: BasicBulletType
             damage: 80
@@ -133,7 +134,7 @@ weapons: [
           color: ff6993
           stroke: 0
           strokeTo: 1
-          radiusTo: 4
+          radiusTo: 5
           radius: 2
         },
         {
@@ -144,11 +145,11 @@ weapons: [
           color: ff6993
           haloRotateSpeed: 1.3
           haloRadius: 2
-          haloRadiusTo: 4
+          haloRadiusTo: 5
           stroke: 0
           strokeTo: 2
           shapes: 4
-          triLengthTo: 4
+          triLengthTo: 5
           triLength: 0
         }
       ]
