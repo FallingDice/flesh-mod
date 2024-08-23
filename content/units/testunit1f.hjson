@@ -3,7 +3,7 @@ flying: false
 health: 10
 armor: 1
 speed: 2
-hitSize: 6
+hitSize: 60
 range: 100
 
 outlineColor: ff1744
@@ -33,7 +33,7 @@ weapons: [
       rotate: true
       mirror: false
       faceTarget: false
-      reload: 0
+      reload: 80
       shootSound: none
       ejectEffect: none
       bullet: {
