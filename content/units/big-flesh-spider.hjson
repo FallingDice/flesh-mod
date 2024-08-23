@@ -117,6 +117,8 @@ weapons: [
                 line: true
                 particles: 10
                 lifetime: 60
+                lenFrom: 1
+                lenTo: 0
                 strokeFrom: 0
                 strokeTO: 0.3
                 colorFrom: ffffffff
