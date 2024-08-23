@@ -114,15 +114,15 @@ weapons: [
             lightningDamage: 10
             shootEffect: {
                 type: particleEffect
-                y: 20
                 line: true
                 particles: 10
-                offset: 10
                 lifetime: 30
-                length: 10
+                length: 30
                 cone: 360
-                lenFrom: 0
-                lenTo: 10
+                sizeFrom: 0
+                sizeTO: 1
+                strokeFrom: 0
+                strokeTO: 0.3
                 colorFrom: ffffffff
                 colorTo: ff1174ff
                   }
