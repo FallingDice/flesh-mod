@@ -52,6 +52,7 @@ circleTarget: true
 
 ##매크유닛 기본요소
 mechFrontSway: nf
+mechSideSway: nf
 mechStepParticles: true
 canBoost: true
 riseSpeed: nf
