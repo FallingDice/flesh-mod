@@ -118,7 +118,7 @@ rotate: b
 mirror: b
 layerOffset: -0.001
 ejectEffect> 
-shootSound> 
+shootSound> shoot, shootBig, bang, cannon, pew
 
 ##총알구성 기본요소 bullet: {}
 type> BasicBulletType, 
