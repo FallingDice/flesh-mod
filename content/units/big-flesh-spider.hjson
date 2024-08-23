@@ -68,7 +68,19 @@ weapons: [
             trailColor: ff1744
             frontColor: ff0000
             backColor: f00000
-            shootEffect: none
+            shootEffect: {
+                type: particleEffect
+                line: true
+                particles: 10
+                offset: 0
+                lifetime: 10
+                length: 10
+                cone: 60
+                lenFrom: 5
+                lenTo: 0
+                colorFrom: ffffffff
+                colorTo: ff1174ff
+                  }
             smokeEffect: none
             recoil: -0.05
             
