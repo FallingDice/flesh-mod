@@ -33,7 +33,7 @@ weapons: [
       rotate: true
       mirror: false
       faceTarget: false
-      reload: 75
+      reload: 0
       shootSound: none
       ejectEffect: none
       bullet: {
@@ -57,8 +57,8 @@ weapons: [
 abilities: [
     {
         type: RepairFieldAbility
-      range: -0
-      amount: -50
-      reload: 10
+      range: 0
+      amount: 50
+      reload: -1
     }
 ]
