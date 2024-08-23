@@ -72,10 +72,10 @@ weapons: [
                 type: particleEffect
                 line: true
                 particles: 10
-                offset: 0
-                lifetime: 10
+                offset: 20
+                lifetime: 30
                 length: 10
-                cone: 60
+                cone: -360
                 lenFrom: 5
                 lenTo: 0
                 colorFrom: ffffffff
