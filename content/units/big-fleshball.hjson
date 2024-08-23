@@ -95,13 +95,24 @@ weapons: [
       shootSound: laser
       bullet: {
             type: LaserBulletType
-            damage: 80
+            damage: 50
             length: 50
             lifetime: 30
             pierce: true
             pierceBuilding: true
             recoil: 3
             impact: true
+            shootEffect: {
+                type: WaveEffect
+                lifetime: 30
+                sizeFrom: 0
+                sizeTo: 30
+                strokeFrom: 2
+                strokeTO: 0
+                colorFrom: ffffffff
+                colorTo: ff117488
+                lightColor: ff0000aa
+                 }
       }
       parts: [
         {
