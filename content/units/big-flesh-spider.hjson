@@ -116,11 +116,11 @@ weapons: [
                 type: particleEffect
                 line: true
                 particles: 10
-                offset: 0
+                offset: 50
                 lifetime: 30
                 length: 10
-                cone: -360
-                lenFrom: 15
+                cone: 360
+                lenFrom: 5
                 lenTo: 0
                 colorFrom: ffffffff
                 colorTo: ff1174ff
