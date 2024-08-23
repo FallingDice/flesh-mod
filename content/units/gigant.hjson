@@ -9,7 +9,8 @@ range: 80
 rotateSpeed: 0.7
 immunities: [wet, spore-slowed]
 itemCapacity: 200
-mechFrontSway: 1
+mechFrontSway: 0.8
+mechSideSway: 0.6
 mechStepParticles: true
 
 abilities: [
