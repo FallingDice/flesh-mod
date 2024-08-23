@@ -102,7 +102,7 @@ weapons: [
             backColor: f00000
             pierce: true
             pierceBuilding: true
-            pierceCap: 5
+            pierceCap: 3
             recoil: 1
             impact: true
             homingPower: 0.8
@@ -116,11 +116,11 @@ weapons: [
                 type: particleEffect
                 line: true
                 particles: 10
-                offset: 30
+                offset: 0
                 lifetime: 30
                 length: 10
                 cone: -360
-                lenFrom: 5
+                lenFrom: 15
                 lenTo: 0
                 colorFrom: ffffffff
                 colorTo: ff1174ff
