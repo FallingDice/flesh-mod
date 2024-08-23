@@ -85,8 +85,8 @@ weapons: [
       mirror: false
       reload: 400
       shootCone: 15
-      shootSound: cannon
-      ejectEffect: casing3
+      shootSound: shootBig
+      ejectEffect: casing4
       bullet: {
             type: BasicBulletType
             damage: 80
