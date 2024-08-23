@@ -115,12 +115,12 @@ weapons: [
             shootEffect: {
                 type: WaveEffect
                 lifetime: 30
-                sizeFrom: 30
-                sizeTo: 0
-                strokeFrom: 1
-                strokeTO: 0.5
+                sizeFrom: 0
+                sizeTo: 30
+                strokeFrom: 2
+                strokeTO: 0
                 colorFrom: ffffffff
-                colorTo: ff1174ff
+                colorTo: ff117488
                 lightColor: ff0000aa
                  }
          },
