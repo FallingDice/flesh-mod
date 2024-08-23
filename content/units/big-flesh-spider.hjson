@@ -113,8 +113,7 @@ weapons: [
             lightningColor: f3e979
             lightningDamage: 10
             shootEffect: {
-                type: waveEffect
-                lifetime: 30
+                type: WaveEffect
                 sizeFrom: 10
                 sizeTo: 0
                 strokeFrom: 0
