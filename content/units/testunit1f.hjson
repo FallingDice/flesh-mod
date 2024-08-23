@@ -1,6 +1,6 @@
 type: tank
 flying: false
-health: 40
+health: 400000
 armor: 10
 speed: 2
 hitSize: 6
