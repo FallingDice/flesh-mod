@@ -62,13 +62,14 @@ weapons: [
       mirror: false
       reload: 200
       shootCone: 20
-      shootSound: spark
+      shootSound: lasershoot
       bullet: {
         type: LaserBoltBulletType
         lifetime: 30
         damage: 20
         pierce: true
         recoil: -3
+        homingPower: 0.1
 
         status: electrified
       }
