@@ -132,6 +132,7 @@ lifetime: n
 선택요소
 sprite> 
 shootCone: n(360)
+color
 frontColor
 backColor
 
@@ -152,12 +153,11 @@ pierceBuilding: b
 shootWarmupSpeed: nf
 minWarmup: nf
 warmupMaintainTime: n
-shootEffect> 
-smokeEffect> 
 impact: b
 homingPower: nf
 homingDelay: nf
 homingRange: n
+Effects> shoot, despawn, smoke
 
 ##이펙트 구성 기본요소
 type:> explosionEffect, multiEffect, particleEffect, radialEffect, seqEffect, soundEffect, waveEffect, warpEffect
