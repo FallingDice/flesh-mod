@@ -67,9 +67,7 @@ weapons: [
         type: LaserBoltBulletType
         lifetime: 30
         damage: 20
-        length: 50
         pierce: true
-        pierceBuilding: true
         recoil: -3
 
         status: electrified
