@@ -157,7 +157,7 @@ impact: b
 homingPower: nf
 homingDelay: nf
 homingRange: n
-Effects> shoot, despawn, smoke
+Effects> shoot, hit, despawn, smoke, eject
 
 ##이펙트 구성 기본요소
 type:> explosionEffect, multiEffect, particleEffect, radialEffect, seqEffect, soundEffect, waveEffect, warpEffect
