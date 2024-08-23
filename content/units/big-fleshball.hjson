@@ -91,6 +91,7 @@ weapons: [
       shootCone: 20
       shootStatus: overdrive
       shootStatusDuration: 360
+      shake: 0.7
       
       shootSound: laser
       bullet: {
