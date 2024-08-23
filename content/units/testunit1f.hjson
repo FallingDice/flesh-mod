@@ -1,7 +1,7 @@
 type: tank
 flying: false
-health: 400000
-armor: 10
+health: 10
+armor: 1
 speed: 2
 hitSize: 6
 range: 100
@@ -58,7 +58,7 @@ abilities: [
     {
         type: RepairFieldAbility
       range: 0
-      amount: 50
+      amount: 1
       reload: -1
     }
 ]
