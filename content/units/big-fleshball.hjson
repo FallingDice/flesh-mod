@@ -72,6 +72,7 @@ weapons: [
         homingPower: 0.1
 
         status: electrified
+        statusDuration: 120
       }
     },
     { 
@@ -89,7 +90,7 @@ weapons: [
       reload: 200
       shootCone: 20
       shootStatus: overdrive
-      shootStatusDuration: 180
+      shootStatusDuration: 360
       
       shootSound: laser
       bullet: {
