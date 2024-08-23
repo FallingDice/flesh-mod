@@ -105,10 +105,10 @@ weapons: [
             impact: true
             shootEffect: {
                 type: WaveEffect
-                lifetime: 30
+                lifetime: 25
                 sizeFrom: 0
-                sizeTo: 30
-                strokeFrom: 2
+                sizeTo: 15
+                strokeFrom: 5
                 strokeTO: 0
                 colorFrom: ffffffff
                 colorTo: ff117488
