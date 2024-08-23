@@ -107,10 +107,11 @@ weapons: [
             impact: true
             homingPower: 0.8
             homingRange: 60
-            lightning: 2
+            lightning: 3
             lightningLength: 6
+            lightningLengthRand: 3
             lightningColor: f3e979
-            lightningDamage: 5
+            lightningDamage: 10
       }
       parts: [
         {
