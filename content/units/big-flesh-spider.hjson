@@ -53,7 +53,7 @@ weapons: [
         reload: 100
         layerOffset: -0.001
         alternate: false
-        ejectEffect: casing1
+        ejectEffect: casing3
         shootSound: cannon
         bullet: {
             type: BasicBulletType
@@ -68,19 +68,6 @@ weapons: [
             trailColor: ff1744
             frontColor: ff0000
             backColor: f00000
-            shootEffect: {
-                type: particleEffect
-                line: true
-                particles: 10
-                offset: 20
-                lifetime: 30
-                length: 10
-                cone: -360
-                lenFrom: 5
-                lenTo: 0
-                colorFrom: ffffffff
-                colorTo: ff1174ff
-                  }
             smokeEffect: none
             recoil: -0.05
             
@@ -99,6 +86,7 @@ weapons: [
       reload: 400
       shootCone: 15
       shootSound: cannon
+      ejectEffect: casing3
       bullet: {
             type: BasicBulletType
             damage: 80
@@ -124,6 +112,19 @@ weapons: [
             lightningLengthRand: 3
             lightningColor: f3e979
             lightningDamage: 10
+            shootEffect: {
+                type: particleEffect
+                line: true
+                particles: 10
+                offset: 30
+                lifetime: 30
+                length: 10
+                cone: -360
+                lenFrom: 5
+                lenTo: 0
+                colorFrom: ffffffff
+                colorTo: ff1174ff
+                  }
       }
       parts: [
         {
