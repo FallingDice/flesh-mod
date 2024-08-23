@@ -113,16 +113,12 @@ weapons: [
             lightningColor: f3e979
             lightningDamage: 10
             shootEffect: {
-                type: particleEffect
-                line: true
-                particles: 10
-                lifetime: 60
-                cone: 360
-                length: 20
-                lenFrom: 1
-                lenTo: 0
+                type: waveEffect
+                lifetime: 30
+                sizeFrom: 10
+                sizeTo: 0
                 strokeFrom: 0
-                strokeTO: 0.3
+                strokeTO: 0.5
                 colorFrom: ffffffff
                 colorTo: ff1174ff
                   }
