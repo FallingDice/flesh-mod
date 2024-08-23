@@ -19,7 +19,7 @@ weapons: [
 
         bullet: {
             type: BasicBulletType
-            sprite: 
+            sprite: laser-end
             damage: 10
             speed: 2
             lifetime: 2
