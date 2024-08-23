@@ -33,7 +33,7 @@ weapons: [
               strokeFrom: 3
               strokeTo: 0
               lightColor: 73FFAEFF
-                   {
+              }
         }
     },
     {  
