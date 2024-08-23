@@ -59,8 +59,8 @@ weapons: [
             type: BasicBulletType
             damage: 30
             speed: 6
-            width: 5
-            height: 9
+            width: 7
+            height: 13
             lifetime: 45
             sprite: missile-large
             trailWidth: 2.5
@@ -93,7 +93,7 @@ weapons: [
             damage: 80
             speed: 12
             width: 4
-            height: 12
+            height: 16
             lifetime: 40
             sprite: missile-large
             trailWidth: 2
