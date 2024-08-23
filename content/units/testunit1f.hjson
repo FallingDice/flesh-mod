@@ -19,10 +19,9 @@ weapons: [
 
         bullet: {
             type: BasicBulletType
+            sprite: 
             damage: 10
             speed: 2
-            width: 1
-            height: 1
             lifetime: 2
             recoil: -1
             shootEffect: {
