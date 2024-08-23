@@ -117,6 +117,8 @@ weapons: [
                 line: true
                 particles: 10
                 lifetime: 60
+                cone: 360
+                length: 20
                 lenFrom: 1
                 lenTo: 0
                 strokeFrom: 0
