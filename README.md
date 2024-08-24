@@ -59,3 +59,6 @@ edit missile ai
 0.772v - update sprite
 
 0.777v - fixbugs and update sprite
+
+0.781v - fixbugs and update sprite
+-ADD    TEST unit, add shoot effects

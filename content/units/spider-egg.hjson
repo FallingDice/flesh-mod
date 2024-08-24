@@ -19,6 +19,7 @@ weapons: [
   rotate: true
   mirror: false
   faceTarget: false
+  shootSound: none
   reload: 120
   bullet: {
     type: LiquidBulletType
