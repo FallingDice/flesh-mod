@@ -1,6 +1,6 @@
 type: unitFactory
 category: units
-size: 3
+size: 2
 health: 200
 
 requirements: [
@@ -25,4 +25,7 @@ research: {
     }
   ]
 }
+customShadow: true
+drawTeamOverlay: false
+squareSprite: false
 researchCostMultiplier: 0.5
