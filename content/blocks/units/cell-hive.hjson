@@ -1,7 +1,7 @@
 type: unitFactory
 category: units
-size: 2
-health: 100
+size: 3
+health: 200
 
 requirements: [
     flesh/300
@@ -25,8 +25,4 @@ research: {
     }
   ]
 }
-
-customShadow: true
-drawTeamOverlay: false
-squareSprite: false
 researchCostMultiplier: 0.5
