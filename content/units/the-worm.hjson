@@ -17,5 +17,5 @@ crushDamage: 10
 segments: 10
 segmentScl: 10
 segmentPhase: 10
-segmentMag: 2.5
+segmentMag: 1
 omniMovement: false
