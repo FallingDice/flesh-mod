@@ -1,0 +1,14 @@
+type: Floor
+liquidDrop: gastric-juice
+liquidMultiplier: 1.3
+isLiquid: true
+cacheLayer: water
+shallow: true
+albedo: 0.9
+speedMultiplier: 0.6
+emitLight: true
+lightRadius: 3
+lightColor: ff1744
+supportsOverlay: true
+
+//MsX07 idea

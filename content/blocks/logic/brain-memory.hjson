@@ -1,0 +1,8 @@
+type: MemoryBlock
+category: logic
+health: 1000
+size: 1
+
+memoryCapacity: 512
+
+//MsX07 idea

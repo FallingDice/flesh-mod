@@ -1,0 +1,10 @@
+type: wall
+size: 2
+health: 1600
+armor: 1
+category: defense
+requirements: [
+  bone/48
+]
+
+//붙으면 데미지 입는 벽 MsX07 idea

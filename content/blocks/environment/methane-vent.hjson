@@ -1,0 +1,11 @@
+type: SteamVent
+effect: ventSteam
+effectColor: ff1744
+attributes: {
+   heat: 0.5
+}
+
+blendGroup: fat-floor
+parent: fat-floor
+
+//MsX07 idea

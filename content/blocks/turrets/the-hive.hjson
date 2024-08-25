@@ -1,0 +1,48 @@
+//벌집에서 유도 미사일 or unit을 방출합니다. MsX07 idea
+
+type: LiquidTurret
+category: turret
+health: 600
+size: 2
+range: 160
+
+requirements: [
+  flesh/250
+]
+
+shootSound: splash
+
+hasLiquids: true
+liquidCapacity: 5
+recoil: 0
+
+outlineColor: ff1744
+reload: 30
+heatColor: ff1744
+inaccuracy: 35
+shootCone: 50
+
+
+ammoTypes: {
+  blood: {
+    type: LiquidBulletType
+    speed: 6
+    damage: 5
+    knockback: 0.5
+    drag: 0.05
+    lifetime: 20
+    splashDamage: 10
+    splashDamageRadius: 40
+    homingPower: 0.15
+    liquid: blood
+    orbSize: 4
+    puddleSize: 8
+    despawnHit: true
+    despawnSound: splash
+    spawnUnit: fleshnugget
+
+    status: spore-slowed
+    statusDuration: 360
+
+  }
+}

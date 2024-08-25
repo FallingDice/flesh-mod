@@ -1,0 +1,44 @@
+//광선을 발사하여 광채를 내고 위액을 소모합니다. MsX07 idea
+
+type: LiquidTurret
+category: turret
+health: 1200
+armor: 2
+size: 4
+range: 130
+
+requirements: [
+  flesh/50, fat/20
+]
+
+shootSound: splash
+
+hasLiquids: true
+liquidCapacity: 30
+recoil: 0
+
+outlineColor: ff1744
+reload: 20
+
+ammoTypes: {
+  gastric-juice: {
+    type: LiquidBulletType
+    speed: 6
+    damage: 5
+    knockback: 0.5
+    drag: 0.05
+    lifetime: 20
+    splashDamage: 10
+    splashDamageRadius: 40
+    homingPower: 0.15
+    liquid: gastric-juice
+    orbSize: 4
+    puddleSize: 8
+    despawnHit: true
+    despawnSound: splash
+
+    status: melting
+    statusDuration: 360
+
+  }
+}

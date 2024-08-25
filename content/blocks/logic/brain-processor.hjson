@@ -1,0 +1,9 @@
+type: LogicBlock
+category: logic
+health: 1000
+size: 2
+
+instructionsPerTick: 16
+range: 200
+
+//MsX07 idea

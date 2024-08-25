@@ -1,7 +1,7 @@
 type: PowerTurret
 size: 2
 health: 1200
-armor: 3
+armor: 1
 category: defense
 requirements: [
   flesh/48

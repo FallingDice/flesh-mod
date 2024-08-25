@@ -26,6 +26,7 @@ weapons: [
         reload: 25
         ejectEffect: casing2
         shootSound: shoot
+        inaccuracy: 5
 
         shoot: {
         shots: 2
@@ -51,29 +52,6 @@ weapons: [
 
             status: spore-slowed
         }
-    },
-    {  
-      shootWarmupSpeed: 0.05
-      minWarmup: 0.9
-      warmupMaintainTime: 90
-      x: 0
-      y: 0
-      rotate: false
-      mirror: false
-      reload: 200
-      shootCone: 20
-      shootSound: lasershoot
-      bullet: {
-        type: LaserBoltBulletType
-        lifetime: 30
-        damage: 20
-        pierce: true
-        recoil: -3
-        homingPower: 0.1
-
-        status: electrified
-        statusDuration: 120
-      }
     },
     { 
       shoot: {
@@ -101,7 +79,7 @@ weapons: [
             lifetime: 30
             pierce: true
             pierceBuilding: true
-            recoil: 3
+            recoil: 0.1
             impact: true
             shootEffect: {
                 type: WaveEffect
@@ -148,7 +126,7 @@ weapons: [
           haloRadius: 7
           haloRadiusTo: 7
           stroke: 0
-          strokeTo: 2
+          strokeTo: 1
           shapes: 6
           triLengthTo: 4
           triLength: 0

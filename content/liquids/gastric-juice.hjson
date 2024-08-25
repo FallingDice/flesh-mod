@@ -1,0 +1,17 @@
+name: Gastric Juice
+type: Liquid
+
+color: ff0000
+
+coolant: false
+temperature: 1
+blockReactive: false
+viscosity: 0.75
+heatCapacity: 0.3
+moveThroughBlocks: true
+effect: melting
+lightColor: f0511d60
+
+research: blood
+
+//MsX07 idea

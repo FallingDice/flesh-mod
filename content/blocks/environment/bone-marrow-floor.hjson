@@ -1,0 +1,11 @@
+type: Floor
+cacheLayer: water
+shallow: true
+albedo: 0.5
+speedMultiplier: 0.3
+emitLight: false
+lightRadius: 2
+lightColor: ff1744
+supportsOverlay: true
+
+//MsX07 idea

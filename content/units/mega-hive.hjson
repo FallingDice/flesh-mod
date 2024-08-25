@@ -82,8 +82,8 @@ weapons: [
           haloRadiusTo: 30
           stroke: 0
           strokeTo: 3
-          shapes: 12
-          triLengthTo: 3
+          shapes: 6
+          triLengthTo: 5
           triLength: 0
         }
       ]

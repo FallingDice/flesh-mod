@@ -1,0 +1,12 @@
+name: Fat
+description: so sweet!
+color: ff1744
+
+cost: 1
+hardness: 1
+flammability: 1.2
+explosiveness: 0.1
+
+research: flesh
+
+//MsX07 idea

@@ -104,25 +104,13 @@ weapons: [
       parts: [
         {
           type: RegionPart
-          layer: -1
+          layer: 110
           colorTo: ff0000AA
           color: ff0000AA
           outline: false
           blending: additive
           suffix: -glow
           progress: warmup
-        },
-        {
-          type: shapePart
-          hollow: true
-          circle: true
-          layer: 110
-          color: ff6993
-          stroke: 0
-          strokeTo: 1.5
-          radiusTo: 3
-          radius: 1
-          y: 3
         },
         {
           type: HaloPart
@@ -166,6 +154,6 @@ research: {
     parent: flesh-hive
     requirements:
     [
-        {item: flesh, amount: 10}
+        {item: flesh, amount: 100}
     ]
 }
