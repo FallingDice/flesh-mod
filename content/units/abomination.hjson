@@ -6,7 +6,7 @@ armor: 50
 hitSize: 60
 range: 40
 
-rotateSpeed: 0.5
+rotateSpeed: 1.5
 immunities: [wet, burning, spore-slowed]
 itemCapacity: 600
 
@@ -18,7 +18,7 @@ crushDamage: 20
 segments: 3
 segmentScl: 3
 segmentPhase: 3
-segmentMag: 0.5
+segmentMag: 1.5
 knockback: 0.5
 
 abilities: [
