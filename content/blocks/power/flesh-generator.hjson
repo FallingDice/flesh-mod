@@ -17,12 +17,27 @@ powerProduction: 3
     itemFlammable: {}
     itemExplode: {}
   }
-  hasLiquids: true
-  liquidCapacity: 20
+hasLiquids: true
+liquidCapacity: 20
 
-  generateEffect: generatespark
-  ambientSound: smelter
-  ambientSoundVolume: 0.1
+generateEffect: generatespark
+ambientSound: smelter
+ambientSoundVolume: 0.1
+
+itemDuration: 180
+
+drawer: {
+    type: DrawMulti
+    drawers: [
+      {
+        type: DrawDefault
+      },
+      {
+        type: DrawRegion
+        suffix: -light
+      }
+    ]
+}
 
 research: core-aggregate
 researchCostMultiplier: 0.3
