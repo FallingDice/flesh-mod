@@ -26,8 +26,8 @@ shootType: {
   sapStrength: 0.85
   length: 55
   shootEffect: shootSmall
-  hitColor: bf92f9
-  color: bf92f9
+  hitColor: ff6993
+  color: ff6993
   despawnEffect: none
   width: 0.55
   lifetime: 20

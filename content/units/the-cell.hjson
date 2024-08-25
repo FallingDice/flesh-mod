@@ -35,7 +35,7 @@ weapons: [
     },
     {  
       x: 0
-      y: 0
+      y: -20
       display: false
       rotate: true
       mirror: false
