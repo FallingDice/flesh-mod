@@ -5,10 +5,10 @@ category: turret
 health: 600
 armor: 1
 size: 2
-range: 250
+range: 260
 
 requirements: [
-  flesh/80, bone: 60
+  flesh/80, bone/60
 ]
 
 shootSound: shoot
