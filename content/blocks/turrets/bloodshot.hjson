@@ -15,6 +15,7 @@ liquidCapacity: 10
 recoil: 0
 
 outlineColor: ff1744
+outlineRadius: 0.5
 reload: 20
 heatColor: ff1744
 inaccuracy: 35
