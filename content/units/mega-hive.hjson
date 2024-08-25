@@ -5,7 +5,7 @@ flying: true
 health: 10000
 armor: 100
 speed: 0.3
-hitSize: 80
+hitSize: 58
 range: 120
 
 accel: 0.8
@@ -157,7 +157,7 @@ abilities: [
     {
     type: MoveEffectAbility
     x: 0
-    y: -0.4
+    y: -29
     effect: artilleryTrailSmoke
     teamColor: false
     color: ff1744
