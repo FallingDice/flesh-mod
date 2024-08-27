@@ -36,7 +36,10 @@ envEnabled: space
 
 unitSort: strongest
 
-consumeLiquid: {gastric-juice: 6}
+consumeLiquid: {
+        liquid: gastric-juice
+        amount: 0.6
+               }
 
 status: melting
 statusDuration: 360
