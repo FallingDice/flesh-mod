@@ -38,26 +38,5 @@ unitSort: strongest
 
 consumeLiquid: {gastric-juice: 6}
 
-
-ammoTypes: {
-  gastric-juice: {
-    type: LiquidBulletType
-    speed: 6
-    damage: 5
-    knockback: 0.5
-    drag: 0.05
-    lifetime: 20
-    splashDamage: 10
-    splashDamageRadius: 40
-    homingPower: 0.15
-    liquid: gastric-juice
-    orbSize: 4
-    puddleSize: 8
-    despawnHit: true
-    despawnSound: splash
-
-    status: melting
-    statusDuration: 360
-
-  }
-}
+status: melting
+statusDuration: 360
