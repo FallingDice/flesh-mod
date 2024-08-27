@@ -37,7 +37,6 @@ rotateSpeed: 0.9
 
 shootY: 0.5
 outlineColor: ff1744
-envEnabled: space
 
 unitSort: strongest
 
