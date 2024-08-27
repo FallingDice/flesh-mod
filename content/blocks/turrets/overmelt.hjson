@@ -15,10 +15,15 @@ hasLiquids: true
 liquidCapacity: 30
 
 outlineColor: ff1744
-type: PointLaserBulletType
-damage: 100
-buildingDamageMultiplier: 0.5
-hitColor: fda981
+
+ammoType: {
+  gastric-juice: {
+      type: PointLaserBulletType
+      damage: 100
+      buildingDamageMultiplier: 0.5
+      hitColor: fda981
+     }
+}
 
 shootSound: none
 loopSoundVolume: 1
@@ -35,11 +40,6 @@ outlineColor: ff1744
 envEnabled: space
 
 unitSort: strongest
-
-consumeLiquid: {
-        liquid: gastric-juice
-        amount: 0.6
-               }
 
 status: melting
 statusDuration: 360
