@@ -7,7 +7,12 @@ requirements: [
   bone/12
 ]
 
-damage: 10
-status: burning
+insulated: true
+absorbLasers: true
+schematicPriority: 10
+
+//chanceDeflect: 10
+//flashHit: true
+//lightningChance: 0.05
 
 //붙으면 데미지 입는 벽 MsX07 idea betamindy 참고
