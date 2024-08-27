@@ -15,7 +15,7 @@ hasLiquids: true
 liquidCapacity: 30
 
 outlineColor: ff1744
-shootType: [PointLaserBulletType]
+type: PointLaserBulletType
 damage: 100
 buildingDamageMultiplier: 0.5
 hitColor: fda981
