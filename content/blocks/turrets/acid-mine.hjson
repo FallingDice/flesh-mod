@@ -1,6 +1,14 @@
-//산성지뢰 MsX07 idea
+//산성지뢰 MsX07 idea 분류를 turret에서 effect로 이동
 
 type: ShockMine
+category: effect
+health: 200
+size: 1
+range: 100
+
+requirements: [
+  flesh/50, bone/20
+]
 
 hasShadow: false
 
