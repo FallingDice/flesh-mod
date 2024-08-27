@@ -1,1 +1,18 @@
 //자원 획득자, 외골격을 가져 매우 단단합니다. MsX07 idea
+
+type: flying
+flying: true
+health: 500
+armor: 10
+speed: 3
+hitSize: 8
+
+accel: 0.1
+drag: 0.2
+
+mineSpeed: 3
+mineTier: 2
+itemCapacity: 40
+drawCell: false
+engineSize: 0
+outlineColor: ff1744
