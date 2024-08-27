@@ -4,7 +4,7 @@ color: ff1744
 
 cost: 1
 hardness: 1
-flammability: 1.2
+flammability: 0.8
 explosiveness: 0
 
 research: core-aggregate
