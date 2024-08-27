@@ -7,12 +7,22 @@ requirements: [
   bone/12
 ]
 
+//절연
 insulated: true
+
+//흡수
 absorbLasers: true
+
+//우선도
 schematicPriority: 10
 
+
 //chanceDeflect: 10
+
+
 //flashHit: true
+
+//전격 확률
 //lightningChance: 0.05
 
 //붙으면 데미지 입는 벽 MsX07 idea betamindy 참고
