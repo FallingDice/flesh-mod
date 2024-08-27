@@ -5,7 +5,7 @@ category: turret
 health: 1200
 armor: 2
 size: 4
-range: 130
+range: 200
 
 requirements: [
   flesh/50, fat/20
@@ -19,6 +19,25 @@ shootType: PointLaserBulletType
 damage: 100
 buildingDamageMultiplier: 0.5
 hitColor: fda981
+
+shootSound: none
+loopSoundVolume: 1
+loopSound: laserbeam
+
+shootWarmupSpeed: 0.08
+shootCone: 360
+
+aimChangeSpeed: 0.9
+rotateSpeed: 0.9
+
+shootY: 0.5
+outlineColor: ff1744
+envEnabled: space
+
+unitSort: strongest
+
+consumeLiquid: {gastric-juice: 6}
+
 
 ammoTypes: {
   gastric-juice: {
