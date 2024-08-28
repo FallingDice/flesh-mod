@@ -6,4 +6,8 @@ size: 2
 instructionsPerTick: 16
 range: 200
 
+requirements: [
+      flesh/120, fat/360
+]
+
 //MsX07 idea
