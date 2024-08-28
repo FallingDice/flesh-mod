@@ -1,2 +1,6 @@
 type: Floor
 itemDrop: flesh
+
+walkEffect: none
+walkSound: none
+walkSoundVolume: 0.1
