@@ -15,12 +15,11 @@ disarm: false
 damage: 0.1
 effectChance: 0.15
 permanent: true
-reactive: true
 effect: none
 applyEffect: none
 
   opposites: [
-    burning
+    melting
   ]
   affinities: [
     wet
