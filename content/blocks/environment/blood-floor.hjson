@@ -10,5 +10,6 @@ emitLight: false
 lightRadius: 2
 lightColor: ff1744
 supportsOverlay: true
+overlayAlpha: 0.65
 
 variants: 2
