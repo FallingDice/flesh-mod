@@ -1,6 +1,8 @@
 # FleshMod
 ![logo](https://github.com/FallingDice/flesh-mod/blob/master/logo.png)
 
+##![discord-link]()
+
 This is my first time modding. I'm still inexperienced, but, I hope you'll show me a lot of interest.
 
 0.511v - missile damage fetch
