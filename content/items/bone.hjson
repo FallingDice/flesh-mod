@@ -3,7 +3,7 @@ description: ohno
 color: ebeef5
 
 cost: 1.2
-hardness: 2
+hardness: 1.5
 healthScaling: 0.1
 
 research: flesh

@@ -2,6 +2,9 @@
 localizedName: Active Infection
 
 color: ff1744
+applyColor: ff1744
+blending: additive
+outlineColor: ff1744
 
 damageMultiplier: 0.75
 healthMultiplier: 0.5

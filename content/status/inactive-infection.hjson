@@ -1,6 +1,9 @@
 localizedName: Inactive Infection
 
 color: ff1744
+applyColor: ff1744
+blending: additive
+outlineColor: ff1744
 
 damageMultiplier: 1.5
 healthMultiplier: 0.9
