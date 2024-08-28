@@ -9,18 +9,16 @@ requirements: [
 
 //절연
 insulated: true
-
 //흡수
 absorbLasers: true
-
 //우선도
 schematicPriority: 10
 
 
+//반사율
 //chanceDeflect: 10
-
-
 //flashHit: true
+
 
 //전격 확률
 //lightningChance: 0.05
