@@ -2,8 +2,8 @@ name: Fat
 description: so sweet!
 color: f3f781
 
-cost: 1
-hardness: 1
+cost: 0.5
+hardness: 0.4
 flammability: 1.2
 explosiveness: 0.1
 
