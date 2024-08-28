@@ -8,7 +8,7 @@ albedo: 0.9
 speedMultiplier: 0.6
 emitLight: true
 lightRadius: 3
-lightColor: ff1744
+lightColor: a5df00
 supportsOverlay: true
 
 //MsX07 idea
