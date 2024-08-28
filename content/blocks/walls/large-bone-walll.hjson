@@ -1,10 +1,18 @@
 type: wall
 size: 2
 health: 1600
-armor: 1
+armor: 3
 category: defense
 requirements: [
   bone/48
 ]
+
+insulated: true
+absorbLasers: true
+schematicPriority: 10
+
+//반사율
+chanceDeflect: 10
+flashHit: true
 
 //붙으면 데미지 입는 벽 MsX07 idea
