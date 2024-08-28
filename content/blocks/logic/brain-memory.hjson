@@ -5,4 +5,8 @@ size: 1
 
 memoryCapacity: 512
 
+requirements: [
+      flesh/90, fat/300
+]
+
 //MsX07 idea
