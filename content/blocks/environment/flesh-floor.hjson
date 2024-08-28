@@ -4,3 +4,5 @@ itemDrop: flesh
 walkEffect: none
 walkSound: none
 walkSoundVolume: 0.1
+status: none
+statusDuration: 60
