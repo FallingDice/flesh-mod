@@ -11,20 +11,14 @@ requirements: [
   flesh/50, fat/20
 ]
 
-hasLiquids: true
-liquidCapacity: 30
-
 outlineColor: ff1744
 
-ammoType: {
-  gastric-juice: {
-      type: PointLaserBulletType
-      damage: 100
-      lifetime: 80
-      buildingDamageMultiplier: 0.5
-      hitColor: fda981
-     }
-}
+shootType: PointLaserBulletType(){{
+                damage: 200
+                buildingDamageMultiplier: 0.3
+                hitColor: fda981
+                color: fda981
+            }}
 
 shootSound: none
 loopSoundVolume: 1
