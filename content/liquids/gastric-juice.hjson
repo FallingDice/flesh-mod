@@ -1,7 +1,7 @@
 name: Gastric Juice
 type: Liquid
 
-color: ff0000
+color: a5df00
 
 coolant: false
 temperature: 1
@@ -10,7 +10,7 @@ viscosity: 0.75
 heatCapacity: 0.3
 moveThroughBlocks: true
 effect: melting
-lightColor: f0511d60
+lightColor: a5df0060
 
 research: blood
 
