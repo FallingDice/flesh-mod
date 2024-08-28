@@ -35,5 +35,10 @@ outlineColor: ff1744
 
 unitSort: strongest
 
+consumeLiquid: {
+     liquid: 
+     amount: 0.1
+       }
+
 status: melting
 statusDuration: 360
