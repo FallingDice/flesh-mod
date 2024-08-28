@@ -8,7 +8,6 @@ temperature: 1
 blockReactive: false
 viscosity: 0.75
 heatCapacity: 0.3
-moveThroughBlocks: true
 effect: melting
 lightColor: a5df0060
 
