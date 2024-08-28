@@ -1,6 +1,8 @@
 
 localizedName: Active Infection
 
+color: ff1744
+
 damageMultiplier: 0.75
 healthMultiplier: 0.5
 speedMultiplier: 0.8
