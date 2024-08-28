@@ -1,1 +1,27 @@
 
+localizedName: Active Infection
+
+damageMultiplier: 0.75
+healthMultiplier: 0.5
+speedMultiplier: 0.8
+reloadMultiplier: 0.7
+buildSpeedMultiplier: 0.6
+dragMultiplier: 0.4
+
+//?
+transitionDamage: 0
+disarm: true
+
+//도트딜
+damage: 0.1
+effectChance: 0.15
+effect: overclocked
+applyEffect: none
+
+affinities: [
+    wet
+  ]
+
+opposites: [
+    burning, melting
+  ]
