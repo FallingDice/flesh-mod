@@ -8,7 +8,7 @@ buildSpeedMultiplier: 1
 dragMultiplier: 1
 
 //시작댐
-transitionDamage: 30
+transitionDamage: 5
 disarm: false
 
 //도트딜
@@ -21,5 +21,5 @@ applyEffect: none
     melting
   ]
   affinities: [
-    test-status2
+    test-status2, wet
   ]
