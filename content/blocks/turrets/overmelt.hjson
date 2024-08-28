@@ -15,6 +15,7 @@ outlineColor: ff1744
 
 PointLaserBulletType: {
        damage: 200
+       lifetime: 80
        buildingDamageMultiplier: 0.3
        hitColor: fda981
        color: fda981

@@ -41,3 +41,8 @@ ammoTypes: {
 
   }
 }
+
+drawer: {
+  type: DrawTurret
+  basePrefix: redtech-
+}

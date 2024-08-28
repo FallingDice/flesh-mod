@@ -39,10 +39,14 @@ ammoTypes: {
     puddleSize: 8
     despawnHit: true
     despawnSound: splash
-    spawnUnit: fleshnugget
 
     status: spore-slowed
     statusDuration: 360
 
   }
+}
+
+drawer: {
+  type: DrawTurret
+  basePrefix: redtech-
 }
