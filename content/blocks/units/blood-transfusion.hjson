@@ -1,1 +1,7 @@
 type: RepiarTower
+category: units
+
+requirements: [
+    flesh/500
+]
+
