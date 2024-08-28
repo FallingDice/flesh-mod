@@ -13,12 +13,12 @@ requirements: [
 
 outlineColor: ff1744
 
-shootType: PointLaserBulletType(){{
+shootType: PointLaserBulletType(){
                 damage: 200
                 buildingDamageMultiplier: 0.3
                 hitColor: fda981
                 color: fda981
-            }}
+            }
 
 shootSound: none
 loopSoundVolume: 1
