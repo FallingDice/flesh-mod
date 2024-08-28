@@ -1,11 +1,11 @@
-//산성지뢰 MsX07 idea 분류를 turret에서 effect로 이동
+//산성지뢰 MsX07 idea
 
 type: ShockMine
-category: effect
+category: turret
 health: 100
-damage: 50
+damage: 20
 size: 1
-tileDamage: 7
+tileDamage: 20
 length: 10
 tendrils: 4
 hasShadow: false
