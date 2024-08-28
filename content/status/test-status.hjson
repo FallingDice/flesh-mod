@@ -1,1 +1,16 @@
 localizedName: test status
+
+damageMultiplier: 1.5
+healthMultiplier: 0.1
+speedMultiplier: 2
+reloadMultiplier: 3
+buildSpeedMultiplier: 1
+dragMultiplier: 1
+transitionDamage: 0.1
+disarm: false
+damage: 0.1
+effectChance: 0.15
+permanent: true
+reactive: true
+effect: none
+applyEffect: none
