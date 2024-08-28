@@ -1,7 +1,7 @@
 # FleshMod
 ![logo](https://github.com/FallingDice/flesh-mod/blob/master/logo.png)
 
-##![discord-link](https://discord.gg/WEtrSxuWPk)
+##[discord-link](https://discord.gg/WEtrSxuWPk)
 
 This is my first time modding. I'm still inexperienced, but, I hope you'll show me a lot of interest.
 
