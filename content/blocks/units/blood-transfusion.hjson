@@ -1,5 +1,6 @@
-type: RepiarTower
+type: RepairTower
 category: units
+size: 2
 
 requirements: [
     flesh/500
