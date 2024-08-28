@@ -8,4 +8,6 @@ attributes: {
 blendGroup: fat-floor
 parent: fat-floor
 
+variants: 0
+
 //MsX07 idea

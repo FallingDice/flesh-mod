@@ -46,7 +46,7 @@ ammoTypes: {
 
 drawer: {
   type: DrawTurret
-  basePrefix: -base
+  basePrefix: redtech-
 }
 
 research: {
