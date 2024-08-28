@@ -23,4 +23,6 @@ schematicPriority: 10
 //전격 확률
 //lightningChance: 0.05
 
+//lightningDamage: 30
+
 //붙으면 데미지 입는 벽 MsX07 idea betamindy 참고
