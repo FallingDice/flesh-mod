@@ -1,7 +1,7 @@
 type: wall
 size: 1
 health: 400
-armor: 1
+armor: 3
 category: defense
 requirements: [
   bone/12
@@ -16,8 +16,8 @@ schematicPriority: 10
 
 
 //반사율
-//chanceDeflect: 10
-//flashHit: true
+chanceDeflect: 10
+flashHit: true
 
 
 //전격 확률
