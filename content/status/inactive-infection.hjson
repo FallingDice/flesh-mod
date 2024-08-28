@@ -1,5 +1,7 @@
 localizedName: Inactive Infection
 
+color: ff1744
+
 damageMultiplier: 1.5
 healthMultiplier: 0.9
 speedMultiplier: 1.3
