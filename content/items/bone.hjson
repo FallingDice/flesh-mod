@@ -2,8 +2,9 @@ name: Bone
 description: ohno
 color: ffffff
 
-cost: 1
+cost: 1.2
 hardness: 2
+healthScaling: 0.1
 
 research: flesh
 
