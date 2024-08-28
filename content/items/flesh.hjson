@@ -2,8 +2,8 @@ name: Flesh
 description: so deilicious!
 color: ed6179
 
-cost: 0.8
-hardness: 0.8
+cost: 1.1
+hardness: 0.9
 flammability: 0.8
 explosiveness: 0
 lowPriority: true
