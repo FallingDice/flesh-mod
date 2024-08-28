@@ -2,8 +2,8 @@
 localizedName: Active Infection
 
 //스프라이트 라인 및 컬러 직접 넣어야 함
-color: ff1744
-applyColor: ff1744
+color: ff174480
+applyColor: ff174480
 blending: additive
 
 damageMultiplier: 0.75
