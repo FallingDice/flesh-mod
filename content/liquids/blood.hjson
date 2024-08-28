@@ -18,7 +18,6 @@ capPuddles: false
 moveThroughBlocks: true
 gasColor: dddddd
 
-status: inactive-infection
-statusDuration: 60
+effect: inactive-infection
 
 research: flesh
