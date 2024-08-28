@@ -1,21 +1,20 @@
 localizedName: test status
 
 damageMultiplier: 1.5
-healthMultiplier: 0.1
-speedMultiplier: 2
-reloadMultiplier: 3
+healthMultiplier: 0.9
+speedMultiplier: 1.3
+reloadMultiplier: 1.8
 buildSpeedMultiplier: 1
 dragMultiplier: 1
 
 //시작댐
-transitionDamage: 0.1
+transitionDamage: 30
 disarm: false
 
 //도트딜
-damage: 0.1
+damage: -2
 effectChance: 0.15
-permanent: true
-effect: none
+effect: overclocked
 applyEffect: none
 
   opposites: [
