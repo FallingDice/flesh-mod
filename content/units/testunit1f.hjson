@@ -8,12 +8,11 @@ range: 100
 
 outlineColor: ff1744
 aimDst: 120
-commands: [move, mine, assist]
+commands: [move, mine, build, assist]
 mineItems: [flesh, bone]
 
 mineSpeed: 3
 buildSpeed: 2
-mineTier: 3
 itemCapacity: 200
 
 weapons: [
