@@ -1,4 +1,7 @@
 localizedName: Red Zone
+description: A significant number of enemies have been found moving towards the core. Stop them.
+details: you must caution back...
+
 planet: vermillion
 sector: 3
 difficulty: 4
