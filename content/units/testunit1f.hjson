@@ -11,6 +11,10 @@ aimDst: 120
 commands: [move, mine, assist]
 mineItems: [flesh, bone]
 
+mineSpeed: 3
+buildSpeed: 2
+mineTier: 3
+itemCapacity: 200
 
 weapons: [
     {
