@@ -15,6 +15,7 @@ mineItems: [flesh, bone]
 //test
 maxUnits: 200
 speedIncrease: 3
+repairSpeed: 5
 
 
 mineSpeed: 3
