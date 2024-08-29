@@ -1,7 +1,7 @@
 type: tank
 flying: false
 health: 10
-armor: 1
+armor: 10
 speed: 2
 hitSize: 60
 range: 100
@@ -15,10 +15,9 @@ DrawFrames: true
 frames: 1
 
 //test
-maxUnits: 2
-speedIncrease: 30
+speedIncrease: 0.5
 repairSpeed: 5
-shieldHealth: 50
+shieldHealth: 500
 
 
 mineSpeed: 3
