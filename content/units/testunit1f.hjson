@@ -15,8 +15,8 @@ DrawFrames: true
 frames: 1
 
 //test
-maxUnits: 200
-speedIncrease: 3
+maxUnits: 2
+speedIncrease: 30
 repairSpeed: 5
 shieldHealth: 50
 
