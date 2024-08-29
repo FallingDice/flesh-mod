@@ -22,22 +22,23 @@ outlineColor: ff1744
 weapons: [
        {
             mirror: true
-            x: 3
+            rotate: true
+            x: 0
             y: 0
-            reload: 25
+            reload: 20
             shootSound: sap
 
         bullet: {
             type: SapBulletType
             damage: 8
             sapStrength: 0.85
-            length: 80
+            length: 100
             shootEffect: shootSmall
             hitColor: ff6993
             color: ff6993
             despawnEffect: none
             width: 0.55
-            lifetime: 30
+            lifetime: 25
             knockback: -0.5
 
             status: spore-slowed
