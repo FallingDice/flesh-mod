@@ -10,6 +10,8 @@ hitSize: 8
 accel: 0.1
 drag: 0.2
 
+controller: MinerAI
+
 mineSpeed: 3
 mineTier: 2
 itemCapacity: 40
