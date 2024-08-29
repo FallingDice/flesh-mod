@@ -1,5 +1,20 @@
 //침을 뱉으며 원거리에서 싸웁니다. 외골격을 가져 매우 단단합니다. MsX07 idea
 
+type: tank
+flying: false
+health: 2500
+armor: 10
+speed: 0.9
+hitSize: 16
+range: 120
+
+outlineColor: ff1744
+aimDst: 80
+
+drawCell: false
+targetAir: false
+crushDamage: 0.5
+
 canBoost: true
 riseSpeed: 0.05
 boostMultiplier: 1.5
