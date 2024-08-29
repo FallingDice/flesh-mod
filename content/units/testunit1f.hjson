@@ -12,7 +12,7 @@ commands: [move, mine, rebuild, assist]
 mineItems: [flesh, bone]
 
 DrawFrames: true
-
+frames: 1
 
 //test
 maxUnits: 200
