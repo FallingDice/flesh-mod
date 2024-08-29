@@ -1,7 +1,7 @@
 type: wall
 size: 2
 health: 1600
-armor: 3
+armor: 10
 category: defense
 requirements: [
   bone/48
