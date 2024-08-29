@@ -122,7 +122,7 @@ waveTeam:  crux
 
 launchCandidates: []
 itemWhitelist: [
-    flesh
+    flesh, bone, fat
 ]
 
 updateLighting: true
