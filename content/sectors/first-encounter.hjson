@@ -1,4 +1,7 @@
 localizedName: First Encounter
+description: You have encounted enemies for the first time. Defend them from their attacks.
+details: this level is so easy...
+
 planet: vermillion
 sector: 0
 research: core-aggregate
