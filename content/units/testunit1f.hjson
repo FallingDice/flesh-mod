@@ -10,6 +10,9 @@ outlineColor: ff1744
 aimDst: 120
 commands: [move, mine, rebuild, assist]
 mineItems: [flesh, bone]
+frames: 2
+frameTime: 10
+
 
 mineSpeed: 3
 buildSpeed: 2
