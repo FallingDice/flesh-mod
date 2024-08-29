@@ -8,7 +8,7 @@ range: 100
 
 outlineColor: ff1744
 aimDst: 120
-commands: [move, mine, build, assist]
+commands: [move, mine, rebuild, assist]
 mineItems: [flesh, bone]
 
 mineSpeed: 3
