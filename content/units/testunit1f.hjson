@@ -16,6 +16,7 @@ mineItems: [flesh, bone]
 maxUnits: 200
 speedIncrease: 3
 repairSpeed: 5
+shieldHealth: 50
 
 
 mineSpeed: 3
