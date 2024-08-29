@@ -1,7 +1,7 @@
 type: Floor
 itemDrop: flesh
 
-walkEffect: none
+walkEffect: artilleryTrail
 walkSound: plantBreak
 walkSoundVolume: 0.1
 status: none
