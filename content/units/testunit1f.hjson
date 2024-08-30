@@ -11,9 +11,6 @@ aimDst: 120
 commands: [move, mine, rebuild, assist]
 mineItems: [flesh, bone]
 
-DrawFrames: true
-frames: 1
-
 //test
 repairSpeed: 5
 
