@@ -6,6 +6,8 @@ speed: 1
 hitSize: 21
 range: 120
 
+rotateMoveFirst: true
+
 groundLayer: 75 //기본값
 rotateSpeed: 1.6
 legCount: 6
