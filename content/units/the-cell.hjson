@@ -12,9 +12,7 @@ deathExplosionEffect: steam
 createScorch: false
 
 outlineColor: ff1744
-aimDst: 120
 
-alwaysShootWhenMoving: true
 drawCell: false
 circleTarget: true
 targetAir: false
@@ -26,44 +24,23 @@ weapons: [
         rotate: true
         x: 0
         y: 0
-        reload: 10
+        reload: 5
         shootSound: none
+        alwaysShootWhenMoving: true
 
         bullet: {
-            type: BasicBulletType
+            type: SapBulletType
             damage: 10
-            speed: 2
-            width: 1
-            height: 1
-            lifetime: 2
+            width: 0.55
+            sapStrength: 0.85
+            length: 5
+            hitColor: ff6993
+            color: ff6993
+            despawnEffect: none
+            lifetime: 3
             recoil: -1
+            knockback: -1
         }
-    },
-    {  
-      x: 0
-      y: -15
-      display: false
-      rotate: true
-      mirror: false
-      faceTarget: false
-      reload: 75
-      shootSound: none
-      ejectEffect: none
-      bullet: {
-        width: 0
-        height: 0
-        speed: 8
-        lifetime: 30
-        shootEffect: none
-        despawnEffect: none
-        hitEffect: none
-        collides: false
-        damage: 0
-        pierce: true
-        pierceBuilding: true
-        recoil: -10
-        impact: true
-      }
     }
 ]
 
@@ -71,7 +48,7 @@ abilities: [
     {
         type: RepairFieldAbility
       range: 0
-      amount: 1
+      amount: 10
       reload: 1000
     }
 ]

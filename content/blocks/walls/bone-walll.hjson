@@ -25,4 +25,12 @@ flashHit: true
 
 //lightningDamage: 30
 
+research: {
+  parent: flesh-wall
+  requirements:
+    [
+        bone/300
+    ]
+}
+
 //붙으면 데미지 입는 벽 MsX07 idea betamindy 참고

@@ -15,4 +15,12 @@ schematicPriority: 10
 chanceDeflect: 10
 flashHit: true
 
+research: {
+  parent: bone-wall
+  requirements:
+    [
+        bone/1200
+    ]
+}
+
 //붙으면 데미지 입는 벽 MsX07 idea

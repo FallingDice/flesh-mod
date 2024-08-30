@@ -7,6 +7,6 @@ hardness: 0.4
 flammability: 1.2
 explosiveness: 0.1
 
-research: flesh
+parent: flesh
 
 //MsX07 idea

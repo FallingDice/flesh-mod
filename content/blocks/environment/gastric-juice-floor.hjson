@@ -7,7 +7,7 @@ shallow: true
 albedo: 0.9
 speedMultiplier: 0.6
 emitLight: true
-lightRadius: 3
+lightRadius: 30
 lightColor: a5df00
 supportsOverlay: true
 

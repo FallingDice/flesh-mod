@@ -11,6 +11,7 @@ heatCapacity: 0.3
 effect: melting
 lightColor: a5df0060
 
-research: blood
+parent: blood
+
 
 //MsX07 idea

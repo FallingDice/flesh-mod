@@ -6,6 +6,6 @@ cost: 1.2
 hardness: 1.5
 healthScaling: 0.1
 
-research: flesh
+parent: flesh
 
 //MsX07 idea
