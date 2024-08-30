@@ -6,6 +6,8 @@ speed: 2
 hitSize: 6
 range: 100
 
+healColor: ff1744
+
 outlineColor: ff1744
 aimDst: 120
 
