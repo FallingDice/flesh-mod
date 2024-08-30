@@ -20,4 +20,6 @@ gasColor: dddddd
 
 effect: inactive-infection
 
-parent: flesh
+research: {
+    parent: flesh
+}
