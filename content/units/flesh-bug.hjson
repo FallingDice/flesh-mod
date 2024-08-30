@@ -8,6 +8,8 @@ speed: 1.2
 hitSize: 16
 range: 120
 
+healColor: ff1744
+
 outlineColor: ff1744
 drawBody: false
 drawCell: false
