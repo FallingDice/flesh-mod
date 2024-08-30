@@ -15,9 +15,7 @@ DrawFrames: true
 frames: 1
 
 //test
-speedIncrease: 0.5
 repairSpeed: 5
-shieldHealth: 500
 
 
 mineSpeed: 3
