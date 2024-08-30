@@ -14,6 +14,7 @@ createScorch: false
 
 outlineColor: ff1744
 
+drawCell: false
 controller: HugAI
 omniMovement: false
 crushDamage: 0.2
