@@ -11,6 +11,7 @@ aimDst: 120
 commands: [move, mine, rebuild, assist]
 mineItems: [flesh, bone]
 
+canHeal: true
 createScorch: false
 useUnitCap: false
 strafePenalty: 5
