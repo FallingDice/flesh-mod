@@ -6,6 +6,11 @@ armor: 15
 hitSize: 40
 range: 80
 
+healColor: ff1744
+deathSound: splash
+deathExplosionEffect: steam
+createScorch: false
+
 rotateSpeed: 0.7
 immunities: [wet, spore-slowed]
 itemCapacity: 200

@@ -7,6 +7,9 @@ hitSize: 60
 range: 40
 
 healColor: ff1744
+deathSound: splash
+deathExplosionEffect: steam
+createScorch: false
 
 rotateSpeed: 1.5
 immunities: [wet, burning, spore-slowed]

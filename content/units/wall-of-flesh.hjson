@@ -7,6 +7,11 @@ hitSize: 100
 range: 300
 rotateSpeed: 0.4
 
+healColor: ff1744
+deathSound: splash
+deathExplosionEffect: steam
+createScorch: false
+
 accel: 1.3
 drag: 0.5
 

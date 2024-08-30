@@ -9,6 +9,9 @@ hitSize: 16
 range: 120
 
 healColor: ff1744
+deathSound: splash
+deathExplosionEffect: steam
+createScorch: false
 
 outlineColor: ff1744
 drawBody: false

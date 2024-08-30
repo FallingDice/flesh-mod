@@ -10,6 +10,11 @@ speed: 0.5
 hitSize: 8
 range: 60
 
+healColor: ff1744
+deathSound: splash
+deathExplosionEffect: steam
+createScorch: false
+
 outlineColor: ff1744
 
 canBoost: true

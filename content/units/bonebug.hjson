@@ -12,6 +12,11 @@ drag: 0.2
 
 defaultController: MinerAI
 
+healColor: ff1744
+deathSound: splash
+deathExplosionEffect: steam
+createScorch: false
+
 mineSpeed: 3
 mineTier: 2
 itemCapacity: 40

@@ -9,6 +9,9 @@ hitSize: 24
 range: 160
 
 healColor: ff1744
+deathSound: splash
+deathExplosionEffect: steam
+createScorch: false
 
 accel: 0.2
 drag: 0.03

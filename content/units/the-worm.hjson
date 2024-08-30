@@ -6,6 +6,11 @@ health: 25000
 hitSize: 12
 range: 30
 
+healColor: ff1744
+deathSound: splash
+deathExplosionEffect: steam
+createScorch: false
+
 rotateSpeed: 3.5
 itemCapacity: 600
 

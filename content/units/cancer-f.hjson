@@ -6,6 +6,11 @@ armor: 3
 hitSize: 10
 range: 80
 
+healColor: ff1744
+deathSound: splash
+deathExplosionEffect: steam
+createScorch: false
+
 drag: 0.05
 accel: 0.1
 

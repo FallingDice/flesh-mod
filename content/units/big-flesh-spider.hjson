@@ -7,6 +7,9 @@ hitSize: 21
 range: 120
 
 healColor: ff1744
+deathSound: splash
+deathExplosionEffect: steam
+createScorch: false
 rotateMoveFirst: true
 
 groundLayer: 75 //기본값
