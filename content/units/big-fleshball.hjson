@@ -15,6 +15,7 @@ drawCell: false
 engineSize: 0
 outlineColor: ff1744
 lowAltitude: true
+crashDamageMultiplier: 3
 
 targetFlags: [factory, battery, storage, core]
 
