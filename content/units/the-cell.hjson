@@ -9,6 +9,7 @@ range: 100
 outlineColor: ff1744
 aimDst: 120
 
+alwaysShootWhenMoving: true
 drawCell: false
 circleTarget: true
 targetAir: false
