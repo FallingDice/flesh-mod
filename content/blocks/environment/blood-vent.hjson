@@ -1,5 +1,6 @@
 type: SteamVent
 effect: ventSteam
+liquidDrop: blood
 effectColor: ff1744
 attributes: {
    heat: 0.5

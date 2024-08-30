@@ -3,9 +3,6 @@ clipSize: 64
 customShadow: true
 blendGroup: flesh-floor
 
-emitLight: true
-lightRadius: 30
-
 variants: 3
 
 //MsX07 idea
