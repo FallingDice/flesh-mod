@@ -6,6 +6,8 @@ armor: 50
 hitSize: 60
 range: 40
 
+healColor: ff1744
+
 rotateSpeed: 1.5
 immunities: [wet, burning, spore-slowed]
 itemCapacity: 600
