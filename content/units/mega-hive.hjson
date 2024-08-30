@@ -8,6 +8,8 @@ speed: 0.3
 hitSize: 58
 range: 120
 
+healColor: ff1744
+
 accel: 0.8
 drag: 0.4
 
