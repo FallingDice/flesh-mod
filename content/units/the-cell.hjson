@@ -65,7 +65,7 @@ abilities: [
     {
         type: RepairFieldAbility
       range: 0
-      amount: -5
+      amount: 1
       reload: 1000
     }
 ]
