@@ -22,6 +22,9 @@ outlineColor: ff1744
 
 targetFlags: [core]
 
+groundLayer: 109
+//100~110 bloom drawable
+
 parts: [
   {
     type: shapePart
