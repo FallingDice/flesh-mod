@@ -3,13 +3,15 @@ liquidDrop: gastric-juice
 liquidMultiplier: 1.3
 isLiquid: true
 cacheLayer: water
-shallow: true
 albedo: 0.9
 speedMultiplier: 0.6
 emitLight: true
 lightRadius: 30
 lightColor: a5df00
 supportsOverlay: true
+
+status: melting
+statusDuration: 180
 
 variants: 0
 

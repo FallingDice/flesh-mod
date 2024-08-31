@@ -6,9 +6,6 @@ cacheLayer: water
 shallow: true
 albedo: 0.7
 speedMultiplier: 0.5
-emitLight: false
-lightRadius: 2
-lightColor: ff1744
 supportsOverlay: true
 overlayAlpha: 0.65
 
