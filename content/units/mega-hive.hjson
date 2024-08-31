@@ -22,7 +22,7 @@ outlineColor: ff1744
 
 targetFlags: [core]
 
-groundLayer: 101
+lowAltitude: true
 //100~110 bloom drawable
 
 parts: [
@@ -162,7 +162,7 @@ weapons: [
       shootSound: plasmadrop
       bullet: {
             type: BasicBulletType
-            sprite: large-bomb
+            sprite: none
             maxRange: 30
             ignoreRotation: true
             hitSound: plasmaboom
@@ -177,8 +177,15 @@ weapons: [
             ejectEffect: none
 
             despawnEffect: {
-              type: greenBomb
-              color: ff1744
+              type: WaveEffect
+                lifetime: 50
+                sizeFrom: 0
+                sizeTo: 30
+                strokeFrom: 0
+                strokeTO: 4
+                colorFrom: ffffffff
+                colorTo: ff117488
+                lightColor: ff0000aa
               }
             hitEffect: massiveExplosion
             keepVelocity: false
