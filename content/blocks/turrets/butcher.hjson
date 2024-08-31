@@ -10,6 +10,7 @@ requirements: [
 ]
 
 shootSound: shoot
+forceMultiTarget: true
 
 outlineColor: ff1744
 reload: 40
