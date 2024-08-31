@@ -22,7 +22,7 @@ outlineColor: ff1744
 
 targetFlags: [core]
 
-groundLayer: 109
+groundLayer: 101
 //100~110 bloom drawable
 
 parts: [
