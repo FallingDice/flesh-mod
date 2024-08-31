@@ -26,51 +26,52 @@ targetFlags: [core]
 parts: [
   {
     type: shapePart
+    progress: warmup
     x: 0
     y: 0
-    color: ffffff
-    colorTo: ff6993
+    color: ff6993
+    colorTo: ffffff
     layer: 110
 
     radius: 30
     radiusTo: 3
     stroke: 0
-    strokeTo: 5
+    strokeTo: 2
 
     sides: 3
     hollow: true
-    rotateSpeed: -3
+    rotateSpeed: -0.5
   },
     {
     type: shapePart
     progress: warmup
     x: 0
     y: 0
-    color: ffffff
-    colorTo: ff6993
+    color: ff6993
+    colorTo: ffffff
     layer: 110
 
     radius: 30
     radiusTo: 3
     stroke: 0
-    strokeTo: 5
+    strokeTo: 2
 
     circle: true
     hollow: true
-    rotateSpeed: 3
+    rotateSpeed: 0.5
   },
     {
     type: haloPart
     progress: warmup
     x: 0
     y: 0
-    color: ffffff
-    colorTo: ff6993
+    color: ff6993
+    colorTo: ffffff
     layer: 110
 
     radius: 3
     stroke: 0
-    strokeTo: 5
+    strokeTo: 2
     shapes: 3
 
     tri: true
@@ -79,21 +80,19 @@ parts: [
 
     haloRadius: 30
     haloRadiusTo: 3
-
-    haloRotateSpeed: 3
   },
     {
     type: haloPart
     progress: warmup
     x: 0
     y: 0
-    color: ffffff
-    colorTo: ff6993
+    color: ff6993
+    colorTo: ffffff
     layer: 110
 
     radius: 3
     stroke: 0
-    strokeTo: 5
+    strokeTo: 2
     shapes: 3
 
     tri: true
@@ -104,8 +103,6 @@ parts: [
     haloRadiusTo: 3
     shapeRotation: 180
     haloRotation: 180
-
-    haloRotateSpeed: 3
   }
 ]
 
