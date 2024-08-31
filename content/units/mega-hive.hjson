@@ -162,15 +162,14 @@ weapons: [
       shootSound: plasmadrop
       bullet: {
             type: BasicBulletType
-            sprite: none
             maxRange: 30
             ignoreRotation: true
             hitSound: plasmaboom
             hitShake: 4
             collidesAir: false
             lifetime: 70
-            width: 60
-            height: 60
+            width: 0
+            height: 0
             frontColor: ff0000
             backColor: ff1744
             mixColorTo: ff0000
@@ -182,7 +181,7 @@ weapons: [
                 sizeFrom: 0
                 sizeTo: 30
                 strokeFrom: 0
-                strokeTO: 4
+                strokeTo: 4
                 colorFrom: ffffffff
                 colorTo: ff117488
                 lightColor: ff0000aa

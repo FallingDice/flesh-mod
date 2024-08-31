@@ -126,7 +126,7 @@ weapons: [
                 sizeFrom: 0
                 sizeTo: 30
                 strokeFrom: 2
-                strokeTO: 0
+                strokeTo: 0
                 colorFrom: ffffffff
                 colorTo: ff117488
                 lightColor: ff0000aa
