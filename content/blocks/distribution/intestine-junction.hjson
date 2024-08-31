@@ -13,10 +13,10 @@ requirements: [
       flesh/1
 ]
 
-research: {
+/*research: {
     parent: intestine
     requirements:
     [
         flesh/100
     ]
-}
+}*/

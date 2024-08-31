@@ -12,7 +12,7 @@ requirements: [
 ]
 
 research: {
-    parent: intestine-junction
+    parent: intestine
     requirements:
     [
         flesh/100
