@@ -68,8 +68,8 @@ parts: [
     colorTo: ffffff
     layer: 110
 
-    radius: 50
-    radiusTo: 30
+    radius: 30
+    radiusTo: 50
     stroke: 0
     strokeTo: 2
 
@@ -136,7 +136,7 @@ parts: [
 
     tri: true
     triLength: 0
-    triLengthTo: 20
+    triLengthTo: 5
 
     haloRadius: 30
     haloRadiusTo: 50
