@@ -13,7 +13,7 @@ requirements: [
 
 shootSound: shoot
 
-outlineColor: ff1744
+outlineColor: fsfsfs
 reload: 40
 heatColor: ff1744
 inaccuracy: 15
@@ -40,9 +40,4 @@ ammoTypes: {
     status: spore-slowed
 
   }
-}
-
-drawer: {
-  type: DrawTurret
-  basePrefix: redtech-
 }

@@ -31,6 +31,12 @@ ammoTypes: {
     lifetime: 20
     splashDamage: 10
     splashDamageRadius: 40
+    sprite: missile-large
+    trailWidth: 2
+    trailLength: 10
+    trailColor: ff1744
+    frontColor: ff0000
+    backColor: f00000
     homingPower: 0.15
     liquid: blood
     orbSize: 4
