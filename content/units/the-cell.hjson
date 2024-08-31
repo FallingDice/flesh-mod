@@ -50,6 +50,11 @@ abilities: [
       range: 0
       amount: 10
       reload: 1000
+    },
+    {
+        type: LiquidExplodeAbility
+        liquid: blood
+        amount: 10
     }
 ]
 
