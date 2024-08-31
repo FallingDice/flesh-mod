@@ -94,6 +94,8 @@ weapons: [
         pierceBuilding: true
         recoil: 0.1
         impact: true
+        shrinkX: 5.7
+        shrinkY: 5.7
       }
     }
 ]
