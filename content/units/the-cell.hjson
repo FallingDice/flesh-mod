@@ -10,7 +10,6 @@ healColor: ff1744
 deathSound: plantBreak
 deathExplosionEffect: steam
 createScorch: false
-alwaysShootWhenMoving: true
 
 outlineColor: ff1744
 
@@ -31,7 +30,6 @@ weapons: [
 
         bullet: {
             type: SapBulletType
-            alwaysShootWhenMoving: true
             damage: 10
             width: 0.55
             sapStrength: 0.85
