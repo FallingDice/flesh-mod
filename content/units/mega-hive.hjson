@@ -43,6 +43,7 @@ parts: [
   },
     {
     type: shapePart
+    progress: circleProgress
     x: 0
     y: 0
     color: ffffff
@@ -58,23 +59,51 @@ parts: [
     hollow: true
     rotateSpeed: 3
   },
-      {
+    {
     type: haloPart
+    progress: haloProgress
     x: 0
     y: 0
     color: ffffff
     colorTo: ff6993
     layer: 110
 
-    radius: 30
-    radiusTo: 3
+    radius: 3
     stroke: 0
     strokeTo: 5
-    sides: 3
     shapes: 3
+
+    tri: true
+    triLength: 0
+    triLengthTo: 10
 
     haloRadius: 30
     haloRadiusTo: 3
+
+    haloRotateSpeed: 3
+  },
+    {
+    type: haloPart
+    progress: haloProgress
+    x: 0
+    y: 0
+    color: ffffff
+    colorTo: ff6993
+    layer: 110
+
+    radius: 3
+    stroke: 0
+    strokeTo: 5
+    shapes: 3
+
+    tri: true
+    triLength: 0
+    triLengthTo: 15
+
+    haloRadius: 30
+    haloRadiusTo: 3
+    shapeRotation: 180
+    haloRotation: 180
 
     haloRotateSpeed: 3
   }
