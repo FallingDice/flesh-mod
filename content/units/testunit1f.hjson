@@ -23,6 +23,28 @@ buildSpeed: 2
 itemCapacity: 200
 mineTier: 1
 
+parts: [
+  {
+    type: HaloPart
+    x: 10
+    y: 0
+    color: ffffff
+    colorTo: ff6993
+    layer: 110
+    rotateSpeed: -1
+
+    radius: 30
+    radiusTo: 0
+    stroke: 0
+    strokeTo: 3
+
+    shapes: 1
+    sides: 4
+    hollow: true
+    mirror: true
+        }
+]
+
 weapons: [
     {
         rotate: true

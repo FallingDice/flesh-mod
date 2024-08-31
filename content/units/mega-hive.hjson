@@ -78,8 +78,8 @@ weapons: [
         },
         {
           type: HaloPart
-          radius: 1
-          tri: true
+          radius: 30
+          radiusTo: 0
           layer: 110
           color: ff6993
           haloRotateSpeed: 0.4
@@ -88,8 +88,7 @@ weapons: [
           stroke: 0
           strokeTo: 3
           shapes: 6
-          triLengthTo: 5
-          triLength: 0
+          sides: 3
         }
       ]
     }
