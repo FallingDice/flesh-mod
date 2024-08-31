@@ -37,8 +37,7 @@ parts: [
     stroke: 0
     strokeTo: 5
 
-    shapes: 1
-    circle: true
+    shapes: 2
     hollow: true
   }
 ]
