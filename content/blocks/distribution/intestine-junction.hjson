@@ -6,6 +6,9 @@ speed: 4
 underBullets: true
 solid: false
 
+//더욱더 복잡한 모양을 만들기 위해 제한
+hidden: true
+
 requirements: [
       flesh/1
 ]

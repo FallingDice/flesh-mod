@@ -7,7 +7,7 @@ hitSize: 60
 range: 40
 
 healColor: ff1744
-deathSound: splash
+deathSound: plantBreak
 deathExplosionEffect: steam
 createScorch: false
 

@@ -12,7 +12,7 @@ accel: 0.08
 drag: 0.09
 
 healColor: ff1744
-deathSound: splash
+deathSound: plantBreak
 deathExplosionEffect: steam
 createScorch: false
 

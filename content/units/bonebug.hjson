@@ -13,7 +13,7 @@ drag: 0.2
 defaultController: MinerAI
 
 healColor: ff1744
-deathSound: splash
+deathSound: plantBreak
 deathExplosionEffect: steam
 createScorch: false
 

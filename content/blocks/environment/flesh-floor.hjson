@@ -3,6 +3,4 @@ itemDrop: flesh
 
 walkEffect: artilleryTrail
 walkSound: plantBreak
-walkSoundVolume: 0.1
-status: none
-statusDuration: 60
+walkSoundVolume: 0.03

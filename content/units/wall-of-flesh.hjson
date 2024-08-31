@@ -8,7 +8,7 @@ range: 300
 rotateSpeed: 0.4
 
 healColor: ff1744
-deathSound: splash
+deathSound: plantBreak
 deathExplosionEffect: steam
 createScorch: false
 
