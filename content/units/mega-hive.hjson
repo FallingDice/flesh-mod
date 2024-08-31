@@ -43,7 +43,7 @@ parts: [
   },
     {
     type: shapePart
-    progress: circleProgress
+    progress: warmup
     x: 0
     y: 0
     color: ffffff
@@ -61,7 +61,7 @@ parts: [
   },
     {
     type: haloPart
-    progress: haloProgress
+    progress: warmup
     x: 0
     y: 0
     color: ffffff
@@ -84,7 +84,7 @@ parts: [
   },
     {
     type: haloPart
-    progress: haloProgress
+    progress: warmup
     x: 0
     y: 0
     color: ffffff
