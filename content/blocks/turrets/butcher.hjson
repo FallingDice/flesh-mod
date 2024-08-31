@@ -36,6 +36,12 @@ ammoTypes: {
     lifetime: 60
     splashDamage: 20
     splashDamageRadius: 10
+    sprite: missile-large
+    trailWidth: 2
+    trailLength: 10
+    trailColor: ff1744
+    frontColor: ff0000
+    backColor: f00000
     homingPower: 0.3
     hitSound: explosion
 
