@@ -8,7 +8,7 @@ size: 2
 range: 260
 
 requirements: [
-  flesh/80, bone/60
+  bone/260
 ]
 
 shootSound: shoot
