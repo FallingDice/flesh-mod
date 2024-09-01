@@ -7,7 +7,7 @@ hitSize: 8
 maxRange: 200
 range: 1
 
-outlineColor: ff1744
+outline: false
 aimDst: 120
 commands: [move, mine, rebuild, assist]
 mineItems: [flesh, bone]
