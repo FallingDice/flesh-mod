@@ -23,6 +23,8 @@ buildSpeed: 2
 itemCapacity: 200
 mineTier: 1
 
+drawCell: false
+
 parts: [
   {
     type: HaloPart

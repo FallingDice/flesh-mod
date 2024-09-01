@@ -197,8 +197,8 @@ weapons: [
             speed: 0
             collides: false
 
-            splashDamage: 400
-            splashDamageRadius: 160
+            splashDamage: 1600
+            splashDamageRadius: 320
       }
     }
 ]
