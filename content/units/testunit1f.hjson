@@ -3,7 +3,7 @@ flying: false
 health: 10
 armor: 10
 speed: 2
-hitSize: 60
+hitSize: 8
 maxRange: 200
 range: 1
 
