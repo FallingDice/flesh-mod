@@ -9,4 +9,12 @@ requirements: [
       flesh/90, fat/300
 ]
 
+research: {
+  parent: core-agrretion
+  requirements:
+    [
+        fat/300, flesh/50
+    ]
+}
+
 //MsX07 idea
