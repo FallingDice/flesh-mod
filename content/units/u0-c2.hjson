@@ -1,4 +1,5 @@
 //속도감 있는 전투기
+//cellunit 2t
 
 type: flying
 flying: true
