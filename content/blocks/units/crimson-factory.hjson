@@ -32,7 +32,7 @@ consumes: {
 }
 
 research: {
-    parent: core-aggregate
+    parent: flesh-hive
     objectives: [
     {
       type: SectorComplete
