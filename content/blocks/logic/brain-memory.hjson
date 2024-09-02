@@ -10,7 +10,7 @@ requirements: [
 ]
 
 research: {
-  parent: core-agrretion
+    parent: core-aggregate
   requirements:
     [
         fat/300, flesh/50
