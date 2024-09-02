@@ -10,7 +10,7 @@ requirements: [
 ]
 
 research: {
-    parent: brain-proccecor
+    parent: brain-processor
   requirements:
     [
         fat/300, flesh/50
