@@ -10,7 +10,7 @@ requirements: [
 ]
 
 research: {
-    parent: core-aggregate
+    parent: brain-proccecor
   requirements:
     [
         fat/300, flesh/50
