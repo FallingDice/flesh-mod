@@ -50,3 +50,5 @@ drawer: {
   type: DrawTurret
   basePrefix: redtech-
 }
+
+research: bloodshot
