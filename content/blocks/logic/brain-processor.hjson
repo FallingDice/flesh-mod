@@ -10,4 +10,12 @@ requirements: [
       flesh/120, fat/360
 ]
 
+research: {
+    parent: core-aggregate
+  requirements:
+    [
+        fat/500, flesh/100
+    ]
+}
+
 //MsX07 idea
