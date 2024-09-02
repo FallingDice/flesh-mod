@@ -43,3 +43,5 @@ consumeLiquid: {
 
 status: melting
 statusDuration: 360
+
+research: doomsday
