@@ -1,3 +1,5 @@
+//new factory
+
 type: mech
 flying: false
 speed: 0.4
