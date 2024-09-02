@@ -8,3 +8,12 @@ requirements: [
     flesh/700
 ]
 
+research: {
+    parent: flesh-hive
+    objectives: [
+    {
+      type: SectorComplete
+      preset: red-zone
+    }
+  ]
+}
