@@ -1,9 +1,9 @@
 type: UnitAssembler
 category: units
-size: 6
-areaSize: 16
+size: 4
+areaSize: 8
 droneType: assembly-drone
-dronesCreated: 2
+dronesCreated: 4
 droneConstructTime: 90
 
 requirements: [
@@ -28,10 +28,31 @@ time: 16000
 {
 unit: abomination
 requirements: [
-   cell/30, cancer-f/10, large-flesh-wall/20
+   the-cell/30, cancer-f/10, large-flesh-wall/20
 ],
 time: 16000
-}
+},
+{
+unit: u0-c1
+requirements: [
+   the-cell/10
+],
+time: 3000
+},
+{
+unit: u0-c2
+requirements: [
+   the-cell/7
+],
+time: 2000
+},
+{
+unit: bonebug
+requirements: [
+   the-cell/5
+],
+time: 1000
+},
 ]
 
 squareSprite: false
