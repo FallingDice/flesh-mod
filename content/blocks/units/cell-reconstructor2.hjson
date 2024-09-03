@@ -23,4 +23,13 @@ upgrades: [
         }
     }
 
-    research: cell-hive
+    research: {
+    parent: cell-hive
+    objectives: [
+    {
+      type: SectorComplete
+      preset: contaminated-area
+    }
+  ]
+}
+researchCostMultiplier: 0.3
