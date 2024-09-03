@@ -28,7 +28,7 @@ time: 16000
 {
 unit: abomination
 requirements: [
- cancer-f/10, large-flesh-wall/20
+ cell/30, cancer-f/10, large-flesh-wall/20
 ],
 time: 16000
 }
