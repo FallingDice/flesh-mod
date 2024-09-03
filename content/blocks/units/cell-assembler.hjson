@@ -19,28 +19,21 @@ blood/0.5
 
 plans: [
 {
-unit: big-fleshball
+unit: gigant
 requirements: [
- fleshball/4, large-flesh-wall/4
+ u0-1f/5, u0-2f/5, large-flesh-wall/10
 ],
 time: 8000
 },
 {
-unit: flesh-bug
+unit: abomination
 requirements: [
- fleshnugget/6, large-flesh-wall/6
-],
-time: 8000
-},
-{
-unit: big-flesh-spider
-"requirements": [
- fleshnugget/6, fleshball/4, large-flesh-wall/10
+ cancer-f/10, large-flesh-wall/10
 ],
 time: 8000
 }
 ]
 
 squareSprite: false
-research: flesh-hive
+research: cell-hive
 researchCostMultiplier: 0.4
