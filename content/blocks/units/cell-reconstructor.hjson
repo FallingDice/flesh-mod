@@ -20,4 +20,5 @@ upgrades: [
         }
     }
 
-    research: cell-hive
+research: cell-hive
+researchCostMultiplier: 0.3
