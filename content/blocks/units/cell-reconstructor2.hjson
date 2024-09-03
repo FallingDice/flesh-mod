@@ -9,10 +9,7 @@ requirements: [
     ]
 
 upgrades: [
-   [the-cell, u0-c1],
-   [the-cell, u0-c2],
-   [the-cell, bonebug],
-   [the-cell, heavy-bonebug]
+   [bonebug, heavy-bonebug]
  ]
 
     consumes: {
