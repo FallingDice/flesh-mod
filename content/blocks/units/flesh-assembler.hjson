@@ -1,9 +1,9 @@
 type: UnitAssembler
 category: units
-size: 6
-areaSize: 16
+size: 4
+areaSize: 8
 droneType: assembly-drone
-dronesCreated: 2
+dronesCreated: 4
 droneConstructTime: 90
 
 requirements: [
