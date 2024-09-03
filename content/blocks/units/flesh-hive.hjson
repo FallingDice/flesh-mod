@@ -10,27 +10,6 @@ requirements: [
 ]
 
 plans: [
-    {
-    unit: big-flesh-spider
-    requirements: [
-        flesh/750
-    ]
-    time: 3600
-  },
-  {
-    unit: flesh-bug
-    requirements: [
-        flesh/500
-    ]
-    time: 3600
-  },
-  {
-    unit: big-fleshball
-    requirements: [
-        flesh/500
-    ]
-    time: 3600
-  },
   {
     unit: fleshball
     requirements: [flesh/10]
@@ -41,7 +20,6 @@ plans: [
     requirements: []
     time: 300
   }
-
 ]
 
 consumes: {
