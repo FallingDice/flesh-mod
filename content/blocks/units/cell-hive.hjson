@@ -17,7 +17,7 @@ plans: [
 consumes: {}
 
 research: {
-    parent: flesh-hive
+    parent: core-aggregate
     objectives: [
     {
       type: SectorComplete
