@@ -10,6 +10,13 @@ length: 10
 tendrils: 4
 hasShadow: false
 
+  bullet: {
+    type: LiquidBulletType
+    splashDamage: 60
+    splashDamageRadius: 24
+    killShooter: true
+  }
+
 requirements: [
   flesh/50, bone/20
 ]
