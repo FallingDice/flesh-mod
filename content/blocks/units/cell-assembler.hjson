@@ -1,0 +1,46 @@
+type: UnitAssembler
+category: units
+size: 6
+areaSize: 16
+droneType: assembly-drone
+dronesCreated: 2
+droneConstructTime: 90
+
+requirements: [
+   flesh/1000, bone/400, fat/250
+]
+
+consumes: {
+power: 3,
+liquids: [
+blood/0.5
+]
+}
+
+plans: [
+{
+unit: big-fleshball
+requirements: [
+ fleshball/4, large-flesh-wall/4
+],
+time: 8000
+},
+{
+unit: flesh-bug
+requirements: [
+ fleshnugget/6, large-flesh-wall/6
+],
+time: 8000
+},
+{
+unit: big-flesh-spider
+"requirements": [
+ fleshnugget/6, fleshball/4, large-flesh-wall/10
+],
+time: 8000
+}
+]
+
+squareSprite: false
+research: flesh-hive
+researchCostMultiplier: 0.4
