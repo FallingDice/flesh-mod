@@ -1,0 +1,23 @@
+type: Reconstructor
+category: units
+health: 1550
+size: 3
+constructTime: 3600
+
+requirements: [
+      flesh/800
+    ]
+
+upgrades: [
+   [the-cell, cancer-f]
+ ]
+
+    consumes: {
+        items: {
+            items: [
+              flesh/500
+            ]
+        }
+    }
+
+    research: cell-hive
