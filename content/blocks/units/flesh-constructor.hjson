@@ -10,6 +10,7 @@ consumes: {
 }
 buildSpeed: 1
 filter: [
+  flesh-wall,
   large-flesh-wall
 ]
 research: core-aggregate
