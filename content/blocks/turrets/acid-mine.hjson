@@ -3,7 +3,7 @@
 type: ShockMine
 category: turret
 health: 100
-damage: 20
+damage: 5
 size: 1
 tileDamage: 20
 length: 10
@@ -12,8 +12,18 @@ hasShadow: false
 
   bullet: {
     type: LiquidBulletType
+    damage: 5
+    drag: 0.05
     splashDamage: 60
     splashDamageRadius: 24
+    liquid: gastric-juice
+    orbSize: 2
+    puddleSize: 16
+    despawnHit: true
+    despawnSound: splash
+
+    status: melting
+    statusDuration: 720
     killShooter: true
   }
 
