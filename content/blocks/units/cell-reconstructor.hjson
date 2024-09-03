@@ -17,7 +17,11 @@ upgrades: [
             items: [
               flesh/500
             ]
-        }
+        },
+          liquid: {
+        liquid: blood
+        amount: 0.1
+         }
     }
 
 research: cell-hive
