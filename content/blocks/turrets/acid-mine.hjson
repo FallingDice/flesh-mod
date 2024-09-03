@@ -12,13 +12,13 @@ hasShadow: false
 
   bullet: {
     type: LiquidBulletType
-    damage: 5
+    damage: 20
     drag: 0.05
     splashDamage: 60
     splashDamageRadius: 24
     liquid: gastric-juice
-    orbSize: 2
-    puddleSize: 16
+    orbSize: 4
+    puddleSize: 64
     despawnHit: true
     despawnSound: splash
 
