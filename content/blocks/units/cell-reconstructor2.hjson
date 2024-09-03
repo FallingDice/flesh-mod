@@ -1,0 +1,26 @@
+type: Reconstructor
+category: units
+health: 1550
+size: 3
+constructTime: 3600
+
+requirements: [
+      flesh/1200
+    ]
+
+upgrades: [
+   [the-cell, u0-c1],
+   [the-cell, u0-c2],
+   [the-cell, bonebug],
+   [the-cell, heavy-bonebug]
+ ]
+
+    consumes: {
+        items: {
+            items: [
+              flesh/800, bone/200
+            ]
+        }
+    }
+
+    research: cell-hive
