@@ -12,7 +12,7 @@ buildSpeed: 1
 filter: [
   large-flesh-wall
 ]
-research: core
+research: core-aggregate
 squareSprite: false
 conductivePower: true
 researchCostMultiplier: 0.3
