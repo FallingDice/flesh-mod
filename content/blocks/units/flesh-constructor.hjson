@@ -1,0 +1,19 @@
+type: Constructor
+size: 3
+category: units
+requirements: [
+  flesh/200
+] 
+hasPower: true
+consumes: {
+  power: 0.2
+}
+buildSpeed: 1
+filter: [
+  large-flesh-wall
+]
+research: core
+squareSprite: false
+conductivePower: true
+researchCostMultiplier: 0.3
+maxBlockSize: 3
