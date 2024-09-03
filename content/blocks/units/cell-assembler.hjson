@@ -21,16 +21,16 @@ plans: [
 {
 unit: gigant
 requirements: [
- u0-1f/5, u0-2f/5, large-flesh-wall/10
+ u0-c1/3, u0-c2/5, large-flesh-wall/16
 ],
-time: 8000
+time: 16000
 },
 {
 unit: abomination
 requirements: [
- cancer-f/10, large-flesh-wall/10
+ cancer-f/10, large-flesh-wall/20
 ],
-time: 8000
+time: 16000
 }
 ]
 
