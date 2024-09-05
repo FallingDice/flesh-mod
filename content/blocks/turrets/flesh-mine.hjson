@@ -13,3 +13,7 @@ hasShadow: false
     damage: 0
     spawnUnit: the-cell
   }
+
+requirements: [
+  flesh/200
+]
