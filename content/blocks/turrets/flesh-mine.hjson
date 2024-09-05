@@ -1,9 +1,9 @@
 type: ShockMine
 category: turret
-health: 1000
-damage: 10
+health: 100
+damage: 5
 size: 1
-tileDamage: 5
+tileDamage: 20
 length: 10
 tendrils: 4
 hasShadow: false
