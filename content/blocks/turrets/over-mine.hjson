@@ -1,0 +1,14 @@
+type: ShockMine
+category: turret
+health: 1000
+damage: 10
+size: 1
+tileDamage: 0
+length: 0
+tendrils: 0
+hasShadow: false
+
+  bullet: {
+    instantDisappear: true
+    unit: the-cell
+  }
