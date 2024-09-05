@@ -10,5 +10,6 @@ hasShadow: false
 
   bullet: {
     instantDisappear: true
-    unit: the-cell
+    damage: 0
+    spawnUnit: the-cell
   }
