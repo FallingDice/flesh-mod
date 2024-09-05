@@ -3,9 +3,9 @@ category: turret
 health: 1000
 damage: 10
 size: 1
-tileDamage: 0
-length: 0
-tendrils: 0
+tileDamage: 5
+length: 10
+tendrils: 4
 hasShadow: false
 
   bullet: {
