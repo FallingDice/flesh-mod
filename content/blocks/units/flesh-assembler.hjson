@@ -11,33 +11,33 @@ requirements: [
 ]
 
 consumes: {
-power: 3,
-liquids: [
-blood/0.5
-]
+   power: 3,
+   liquids: [
+   blood/0.5
+   ]
 }
 
 plans: [
 {
-unit: big-fleshball
-requirements: [
-   fleshball/4, large-flesh-wall/4
-],
-time: 3600
+   unit: big-fleshball
+   requirements: [
+      fleshball/4, large-flesh-wall/4
+   ],
+   time: 3600
 },
 {
-unit: flesh-bug
-requirements: [
-   fleshnugget/6, large-flesh-wall/6
-],
-time: 3600
+   unit: flesh-bug
+   requirements: [
+      fleshnugget/6, large-flesh-wall/6
+   ],
+   time: 3600
 },
 {
-unit: big-flesh-spider
-requirements: [
-   fleshnugget/6, fleshball/4, large-flesh-wall/10
-],
-time: 3600
+   unit: big-flesh-spider
+   requirements: [
+      fleshnugget/6, fleshball/4, large-flesh-wall/10
+   ],
+   time: 3600
 }
 ]
 

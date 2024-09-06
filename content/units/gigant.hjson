@@ -16,8 +16,8 @@ createScorch: false
 rotateSpeed: 0.7
 immunities: [wet, spore-slowed]
 itemCapacity: 200
-mechFrontSway: 0.8
-mechSideSway: 0.6
+mechFrontSway: 0.5
+mechSideSway: 0.5
 mechStepParticles: true
 
 abilities: [

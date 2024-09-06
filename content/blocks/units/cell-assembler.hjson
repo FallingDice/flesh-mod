@@ -11,47 +11,47 @@ requirements: [
 ]
 
 consumes: {
-power: 3,
-liquids: [
-blood/0.5
-]
+   power: 3,
+   liquids: [
+   blood/0.5
+   ]
 }
 
 plans: [
 {
-unit: gigant
-requirements: [
-   u0-c1/3, u0-c2/5, large-flesh-wall/16
-]
-time: 16000
+   unit: gigant
+   requirements: [
+      u0-c1/3, u0-c2/5, large-flesh-wall/16
+   ]
+   time: 14800
 },
 {
-unit: abomination
-requirements: [
-   the-cell/30, cancer-f/10, large-flesh-wall/20
-]
-time: 16000
+   unit: abomination
+   requirements: [
+      the-cell/30, cancer-f/10, large-flesh-wall/20
+   ]
+   time: 14800
 },
 {
-unit: u0-c1
-requirements: [
-   the-cell/10
-]
-time: 3000
+   unit: u0-c1
+   requirements: [
+      the-cell/10
+   ]
+   time: 3240
 },
 {
-unit: u0-c2
-requirements: [
-   the-cell/7
-]
-time: 2000
+   unit: u0-c2
+   requirements: [
+      the-cell/7
+   ]
+   time: 2160
 },
 {
-unit: bonebug
-requirements: [
-   the-cell/5
-]
-time: 1000
+   unit: bonebug
+   requirements: [
+      the-cell/5
+   ]
+   time: 1080
 }
 ]
 
