@@ -6,6 +6,8 @@ droneType: assembly-drone
 dronesCreated: 4
 droneConstructTime: 90
 
+regionSuffix: -dark
+
 requirements: [
    flesh/1000, bone/400, fat/250
 ]
@@ -17,28 +19,28 @@ consumes: {
    ]
 }
 
-plans: [
-{
-   unit: big-fleshball
-   requirements: [
-      fleshball/4, large-flesh-wall/4
-   ],
-   time: 3600
-},
-{
-   unit: flesh-bug
-   requirements: [
-      fleshnugget/6, large-flesh-wall/6
-   ],
-   time: 3600
-},
-{
-   unit: big-flesh-spider
-   requirements: [
-      fleshnugget/6, fleshball/4, large-flesh-wall/10
-   ],
-   time: 3600
-}
+AssemblerUnitPlan: [
+   {
+      unit: big-fleshball
+      requirements: [
+         fleshball/4, large-flesh-wall/4
+      ],
+      time: 3600
+   },
+   {
+      unit: flesh-bug
+      requirements: [
+         fleshnugget/6, large-flesh-wall/6
+      ],
+      time: 3600
+   },
+   {
+      unit: big-flesh-spider
+      requirements: [
+         fleshnugget/6, fleshball/4, large-flesh-wall/10
+      ],
+      time: 3600
+   }
 ]
 
 squareSprite: false

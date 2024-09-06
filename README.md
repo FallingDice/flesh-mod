@@ -70,3 +70,5 @@ edit missile ai
 0.796v - new update
 
 0.8v - update sprite
+
+0.808v - bugfix

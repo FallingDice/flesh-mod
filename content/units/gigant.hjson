@@ -5,7 +5,7 @@ flying: false
 speed: 0.4
 health: 5000
 armor: 15
-hitSize: 40
+hitSize: 26
 range: 80
 
 healColor: ff1744
