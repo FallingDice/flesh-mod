@@ -1,0 +1,10 @@
+type: UnitAssemblerModule
+category: units
+size: 4
+health: 4800
+regionSuffix: -dark
+tier: 4
+
+requirements: [
+    flesh/3200
+]
