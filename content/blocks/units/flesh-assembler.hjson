@@ -19,7 +19,7 @@ consumes: {
    ]
 }
 
-AssemblerUnitPlan: [
+plans: [
    {
       unit: big-fleshball
       requirements: [
