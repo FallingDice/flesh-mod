@@ -11,13 +11,12 @@ deathSound: plantBreak
 deathExplosionEffect: steam
 createScorch: false
 
-outlineColor: ff1744
-
 drawCell: false
 circleTarget: true
 targetAir: false
 controller: HugAI
 crushDamage: 0.3
+outlineColor: ff1744
 
 weapons: [
     {

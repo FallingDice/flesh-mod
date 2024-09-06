@@ -23,7 +23,6 @@ mineTier: 2
 itemCapacity: 40
 drawCell: false
 engineSize: 0
-outlineColor: ff1744
 
 weapons: [
        {

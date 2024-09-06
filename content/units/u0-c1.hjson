@@ -16,8 +16,6 @@ deathSound: plantBreak
 deathExplosionEffect: steam
 createScorch: false
 
-outlineColor: ff1744
-
 canBoost: true
 riseSpeed: 0.05
 rotationLimit: 15

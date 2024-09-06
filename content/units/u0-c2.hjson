@@ -17,9 +17,9 @@ deathSound: plantBreak
 deathExplosionEffect: steam
 createScorch: false
 
-outlineColor: ff1744
 lowAltitude: true
 circleTarget: true
+drawCell: false
 
 weapons: [
     { 
