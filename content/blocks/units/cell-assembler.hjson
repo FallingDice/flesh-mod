@@ -20,7 +20,6 @@ consumes: {
 }
 
 plans: [
-   {
       {
          unit: bonebug
          requirements: [
@@ -56,7 +55,6 @@ plans: [
          ]
          time: 14800
       }
-   }
 ]
 
 squareSprite: false
