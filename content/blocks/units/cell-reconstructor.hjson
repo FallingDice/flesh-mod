@@ -15,7 +15,7 @@ upgrades: [
     consumes: {
         items: {
             items: [
-              flesh/500
+              flesh/500, fat/50
             ]
         },
           liquid: {
