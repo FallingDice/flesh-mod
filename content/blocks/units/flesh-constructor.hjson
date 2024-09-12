@@ -10,8 +10,10 @@ consumes: {
 }
 buildSpeed: 1
 filter: [
-  flesh-wall,
+  flesh-wall
   large-flesh-wall
+  bone-wall
+  large-bone-wall
 ]
 research: core-aggregate
 squareSprite: false
