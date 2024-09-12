@@ -1,5 +1,6 @@
 type: UnitAssembler
 category: units
+configurable: true
 size: 4
 areaSize: 8
 droneType: assembly-drone
@@ -21,28 +22,32 @@ consumes: {
 
 plans: [
    {
-      type: UnitAssemblerPlan
-      unit: big-fleshball
+    type: UnitAssemblerPlan
+     unit: big-fleshball
       requirements: [
-         fleshball/4, large-flesh-wall/4
+         fleshball/4
+         large-flesh-wall/4
       ],
-      time: 3600
+     time: 3600
    },
    {
-      type: UnitAssemblerPlan
-      unit: flesh-bug
+    type: UnitAssemblerPlan
+     unit: flesh-bug
       requirements: [
-         fleshnugget/6, large-flesh-wall/6
+         fleshnugget/6
+         large-flesh-wall/6
       ],
-      time: 3600
+     time: 3600
    },
    {
-      type: UnitAssemblerPlan
-      unit: big-flesh-spider
+    type: UnitAssemblerPlan
+     unit: big-flesh-spider
       requirements: [
-         fleshnugget/6, fleshball/4, large-flesh-wall/10
+         fleshnugget/6
+         fleshball/4
+         large-flesh-wall/10
       ],
-      time: 3600
+     time: 3600
    }
 ]
 

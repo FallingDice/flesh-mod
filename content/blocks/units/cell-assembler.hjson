@@ -1,5 +1,6 @@
 type: UnitAssembler
 category: units
+configurable: true
 size: 4
 areaSize: 8
 droneType: assembly-drone
@@ -20,45 +21,47 @@ consumes: {
 }
 
 plans: [
-      {
-         type: UnitAssemblerPlan
-         unit: bonebug
+   {
+      type: UnitAssemblerPlan
+       unit: bonebug
          requirements: [
             the-cell/5
          ]
-         time: 1080
-      },
-      {
-         unit: u0-c2
+       time: 1080
+   },
+   {
+      type: UnitAssemblerPlan
+       unit: u0-c2
          requirements: [
             the-cell/7
          ]
-         time: 2160
-      },
-      {
-         type: UnitAssemblerPlan
-         unit: u0-c1
+       time: 2160
+   },
+   {
+      type: UnitAssemblerPlan
+       unit: u0-c1
          requirements: [
             the-cell/10
          ]
-         time: 3240
-      },
-      {
-         type: UnitAssemblerPlan
-         unit: gigant
+       time: 3240
+   },
+   {
+      type: UnitAssemblerPlan
+       unit: gigant
          requirements: [
-            u0-c1/3, u0-c2/5, large-flesh-wall/16
+            u0-c1/3, u0-c2/5
+            large-flesh-wall/16
          ]
-         time: 14800
-      },
-      {
-         type: UnitAssemblerPlan
-         unit: abomination
+       time: 14800
+   },
+   {
+      type: UnitAssemblerPlan
+       unit: abomination
          requirements: [
             the-cell/30, cancer-f/10, large-flesh-wall/20
          ]
-         time: 14800
-      }
+       time: 14800
+   }
 ]
 
 squareSprite: false
