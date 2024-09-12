@@ -21,6 +21,7 @@ consumes: {
 
 plans: [
    {
+      type: UnitAssemblerPlan
       unit: big-fleshball
       requirements: [
          fleshball/4, large-flesh-wall/4
@@ -28,6 +29,7 @@ plans: [
       time: 3600
    },
    {
+      type: UnitAssemblerPlan
       unit: flesh-bug
       requirements: [
          fleshnugget/6, large-flesh-wall/6
@@ -35,6 +37,7 @@ plans: [
       time: 3600
    },
    {
+      type: UnitAssemblerPlan
       unit: big-flesh-spider
       requirements: [
          fleshnugget/6, fleshball/4, large-flesh-wall/10
