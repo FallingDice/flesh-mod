@@ -1,2 +1,12 @@
 type: Unloader
+category: effect
+health: 160
+size: 1
 speed: 10
+
+requirements: [
+  flesh/60, fat/10, bone/5
+]
+
+research: flesh-container
+researchCostMultiplier: 0.5
