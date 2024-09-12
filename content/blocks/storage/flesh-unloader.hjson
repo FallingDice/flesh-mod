@@ -8,5 +8,7 @@ requirements: [
   flesh/60, fat/10, bone/5
 ]
 
+group: transportation
+
 research: flesh-container
 researchCostMultiplier: 0.5
