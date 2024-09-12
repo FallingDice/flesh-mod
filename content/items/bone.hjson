@@ -2,7 +2,7 @@ name: Bone
 description: ohno
 color: ebeef5
 
-cost: 1.2
+cost: 1.4
 hardness: 1.5
 healthScaling: 0.1
 
