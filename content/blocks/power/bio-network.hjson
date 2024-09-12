@@ -1,4 +1,12 @@
 type: PowerNode
+category: power
+size: 2
+health: 1000
+
+requirements: [
+      flesh/100
+]
+
 maxNodes: 2
 laserRange: 20
 baseExplosiveness: 1
