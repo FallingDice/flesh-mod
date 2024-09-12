@@ -3,18 +3,16 @@ category: distribution
 size: 1
 health: 40
 speed: 4
-
 underBullets: true
 solid: false
 
 requirements: [
-          flesh/5
+          flesh/10
 ]
 
 research: {
         parent: intestine-router
             requirements: [
-
                             flesh/200
                 ]
 }
