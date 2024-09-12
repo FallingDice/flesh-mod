@@ -1,1 +1,6 @@
 type: PowerNode
+maxNodes: 2
+laserRange: 20
+baseExplosiveness: 1
+
+powerCapacity: 5000
