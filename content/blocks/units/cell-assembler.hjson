@@ -36,7 +36,6 @@ plans: [
          requirements: [
             the-cell/7
          ]
-
    },
    {
       type: UnitAssemblerPlan
@@ -45,7 +44,6 @@ plans: [
          requirements: [
             the-cell/10
          ]
-
    },
    {
       type: UnitAssemblerPlan
@@ -56,7 +54,6 @@ plans: [
             u0-c2/5
             large-flesh-wall/16
          ]
-
    },
    {
       type: UnitAssemblerPlan
@@ -67,7 +64,6 @@ plans: [
             cancer-f/10
             large-flesh-wall/20
          ]
-
    }
 ]
 
