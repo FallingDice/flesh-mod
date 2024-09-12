@@ -63,6 +63,29 @@ weapons: [
             status: spore-slowed
         }
     },
+    {
+            mirror: true
+            x: 3
+            y: 0
+            reload: 15
+            shootSound: sap
+
+        bullet: {
+            type: SapBulletType
+            damage: 4
+            sapStrength: 0.85
+            length: 70
+            shootEffect: shootSmall
+            hitColor: ff6993
+            color: ff6993
+            despawnEffect: none
+            width: 0.55
+            lifetime: 10
+            knockback: -0.5
+            
+            status: spore-slowed
+        }
+    },
     { 
       shoot: {
             shots: 2
