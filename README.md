@@ -74,3 +74,9 @@ edit missile ai
 0.808v - bugfix
 
 0.812v - assmbler bugfix
+
+0.815v 
+- delete flying unit target flag.
+- add bridge
+- edit unit flying unit cost
+- add build system and sapped weapon to big flesh ball
