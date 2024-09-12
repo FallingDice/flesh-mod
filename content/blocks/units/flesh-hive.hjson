@@ -12,7 +12,7 @@ requirements: [
 plans: [
   {
     unit: fleshball
-    requirements: [flesh/10]
+    requirements: [flesh/50, fat/20]
     time: 1200
   },
   {
