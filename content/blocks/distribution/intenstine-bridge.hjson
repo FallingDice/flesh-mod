@@ -13,6 +13,6 @@ requirements: [
 research: {
         parent: intestine-router
             requirements: [
-                            flesh/200
+                     flesh/200
                 ]
-}
+      }
