@@ -24,6 +24,8 @@ outlineColor: ff1744
 lowAltitude: true
 crashDamageMultiplier: 3
 
+buildSpeed: 1.5
+
 //targetFlags: [factory, battery, storage, core]
 
 weapons: [
