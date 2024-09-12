@@ -3,7 +3,7 @@ category: units
 configurable: true
 size: 4
 areaSize: 8
-droneType: assembly-drone
+droneType: bonebug
 dronesCreated: 4
 droneConstructTime: 90
 
