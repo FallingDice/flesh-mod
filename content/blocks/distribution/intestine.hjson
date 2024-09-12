@@ -11,7 +11,8 @@ requirements: [
       flesh/1
 ]
 
-junctionReplacement : intestine-junction
+junctionReplacement: intestine-junction
+bridgeReplacement: intestine-bridge
 
 research: {
     parent: core-aggregate
