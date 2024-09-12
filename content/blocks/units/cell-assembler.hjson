@@ -49,7 +49,8 @@ plans: [
       type: UnitAssemblerPlan
        unit: gigant
          requirements: [
-            u0-c1/3, u0-c2/5
+            u0-c1/3
+            u0-c2/5
             large-flesh-wall/16
          ]
        time: 14800
@@ -58,7 +59,9 @@ plans: [
       type: UnitAssemblerPlan
        unit: abomination
          requirements: [
-            the-cell/30, cancer-f/10, large-flesh-wall/20
+            the-cell/30
+            cancer-f/10
+            large-flesh-wall/20
          ]
        time: 14800
    }
