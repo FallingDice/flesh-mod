@@ -53,7 +53,7 @@ plans: [
          requirements: [
             u0-c1/3
             u0-c2/5
-            large-flesh-wall/16
+            large-bone-wall/16
          ]
    },
    {
@@ -63,7 +63,7 @@ plans: [
          requirements: [
             the-cell/30
             cancer-f/10
-            large-flesh-wall/20
+            large-bone-wall/20
          ]
    }
 ]
