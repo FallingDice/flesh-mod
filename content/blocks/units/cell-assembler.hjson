@@ -27,7 +27,6 @@ plans: [
         time: 1080
          requirements: [
             flesh-mod-the-cell/5
-
          ]
    },
    {
