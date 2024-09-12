@@ -27,6 +27,7 @@ plans: [
         time: 1080
          requirements: [
             the-cell/5
+            dagger/3
          ]
    },
    {
