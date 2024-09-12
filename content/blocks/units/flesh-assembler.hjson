@@ -25,8 +25,8 @@ plans: [
     type: UnitAssemblerPlan
      unit: big-fleshball
       requirements: [
-         fleshball/4
-         large-flesh-wall/4
+         flesh-mod-fleshball/4
+         flesh-mod-large-flesh-wall/4
       ]
      time: 3600
    },
@@ -34,8 +34,8 @@ plans: [
     type: UnitAssemblerPlan
      unit: flesh-bug
       requirements: [
-         fleshnugget/6
-         large-flesh-wall/6
+         flesh-mod-fleshnugget/6
+         flesh-mod-large-flesh-wall/6
       ]
      time: 3600
    },
@@ -43,9 +43,9 @@ plans: [
     type: UnitAssemblerPlan
      unit: big-flesh-spider
       requirements: [
-         fleshnugget/6
-         fleshball/4
-         large-flesh-wall/10
+         flesh-mod-fleshnugget/6
+         flesh-mod-fleshball/4
+         flesh-mod-large-flesh-wall/10
       ]
      time: 3600
    }
