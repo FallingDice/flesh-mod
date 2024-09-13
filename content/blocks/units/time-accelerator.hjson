@@ -7,11 +7,19 @@ length: 10
 repairSpeed: 1
 repairRadius: 80
 powerUse: 0
-beamWidth: 1.5
+beamWidth: 0.5
 pulseRadius: 10
 coolantUse: 0.16
 coolantMultiplier: 1.6
 acceptCoolant: true
+widthSinMag: 0.5
+
+targetBuildings: true
+targetUnits: true
+
+laserColor: ff7144
+healColor: ff1744
+controllable: true
 
 requirements: [
   flesh/300, fat/100
