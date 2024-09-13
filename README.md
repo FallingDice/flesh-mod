@@ -85,3 +85,6 @@ edit missile ai
 - add unloader
 - add bio-network(battery&power node)
 - add repiar Turret
+
+0.818v
+- add repiar turret functions.
