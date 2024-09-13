@@ -1,5 +1,5 @@
 type: RepairTurret
-category: effect
+category: units
 health: 1600
 size: 2
 
