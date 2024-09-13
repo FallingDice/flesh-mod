@@ -19,6 +19,7 @@ powerProduction: 3
   }
 hasLiquids: true
 liquidCapacity: 20
+powerCapacity: 5000
 
 generateEffect: generatespark
 ambientSound: smelter
