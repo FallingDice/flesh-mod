@@ -3,7 +3,7 @@ category: units
 size: 4
 health: 1000
 
-solid: false
+//solid: false
 
 requirements: [
     flesh/100000
