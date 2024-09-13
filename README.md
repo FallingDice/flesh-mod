@@ -80,3 +80,8 @@ edit missile ai
 - add bridge
 - edit flying unit cost
 - add build system and sapped weapon to big flesh ball
+
+0.816v
+- add unloader
+- add bio-network(battery&power node)
+- add repiar Turret
