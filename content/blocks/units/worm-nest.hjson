@@ -1,0 +1,14 @@
+type: unitFactory
+category: units
+size: 4
+health: 1000
+
+solid: false
+
+plans: [
+  {
+    unit: the-worm
+    requirements: []
+    time: 12000
+  }
+]
