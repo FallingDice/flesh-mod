@@ -5,6 +5,10 @@ health: 1000
 
 solid: false
 
+requirements: [
+    flesh/100000
+]
+
 plans: [
   {
     unit: the-worm
