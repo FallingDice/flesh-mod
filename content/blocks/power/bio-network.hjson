@@ -12,6 +12,4 @@ laserRange: 20
 baseExplosiveness: 1
 
 powerProduction: 0.05
-consumePowerBuffered: {
-   powerCapacity: 5000
-}
+powerCapacity: 5000
