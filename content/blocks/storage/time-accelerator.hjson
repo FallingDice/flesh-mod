@@ -7,7 +7,7 @@ length: 10
 repairSpeed: 1
 repairRadius: 80
 powerUse: 0
-beamWidth: 0;5
+beamWidth: 1.5
 pulseRadius: 10
 coolantUse: 0.16
 coolantMultiplier: 1.6
