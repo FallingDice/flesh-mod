@@ -5,7 +5,8 @@ speed: 1.5
 health: 25000
 hitSize: 12
 range: 30
-hidden: true
+
+//hidden: true
 
 healColor: ff1744
 deathSound: plantBreak
