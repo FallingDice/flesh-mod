@@ -1,2 +1,11 @@
 type: RepairTurret
-  
+category: effect
+health: 1600
+size: 2
+
+requirements: [
+  flesh/60, fat/10, bone/5
+]
+
+research: core-a
+researchCostMultiplier: 0.5
