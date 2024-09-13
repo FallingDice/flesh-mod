@@ -16,6 +16,7 @@ widthSinMag: 0.5
 
 targetBuildings: true
 targetUnits: true
+predictTarget: true
 
 laserColor: ff7144
 healColor: ff1744
