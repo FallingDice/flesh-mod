@@ -74,13 +74,13 @@ weapons: [
             type: SapBulletType
             damage: 4
             sapStrength: 0.85
-            length: 70
+            length: 90
             shootEffect: shootSmall
             hitColor: ff6993
             color: ff6993
             despawnEffect: none
             width: 0.55
-            lifetime: 10
+            lifetime: 12
             knockback: -0.5
             
             status: spore-slowed
