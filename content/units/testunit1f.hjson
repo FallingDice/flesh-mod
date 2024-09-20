@@ -121,8 +121,8 @@ shoot: {
 
 shootY: 0.5
 
- shootType: {
-  type: LaserTurret
+ bullet: {
+  type: BasicBulletType
   hitEffect: hitMeltdown
   length: 100
   hitColor: fda981
