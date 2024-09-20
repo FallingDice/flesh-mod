@@ -119,12 +119,14 @@ rotateSpeed: 0.9
 shootY: 0.5
 
  shootType: {
-  type: PointLaserBulletType
+  type: LaserTurret
   hitEffect: hitMeltdown
+  length: 100
   hitColor: fda981
   color: fda981
   damage: 50
   buildingDamageMultiplier: 0.3
+  timescaleDamage: true
    }
 }
 ]
