@@ -20,7 +20,6 @@ requirements: [
 outlineColor: ff1744
 shootType: {
   type: PointLaserBulletType
-  length: 200
   hitEffect: hitMeltdown
   hitColor: fda981
   color: fda981
@@ -35,7 +34,7 @@ shootType: {
   ammoMultiplier: 2
 }
 
-shootSound: laserbig
+shootSound: none
 shootEffect: shootBigSmoke2
 loopSoundVolume: 1
 loopSound: laserbeam
