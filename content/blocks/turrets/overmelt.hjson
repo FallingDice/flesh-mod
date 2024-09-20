@@ -37,7 +37,6 @@ aimChangeSpeed: 0.9
 rotateSpeed: 0.9
 
 shootY: 0.5
-outlineColor: ff1744
 
 unitSort: strongest
 
