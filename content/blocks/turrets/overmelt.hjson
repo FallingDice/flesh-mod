@@ -1,6 +1,6 @@
 //광선을 발사하여 광채를 내고 위액을 소모합니다. MsX07 idea
 
-type: LaserTurret
+type: ContinuousTurret
 category: turret
 health: 1200
 armor: 2
