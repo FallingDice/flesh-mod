@@ -101,7 +101,6 @@ weapons: [
       }
     },
 {
-type: ContinuousTurret
 range: 250
 shootCone: 360
 recoil: 0
