@@ -113,6 +113,12 @@ loopSound: laserbeam
 
 shootWarmupSpeed: 0.08
 
+shoot: {
+  type: ShootSpread
+  shots: 15
+  spread: 4
+}
+
 shootY: 0.5
 
  shootType: {
