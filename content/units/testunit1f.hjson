@@ -5,7 +5,7 @@ armor: 10
 speed: 2
 hitSize: 8
 maxRange: 200
-range: 1
+range: 50
 
 outline: false
 aimDst: 120
@@ -104,14 +104,6 @@ weapons: [
 range: 250
 shootCone: 40
 recoil: 0
-firingMoveFract: 1.5
-
-shootSound: none
-shootEffect: shootBigSmoke2
-loopSoundVolume: 1
-loopSound: laserbeam
-
-shootWarmupSpeed: 0.08
 
 shoot: {
   type: ShootSpread
@@ -124,7 +116,7 @@ shootY: 0.5
  bullet: {
   type: BasicBulletType
   hitEffect: hitMeltdown
-  length: 100
+  lifetime: 50
   hitColor: fda981
   color: fda981
   damage: 50
