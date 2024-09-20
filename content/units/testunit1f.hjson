@@ -99,7 +99,17 @@ weapons: [
         shrinkX: 5.7
         shrinkY: 5.7
       }
-    }
+    },
+{
+ shootType: {
+  type: PointLaserBulletType
+  hitEffect: hitMeltdown
+  hitColor: fda981
+  color: fda981
+  damage: 50
+  buildingDamageMultiplier: 0.3
+   }
+}
 ]
 
 abilities: [
