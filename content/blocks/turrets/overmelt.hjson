@@ -1,17 +1,25 @@
 //광선을 발사하여 광채를 내고 위액을 소모합니다. MsX07 idea
 
-type: ContinuousTurret
+type: LaserTurret
 category: turret
 health: 1200
 armor: 2
 size: 4
 range: 200
+shootCone: 40
+recoil: 4
+shake: 1
+reload: 90
+firingMoveFract: 1.5
+
 
 requirements: [
   flesh/50, fat/20
 ]
 
 outlineColor: ff1744
+
+type: ContinuousLaserBulletType
 
 PointLaserBulletType: {
        maxRange: 200
@@ -23,7 +31,8 @@ PointLaserBulletType: {
        color: fda981
             }
 
-shootSound: none
+shootSound: laserbig
+shootEffect: shootBigSmoke2
 loopSoundVolume: 1
 loopSound: laserbeam
 
