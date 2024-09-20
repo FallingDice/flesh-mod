@@ -18,8 +18,7 @@ requirements: [
 ]
 
 outlineColor: ff1744
-ammoTypes: {
-  type: ContinuousLaserBulletType
+  shootType: PointLaserBulletType
   length: 200
   hitEffect: hitMeltdown
   hitColor: fda981
@@ -33,7 +32,6 @@ ammoTypes: {
   incendSpread: 5
   incendAmount: 3
   ammoMultiplier: 2
-}
 
 shootSound: laserbig
 shootEffect: shootBigSmoke2
