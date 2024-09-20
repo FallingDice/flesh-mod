@@ -27,15 +27,21 @@ coolant: {
 ammoTypes: {
   bone: {
     type: BasicBulletType
-    width: 7
-    height: 9
-    speed: 3
+    knockback: 4
+    hitSize: 7
+    width: 25
+    height: 20
+    speed: 8
     damage: 20
     lifetime: 60
     splashDamage: 20
     splashDamageRadius: 10
     homingPower: 0.3
     hitSound: explosion
+    shootEffect: shootBigColor
+    smokeEffect: shootSmokeSquareSparse
+    hitEffect: hitSquaresColor
+    despawnEffect: hitSquaresColor
 
     status: spore-slowed
 
