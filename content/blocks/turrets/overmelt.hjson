@@ -26,11 +26,6 @@ shootType: {
   timescaleDamage: true
   damage: 50
   buildingDamageMultiplier: 0.3
-
-  incendChance: 0.4
-  incendSpread: 5
-  incendAmount: 3
-  ammoMultiplier: 2
 }
 
 shootSound: none
