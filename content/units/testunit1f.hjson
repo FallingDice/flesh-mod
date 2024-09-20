@@ -130,6 +130,7 @@ shootY: 0.5
   damage: 50
   buildingDamageMultiplier: 0.3
   timescaleDamage: true
+  homingPower: 0.3
    }
 }
 ]
