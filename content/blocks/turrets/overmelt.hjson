@@ -7,8 +7,7 @@ armor: 2
 size: 4
 range: 250
 shootCone: 360
-recoil: 4
-shake: 1
+recoil: 0
 firingMoveFract: 1.5
 
 
@@ -23,7 +22,6 @@ shootType: {
   hitEffect: hitMeltdown
   hitColor: fda981
   color: fda981
-  timescaleDamage: true
   damage: 50
   buildingDamageMultiplier: 0.3
 }
