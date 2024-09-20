@@ -6,22 +6,35 @@ health: 600
 armor: 1
 size: 2
 range: 260
+shootY: 5
+shootCone: 40
 
 requirements: [
   bone/260
 ]
 
-shootSound: shoot
+shootSound: shootAltLong
 
 outlineColor: fsfsfs
 reload: 40
 heatColor: ff1744
+shake: 1
 inaccuracy: 15
+ammoPerShot: 3
+maxAmmo: 30
+consumeAmmoOnce: true
+targetUnderBlocks: false
 
 coolant: {
   type: ConsumeCoolant
   allowLiquid: true
   amount: 0.3
+}
+
+shoot: {
+  type: ShootSpread
+  shots: 15
+  spread: 4
 }
 
 ammoTypes: {
@@ -42,6 +55,12 @@ ammoTypes: {
     smokeEffect: shootSmokeSquareSparse
     hitEffect: hitSquaresColor
     despawnEffect: hitSquaresColor
+    hitColor: ea8878
+    backColor: ea8878
+    trailColor: ea8878
+    frontColor: feb380
+    trailWidth: 6
+    trailLength: 3
 
     status: spore-slowed
 
