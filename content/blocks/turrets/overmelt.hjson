@@ -19,7 +19,7 @@ requirements: [
 
 outlineColor: ff1744
 ammoTypes: {
-  type: PointLaserBulletType
+  type: ContinuousLaserBulletType
   length: 200
   hitEffect: hitMeltdown
   hitColor: fda981
