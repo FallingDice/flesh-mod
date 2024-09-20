@@ -102,6 +102,7 @@ weapons: [
 {
 shootCone: 40
 recoil: 0
+reload: 5
 
 shoot: {
   type: ShootSpread
@@ -114,13 +115,13 @@ shootY: 0.5
  bullet: {
   type: BasicBulletType
   hitEffect: hitMeltdown
-  lifetime: 150
+  lifetime: 300
   hitColor: fda981
   color: fda981
   damage: 50
   buildingDamageMultiplier: 0.3
   timescaleDamage: true
-  homingPower: 0.1
+  homingPower: 0.03
    }
 }
 ]
