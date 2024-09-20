@@ -102,7 +102,7 @@ weapons: [
     },
 {
 range: 250
-shootCone: 360
+shootCone: 40
 recoil: 0
 firingMoveFract: 1.5
 
@@ -112,9 +112,6 @@ loopSoundVolume: 1
 loopSound: laserbeam
 
 shootWarmupSpeed: 0.08
-
-aimChangeSpeed: 0.9
-rotateSpeed: 0.9
 
 shootY: 0.5
 
