@@ -101,6 +101,24 @@ weapons: [
       }
     },
 {
+type: ContinuousTurret
+range: 250
+shootCone: 360
+recoil: 0
+firingMoveFract: 1.5
+
+shootSound: none
+shootEffect: shootBigSmoke2
+loopSoundVolume: 1
+loopSound: laserbeam
+
+shootWarmupSpeed: 0.08
+
+aimChangeSpeed: 0.9
+rotateSpeed: 0.9
+
+shootY: 0.5
+
  shootType: {
   type: PointLaserBulletType
   hitEffect: hitMeltdown
