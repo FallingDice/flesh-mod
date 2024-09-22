@@ -12,10 +12,10 @@ firingMoveFract: 1.5
 
 
 requirements: [
-  flesh/50, fat/20
+  bone/200, fat/20, flesh/40
 ]
 
-outlineColor: 9f0724
+outlineColor: asasas
 
 shootType: {
   type: PointLaserBulletType
@@ -35,8 +35,6 @@ shootWarmupSpeed: 0.08
 
 aimChangeSpeed: 0.9
 rotateSpeed: 0.9
-
-shootY: 0.5
 
 unitSort: strongest
 

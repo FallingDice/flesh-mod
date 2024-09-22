@@ -21,7 +21,6 @@ duct 프레임으로 애니메이션 추가, 장이 움직이듯이 부풀었다
 assmbler-changer 1, 2, 3, 4 (대체로 둥근 어떤 조직처럼, 크기별로 디테일)
 
 [수정 list]
-overmelt
 the-hive
 flesh-mine x1
 bloodmoon x3 dif

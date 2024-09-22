@@ -15,7 +15,7 @@ requirements: [
 
 shootSound: shootAltLong
 
-outlineColor: fsfsfs
+outlineColor: asasas
 reload: 40
 heatColor: ff1744
 shake: 1

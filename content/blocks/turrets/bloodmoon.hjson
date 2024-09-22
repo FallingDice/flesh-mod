@@ -17,7 +17,7 @@ requirements: [
 shootSound: artillery
 forceMultiTarget: true
 
-outlineColor: 9f0724
+outlineColor: 7f0724
 reload: 120
 heatColor: ff1744
 inaccuracy: 15

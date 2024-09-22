@@ -14,7 +14,7 @@ requirements: [
 
 moveWhileCharging: false
 accurateDelay: false
-outlineColor: 9f0724
+outlineColor: 7f0724
 targetAir: false
 targetGround: true
 reload: 500
