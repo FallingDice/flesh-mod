@@ -43,6 +43,7 @@ ammoTypes: {
     trailColor: ff1744
     frontColor: ff0000
     backColor: f00000
+    smokeEffect: shootSmokeSquareSparse
     homingPower: 0.3
     hitSound: explosion
 

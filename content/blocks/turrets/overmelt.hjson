@@ -41,6 +41,7 @@ shootY: 0.5
 unitSort: strongest
 
 consumeLiquid: {
+     allowLiquid: true
      liquid: gastric-juice
      amount: 0.1
        }

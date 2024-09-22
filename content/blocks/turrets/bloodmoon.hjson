@@ -55,7 +55,8 @@ ammoTypes: {
     hitEffect: blastExplosion
     collidesTiles: false
     makeFire: true
-    knockback: -4
+    knockback: 0.8
+    smokeEffect: shootSmokeSquareSparse
 
     status: spore-slowed
   }
