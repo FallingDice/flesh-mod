@@ -12,10 +12,10 @@ firingMoveFract: 1.5
 
 
 requirements: [
-  bone/200, fat/20, flesh/40
+  fat/80, flesh/400
 ]
 
-outlineColor: asasas
+outlineColor: 7f0724
 
 shootType: {
   type: PointLaserBulletType
@@ -33,8 +33,10 @@ loopSound: laserbeam
 
 shootWarmupSpeed: 0.08
 
-aimChangeSpeed: 0.9
-rotateSpeed: 0.9
+shootY: 0.5
+
+aimChangeSpeed: 1.3
+rotateSpeed: 0.7
 
 unitSort: strongest
 
