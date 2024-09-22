@@ -92,3 +92,6 @@ edit missile ai
 0.821v
 - change outline color
 - add new turret
+
+0.823v
+- update sprites
