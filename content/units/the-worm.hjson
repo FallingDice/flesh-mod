@@ -16,7 +16,6 @@ createScorch: false
 rotateSpeed: 3.5
 itemCapacity: 600
 
-outlineColor: ff1744
 drawCell: false
 
 controller: HugAI

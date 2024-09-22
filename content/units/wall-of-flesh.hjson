@@ -21,7 +21,7 @@ mineTier: 3
 itemCapacity: 200
 drawCell: false
 engineSize: 0
-outlineColor: ff1744
+outlineColor: 9f0724
 
 abilities: [
 {

@@ -17,7 +17,7 @@ rotateSpeed: 1.5
 immunities: [wet, burning, spore-slowed]
 itemCapacity: 600
 
-outlineColor: ff1744
+outlineColor: 9f0724
 drawCell: false
 
 controller: HugAI

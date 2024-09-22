@@ -3,51 +3,61 @@ category: turret
 health: 1000
 armor: 1
 size: 3
-range: 200
+range: 240
+minRange: 60
+targetAir: false
+ammoEjectBack: 5
+ammoUseEffect: casing3Double
+ammoPerShot: 2
 
 requirements: [
-  flesh/120
+  flesh/320
 ]
 
-shootSound: shoot
+shootSound: artillery
 forceMultiTarget: true
 
 outlineColor: 9f0724
-reload: 40
+reload: 120
 heatColor: ff1744
 inaccuracy: 15
+recoil: 2
+shootCone: 30
 
 coolant: {
   type: ConsumeCoolant
   allowLiquid: true
-  amount: 0.3
+  amount: 0.5
 }
 
 shoot: {
-  shots: 4
-  shotDelay: 3
+  shots: 2
+  shotDelay: 5
 }
 ammoTypes: {
   flesh: {
-    type: BasicBulletType
-    width: 7
-    height: 9
-    speed: 3
-    damage: 20
-    lifetime: 60
-    splashDamage: 20
-    splashDamageRadius: 10
-    sprite: missile-large
-    trailWidth: 2
-    trailLength: 10
+    type: ArtilleryBulletType
+    width: 11
+    height: 11
+    speed: 5
+    damage: 5
+    lifetime: 80
+    splashDamage: 40
+    splashDamageRadius: 50
+    trailWidth: 3
+    trailLength: 5
     trailColor: ff1744
     frontColor: ff0000
     backColor: f00000
-    homingPower: 0.3
+    homingPower: 0.08
+    homingRange: 50
     hitSound: explosion
+    hitEffect: blastExplosion
+    collidesTiles: false
+    makeFire: true
+    knockback: -4
 
     status: spore-slowed
-
   }
 }
 

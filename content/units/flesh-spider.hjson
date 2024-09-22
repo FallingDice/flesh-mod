@@ -39,7 +39,7 @@ rippleScale: 0.3
 shadowElevation: 0.3
 
 drawCell: false
-outlineColor: ff1744
+outlineColor: 9f0724
 
   immunities: [
     spore-slowed, wet

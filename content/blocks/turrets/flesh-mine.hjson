@@ -1,6 +1,6 @@
 type: ShockMine
 category: turret
-health: 100
+health: 1000
 damage: 5
 size: 1
 tileDamage: 20

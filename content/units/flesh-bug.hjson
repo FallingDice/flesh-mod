@@ -15,7 +15,7 @@ deathSound: plantBreak
 deathExplosionEffect: steam
 createScorch: false
 
-outlineColor: ff1744
+outlineColor: 9f0724
 drawBody: false
 drawCell: false
 

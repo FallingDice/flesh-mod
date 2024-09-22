@@ -15,7 +15,7 @@ requirements: [
   flesh/50, fat/20
 ]
 
-outlineColor: ff1744
+outlineColor: 9f0724
 
 shootType: {
   type: PointLaserBulletType

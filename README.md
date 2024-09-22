@@ -88,3 +88,7 @@ edit missile ai
 
 0.818v
 - add repiar turret functions.
+
+0.821v
+- change outline color
+- add new turret

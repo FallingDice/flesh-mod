@@ -20,7 +20,7 @@ aimDst: 5
 drawCell: false
 outlines: true
 outlineRadius: 1
-outlineColor: ff1744
+outlineColor: 9f0724
 hidden: true
 range: 40
 weapons: [

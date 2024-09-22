@@ -14,7 +14,7 @@ lifetime: 3600
 health: 500
 drawCell: false
 outlines: true
-outlineColor: ff1744
+outlineColor: 9f0724
 hidden: true
 
 weapons: [
