@@ -40,11 +40,13 @@ shootY: 0.5
 
 unitSort: strongest
 
-consumeLiquid: {
-     allowLiquid: true
-     liquid: gastric-juice
-     amount: 0.1
-       }
+consumes: {
+  power: 6
+  liquid: {
+        liquid: gastric-juice
+        amount: 0.6
+    }
+}
 
 status: melting
 statusDuration: 360
