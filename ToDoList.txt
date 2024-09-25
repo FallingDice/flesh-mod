@@ -27,12 +27,10 @@ flesh-mine x1
 bloodmoon x3 dif
 intestine-bridge x1 dubri
 bio-network x2 
-flesh-unloader x1
 time-accelerator x2
 cell-assmbler x4
 flesh-assmbler x4
 flesh-constructor x3
-worm-nest x4 (대체로 둥근 어떤 조직처럼)
 
 
 @아이디어 노트
