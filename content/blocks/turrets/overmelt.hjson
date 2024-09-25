@@ -21,7 +21,7 @@ shootType: {
   type: PointLaserBulletType
   hitEffect: hitMeltdown
   hitColor: a5df00
-  color: a5df00
+  color: a5df6f
   damage: 50
   buildingDamageMultiplier: 0.3
 }
