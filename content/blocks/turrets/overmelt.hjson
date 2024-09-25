@@ -53,7 +53,7 @@ statusDuration: 360
 
 drawer: {
   type: DrawTurret
-  basePrefix: overmeltbase
+  basePrefix: -overmeltbase
 }
 
 research: doomsday
