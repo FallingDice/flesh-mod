@@ -12,7 +12,7 @@ firingMoveFract: 1.5
 
 
 requirements: [
-  fat/80, flesh/400
+  flesh/700, fat/300, bone/120
 ]
 
 outlineColor: 7f0724
@@ -50,5 +50,10 @@ consumes: {
 
 status: melting
 statusDuration: 360
+
+drawer: {
+  type: DrawTurret
+  basePrefix: overmeltbase
+}
 
 research: doomsday
