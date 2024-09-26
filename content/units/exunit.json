@@ -8,25 +8,27 @@
   "range": 150,
   "weapons": [
     {
+      "name": "plasma-blast",
       "reload": 60,
       "bullet": {
         "type": "explosive",
         "damage": 120,
         "splashDamage": 80,
         "splashRadius": 30,
-        "speed": 5,
+        "speed": 5,  // bulletSpeed -> speed로 수정
         "lifetime": 45
       },
       "shootSound": "plasmasound",
       "inaccuracy": 0.05
     },
     {
+      "name": "flare-launcher",
       "reload": 120,
       "bullet": {
         "type": "flame",
         "damage": 30,
-        "status": "burning",  // 화상 효과
-        "bulletSpeed": 3,
+        "status": "burning",  // 상태 효과
+        "speed": 3,  // bulletSpeed -> speed로 수정
         "spread": 60,
         "lifetime": 40
       },
@@ -47,5 +49,6 @@
       "cooldown": 180
     }
   ],
+  "constructor": "unit",
   "description": "A fast flying unit capable of high-damage plasma attacks and flare-launching abilities. It regenerates health over time and can boost its speed temporarily."
 }
