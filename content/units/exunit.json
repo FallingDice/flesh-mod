@@ -1,0 +1,54 @@
+{
+  "name": "swift-striker",
+  "type": "unit",
+  "health": 200,
+  "speed": 3.5,
+  "flying": true,
+  "armor": 2,
+  "range": 150,
+  "weapons": [
+    {
+      "name": "plasma-blast",
+      "reload": 60,
+      "bullet": {
+        "type": "explosive",
+        "damage": 120,
+        "splashDamage": 80,
+        "splashRadius": 30,
+        "speed": 5,
+        "lifetime": 45
+      },
+      "shootSound": "plasmasound",
+      "inaccuracy": 0.05
+    },
+    {
+      "name": "flare-launcher",
+      "reload": 120,
+      "bullet": {
+        "type": "flame",
+        "damage": 30,
+        "status": "burning",  // 화상 효과
+        "bulletSpeed": 3,
+        "spread": 60,
+        "lifetime": 40
+      },
+      "shootSound": "firesound",
+      "inaccuracy": 0.1
+    }
+  ],
+  "abilities": [
+    {
+      "type": "regeneration",
+      "amount": 2,
+      "interval": 120
+    },
+    {
+      "type": "boost",
+      "speedMultiplier": 1.5,
+      "duration": 60,
+      "cooldown": 180
+    }
+  ],
+  "constructor": "unit",
+  "description": "A fast flying unit capable of high-damage plasma attacks and flare-launching abilities. It regenerates health over time and can boost its speed temporarily."
+}
