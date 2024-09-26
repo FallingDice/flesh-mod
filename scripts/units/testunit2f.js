@@ -11,11 +11,8 @@ const customUnit = extend(UnitTypes.mono, "custom-unit", {
     flying: false,         // 비행 여부
     range: 120,            // 유닛의 공격 범위
     constructor: () => extend(UnitTypes.mono.constructor(), {
-        // 유닛이 매 틱마다 실행할 동작 정의
         update() {
             this.super$update();
-
-            // 추가적인 행동을 여기에 정의 가능
         }
     })
 });
