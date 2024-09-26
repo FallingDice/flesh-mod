@@ -1,7 +1,5 @@
 // 필요한 Mindustry API 가져오기
-const UnitTypes = require("mindustry/type/UnitTypes");
 const Weapon = require("mindustry/type/Weapon");
-const Bullets = require("mindustry/content/Bullets");
 const Sounds = require("mindustry/audio/Sound");
 
 // 새로운 유닛 정의
