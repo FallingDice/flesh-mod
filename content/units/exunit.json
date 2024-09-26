@@ -34,13 +34,5 @@
       "inaccuracy": 0.1
     }
   ],
-  "abilities": [
-    {
-      "type": "boost",
-      "speedMultiplier": 1.5,
-      "duration": 60,
-      "cooldown": 180
-    }
-  ],
   "description": "A fast flying unit capable of high-damage plasma attacks and flare-launching abilities. It regenerates health over time and can boost its speed temporarily."
 }
