@@ -1,44 +1,35 @@
-// 새로운 유닛을 정의
-const testunit2f = extend(UnitTypes.alpha, "testunit2f", {
-    speed: 2.5,        // 유닛의 이동 속도
-    health: 500,       // 유닛의 체력
-    armor: 5,          // 유닛의 방어력
-    range: 120,        // 유닛의 공격 범위
-    flying: false,     // 비행 여부
-    constructor: () => extend(UnitTypes.alpha.constructor(), {
+// 필요한 Mindustry API 가져오기
+const UnitTypes = require("mindustry/type/UnitTypes");
+const Weapon = require("mindustry/type/Weapon");
+const Bullets = require("mindustry/content/Bullets");
+const Sounds = require("mindustry/audio/Sound");
+
+// 새로운 유닛 정의
+const customUnit = extend(UnitTypes.mono, "custom-unit", {
+    health: 400,           // 유닛의 체력
+    speed: 1.8,            // 유닛의 이동 속도
+    flying: false,         // 비행 여부
+    range: 120,            // 유닛의 공격 범위
+    constructor: () => extend(UnitTypes.mono.constructor(), {
         // 유닛이 매 틱마다 실행할 동작 정의
         update() {
-            // 기본적인 이동 및 행동 로직을 유지
             this.super$update();
 
-            // 적을 찾아 자동 공격
-            const target = Units.closestEnemy(this.team, this.x, this.y, this.range, u => true);
-            if (target) {
-                this.lookAt(target);  // 적을 바라봄
-                this.shoot(target);   // 적에게 발사
-            }
+            // 추가적인 행동을 여기에 정의 가능
         }
     })
 });
 
-// 유닛의 무기를 정의
+// 유닛의 무기 정의
 const customWeapon = new Weapon("custom-weapon");
-customWeapon.reload = 30;                     // 무기 재장전 시간
-customWeapon.bullet = Bullets.standardCopper; // 사용할 총알 (기본 구리 총알)
-customWeapon.shootSound = Sounds.shootBig;    // 발사 소리
-customWeapon.inaccuracy = 0.2;                // 발사 시 오차
-customWeapon.bulletSpeed = 5;                 // 총알 속도
+customWeapon.reload = 45;                        // 재장전 시간
+customWeapon.bullet = Bullets.standardCopper;    // 사용할 총알
+customWeapon.shootSound = Sounds.shoot;          // 발사 소리
+customWeapon.inaccuracy = 0.1;                   // 오차
+customWeapon.bulletSpeed = 4;                    // 총알 속도
 
-// 무기를 유닛에 장착
-testunit2f.weapons.add(customWeapon);
-
-// 유닛 생성 시 이펙트 추가
-testunit2f.constructor = () => extend(UnitTypes.alpha.constructor(), {
-    init() {
-        this.super$init();
-        Fx.spawn.at(this.x, this.y);  // 스폰 이펙트
-    }
-});
+// 유닛에 무기 추가
+customUnit.weapons.add(customWeapon);
 
 // 유닛을 게임에 추가
-Vars.content.units().add(testunit2f);
+Vars.content.units().add(customUnit);
