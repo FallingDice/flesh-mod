@@ -49,9 +49,9 @@ weapons: [
             sprite: missile-large
             trailWidth: 1
             trailLength: 3
-            trailColor: ff1744
-            frontColor: ff0000
-            backColor: f00000
+            trailColor: ff4764
+            frontColor: ff4040
+            backColor: ff4040
             homingPower: 0.3
             impact: true
       }
@@ -85,13 +85,14 @@ weapons: [
       ]
     },
   {
+    //이후 특정한 suffix anim 추가
     mirror: true
     rotate: true
     alternate: true
     x: -5
     y: 0
-    cooldownTime: 40
-    reload: 100
+    cooldownTime: 60
+    reload: 600
     smoothReloadSpeed: 0.15
     shootSound: missileLaunch
     bullet: {
