@@ -37,7 +37,11 @@ flesh-constructor x3
 @resurch list
 
 •core-aggregate(no condition)
+
+•flesh-hive[parents: core-aggregate](red-zone comp)
 •cell-hive[parents: core-aggregate](red-zone comp)
+
+•time-accelator[parents: core-aggregate](wip)
 
 
 
