@@ -21,12 +21,17 @@
       "inaccuracy": 0.05
     },
     {
+       "shoot": {
+        "type": "ShootSpread",
+        "shots": 4,
+        "spread": 6
+        }
       "reload": 120,
       "bullet": {
         "type": "FireBulletType",
         "damage": 30,
         "status": "burning",  // 상태 효과
-        "speed": 3,  // bulletSpeed -> speed로 수정
+        "speed": 6,  // bulletSpeed -> speed로 수정
         "spread": 60,
         "lifetime": 40
       },
@@ -34,6 +39,11 @@
       "inaccuracy": 0.1
     },
     {
+       "shoot": {
+        "type": "ShootSpread",
+        "shots": 8,
+        "spread": 10
+        }
       "reload": 4,
       "bullet": {
         "type": "LiquidBulletType",
