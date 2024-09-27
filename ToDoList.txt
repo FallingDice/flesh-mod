@@ -77,7 +77,7 @@ flesh-constructor x3
 
 •big-fleshball[parents: flesh-assmbler](no condition)
 •flesh-bug[parents: flesh-assmbler](no condition)
-
+big-flesh-spider[parents: flesh-assmbler](no condition)
 
 @map list@
 
