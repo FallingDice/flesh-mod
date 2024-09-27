@@ -140,7 +140,7 @@ abilities: [
 ]
 
 research: {
-    parent: flesh-hive
+    parent: flesh-assmbler
     objectives: [
     {
       type: SectorComplete
