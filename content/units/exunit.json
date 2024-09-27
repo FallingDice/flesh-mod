@@ -48,10 +48,11 @@
       "bullet": {
         "type": "LiquidBulletType",
         "liquid": "neoplasm"
-        "damage": 30,
+        "damage": 0,
         "speed": 5,  // bulletSpeed -> speed로 수정
         "lifetime": 40
         "inaccuracy": 8
+        "hommingPower": 0.06
         },
      }
   ],
