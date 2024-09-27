@@ -56,8 +56,9 @@ flesh-constructor x3
 #block/turret
 •bloodshot[parents: core-aggregate](no condition)
 
-#block/wall
-•flesh-wall[parents: core-aggregate](no condition)
+#units
+•fleshnugget[parents: flesh-hive](no condition)
+•fleshball[parents: flesh-hive](no condition)
 
 
 @map list@
