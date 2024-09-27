@@ -8,3 +8,6 @@ tier: 2
 requirements: [
     flesh/200
 ]
+
+research: assmbler-changer1
+researchCostMultiplier: 0.2
