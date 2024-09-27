@@ -45,6 +45,8 @@ flesh-constructor x3
 •blood-transfusion[parents: core-aggregate](red-zone comp)
 •time-accelator[parents: core-aggregate](wip)
 
+•cell-reconstructor1[parents: cell-hive](no condition)
+•cell-reconstructor2[parents: cell-hive](no condition)
 •cell-assmbler[parents: cell-hive](no condition)
 •flesh-assmbler[parents: flesh-hive](no condition)
 
