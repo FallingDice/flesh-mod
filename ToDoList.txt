@@ -57,6 +57,10 @@ flesh-constructor x3
 
 #block/turret
 •bloodshot[parents: core-aggregate](no condition)
+•butcher[parents: bloodshot](first-encounter comp)
+•bloodmoon[parents: bloodshot](first-encounter comp)
+•
+•
 
 #units
 •fleshnugget[parents: flesh-hive](no condition)
