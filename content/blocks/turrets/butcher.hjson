@@ -40,9 +40,9 @@ ammoTypes: {
     sprite: missile-large
     trailWidth: 2
     trailLength: 10
-    trailColor: ff1744
-    frontColor: ff0000
-    backColor: f00000
+    trailColor: ff4764
+    frontColor: ff4040
+    backColor: f04040
     smokeEffect: shootSmokeSquareSparse
     homingPower: 0.3
     hitSound: explosion
