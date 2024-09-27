@@ -8,3 +8,14 @@ tier: 1
 requirements: [
     flesh/50
 ]
+
+research: {
+    parent: core-aggregate
+    objectives: [
+    {
+      type: SectorComplete
+      preset: red-zone
+    }
+  ]
+}
+researchCostMultiplier: 0.2
