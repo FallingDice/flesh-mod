@@ -53,9 +53,9 @@ weapons: [
             sprite: missile-large
             trailWidth: 3
             trailLength: 4.6
-            trailColor: ff1744
-            frontColor: ff0000
-            backColor: f00000
+            trailColor: ff4764
+            frontColor: ff4040
+            backColor: ff4040
             recoil: 0
             shootEffect: none
             smokeEffect: none
