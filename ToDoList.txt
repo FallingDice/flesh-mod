@@ -57,10 +57,17 @@ flesh-constructor x3
 
 #block/turret
 •bloodshot[parents: core-aggregate](no condition)
+
 •butcher[parents: bloodshot](first-encounter comp)
 •bloodmoon[parents: bloodshot](first-encounter comp)
-•
-•
+
+•doomsday[parents: butcher](time-attack comp)
+
+•acid-mine
+•flesh-mine
+
+•overmelt
+•sanz
 
 #units
 •fleshnugget[parents: flesh-hive](no condition)
@@ -70,12 +77,12 @@ flesh-constructor x3
 @map list@
 
 always:
-first-encounter
-time-attack
-infection-of-origin
+first-encounter[flesh, blood]
+time-attack[flesh, blood, fat(wip), bone(wip)]
+infection-of-origin[flesh, blood, fat(wip), bone(wip)]
 
 stages:
-first-encounter => red-zone
+first-encounter => red-zone[flesh, blood]
 
 
 
