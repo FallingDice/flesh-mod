@@ -37,7 +37,7 @@
       "reload": 400,
       "bullet": {
         "type": "SpaceLiquidBulletType",
-        "Liquid": "neoplasm"
+        "liquid": "neoplasm"
         "damage": 30,
         "speed": 5,  // bulletSpeed -> speed로 수정
         "lifetime": 40
