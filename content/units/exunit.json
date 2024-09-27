@@ -8,14 +8,14 @@
   "range": 150,
   "weapons": [
     {
-      "reload": 60,
+      "reload": 1000,
       "bullet": {
         "type": "BombBulletType",
         "damage": 120,
         "splashDamage": 80,
         "splashRadius": 30,
-        "speed": 5,  // bulletSpeed -> speed로 수정
-        "lifetime": 45
+        "speed": 10,  // bulletSpeed -> speed로 수정
+        "lifetime": 80
       },
       "shootSound": "plasmasound",
       "inaccuracy": 0.05
@@ -26,14 +26,13 @@
         "shots": 4,
         "spread": 6
         }
-      "reload": 120,
+      "reload": 300,
       "bullet": {
         "type": "FireBulletType",
         "damage": 30,
         "status": "burning",  // 상태 효과
         "speed": 6,  // bulletSpeed -> speed로 수정
-        "spread": 60,
-        "lifetime": 40
+        "spread": 60
       },
       "shootSound": "firesound",
       "inaccuracy": 5
