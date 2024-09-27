@@ -25,5 +25,13 @@ requirements: [
   flesh/300, fat/100
 ]
 
-research: core-aggregate
+research: {
+    parent: core-aggregate
+    objectives: [
+    {
+      type: SectorComplete
+      preset: ragged-channel
+    }
+  ]
+}
 researchCostMultiplier: 0.5
