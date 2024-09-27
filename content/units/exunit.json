@@ -36,13 +36,13 @@
         "lifetime": 40
       },
       "shootSound": "firesound",
-      "inaccuracy": 0.1
+      "inaccuracy": 5
     },
     {
        "shoot": {
         "type": "ShootSpread",
         "shots": 8,
-        "spread": 10
+        "spread": 4
         }
       "reload": 4,
       "bullet": {
@@ -51,6 +51,7 @@
         "damage": 30,
         "speed": 5,  // bulletSpeed -> speed로 수정
         "lifetime": 40
+        "inaccuracy": 8
         },
      }
   ],
