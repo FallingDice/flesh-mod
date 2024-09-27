@@ -86,7 +86,7 @@ consumes: {
 unitCapModifier: -5
 
 research: {
-    parent: butcher
+    parent: bloodshot
     requirements:
     [
         flesh/4200
