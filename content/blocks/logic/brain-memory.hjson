@@ -18,6 +18,6 @@ research: {
 }
 
 research: brain-processor
-researchCostMultiplier: 0.2
+researchCostMultiplier: 0.1
 
 //MsX07 idea
