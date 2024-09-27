@@ -17,7 +17,7 @@ duct 프레임으로 애니메이션 추가, 장이 움직이듯이 부풀었다
 
 
 
-@wip sprite list
+@wip sprite list@
 
 [미지정 list]
 assmbler-changer 2, 3, 4 (대체로 둥근 어떤 조직처럼, 크기별로 디테일)
@@ -34,7 +34,7 @@ flesh-assmbler x4
 flesh-constructor x3
 
 
-@reserch list
+@reserch list@
 
 •core-aggregate(no condition)
 
@@ -60,7 +60,7 @@ flesh-constructor x3
 •flesh-wall[parents: core-aggregate](no condition)
 
 
-@map list
+@map list@
 
 always:
 first-encounter
@@ -72,7 +72,7 @@ first-encounter => red-zone
 
 
 
-@idea note
+@idea note@
 
 1.유닛 아이디어
 
