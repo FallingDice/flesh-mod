@@ -134,7 +134,7 @@ abilities: [
 
 //네번째 스테이지로 추후 변경
 research: {
-    parent: crimson-factory
+    parent: cell-assmbler
     objectives: [
     {
       type: SectorComplete
