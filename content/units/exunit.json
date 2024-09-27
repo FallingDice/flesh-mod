@@ -34,20 +34,11 @@
       "inaccuracy": 0.1
     },
     {
-      "reload": 300,
-      "bullet": {
-        "type": "ShrapnelBulletType",
-        "damage": 30,
-        "speed": 3,  // bulletSpeed -> speed로 수정
-        "lifetime": 40
-      },
-    },
-    {
-      "reload": 500,
+      "reload": 400,
       "bullet": {
         "type": "SpaceLiquidBulletType",
         "damage": 30,
-        "speed": 3,  // bulletSpeed -> speed로 수정
+        "speed": 5,  // bulletSpeed -> speed로 수정
         "lifetime": 40
         },
      }
