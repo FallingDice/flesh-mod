@@ -41,9 +41,9 @@ weapons: [
             sprite: missile-large
             trailWidth: 3
             trailLength: 4.6
-            trailColor: ff1744
-            frontColor: ff0000
-            backColor: f00000
+            trailColor: ff4764
+            frontColor: ff4040
+            backColor: ff4040
             shootEffect: none
             smokeEffect: none
             recoil: -0.05
@@ -100,9 +100,9 @@ weapons: [
             sprite: missile-large
             trailWidth: 2
             trailLength: 5
-            trailColor: ff1744
-            frontColor: ff0000
-            backColor: f00000
+            trailColor: ff4764
+            frontColor: ff4040
+            backColor: ff4040
             pierce: true
             pierceBuilding: true
             recoil: -0.2
@@ -155,7 +155,7 @@ abilities: [
     },
     {
     type: MoveEffectAbility
-    minVelocity: 2.7
+    maxVelocity: 1
     x: 0
     y: -0.4
     effect: artilleryTrailSmoke
