@@ -99,9 +99,9 @@ weapons: [
             sprite: missile-large
             trailWidth: 3
             trailLength: 4.6
-            trailColor: ff1744
-            frontColor: ff0000
-            backColor: f00000
+            trailColor: ff4764
+            frontColor: ff4040
+            backColor: ff4040
             pierce: true
             pierceBuilding: true
             recoil: 5
@@ -111,8 +111,8 @@ weapons: [
         {
           type: RegionPart
           layer: 110
-          colorTo: ff0000AA
-          color: ff0000AA
+          colorTo: ff0000ff
+          color: ff0000ff
           outline: false
           blending: additive
           suffix: -glow
