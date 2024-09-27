@@ -34,9 +34,9 @@
       "inaccuracy": 0.1
     },
     {
-      "reload": 400,
+      "reload": 4,
       "bullet": {
-        "type": "SpaceLiquidBulletType",
+        "type": "LiquidBulletType",
         "liquid": "neoplasm"
         "damage": 30,
         "speed": 5,  // bulletSpeed -> speed로 수정
