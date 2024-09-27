@@ -9,5 +9,13 @@ requirements: [
     flesh/200
 ]
 
-research: assmbler-changer1
-researchCostMultiplier: 0.2
+research: {
+    parent: assmbler-changer1
+    objectives: [
+    {
+      type: SectorComplete
+      preset: contaminated-area
+    }
+  ]
+}
+researchCostMultiplier: 0.5
