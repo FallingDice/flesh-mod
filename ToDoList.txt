@@ -75,6 +75,9 @@ flesh-constructor x3
 •fleshnugget[parents: flesh-hive](no condition)
 •fleshball[parents: flesh-hive](no condition)
 
+•big-fleshball[parents: flesh-assmbler](no condition)
+•flesh-bug[parents: flesh-assmbler](no condition)
+
 
 @map list@
 
