@@ -34,6 +34,14 @@ flesh-assmbler x4
 flesh-constructor x3
 
 
+@resurch list
+
+•core-aggregate(no condition)
+•the-hive[parents: core-aggregate]()
+
+
+
+
 @아이디어 노트
 
 1.유닛 아이디어
