@@ -74,9 +74,9 @@ weapons: [
             sprite: missile-large
             trailWidth: 2.5
             trailLength: 5
-            trailColor: ff1744
-            frontColor: ff0000
-            backColor: f00000
+            trailColor: ff4764
+            frontColor: ff4040
+            backColor: ff4040
             smokeEffect: none
             recoil: -0.05
             
@@ -107,9 +107,9 @@ weapons: [
             sprite: missile-large
             trailWidth: 2
             trailLength: 10
-            trailColor: ff1744
-            frontColor: ff0000
-            backColor: f00000
+            trailColor: ff4764
+            frontColor: ff4040
+            backColor: ff4040
             pierce: true
             pierceBuilding: true
             pierceCap: 3
