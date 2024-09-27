@@ -8,3 +8,6 @@ tier: 4
 requirements: [
     flesh/3200
 ]
+
+research: assmbler-changer3
+researchCostMultiplier: 0.2
