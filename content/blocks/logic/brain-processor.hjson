@@ -18,4 +18,15 @@ research: {
     ]
 }
 
+research: {
+    parent: core-aggregate
+    objectives: [
+    {
+      type: SectorComplete
+      preset: red-zone
+    }
+  ]
+}
+researchCostMultiplier: 0.2
+
 //MsX07 idea
