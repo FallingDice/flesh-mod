@@ -47,7 +47,7 @@
       "reload": 4,
       "bullet": {
         "type": "LiquidBulletType",
-        "liquid": "neoplasm"
+        "liquid": "gastric-juice"
         "damage": 0,
         "speed": 5,  // bulletSpeed -> speed로 수정
         "lifetime": 40
