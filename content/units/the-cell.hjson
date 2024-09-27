@@ -36,6 +36,7 @@ weapons: [
             hitColor: ff6993
             color: ff6993
             despawnEffect: none
+            shootEffect: none
             lifetime: 3
             recoil: -1
             knockback: -1
