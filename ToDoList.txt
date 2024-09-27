@@ -45,15 +45,15 @@ flesh-constructor x3
 •blood-transfusion[parents: core-aggregate](red-zone comp)
 •time-accelator[parents: core-aggregate](wip)
 
-•cell-reconstructor1[parents: cell-hive](no condition)
-•cell-reconstructor2[parents: cell-hive](no condition)
+•cell-reconstructor[parents: cell-hive](wip)
+•cell-reconstructor2[parents: cell-hive](wip)
 •cell-assmbler[parents: cell-hive](no condition)
 •flesh-assmbler[parents: flesh-hive](no condition)
 
-•assmbler-changer1[parents: wip](wip)
-•assmbler-changer2[parents: wip](wip)
-•assmbler-changer3[parents: wip](wip)
-•assmbler-changer4[parents: wip](wip)
+•assmbler-changer1[parents: core-aggregate](red-zone comp)
+•assmbler-changer2[parents: changer1](wip)
+•assmbler-changer3[parents: changer2](wip)
+•assmbler-changer4[parents: changer3](wip)
 
 #block/turret
 •bloodshot[parents: core-aggregate](no condition)
