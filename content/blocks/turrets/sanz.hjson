@@ -55,10 +55,10 @@ ammoTypes: {
     smokeEffect: shootSmokeSquareSparse
     hitEffect: hitSquaresColor
     despawnEffect: hitSquaresColor
-    hitColor: ff1744
-    backColor: ff1744
-    trailColor: ff1744
-    frontColor: f00000
+    hitColor: ff4764
+    backColor: ff4764
+    trailColor: ff4764
+    frontColor: ff4040
     trailWidth: 6
     trailLength: 3
 
