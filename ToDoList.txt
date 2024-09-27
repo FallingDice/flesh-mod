@@ -17,7 +17,7 @@ duct 프레임으로 애니메이션 추가, 장이 움직이듯이 부풀었다
 
 
 
-@스프라이트
+@wip sprite list
 
 [미지정 list]
 assmbler-changer 2, 3, 4 (대체로 둥근 어떤 조직처럼, 크기별로 디테일)
@@ -34,19 +34,38 @@ flesh-assmbler x4
 flesh-constructor x3
 
 
-@resurch list
+@reserch list
 
 •core-aggregate(no condition)
 
 •flesh-hive[parents: core-aggregate](red-zone comp)
 •cell-hive[parents: core-aggregate](red-zone comp)
 
+•blood-transfusion[parents: core-aggregate](red-zone comp)
 •time-accelator[parents: core-aggregate](wip)
 
+•cell-assmbler[parents: cell-hive](no condition)
+•flesh-assmbler[parents: flesh-hive](no condition)
+
+•assmbler-changer1[parents: wip](wip)
+•assmbler-changer2[parents: wip](wip)
+•assmbler-changer3[parents: wip](wip)
+•assmbler-changer4[parents: wip](wip)
+
+
+@map list
+
+always:
+first-encounter
+time-attack
+infection-of-origin
+
+stages:
+first-encounter => red-zone
 
 
 
-@아이디어 노트
+@idea note
 
 1.유닛 아이디어
 
