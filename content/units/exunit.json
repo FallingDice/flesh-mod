@@ -10,7 +10,7 @@
     {
       "reload": 60,
       "bullet": {
-        "type": "explosive",
+        "type": "ExplosionBulletType",
         "damage": 120,
         "splashDamage": 80,
         "splashRadius": 30,
@@ -23,7 +23,7 @@
     {
       "reload": 120,
       "bullet": {
-        "type": "flame",
+        "type": "FireBulletType",
         "damage": 30,
         "status": "burning",  // 상태 효과
         "speed": 3,  // bulletSpeed -> speed로 수정
