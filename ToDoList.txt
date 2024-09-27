@@ -42,8 +42,8 @@ flesh-constructor x3
 •flesh-hive[parents: core-aggregate](red-zone comp)
 •cell-hive[parents: core-aggregate](red-zone comp)
 
-•blood-transfusion[parents: core-aggregate](wip comp)
-•time-accelator[parents: core-aggregate](wip)
+•blood-transfusion[parents: core-aggregate](contaminated-area comp)
+•time-accelator[parents: core-aggregate](ragged-channel comp)
 
 •cell-reconstructor[parents: cell-hive](wip)
 •cell-reconstructor2[parents: cell-hive](wip)
@@ -51,7 +51,7 @@ flesh-constructor x3
 •flesh-assmbler[parents: flesh-hive](no condition)
 
 •assmbler-changer1[parents: core-aggregate](red-zone comp)
-•assmbler-changer2[parents: changer1](wip)
+•assmbler-changer2[parents: changer1](contaminated-area comp)
 •assmbler-changer3[parents: changer2](wip)
 •assmbler-changer4[parents: changer3](wip)
 
@@ -85,6 +85,9 @@ infection-of-origin[flesh, blood, fat(wip), bone(wip)]
 
 stages:
 first-encounter => red-zone[flesh, blood]
+
+red-zone => ragged-channel[flesh, blood, gastric-juice, fat, bone(del예정)]
+red-zone => contaminated-area[flesh, blood, fat(wip), bone(wip)]
 
 
 
