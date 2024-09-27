@@ -42,7 +42,7 @@ flesh-constructor x3
 •flesh-hive[parents: core-aggregate](red-zone comp)
 •cell-hive[parents: core-aggregate](red-zone comp)
 
-•blood-transfusion[parents: core-aggregate](contaminated-area comp)
+•blood-transfusion[parents: time-accelator](contaminated-area comp)
 •time-accelator[parents: core-aggregate](ragged-channel comp)
 
 •cell-reconstructor[parents: cell-hive](wip)
