@@ -42,7 +42,7 @@ flesh-constructor x3
 •flesh-hive[parents: core-aggregate](red-zone comp)
 •cell-hive[parents: core-aggregate](red-zone comp)
 
-•blood-transfusion[parents: core-aggregate](red-zone comp)
+•blood-transfusion[parents: core-aggregate](wip comp)
 •time-accelator[parents: core-aggregate](wip)
 
 •cell-reconstructor[parents: cell-hive](wip)
@@ -60,14 +60,16 @@ flesh-constructor x3
 
 •butcher[parents: bloodshot](first-encounter comp)
 •bloodmoon[parents: bloodshot](first-encounter comp)
+•acid-mine[parents: bloodshot](wip)
+•doomsday[parents: bloodshot](time-attack comp)
 
-•doomsday[parents: butcher](time-attack comp)
+•sanz[parents: butcher](wip)
 
-•acid-mine
-•flesh-mine
+•overmelt[parents: acid-mine](wip)
 
-•overmelt
-•sanz
+•flesh-mine[parents: doomsday](wip)
+•the-hive[parents: doomsday](wip)
+
 
 #units
 •fleshnugget[parents: flesh-hive](no condition)
