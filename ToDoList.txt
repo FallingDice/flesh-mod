@@ -38,6 +38,7 @@ flesh-constructor x3
 
 •core-aggregate(no condition)
 
+#block/unit
 •flesh-hive[parents: core-aggregate](red-zone comp)
 •cell-hive[parents: core-aggregate](red-zone comp)
 
@@ -51,6 +52,12 @@ flesh-constructor x3
 •assmbler-changer2[parents: wip](wip)
 •assmbler-changer3[parents: wip](wip)
 •assmbler-changer4[parents: wip](wip)
+
+#block/turret
+•bloodshot[parents: core-aggregate](no condition)
+
+#block/wall
+•flesh-wall[parents: core-aggregate](no condition)
 
 
 @map list
