@@ -108,3 +108,6 @@ edit missile ai
 0.834v
 - u0-c1 nuffed
 - bugfix
+
+0.836v
+- mind-doninator buffed

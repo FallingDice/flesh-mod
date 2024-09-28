@@ -38,6 +38,6 @@ abilities: [
         range: 60
         amount: 40
         reload: 300
-        max:200
+        max: 200
     }
 ]

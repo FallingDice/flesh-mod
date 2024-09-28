@@ -37,8 +37,15 @@ hittable: false
 abilities: [
     {
         type: RepairFieldAbility
-      range: 40
+      range: 80
       amount: 20
-      reload: 500
+      reload: 300
+    },
+    {
+        type: ShieldRegenFieldAbility
+        range: 40
+        amount: 5
+        reload: 300
+        max: 50
     }
 ]
