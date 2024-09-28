@@ -104,3 +104,7 @@ edit missile ai
 
 0.832v
 - update sprites
+
+0.834v
+- u0-c1 nuffed
+- bugfix

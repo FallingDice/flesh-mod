@@ -50,9 +50,10 @@
         "damage": 0,
         "speed": 5,
         "lifetime": 40,
-        "inaccuracy": 8,
         "hommingPower": 0.06
-        }
+        },
+        "shootSound": "none",
+        "inaccuracy": 10
      }
   ],
   "description": "A fast flying unit capable of high-damage plasma attacks and flare-launching abilities. It regenerates health over time and can boost its speed temporarily."
