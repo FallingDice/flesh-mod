@@ -30,7 +30,7 @@ abilities: [
     {
         type: UnitSpawnAbility
         unit: the-cell
-        faceOutwards: true
+        spawnY: 3
         spawnTime: 1200
     }
 ]
