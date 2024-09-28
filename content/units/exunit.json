@@ -14,7 +14,7 @@
         "damage": 120,
         "splashDamage": 80,
         "splashRadius": 30,
-        "speed": 10,  // bulletSpeed -> speed로 수정
+        "speed": 10,
         "lifetime": 80
       },
       "shootSound": "plasmasound",
@@ -25,13 +25,13 @@
         "type": "ShootSpread",
         "shots": 4,
         "spread": 6
-        }
+        },
       "reload": 300,
       "bullet": {
         "type": "FireBulletType",
         "damage": 30,
-        "status": "burning",  // 상태 효과
-        "speed": 6,  // bulletSpeed -> speed로 수정
+        "status": "burning",
+        "speed": 6,
         "spread": 60
       },
       "shootSound": "firesound",
@@ -42,17 +42,17 @@
         "type": "ShootSpread",
         "shots": 8,
         "spread": 4
-        }
+        },
       "reload": 4,
       "bullet": {
         "type": "LiquidBulletType",
-        "liquid": "gastric-juice"
+        "liquid": "gastric-juice",
         "damage": 0,
-        "speed": 5,  // bulletSpeed -> speed로 수정
-        "lifetime": 40
-        "inaccuracy": 8
+        "speed": 5,
+        "lifetime": 40,
+        "inaccuracy": 8,
         "hommingPower": 0.06
-        },
+        }
      }
   ],
   "description": "A fast flying unit capable of high-damage plasma attacks and flare-launching abilities. It regenerates health over time and can boost its speed temporarily."

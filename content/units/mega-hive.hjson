@@ -224,17 +224,17 @@ abilities: [
     },
         {
         type: UnitSpawnAbility
-        unit: fleshball
+        unit: semi-hive
         spawnX: 20
         spawnY: 30
-        spawnTime: 1200
+        spawnTime: 2200
     },
             {
         type: UnitSpawnAbility
-        unit: fleshball
+        unit: semi-hive
         spawnX: -20
         spawnY: 30
-        spawnTime: 1200
+        spawnTime: 2200
     },
         {
         type: UnitSpawnAbility

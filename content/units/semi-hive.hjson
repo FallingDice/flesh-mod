@@ -1,0 +1,40 @@
+type: tank
+flying: false
+speed: 0
+rotateSpeed: 0
+engineSize: 0
+hitSize: 12
+
+healColor: ff1744
+deathSound: plantBreak
+deathExplosionEffect: steam
+createScorch: false
+
+health: 200
+drawCell: false
+outlines: true
+outlineColor: 9f0724
+hidden: true
+
+abilities: [
+    {
+        type: SpawnDeathAbility
+        randAmount: 8
+        spread: 30
+        faceOutwards: true
+        unit: the-cell
+    },
+    {
+        type: LiquidExplodeAbility
+        liquid: blood
+        amount: 10
+    },
+    {
+        type: UnitSpawnAbility
+        unit: the-cell
+        spawnX: 20
+        spawnY: 30
+        spawnTime: 1200
+    }
+]
+
