@@ -101,3 +101,6 @@ edit missile ai
 - bugfix
 - overmelt balance fetch
 - overmelt laser color fetch
+
+0.832v
+- update sprites
