@@ -238,14 +238,14 @@ abilities: [
     },
         {
         type: UnitSpawnAbility
-        unit: fleshball
+        unit: fleshnugget
         spawnX: 20
         spawnY: -30
         spawnTime: 1200
     },
             {
         type: UnitSpawnAbility
-        unit: fleshball
+        unit: fleshnugget
         spawnX: -20
         spawnY: -30
         spawnTime: 1200

@@ -1,8 +1,7 @@
 type: tank
 flying: false
-speed: 0
+speed: 0.1
 rotateSpeed: 0
-engineSize: 0
 hitSize: 12
 
 healColor: ff1744
@@ -14,7 +13,6 @@ health: 200
 drawCell: false
 outlines: true
 outlineColor: 9f0724
-hidden: true
 
 abilities: [
     {
@@ -32,6 +30,7 @@ abilities: [
     {
         type: UnitSpawnAbility
         unit: the-cell
+        faceOutwards: true
         spawnTime: 1200
     }
 ]
