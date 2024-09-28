@@ -111,3 +111,7 @@ edit missile ai
 
 0.836v
 - mind-doninator buffed
+
+0.837v
+- delete swift-striker
+- disable targetflag system of all unit

@@ -18,7 +18,7 @@ legContinuousMove: true
 lockLegBase: true
 hovering: true
 
-targetFlags: [battery, storage]
+//targetFlags: [battery, storage]
 
 legMaxLength: 1.2
 
