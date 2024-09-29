@@ -78,7 +78,6 @@ weapons: [
             shootEffect: shootSmall
             hitColor: ff6993
             color: ff6993
-            despawnEffect: none
             width: 0.55
             lifetime: 12
             knockback: -0.5

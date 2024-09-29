@@ -1,6 +1,6 @@
 type: tank
 flying: false
-speed: 0.1
+speed: 0.03
 rotateSpeed: 0
 hitSize: 12
 
