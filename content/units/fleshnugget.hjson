@@ -5,7 +5,7 @@ flying: false
 health: 40
 speed: 3
 hitSize: 6
-range: 100
+range: 120
 
 healColor: ff1744
 deathSound: plantBreak
@@ -56,6 +56,10 @@ weapons: [
             knockback: -0.3
             
             status: spore-slowed
+
+            maxRange: 120
+            rangeOverride: 120
+            range: 120
         }
     },
     {  

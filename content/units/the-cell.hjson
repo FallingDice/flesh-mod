@@ -24,7 +24,6 @@ weapons: [
         y: 0
         reload: 6
         shootSound: none
-        alwaysShootWhenMoving: true
 
         bullet: {
             type: SapBulletType
@@ -39,9 +38,9 @@ weapons: [
             lifetime: 5
             recoil: -1
             knockback: -1
-            maxRange: 120
-            rangeOverride: 120
-            range: 120
+            maxRange: 200
+            rangeOverride: 200
+            range: 200
         }
     }
 ]

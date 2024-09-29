@@ -118,3 +118,6 @@ edit missile ai
 
 0.839v
 - add glow
+
+0.841v
+- small unit auto-atk-range fix
