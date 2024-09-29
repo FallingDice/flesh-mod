@@ -111,8 +111,8 @@ weapons: [
         {
           type: RegionPart
           layer: 110
-          colorTo: ff0000ff
-          color: ff0000ff
+          colorTo: ff6060aa
+          color: ff6060aa
           outline: false
           blending: additive
           suffix: -glow

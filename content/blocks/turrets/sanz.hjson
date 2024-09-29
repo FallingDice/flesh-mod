@@ -34,7 +34,7 @@ coolant: {
 shoot: {
   type: ShootSpread
   shots: 8
-  spread: 6
+  spread: 4
 }
 
 ammoTypes: {
@@ -49,18 +49,20 @@ ammoTypes: {
     lifetime: 20
     splashDamage: 20
     splashDamageRadius: 10
-    homingPower: 0.3
     hitSound: explosion
     shootEffect: shootBigColor
     smokeEffect: shootSmokeSquareSparse
     hitEffect: hitSquaresColor
     despawnEffect: hitSquaresColor
-    hitColor: ff4764
-    backColor: ff4764
-    trailColor: ff4764
-    frontColor: ff4040
+    hitColor: ffffff
+    backColor: ssssss
+    trailColor: ffffff
+    frontColor: ssssss
     trailWidth: 6
     trailLength: 3
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 1
 
     status: spore-slowed
   }

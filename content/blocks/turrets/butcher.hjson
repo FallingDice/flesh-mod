@@ -48,7 +48,30 @@ ammoTypes: {
     hitSound: explosion
 
     status: spore-slowed
+  },
+    bone: {
+    type: BasicBulletType
+    width: 9
+    height: 11
+    speed: 5
+    damage: 25
+    lifetime: 70
+    splashDamage: 20
+    splashDamageRadius: 30
+    sprite: missile-large
+    trailWidth: 2
+    trailLength: 5
+    trailColor: ffffff
+    frontColor: ssssss
+    backColor: ssssss
+    hitColor: ffffff
+    smokeEffect: shootSmokeSquareSparse
+    hitSound: explosion
+    pierce: true
+    pierceBuilding: false
+    pierceCap: 1
 
+    status: blasted
   }
 }
 
