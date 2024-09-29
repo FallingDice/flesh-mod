@@ -22,7 +22,7 @@ weapons: [
         rotate: true
         x: 0
         y: 0
-        reload: 5
+        reload: 6
         shootSound: none
         alwaysShootWhenMoving: true
 
@@ -31,13 +31,12 @@ weapons: [
             damage: 10
             width: 0.55
             sapStrength: 0.85
-            length: 5
+            length: 6
             hitColor: ff6993
             color: ff6993
-            despawnEffect: none
             shootEffect: none
             smokeEffect: none
-            lifetime: 3
+            lifetime: 5
             recoil: -1
             knockback: -1
             maxRange: 120
