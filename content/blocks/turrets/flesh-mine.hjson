@@ -7,7 +7,7 @@ damage: 5
 size: 1
 tileDamage: 20
 length: 10
-tendrils: 4
+tendrils: 1
 hasShadow: false
 
   bullet: {
@@ -17,7 +17,7 @@ hasShadow: false
   }
 
 requirements: [
-  flesh/200
+  flesh/400, bone/20
 ]
 
 research: doomsday
