@@ -2,6 +2,7 @@ type: ItemTurret
 category: turret
 health: 1000
 armor: 1
+range: 180
 size: 3
 
 requirements: [
@@ -29,7 +30,6 @@ shoot: {
 ammoTypes: {
   flesh: {
     type: BasicBulletType
-    range: 160
     width: 7
     height: 9
     speed: 3
@@ -51,7 +51,6 @@ ammoTypes: {
   },
     bone: {
     type: BasicBulletType
-    range: 200
     width: 9
     height: 11
     speed: 5
