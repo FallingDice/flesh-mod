@@ -21,6 +21,18 @@ crushDamage: 0.2
 rotateSpeed: 3
 circleTarget: true
 
+parts: [
+  {
+    type: RegionPart
+    suffix: -glow
+    blending: additive
+    color: ff0000
+    mirror: false
+    outline: false
+    layer: 70.1
+  }
+]
+
 weapons: [
     {
         rotate: true
@@ -45,18 +57,7 @@ weapons: [
             knockback: -0.3
             
             status: spore-slowed
-        },
-        parts: [
-          {
-            type: RegionPart
-            colorTo: ff6060aa
-            color: ff6060aa
-            outline: false
-            mirror: false
-            blending: additive
-            suffix: -glow
-          }
-       ]
+        }
     },
     {  
       shootWarmupSpeed: 0.05

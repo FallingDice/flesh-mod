@@ -29,6 +29,7 @@ shoot: {
 ammoTypes: {
   flesh: {
     type: BasicBulletType
+    range: 160
     width: 7
     height: 9
     speed: 3
@@ -50,6 +51,7 @@ ammoTypes: {
   },
     bone: {
     type: BasicBulletType
+    range: 200
     width: 9
     height: 11
     speed: 5
