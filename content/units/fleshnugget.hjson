@@ -27,7 +27,7 @@ parts: [
     suffix: -glow
     blending: additive
     colorFrom: 000000
-    color: 660000
+    colorTo: 660000
     mirror: false
     outline: false
     layer: 60.1
