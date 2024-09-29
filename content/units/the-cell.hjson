@@ -4,7 +4,6 @@ health: 40
 armor: 10
 speed: 2
 hitSize: 6
-range: 120
 
 healColor: ff1744
 deathSound: plantBreak
@@ -37,9 +36,13 @@ weapons: [
             color: ff6993
             despawnEffect: none
             shootEffect: none
+            smokeEffect: none
             lifetime: 3
             recoil: -1
             knockback: -1
+            maxRange: 120
+            rangeOverride: 120
+            range: 120
         }
     }
 ]
