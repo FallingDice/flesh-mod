@@ -115,3 +115,6 @@ edit missile ai
 0.837v
 - delete swift-striker
 - disable targetflag system of all unit
+
+0.839v
+- add glow
