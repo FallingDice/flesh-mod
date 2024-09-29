@@ -3,7 +3,6 @@ category: turret
 health: 1000
 armor: 1
 size: 3
-range: 200
 
 requirements: [
   flesh/120
@@ -55,7 +54,7 @@ ammoTypes: {
     height: 11
     speed: 5
     damage: 25
-    lifetime: 70
+    lifetime: 40
     splashDamage: 20
     splashDamageRadius: 30
     sprite: missile-large

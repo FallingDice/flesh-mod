@@ -45,7 +45,18 @@ weapons: [
             knockback: -0.3
             
             status: spore-slowed
-        }
+        },
+        parts: [
+          {
+            type: RegionPart
+            colorTo: ff6060aa
+            color: ff6060aa
+            outline: false
+            mirror: false
+            blending: additive
+            suffix: -glow
+          }
+       ]
     },
     {  
       shootWarmupSpeed: 0.05
@@ -107,18 +118,6 @@ weapons: [
             recoil: 5
             impact: true
       }
-      parts: [
-        {
-          type: RegionPart
-          layer: 110
-          colorTo: ff6060aa
-          color: ff6060aa
-          outline: false
-          blending: additive
-          suffix: -glow
-          progress: warmup
-        }
-      ]
     }
 ]
 
