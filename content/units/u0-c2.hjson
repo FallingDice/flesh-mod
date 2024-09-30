@@ -134,7 +134,7 @@ abilities: [
 
 //네번째 스테이지로 추후 변경
 research: {
-    parent: cell-assmbler
+    parent: cell-assembler
     objectives: [
     {
       type: SectorComplete
