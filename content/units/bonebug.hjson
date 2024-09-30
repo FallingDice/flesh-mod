@@ -50,3 +50,11 @@ weapons: [
         }
     }
 ]
+
+research: {
+    parent: cell-assembler
+    requirements:
+    [
+        flesh/2000
+    ]
+}
