@@ -80,8 +80,8 @@ cell-reconstructor2 x3
 •flesh-bug[parents: flesh-assembler](no condition)
 •big-flesh-spider[parents: flesh-assembler](no condition)
 
-•cancer[parents: cell-reconstructor](wip)
-•heavy-bonebug[parents: cell-reconstructor2](wip)
+•cancer[parents: cell-reconstructorno condition)
+•heavy-bonebug[parents: cell-reconstructor2](no condition)
 
 @map list@
 
