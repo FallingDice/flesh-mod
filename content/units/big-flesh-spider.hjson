@@ -198,7 +198,7 @@ abilities: [
 
 //다섯번째 스테이지로 추후 변경
 research: {
-    parent: flesh-assmbler
+    parent: flesh-assembler
     objectives: [
     {
       type: SectorComplete
