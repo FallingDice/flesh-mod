@@ -75,3 +75,6 @@ abilities: [
       reload: 300
     }
 ]
+
+research: cell-reconstructor
+researchCostMultiplier: 0.3
