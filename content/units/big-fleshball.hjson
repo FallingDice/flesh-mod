@@ -193,7 +193,7 @@ abilities: [
 ]
 
 research: {
-    parent: flesh-assmbler
+    parent: flesh-assembler
     objectives: [
     {
       type: SectorComplete
