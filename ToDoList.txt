@@ -74,9 +74,12 @@ flesh-constructor x3
 •fleshnugget[parents: flesh-hive](no condition)
 •fleshball[parents: flesh-hive](no condition)
 
-•big-fleshball[parents: flesh-assmbler](no condition)
-•flesh-bug[parents: flesh-assmbler](no condition)
-big-flesh-spider[parents: flesh-assmbler](no condition)
+•big-fleshball[parents: flesh-assembler](no condition)
+•flesh-bug[parents: flesh-assembler](no condition)
+•big-flesh-spider[parents: flesh-assembler](no condition)
+
+•cancer[parents: cell-reconstructor](wip)
+•heavy-bonebug[parents: cell-reconstructor2](wip)
 
 @map list@
 
