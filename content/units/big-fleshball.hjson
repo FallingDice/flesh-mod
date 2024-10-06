@@ -73,7 +73,7 @@ parts: [
             mirror: true
             under: true
             moveX: 3
-            moveY: 10
+            moveY: 15
             recoilIndex: 3
             layerOffset: -0.01
             growX: -0.3
