@@ -33,7 +33,7 @@ parts: [
   },
   {
     type: RegionPart
-    progress: PartProgress.warmup
+    progress: warmup
     suffix: -jaw
     mirror: true
     under: true
