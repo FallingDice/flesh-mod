@@ -35,7 +35,7 @@ parts: [
     suffix: -nozzle
     mirror: true
     under: true
-    moveY: 5
+    moveY: 10
     layerOffset: -0.01
   }
 ]

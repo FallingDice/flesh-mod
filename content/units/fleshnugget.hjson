@@ -40,7 +40,7 @@ parts: [
     x: 0
     y: 0
     moveX: 0
-    moveY: 1.5
+    moveY: 2.5
     moveRot: -45
     layerOffset: -0.01
 
