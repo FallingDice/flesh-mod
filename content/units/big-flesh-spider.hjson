@@ -65,8 +65,8 @@ parts: [
     moveRot: -30
     layerOffset: -0.01
 
-    growX: 1
-    growY: 1
+    growX: 0.1
+    growY: 0.1
   }
 ]
 
