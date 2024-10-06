@@ -39,9 +39,9 @@ parts: [
     under: true
     x: 0
     y: 0
-    moveX: 2
-    moveY: 0
-    moveRot: -20
+    moveX: 0
+    moveY: 0.5
+    moveRot: -25
     layerOffset: -0.01
 
     growX: 0.1
