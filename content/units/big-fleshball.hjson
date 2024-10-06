@@ -28,6 +28,18 @@ buildSpeed: 1.5
 
 //targetFlags: [factory, battery, storage, core]
 
+parts: [
+  {
+    type: RegionPart
+    progress: warmup
+    suffix: -nozzle
+    mirror: true
+    under: true
+    moveY: 5
+    layerOffset: -0.01
+  }
+]
+
 weapons: [
     {
         rotate: true

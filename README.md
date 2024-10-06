@@ -127,3 +127,7 @@ edit missile ai
 
 0.847v
 - big flesh spider update
+
+0.848v
+- big flesh ball atk motion update
+- fleshnugget atk motion update
