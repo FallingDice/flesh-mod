@@ -72,6 +72,7 @@ parts: [
             suffix: -nozzle
             mirror: true
             under: true
+            moveX: 3
             moveY: 20
             recoilIndex: 3
             layerOffset: -0.01
