@@ -65,7 +65,16 @@ parts: [
           shapes: 6
           triLengthTo: 4
           triLength: 0
-        }
+        },
+          {
+            type: RegionPart
+            progress: warmup
+            suffix: -nozzle
+            mirror: true
+            under: true
+            moveY: 7
+            layerOffset: -0.01
+          }
 ]
 
 weapons: [
@@ -135,13 +144,13 @@ weapons: [
       warmupMaintainTime: 90
       x: 0
       y: 0
-      shootY: 10
+      faceTarget: true
       rotate: false
       mirror: false
       reload: 200
       shootCone: 20
       shootStatus: overdrive
-      shootStatusDuration: 60
+      shootStatusDuration: 5
       shake: 0.7
       rotate: true
       
@@ -166,17 +175,6 @@ weapons: [
                 colorTo: ff117488
                 lightColor: ff0000aa
                  }
-      parts: [
-          {
-            type: RegionPart
-            progress: warmup
-            suffix: -nozzle
-            mirror: true
-            under: true
-            moveY: 7
-            layerOffset: -0.01
-          }
-        ]
       }
     }
 ]
