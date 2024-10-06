@@ -135,6 +135,7 @@ weapons: [
       warmupMaintainTime: 90
       x: 0
       y: 0
+      shootY: 10
       rotate: false
       mirror: false
       reload: 200
@@ -165,7 +166,6 @@ weapons: [
                 colorTo: ff117488
                 lightColor: ff0000aa
                  }
-      }
       parts: [
           {
             type: RegionPart
@@ -176,7 +176,8 @@ weapons: [
             moveY: 7
             layerOffset: -0.01
           }
-      ]
+        ]
+      }
     }
 ]
 
