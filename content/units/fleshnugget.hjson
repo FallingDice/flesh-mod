@@ -30,6 +30,22 @@ parts: [
     mirror: false
     outline: false
     layer: 60.1
+  },
+  {
+    type: RegionPart
+    progress: warmup
+    suffix: -nozzle
+    mirror: true
+    under: true
+    x: 0
+    y: 0
+    moveX: 2
+    moveY: 0
+    moveRot: -20
+    layerOffset: -0.01
+
+    growX: 0.1
+    growY: 0.1
   }
 ]
 
