@@ -72,9 +72,11 @@ parts: [
             suffix: -nozzle
             mirror: true
             under: true
-            moveY: 15
+            moveY: 20
             recoilIndex: 3
             layerOffset: -0.01
+            growX: -0.3
+            growY: -0.3
           }
 ]
 
