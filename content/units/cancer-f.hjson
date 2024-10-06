@@ -50,7 +50,7 @@ weapons: [
             hitEffect: hitLaser
             despawnEffect: hitLaser
             frontColor: ffffff
-            backColor: 98ffa9
+            backColor: ff1744
           }
     }
 ]

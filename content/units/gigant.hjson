@@ -43,13 +43,15 @@ abilities: [
     {
         type: EnergyFieldAbility
         damage: 50
-        range: 40
+        range: 80
         reload: 100
 
         statusDuration: 60
         maxTargets: 1
-        healPercent: 2
+        healPercent: 8
         sameTypeHealMult: 0.5
+
         color: ff1744
+        orbRadius: 0
     }
 ]
