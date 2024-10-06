@@ -24,7 +24,7 @@ shootType: {
   color: a5df8f
   damage: 50
   buildingDamageMultiplier: 0.3
-  healPercent: 5
+  healPercent: 1
   collidesTeam: true
 }
 

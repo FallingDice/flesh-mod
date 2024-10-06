@@ -44,8 +44,20 @@ abilities: [
     {
         type: ShieldRegenFieldAbility
         range: 40
-        amount: 5
-        reload: 300
+        amount: 10
+        reload: 500
         max: 50
+    },
+    {
+        type: EnergyFieldAbility
+        damage: 1
+        range: 40
+        reload: 100
+
+        statusDuration: 60
+        maxTargets: 2
+        healPercent: 1
+        sameTypeHealMult: 0.5
+        color: ff1744
     }
 ]

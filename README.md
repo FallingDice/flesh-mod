@@ -121,3 +121,6 @@ edit missile ai
 
 0.841v
 - small unit auto-atk-range fix
+
+0.844v
+- add unit heal system

@@ -39,5 +39,17 @@ abilities: [
         amount: 40
         reload: 300
         max: 200
+    },
+    {
+        type: EnergyFieldAbility
+        damage: 50
+        range: 40
+        reload: 100
+
+        statusDuration: 60
+        maxTargets: 1
+        healPercent: 2
+        sameTypeHealMult: 0.5
+        color: ff1744
     }
 ]
