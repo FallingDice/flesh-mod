@@ -1,4 +1,4 @@
-//광선을 발사하여 광채를 내고 위액을 소모합니다. MsX07 idea
+//광선을 발사하여 광채를 내고 위액을 소모합니다. MsX07 idea  + (Building repairs possible)
 
 type: ContinuousTurret
 category: turret
@@ -24,6 +24,8 @@ shootType: {
   color: a5df8f
   damage: 50
   buildingDamageMultiplier: 0.3
+  healPercent: 5
+  collidesTeam: true
 }
 
 shootSound: none

@@ -19,7 +19,7 @@ liquidCapacity: 5
 recoil: 0
 
 outlineColor: 7f0724
-reload: 30
+reload: 20
 heatColor: ff1744
 inaccuracy: 35
 shootCone: 50
@@ -29,7 +29,7 @@ ammoTypes: {
   blood: {
     type: LiquidBulletType
     speed: 6
-    damage: 5
+    damage: 20
     knockback: 0.5
     drag: 0.05
     lifetime: 20
@@ -41,6 +41,9 @@ ammoTypes: {
     puddleSize: 8
     despawnHit: true
     despawnSound: splash
+    healPercent: 5
+    collidesTeam: true
+    reflectable: false
 
     status: spore-slowed
     statusDuration: 360
