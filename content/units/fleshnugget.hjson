@@ -33,14 +33,14 @@ parts: [
   },
   {
     type: RegionPart
-    progress: warmup
+    progress: PartProgress.warmup
     suffix: -jaw
     mirror: true
     under: true
     x: 0
     y: 0
-    moveX: 1
-    moveY: 1
+    moveX: 2
+    moveY: 2
     moveRot: 30
   }
 ]
