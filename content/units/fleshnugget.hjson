@@ -30,18 +30,6 @@ parts: [
     mirror: false
     outline: false
     layer: 60.1
-  },
-  {
-    type: RegionPart
-    progress: warmup
-    suffix: -jaw
-    mirror: true
-    under: true
-    x: 0
-    y: 0
-    moveX: 2
-    moveY: 2
-    moveRot: 30
   }
 ]
 
@@ -73,6 +61,20 @@ weapons: [
             rangeOverride: 120
             range: 120
         }
+        parts: [
+            {
+              type: RegionPart
+              progress: warmup
+              suffix: -jaw
+              mirror: true
+              under: true
+              x: 0
+              y: 0
+              moveX: 2
+              moveY: 2
+              moveRot: 30
+            }
+        ]
     },
     {  
       shootWarmupSpeed: 0.05
