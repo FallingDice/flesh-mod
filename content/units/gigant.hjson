@@ -52,6 +52,6 @@ abilities: [
         sameTypeHealMult: 0.5
 
         color: ff1744
-        orbRadius: 0
+        layer: -1
     }
 ]

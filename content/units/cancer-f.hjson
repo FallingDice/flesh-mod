@@ -49,8 +49,7 @@ weapons: [
             smokeEffect: hitLaser
             hitEffect: hitLaser
             despawnEffect: hitLaser
-            frontColor: ffffff
-            backColor: ff1744
+            color: ff1744
           }
     }
 ]
