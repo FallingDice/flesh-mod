@@ -3,8 +3,8 @@
 type: flying
 flying: true
 speed: 2.3
-health: 1000
-armor: 3
+health: 500
+armor: 1
 hitSize: 10
 range: 80
 
