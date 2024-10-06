@@ -174,7 +174,16 @@ weapons: [
           shapes: 6
           triLengthTo: 4
           triLength: 0
-        }
+        },
+          {
+            type: RegionPart
+            progress: warmup
+            suffix: -nozzle
+            mirror: true
+            under: true
+            moveY: 8
+            layerOffset: -0.01
+          }
       ]
     }
 ]
