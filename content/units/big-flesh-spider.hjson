@@ -164,7 +164,7 @@ weapons: [
         {
           type: RegionPart
           progress: warmup
-          suffix: -jaw
+          suffix: -sides
           mirror: true
           under: true
           x: 0
