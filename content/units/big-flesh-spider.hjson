@@ -51,6 +51,19 @@ shadowElevation: 0.6
 drawCell: false
 outlineColor: 9f0724
 
+parts: [
+  {
+    type: RegionPart
+    progress: warmup
+    suffix: -nozzle
+    mirror: true
+    under: true
+    moveX: 3
+    moveY: 3
+    moveRot: 30
+  }
+]
+
 weapons: [
     {
         name: flesh-cannon
@@ -160,18 +173,6 @@ weapons: [
           shapes: 4
           triLengthTo: 5
           triLength: 0
-        },
-        {
-          type: RegionPart
-          progress: warmup
-          suffix: -sides
-          mirror: true
-          under: true
-          x: 0
-          y: 3
-          moveX: 3
-          moveY: 3
-          moveRot: 30
         }
       ]
     }
