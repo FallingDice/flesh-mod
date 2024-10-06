@@ -56,8 +56,8 @@ abilities: [
 
         statusDuration: 60
         maxTargets: 2
-        healPercent: 1
+        healPercent: 5
         sameTypeHealMult: 0.5
-        color: ff1744
+        color: ff4040
     }
 ]
