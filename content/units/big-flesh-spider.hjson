@@ -61,12 +61,12 @@ parts: [
     x: 0
     y: 0
     moveX: 3
-    moveY: 3
-    moveRot: -10
+    moveY: 0
+    moveRot: -30
     layerOffset: -0.01
 
-    growX: 0.2
-    growY: 0.2
+    growX: 0.1
+    growY: 0.1
   }
 ]
 
