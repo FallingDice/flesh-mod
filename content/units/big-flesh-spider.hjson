@@ -168,9 +168,9 @@ weapons: [
           mirror: true
           under: true
           x: 0
-          y: 0
-          moveX: 2
-          moveY: 2
+          y: 3
+          moveX: 3
+          moveY: 3
           moveRot: 30
         }
       ]
