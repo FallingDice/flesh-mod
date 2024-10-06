@@ -117,7 +117,7 @@ reload: n
 선택요소
 rotate: b
 mirror: b
-layerOffset: -0.001
+layerOffset: -0.01
 ejectEffect> 
 shootSound> shoot, shootBig, bang, cannon, pew
 

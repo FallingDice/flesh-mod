@@ -72,7 +72,7 @@ parts: [
             suffix: -nozzle
             mirror: true
             under: true
-            moveY: 7
+            moveY: 15
             layerOffset: -0.01
           }
 ]
@@ -144,13 +144,12 @@ weapons: [
       warmupMaintainTime: 90
       x: 0
       y: 0
-      faceTarget: true
       rotate: false
       mirror: false
       reload: 200
       shootCone: 20
-      shootStatus: overdrive
-      shootStatusDuration: 5
+      shootStatus: fast
+      shootStatusDuration: 1
       shake: 0.7
       rotate: true
       
