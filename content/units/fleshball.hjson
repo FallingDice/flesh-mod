@@ -57,6 +57,8 @@ weapons: [
             y: 0
             reload: 20
             shootSound: sap
+            growX: 0.3
+            growY: 0.3
 
         bullet: {
             type: SapBulletType
