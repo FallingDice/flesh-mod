@@ -58,9 +58,15 @@ parts: [
     suffix: -nozzle
     mirror: true
     under: true
+    x: 0
+    y: 0
     moveX: 3
     moveY: 3
-    moveRot: 30
+    moveRot: -30
+    layerOffset: -0.01
+
+    growX: 1
+    growY: 1
   }
 ]
 
@@ -73,7 +79,7 @@ weapons: [
         x: 10
         y: 0
         reload: 100
-        layerOffset: -0.001
+        layerOffset: -0.02
         alternate: false
         ejectEffect: casing3
         shootSound: cannon

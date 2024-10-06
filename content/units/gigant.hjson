@@ -52,6 +52,6 @@ abilities: [
         sameTypeHealMult: 0.5
 
         color: ff4040
-        layer: 59.9
+        layerOffset: -0.01
     }
 ]
