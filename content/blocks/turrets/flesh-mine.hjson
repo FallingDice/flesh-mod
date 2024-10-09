@@ -6,7 +6,7 @@ health: 1000
 damage: 5
 size: 1
 tileDamage: 20
-length: 10
+length: 3
 tendrils: 1
 hasShadow: false
 
@@ -17,7 +17,7 @@ hasShadow: false
   }
 
 requirements: [
-  flesh/400, bone/20
+  flesh/600, bone/40
 ]
 
 research: doomsday

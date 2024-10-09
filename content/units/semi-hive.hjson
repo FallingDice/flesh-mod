@@ -1,4 +1,4 @@
-type: tank
+type: missile
 flying: false
 speed: 0.01
 rotateSpeed: 0.01

@@ -11,8 +11,6 @@ duct 프레임으로 애니메이션 추가, 장이 움직이듯이 부풀었다
 
 //고려사항(할까말까 생각중)
 -벽에서 액체상태로 지방을 추출해, 아이템으로 전환
--어보미네이션에 폭발케논 장착
--마인드도미네이터 rts AI 수정
 -ragged chanel에 뼈 요소 제거
 
 
@@ -28,8 +26,9 @@ cell-assmbler x4
 flesh-assmbler x4
 flesh-constructor x3
 
-cell-reconstructor x3
 cell-reconstructor2 x3
+
+semi-hive
 이후 기계같은 디자인은 유기체 느낌으로 수정
 
 
