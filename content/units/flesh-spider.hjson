@@ -23,9 +23,9 @@ hovering: true
 legMaxLength: 1.2
 
 legLengthScl: 0.95
-legForwardScl: 2.7
+legForwardScl: 0.7
 
-legExtension: -6
+legExtension: 0
 legStraightness: 0.6
 legStraightLength: 0.9
 legBaseOffset: 0
