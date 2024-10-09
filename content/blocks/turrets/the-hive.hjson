@@ -4,7 +4,7 @@ type: LiquidTurret
 category: turret
 health: 600
 size: 2
-range: 160
+range: 240
 
 requirements: [
   flesh/250
@@ -14,7 +14,7 @@ hasLiquids: true
 liquidCapacity: 5
 
 outlineColor: 7f0724
-reload: 30
+reload: 35
 heatColor: ff1744
 inaccuracy: 35
 shootCone: 50

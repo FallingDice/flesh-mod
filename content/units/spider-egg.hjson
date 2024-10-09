@@ -18,6 +18,7 @@ outlineColor: 9f0724
 hidden: true
 
 physics: false
+groundLayer: 59.9
 
 weapons: [
 { 

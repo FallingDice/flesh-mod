@@ -10,6 +10,7 @@ deathExplosionEffect: steam
 createScorch: false
 
 physics: false
+groundLayer: 59.9
 
 health: 200
 drawCell: false
@@ -32,7 +33,6 @@ abilities: [
     {
         type: UnitSpawnAbility
         unit: the-cell
-        spawnY: 8
         spawnTime: 1200
     }
 ]

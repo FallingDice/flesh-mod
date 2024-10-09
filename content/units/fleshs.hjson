@@ -4,7 +4,6 @@ flying: true
 speed: 2.5
 
 physics: true
-circleTarget: false
 
 healColor: ff1744
 deathSound: plantBreak
@@ -33,7 +32,7 @@ weapons: [
       shootCone: 360
       bullet: {
         type: SapBulletType
-            damage: 2
+            damage: 3
             width: 0.55
             sapStrength: 0.85
             length: 10
@@ -55,6 +54,6 @@ abilities: [
     {
         type: LiquidExplodeAbility
         liquid: blood
-        amount: 10
+        amount: 3
     }
 ]
