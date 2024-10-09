@@ -27,8 +27,8 @@ legForwardScl: 0.7
 
 legExtension: -6
 
-legStraightness: 0.3
-legStraightLength: 0.4
+legStraightness: 0.4
+legStraightLength: 0.6
 
 legBaseOffset: 0
 legLength: 28
