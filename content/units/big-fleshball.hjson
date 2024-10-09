@@ -84,8 +84,8 @@ parts: [
                 type: partMove
                 progress: recoil
                 moveRot: 10
-                x: 4
-                y: -2
+                x: -1
+                moveY: -2
               }
             ]
           }
