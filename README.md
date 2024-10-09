@@ -137,3 +137,6 @@ edit missile ai
 
 0.851v
 - mega hive sprite update
+
+0.853v
+- edit glow shape
