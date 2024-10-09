@@ -30,6 +30,8 @@ legForwardScl: 0.7
 
 //관절 사이 크기
 legExtension: -6
+
+//고정자세
 legStraightness: 0.6
 legStraightLength: 0.9
 
