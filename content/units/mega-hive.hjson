@@ -202,6 +202,67 @@ weapons: [
             splashDamage: 1600
             splashDamageRadius: 320
       }
+    },
+    {
+      mirror: true
+      rotate: true
+      alternate: true
+      x: -10
+      y: 0
+      cooldownTime: 120
+      reload: 600
+      smoothReloadSpeed: 0.15
+      shootSound: missileLaunch
+      bullet: {
+          type: BasicBulletType
+          reloadMultiplier: 0.8
+          shootEffect: shootBig
+          smokeEffect: shootBigSmoke2
+          instantDisappear: true
+          damage: 0
+          speed: 0
+          spawnUnit: semi-hive
+          shootEffect: {
+                  type: WaveEffect
+                  lifetime: 10
+                  sizeFrom: 20
+                  sizeTo: 0
+                  strokeFrom: 2
+                  strokeTO: 4
+                  colorFrom: ffffffff
+                  colorTo: ff117488
+                  lightColor: ff0000aa
+            }
+      }
+    },
+    {
+      mirror: false
+      rotate: true
+      cooldownTime: 120
+      reload: 300
+      smoothReloadSpeed: 0.15
+      shootSound: missileLaunch
+      bullet: {
+          type: BasicBulletType
+          reloadMultiplier: 0.8
+          shootEffect: shootBig
+          smokeEffect: shootBigSmoke2
+          instantDisappear: true
+          damage: 0
+          speed: 0
+          spawnUnit: spider-egg
+          shootEffect: {
+                  type: WaveEffect
+                  lifetime: 10
+                  sizeFrom: 20
+                  sizeTo: 0
+                  strokeFrom: 2
+                  strokeTO: 4
+                  colorFrom: ffffffff
+                  colorTo: ff117488
+                  lightColor: ff0000aa
+            }
+      }
     }
 ]
 
@@ -224,45 +285,17 @@ abilities: [
     },
         {
         type: UnitSpawnAbility
-        unit: semi-hive
+        unit: fleshball
         spawnX: 20
-        spawnY: 30
-        spawnTime: 2200
+        spawnY: -25
+        spawnTime: 4000
     },
             {
         type: UnitSpawnAbility
-        unit: semi-hive
+        unit: fleshball
         spawnX: -20
-        spawnY: 30
-        spawnTime: 2200
-    },
-        {
-        type: UnitSpawnAbility
-        unit: fleshnugget
-        spawnX: 20
-        spawnY: -30
-        spawnTime: 1200
-    },
-            {
-        type: UnitSpawnAbility
-        unit: fleshnugget
-        spawnX: -20
-        spawnY: -30
-        spawnTime: 1200
-    },
-    {
-        type: UnitSpawnAbility
-        unit: spider-egg
-        spawnX: 20
-        spawnY: 0
-        spawnTime: 1800
-    },
-        {
-        type: UnitSpawnAbility
-        unit: spider-egg
-        spawnX: -20
-        spawnY: 0
-        spawnTime: 1800
+        spawnY: -25
+        spawnTime: 4000
     },
     {
         type: LiquidExplodeAbility
