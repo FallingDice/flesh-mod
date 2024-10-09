@@ -131,3 +131,6 @@ edit missile ai
 0.848v
 - big flesh ball atk motion update
 - fleshnugget atk motion update
+
+0.850v
+- sprite update!
