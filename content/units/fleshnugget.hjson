@@ -26,7 +26,7 @@ parts: [
     type: RegionPart
     suffix: -glow
     blending: additive
-    color: 550000
+    color: 330000
     mirror: false
     outline: false
     layer: 60.1
