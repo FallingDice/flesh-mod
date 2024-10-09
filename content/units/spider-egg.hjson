@@ -17,6 +17,8 @@ outlines: true
 outlineColor: 9f0724
 hidden: true
 
+physics: false
+
 weapons: [
 { 
   x: 0

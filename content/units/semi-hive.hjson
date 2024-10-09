@@ -9,6 +9,8 @@ deathSound: plantBreak
 deathExplosionEffect: steam
 createScorch: false
 
+physics: false
+
 health: 200
 drawCell: false
 outlines: true

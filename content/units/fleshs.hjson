@@ -1,8 +1,7 @@
 type: missile
-physics: false
 template: MissileUnitType
 flying: true
-speed: 1
+speed: 2
 
 healColor: ff1744
 deathSound: plantBreak
@@ -12,11 +11,11 @@ createScorch: false
 controller: MissileAI
 useUnitCap: false
 engineSize: 0
-lifetime: 200
+lifetime: 600
 hitSize: 4
 rotateSpeed: 4
 trailLength: 5
-health: 1
+health: 100
 trailColor: ff1744
 drawCell: false
 outlines: true
@@ -42,6 +41,9 @@ weapons: [
             lifetime: 3
             recoil: -0.3
             knockback: -0.3
+
+            status: spore-slowed
+            statusDuration: 30
       }
   } 
 ]

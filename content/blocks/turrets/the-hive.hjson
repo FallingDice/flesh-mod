@@ -12,7 +12,6 @@ requirements: [
 
 hasLiquids: true
 liquidCapacity: 5
-recoil: 0
 
 outlineColor: 7f0724
 reload: 20
