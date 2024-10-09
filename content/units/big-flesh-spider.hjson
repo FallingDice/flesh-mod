@@ -30,7 +30,7 @@ legExtension: -4
 legStraightness: 0.6
 legStraightLength: 0.9
 legBaseOffset: 6
-legLength: 30
+legLength: 34
 legSpeed: 0.5
 legGroupSize: 2
 
