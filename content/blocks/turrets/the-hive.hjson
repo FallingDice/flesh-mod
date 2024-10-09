@@ -10,8 +10,6 @@ requirements: [
   flesh/250
 ]
 
-shootSound: splash
-
 hasLiquids: true
 liquidCapacity: 5
 recoil: 0
@@ -26,7 +24,9 @@ shootCone: 50
 ammoTypes: {
   blood: {
     type: LiquidBulletType
+    liquid: blood
     damage: 0
+    shootSound: splash
     despawnHit: true
     despawnSound: splash
 
