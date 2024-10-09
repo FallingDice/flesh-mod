@@ -2,7 +2,7 @@ type: missile
 physics: false
 template: MissileUnitType
 flying: true
-speed: 2.5
+speed: 1
 
 healColor: ff1744
 deathSound: plantBreak
@@ -10,18 +10,14 @@ deathExplosionEffect: steam
 createScorch: false
 
 controller: MissileAI
-missileAccelTime: 30
 useUnitCap: false
-engineSize: 0.3
-engineOffset: 2.5
+engineSize: 0
 lifetime: 200
-hitSize: 3
+hitSize: 4
 rotateSpeed: 4
 trailLength: 5
-homingDelay: 0.2
-health: 30
+health: 1
 trailColor: ff1744
-aimDst: 5
 drawCell: false
 outlines: true
 outlineRadius: 1
@@ -31,16 +27,21 @@ range: 40
 weapons: [
   {
       reload: 1
-      shake: 1
-      shootOnDeath: true
-      mirror: false
+      mirror: true
       shootCone: 360
       bullet: {
-        type: ExplosionBulletType
-        splashDamage: 60
-        splashDamageRadius: 30
-        buildingDamageMultiplier: 0.5
-        hitEffect: titanExplosion
+        type: SapBulletType
+            damage: 1
+            width: 0.55
+            sapStrength: 0.85
+            length: 5
+            hitColor: ff6993
+            color: ff6993
+            shootEffect: none
+            smokeEffect: none
+            lifetime: 3
+            recoil: -0.3
+            knockback: -0.3
       }
   } 
 ]

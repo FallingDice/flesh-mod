@@ -4,6 +4,9 @@ template: MissileUnitType
 flying: true
 speed: 4
 deathExplosionEffect: massiveExplosion
+healColor: ff1744
+deathSound: plantBreak
+createScorch: false
 
 controller: MissileAI
 missileAccelTime: 30

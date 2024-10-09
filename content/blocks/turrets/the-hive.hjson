@@ -1,7 +1,5 @@
 //벌집에서 유도 미사일 or unit을 방출합니다. MsX07 idea
 
-name: wip
-
 type: LiquidTurret
 category: turret
 health: 600
@@ -28,26 +26,12 @@ shootCone: 50
 ammoTypes: {
   blood: {
     type: LiquidBulletType
-    speed: 6
-    damage: 20
-    knockback: 0.5
-    drag: 0.05
-    lifetime: 20
-    splashDamage: 10
-    splashDamageRadius: 40
-    homingPower: 0.15
-    liquid: blood
-    orbSize: 4
-    puddleSize: 8
+    damage: 0
     despawnHit: true
     despawnSound: splash
-    healPercent: 5
-    collidesTeam: true
-    reflectable: false
 
-    status: spore-slowed
-    statusDuration: 360
-
+    instantDisappear: true
+    spawnUnit: fleshs
   }
 }
 

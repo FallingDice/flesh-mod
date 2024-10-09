@@ -1,7 +1,7 @@
 type: tank
 flying: false
-speed: 0.03
-rotateSpeed: 0
+speed: 0.01
+rotateSpeed: 0.01
 hitSize: 12
 
 healColor: ff1744
