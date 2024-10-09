@@ -79,6 +79,14 @@ parts: [
             layerOffset: -0.01
             growX: 0.1
             growY: 0.1
+            moves: [
+              {
+                type: partMove
+                progress: recoil
+                rot: 8
+                y: 5
+              }
+            ]
           }
 ]
 
