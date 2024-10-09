@@ -20,14 +20,14 @@ hovering: true
 
 //targetFlags: [battery, storage]
 
-legMaxLength: 1.2
+legMaxLength: 1.6
 
 legLengthScl: 0.95
 legForwardScl: 0.7
 
 legExtension: -6
-legStraightness: 10.4
-legStraightLength: 10.6
+legStraightness: 0.6
+legStraightLength: 0.9
 legBaseOffset: 0
 legLength: 28
 
