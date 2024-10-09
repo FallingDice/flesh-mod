@@ -74,6 +74,14 @@ parts: [
 
     growX: 0.1
     growY: 0.1
+    moves: [
+      {
+        type: partMove
+        progress: recoil
+        moveRot: -10
+        y: -1
+      }
+    ]
   }
 ]
 
