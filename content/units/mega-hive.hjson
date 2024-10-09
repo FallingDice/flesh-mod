@@ -224,8 +224,8 @@ weapons: [
           spawnUnit: semi-hive
           shootEffect: {
                   type: WaveEffect
-                  lifetime: 10
-                  sizeFrom: 20
+                  lifetime: 20
+                  sizeFrom: 30
                   sizeTo: 0
                   strokeFrom: 2
                   strokeTO: 4
@@ -253,8 +253,8 @@ weapons: [
           spawnUnit: spider-egg
           shootEffect: {
                   type: WaveEffect
-                  lifetime: 10
-                  sizeFrom: 20
+                  lifetime: 20
+                  sizeFrom: 30
                   sizeTo: 0
                   strokeFrom: 2
                   strokeTO: 4
@@ -288,14 +288,14 @@ abilities: [
         unit: fleshball
         spawnX: 20
         spawnY: -25
-        spawnTime: 4000
+        spawnTime: 3000
     },
             {
         type: UnitSpawnAbility
         unit: fleshball
         spawnX: -20
         spawnY: -25
-        spawnTime: 4000
+        spawnTime: 3000
     },
     {
         type: LiquidExplodeAbility
