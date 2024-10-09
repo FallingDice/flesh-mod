@@ -69,15 +69,16 @@ parts: [
           {
             type: RegionPart
             progress: warmup
-            suffix: -nozzle
+            suffix: -wings
             mirror: true
             under: true
-            moveX: 3
-            moveY: 15
+            moveX: 15
+            moveY: -7
+            moveRot: -45
             recoilIndex: 3
             layerOffset: -0.01
-            growX: -0.3
-            growY: -0.3
+            growX: 0.3
+            growY: 0.3
           }
 ]
 
