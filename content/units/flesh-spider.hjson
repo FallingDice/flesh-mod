@@ -23,7 +23,7 @@ hovering: true
 legMaxLength: 1.2
 
 legLengthScl: 0.95
-legForwardScl: 0.9
+legForwardScl: 0.5
 
 legExtension: -4
 legStraightness: 0.6
@@ -34,7 +34,7 @@ legLength: 30
 legSplashDamage: 10
 legSplashRange: 20
 
-legMoveSpace: 1
+legMoveSpace: 0.8
 rippleScale: 0.3
 shadowElevation: 0.3
 
