@@ -62,6 +62,7 @@ parts: [
   {
     type: RegionPart
     progress: warmup
+    growProgress: warmup
     suffix: -nozzle
     mirror: true
     under: true

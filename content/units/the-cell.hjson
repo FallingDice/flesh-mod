@@ -17,6 +17,17 @@ controller: HugAI
 crushDamage: 0.3
 outlineColor: 9f0724
 
+parts: [
+  {
+    type: RegionPart
+    progress: warmup
+    suffix: the-cell
+    mirror: false
+    growX: 0.5
+    growY: 0.5
+  }
+]
+
 weapons: [
     {
         rotate: true
