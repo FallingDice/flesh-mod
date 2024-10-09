@@ -13,7 +13,7 @@ createScorch: false
 
 groundLayer: 74
 rotateSpeed: 3
-legCount: 4
+legCount: 6
 legContinuousMove: true
 lockLegBase: true
 hovering: true
@@ -28,7 +28,7 @@ legForwardScl: 0.7
 legExtension: -4
 legStraightness: 0.6
 legStraightLength: 0.9
-legBaseOffset: 3
+legBaseOffset: 1
 legLength: 30
 
 legSplashDamage: 10
