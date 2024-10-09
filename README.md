@@ -134,3 +134,6 @@ edit missile ai
 
 0.850v
 - sprite update!
+
+0.851v
+- mega hive sprite update
