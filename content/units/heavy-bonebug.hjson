@@ -54,6 +54,39 @@ weapons: [
     status: spore-slowed
     statusDuration: 360
           }
+   },
+{ 
+  name: flesh-flamethrower
+  x: 5
+  y: 0
+  rotate: true
+  mirror: true
+  top: false
+  faceTarget: false
+  shootY: 2
+  recoil: 1
+  ejectEffect: none
+  shootSound: flame
+
+  reload: 11
+  bullet: {
+      type: BulletType
+      hitSize: 7
+      lifetime: 20
+      speed: 6
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 2
+      statusDuration: 240
+      knockback: 0.2
+
+      shootEffect: shootSmallFlame
+      hitEffect: hitFlameSmall
+      despawnEffect: none
+      status: active-infection
+      keepVelocity: false
+      hittable: false
+    }
    }
 ]
 
