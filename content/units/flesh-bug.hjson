@@ -39,10 +39,6 @@ weapons: [
     mirror: false
     shootSound: cannon
     reload: 30
-
-    progress: warmup
-    moveY: 15
-
     bullet: {
         type: BasicBulletType
         sprite: missile-large
