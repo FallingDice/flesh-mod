@@ -32,6 +32,8 @@ legForwardScl: 0.7
 legExtension: -6
 legStraightness: 0.6
 legStraightLength: 0.9
+
+//몸과 다리 사이 거리 크기 오프셋
 legBaseOffset: 6
 legLength: 34
 legSpeed: 0.5
