@@ -74,11 +74,11 @@ parts: [
             under: true
             moveX: 15
             moveY: -7
-            moveRot: -45
+            moveRot: -20
             recoilIndex: 3
             layerOffset: -0.01
-            growX: 0.3
-            growY: 0.3
+            growX: 0.1
+            growY: 0.1
           }
 ]
 
