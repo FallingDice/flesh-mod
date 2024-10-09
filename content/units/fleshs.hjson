@@ -1,7 +1,10 @@
 type: missile
 template: MissileUnitType
 flying: true
-speed: 2
+speed: 2.5
+
+physics: true
+circleTarget: false
 
 healColor: ff1744
 deathSound: plantBreak
@@ -11,11 +14,11 @@ createScorch: false
 controller: MissileAI
 useUnitCap: false
 engineSize: 0
-lifetime: 600
+lifetime: 300
 hitSize: 4
 rotateSpeed: 4
 trailLength: 5
-health: 100
+health: 50
 trailColor: ff1744
 drawCell: false
 outlines: true
@@ -25,20 +28,20 @@ hidden: true
 range: 40
 weapons: [
   {
-      reload: 1
+      reload: 2
       mirror: true
       shootCone: 360
       bullet: {
         type: SapBulletType
-            damage: 1
+            damage: 2
             width: 0.55
             sapStrength: 0.85
-            length: 5
+            length: 10
             hitColor: ff6993
             color: ff6993
             shootEffect: none
             smokeEffect: none
-            lifetime: 3
+            lifetime: 5
             recoil: -0.3
             knockback: -0.3
 
