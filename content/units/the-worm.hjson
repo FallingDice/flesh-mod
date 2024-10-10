@@ -6,8 +6,6 @@ health: 25000
 hitSize: 12
 range: 30
 
-//hidden: true
-
 healColor: ff1744
 deathSound: plantBreak
 deathExplosionEffect: steam
@@ -18,7 +16,34 @@ itemCapacity: 600
 
 drawCell: false
 
-controller: HugAI
+weapons: [
+       {
+            mirror: true
+            rotate: false
+            x: 0
+            y: 0
+            reload: 20
+            shootSound: sap
+
+        bullet: {
+            type: SapBulletType
+            damage: 50
+            sapStrength: 0.85
+            length: 100
+            shootEffect: shootSmall
+            hitColor: ff6993
+            color: ff6993
+            width: 0.55
+            lifetime: 25
+            knockback: -0.5
+            recoil: -3
+
+            status: spore-slowed
+        }
+    }
+]
+
+controller: MissileAI
 crushDamage: 10
 segments: 10
 segmentScl: 10

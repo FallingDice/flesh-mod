@@ -1,19 +1,30 @@
-type: unitFactory
+type: PowerTurret
 category: units
 size: 4
 health: 1000
+range: 400
 
 solid: false
 customShadow: true
+
+consumes: {}
 
 requirements: [
     flesh/100000
 ]
 
-plans: [
-  {
-    unit: the-worm
-    requirements: []
-    time: 12000
-  }
-]
+shoot: {
+  firstShotDelay: 3000
+}
+
+shootSound: plantBreak
+reload: 3000
+shootY: 0.5
+
+ammoTypes: {
+  shootEffect: shootBig
+  smokeEffect: shootSmokeMissile
+  instantDisappear: true
+  damage: 0
+  spawnUnit: the-worm
+}
