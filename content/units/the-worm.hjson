@@ -9,6 +9,7 @@ range: 30
 
 controller: MissileAI
 hidden: false
+shootOnDeath: false
 
 healColor: ff1744
 deathSound: plantBreak
@@ -30,6 +31,7 @@ weapons: [
             y: 30
             reload: 20
             shootSound: sap
+            shootOnDeath: false
 
         bullet: {
             type: SapBulletType
@@ -63,6 +65,6 @@ logicControllable: true
 isEnemy: true
 useUnitCap: true
 physics: true
-lifetime: -1
+lifetime: 60000
 targetPriority: 1
 drawMinimap: true
