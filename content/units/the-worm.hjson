@@ -25,7 +25,7 @@ weapons: [
             mirror: true
             rotate: false
             x: 0
-            y: 50
+            y: 30
             reload: 20
             shootSound: sap
 
@@ -38,7 +38,7 @@ weapons: [
             hitColor: ff6993
             color: ff6993
             width: 0.55
-            lifetime: 25
+            lifetime: 30
             knockback: -3
             recoil: -3
 
