@@ -54,7 +54,7 @@ crushDamage: 30
 segments: 10
 segmentScl: 10
 segmentPhase: 10
-segmentMag: 0.7
+segmentMag: 1.2
 omniMovement: false
 
 //main parameter
@@ -63,6 +63,7 @@ createWreck: true
 logicControllable: true
 isEnemy: true
 useUnitCap: true
+physics: true
 lifetime: -1
 targetPriority: 1
 drawMinimap: true
