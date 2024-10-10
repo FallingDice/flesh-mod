@@ -14,11 +14,12 @@ requirements: [
 ]
 
 shoot: {
+  shoot: 3
   firstShotDelay: 3000
 }
 
 shootSound: plantBreak
-reload: 8000
+reload: 2000
 shootY: 0.5
 
 shootType: {
