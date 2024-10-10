@@ -9,7 +9,6 @@ range: 30
 
 controller: MissileAI
 hidden: false
-shootOnDeath: false
 
 healColor: ff1744
 deathSound: plantBreak
@@ -64,7 +63,6 @@ createWreck: true
 logicControllable: true
 isEnemy: true
 useUnitCap: true
-physics: true
-lifetime: 60000
+lifetime: -1
 targetPriority: 1
 drawMinimap: true
