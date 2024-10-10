@@ -62,7 +62,7 @@ playerControllable: true
 createWreck: true
 logicControllable: true
 isEnemy: true
-useUnitCap: true
+useUnitCap: false
 physics: true
 lifetime: -1
 targetPriority: 1
