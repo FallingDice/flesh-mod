@@ -21,7 +21,7 @@ weapons: [
             mirror: true
             rotate: false
             x: 0
-            y: 0
+            y: 40
             reload: 20
             shootSound: sap
 
@@ -29,7 +29,7 @@ weapons: [
             type: SapBulletType
             damage: 50
             sapStrength: 0.85
-            length: 100
+            length: 50
             shootEffect: shootSmall
             hitColor: ff6993
             color: ff6993
@@ -44,6 +44,8 @@ weapons: [
 ]
 
 controller: MissileAI
+template: MissileUnitType
+
 crushDamage: 10
 segments: 10
 segmentScl: 10

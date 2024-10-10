@@ -14,7 +14,7 @@ requirements: [
 ]
 
 shoot: {
-  firstShotDelay: 3000
+  firstShotDelay: 30
 }
 
 shootSound: plantBreak
@@ -27,4 +27,9 @@ shootType: {
   instantDisappear: true
   damage: 0
   spawnUnit: the-worm
+}
+
+drawer: {
+  type: DrawTurret
+  basePrefix: worm-nest-base
 }
