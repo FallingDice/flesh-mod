@@ -21,7 +21,7 @@ shootSound: plantBreak
 reload: 3000
 shootY: 0.5
 
-ammoTypes: {
+shootType: {
   shootEffect: shootBig
   smokeEffect: shootSmokeMissile
   instantDisappear: true
