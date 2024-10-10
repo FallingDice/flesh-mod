@@ -140,3 +140,8 @@ edit missile ai
 
 0.853v
 - edit glow shape
+
+0.853v
+- worm-nest update
+- the-worm ai update
+- sprites update
