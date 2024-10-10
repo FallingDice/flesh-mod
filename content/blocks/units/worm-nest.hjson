@@ -1,8 +1,8 @@
 type: PowerTurret
 category: units
 size: 4
-health: 1000
-range: 400
+health: 3000
+range: 800
 
 solid: false
 customShadow: true
@@ -14,16 +14,16 @@ requirements: [
 ]
 
 shoot: {
-  firstShotDelay: 30
+  firstShotDelay: 10000
 }
 
 shootSound: plantBreak
-reload: 3000
+reload: 20000
 shootY: 0.5
 
 shootType: {
   shootEffect: shootBig
-  smokeEffect: shootSmokeMissile
+  smokeEffect: artilleryTrailSmoke
   instantDisappear: true
   damage: 0
   spawnUnit: the-worm

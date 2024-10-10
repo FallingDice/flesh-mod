@@ -2,7 +2,7 @@ name: the worm
 type: crawl
 flying: false
 speed: 1.5
-health: 25000
+health: 1000
 hitSize: 12
 range: 30
 
@@ -21,7 +21,7 @@ weapons: [
             mirror: true
             rotate: false
             x: 0
-            y: 40
+            y: 50
             reload: 20
             shootSound: sap
 
@@ -35,7 +35,7 @@ weapons: [
             color: ff6993
             width: 0.55
             lifetime: 25
-            knockback: -0.5
+            knockback: -3
             recoil: -3
 
             status: spore-slowed
@@ -46,9 +46,9 @@ weapons: [
 controller: MissileAI
 template: MissileUnitType
 
-crushDamage: 10
+crushDamage: 5
 segments: 10
 segmentScl: 10
 segmentPhase: 10
-segmentMag: 1
+segmentMag: 2
 omniMovement: false
