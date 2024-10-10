@@ -1,7 +1,7 @@
 type: PowerTurret
 category: units
 size: 4
-health: 3000
+health: 10000
 range: 800
 
 solid: false
@@ -14,11 +14,11 @@ requirements: [
 ]
 
 shoot: {
-  firstShotDelay: 10000
+  firstShotDelay: 3000
 }
 
 shootSound: plantBreak
-reload: 20000
+reload: 8000
 shootY: 0.5
 
 shootType: {

@@ -1,10 +1,14 @@
+template: MissileUnitType
 name: the worm
 type: crawl
 flying: false
 speed: 1.5
-health: 1000
+health: 3000
 hitSize: 12
 range: 30
+
+controller: MissileAI
+hidden: false
 
 healColor: ff1744
 deathSound: plantBreak
@@ -43,12 +47,9 @@ weapons: [
     }
 ]
 
-controller: MissileAI
-template: MissileUnitType
-
-crushDamage: 5
+crushDamage: 30
 segments: 10
 segmentScl: 10
 segmentPhase: 10
-segmentMag: 2
+segmentMag: 0.7
 omniMovement: false
