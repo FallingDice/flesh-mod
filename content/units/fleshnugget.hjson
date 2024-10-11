@@ -5,8 +5,6 @@ flying: false
 health: 80
 speed: 3
 hitSize: 6
-maxRange: 120
-rotate: true
 
 healColor: ff1744
 deathSound: plantBreak
@@ -17,7 +15,7 @@ outlineColor: 9f0724
 
 drawCell: false
 controller: HugAI
-omniMovement: false
+omniMovement: true
 crushDamage: 0.2
 rotateSpeed: 3
 circleTarget: true
@@ -59,7 +57,7 @@ weapons: [
         reload: 20
         shootSound: sap
 
-        rangeOverride: 120
+        rangeOverride: 10
 
         bullet: {
             type: SapBulletType
