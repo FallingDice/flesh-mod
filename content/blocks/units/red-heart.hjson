@@ -36,5 +36,5 @@ drawTeamOverlay: false
 squareSprite: false
 buildVisibility: sandboxOnly
 
-GroundLayer: 60.1
-outlines: false
+groundLayer: 74.9
+outlineRadius: 0
