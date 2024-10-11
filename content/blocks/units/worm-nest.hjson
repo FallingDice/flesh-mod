@@ -9,10 +9,6 @@ customShadow: true
 
 consumes: {}
 
-requirements: [
-    flesh/100000
-]
-
 shoot: {
   shoot: 3
   firstShotDelay: 3000
@@ -34,3 +30,8 @@ drawer: {
   type: DrawTurret
   basePrefix: worm-nest-base
 }
+
+unitCapModifier: 5
+drawTeamOverlay: false
+squareSprite: false
+buildVisibility: sandboxOnly

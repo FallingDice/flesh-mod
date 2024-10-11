@@ -8,17 +8,13 @@ solid: false
 customShadow: true
 
 outline: false
-rotateSpeed: 0.05
+rotateSpeed: 0.1
 
 consumes: {}
 
-requirements: [
-    flesh/100000
-]
-
 shoot: {
   type: ShootSpread
-  shoot: 16
+  shots: 16
   spread: 60
   firstShotDelay: 1000
   shotDelay: 3
@@ -26,9 +22,9 @@ shoot: {
 
 shootSound: plantBreak
 shootY: 0.5
+reload: 500
 
 shootType: {
-  reload: 500
   shootEffect: shootBig
   smokeEffect: artilleryTrailSmoke
   instantDisappear: true
@@ -40,3 +36,7 @@ drawer: {
   type: DrawTurret
   basePrefix: worm-nest-base
 }
+
+drawTeamOverlay: false
+squareSprite: false
+buildVisibility: sandboxOnly

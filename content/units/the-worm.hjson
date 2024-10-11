@@ -6,7 +6,7 @@ health: 3000
 hitSize: 12
 range: 30
 
-controller: MissileAI
+controller: HugAI
 
 healColor: ff1744
 deathSound: plantBreak
@@ -25,7 +25,7 @@ weapons: [
             mirror: true
             rotate: false
             x: 0
-            y: 30
+            y: 35
             reload: 20
             shootSound: sap
             shootOnDeath: false
