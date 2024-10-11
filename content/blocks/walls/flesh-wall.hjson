@@ -1,6 +1,6 @@
 type: PowerTurret
 size: 1
-health: 200
+health: 150
 armor: 1
 category: defense
 requirements: [
