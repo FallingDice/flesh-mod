@@ -15,7 +15,7 @@ outlineColor: 9f0724
 
 drawCell: false
 controller: HugAI
-omniMovement: true
+omniMovement: false
 crushDamage: 0.2
 rotateSpeed: 3
 circleTarget: true
