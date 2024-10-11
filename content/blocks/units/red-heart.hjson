@@ -32,11 +32,9 @@ shootType: {
   spawnUnit: fleshnugget
 }
 
-drawer: {
-  type: DrawTurret
-  basePrefix: worm-nest-base
-}
-
+unitCapModifier: 32
 drawTeamOverlay: false
 squareSprite: false
 buildVisibility: sandboxOnly
+
+layer: 60.1

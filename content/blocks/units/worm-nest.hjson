@@ -31,7 +31,7 @@ drawer: {
   basePrefix: worm-nest-base
 }
 
-unitCapModifier: 5
+unitCapModifier: 6
 drawTeamOverlay: false
 squareSprite: false
 buildVisibility: sandboxOnly
