@@ -1,6 +1,6 @@
 type: tank
 flying: false
-health: 40
+health: 20
 armor: 10
 speed: 2
 hitSize: 6
@@ -28,7 +28,7 @@ weapons: [
 
         bullet: {
             type: SapBulletType
-            damage: 10
+            damage: 5
             width: 0.55
             sapStrength: 0.85
             length: 10

@@ -72,10 +72,6 @@ weapons: [
             knockback: -0.3
             
             status: spore-slowed
-
-            maxRange: 120
-            rangeOverride: 120
-            range: 120
         }
     },
     {  

@@ -46,6 +46,8 @@ weapons: [
             recoil: -3
 
             status: spore-slowed
+
+            rangeOverride: 120
         }
     }
 ]
@@ -54,7 +56,7 @@ crushDamage: 30
 segments: 10
 segmentScl: 10
 segmentPhase: 10
-segmentMag: 1.2
+segmentMag: 1
 omniMovement: false
 
 //main parameter
@@ -63,7 +65,7 @@ createWreck: true
 logicControllable: true
 isEnemy: true
 useUnitCap: false
-physics: true
+physics: false
 lifetime: -1
 targetPriority: 1
 drawMinimap: true

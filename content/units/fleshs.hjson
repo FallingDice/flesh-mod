@@ -3,7 +3,7 @@ template: MissileUnitType
 flying: true
 speed: 2.5
 
-physics: true
+physics: false
 
 healColor: ff1744
 deathSound: plantBreak

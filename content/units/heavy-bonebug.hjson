@@ -77,7 +77,7 @@ weapons: [
       pierce: true
       pierceBuilding: true
       pierceCap: 2
-      statusDuration: 240
+      statusDuration: 1800
       knockback: 0.2
 
       shootEffect: shootSmallFlame

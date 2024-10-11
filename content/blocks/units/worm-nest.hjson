@@ -2,7 +2,7 @@ type: PowerTurret
 category: units
 size: 4
 health: 10000
-range: 800
+range: 600
 
 solid: false
 customShadow: true

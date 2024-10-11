@@ -1,0 +1,50 @@
+type: PowerTurret
+category: units
+size: 3
+health: 3000
+range: 300
+
+solid: false
+customShadow: true
+
+outline: false
+rotateSpeed: 0.05
+
+consumes: {}
+
+requirements: [
+    flesh/100000
+]
+
+shoot: {
+  type: ShootSpread
+  shoot: 16
+  spread: 60
+  firstShotDelay: 1000
+  shotDelay: 3
+}
+
+shootSound: plantBreak
+shootY: 0.5
+
+shootType: {
+  reload: 500
+  shootEffect: shootBig
+  smokeEffect: artilleryTrailSmoke
+  instantDisappear: true
+  damage: 0
+  spawnUnit: fleshnugget
+},
+shootType: {
+  reload: 2000
+  shootEffect: shootBig
+  smokeEffect: artilleryTrailSmoke
+  instantDisappear: true
+  damage: 0
+  spawnUnit: flesh-spider
+}
+
+drawer: {
+  type: DrawTurret
+  basePrefix: worm-nest-base
+}
