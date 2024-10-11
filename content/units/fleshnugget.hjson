@@ -59,7 +59,8 @@ weapons: [
         reload: 20
         shootSound: sap
 
-        overrideRange: 120
+        rangeOverride: 120
+
         bullet: {
             type: SapBulletType
             damage: 2
