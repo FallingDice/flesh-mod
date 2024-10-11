@@ -16,7 +16,7 @@ health: 200
 drawCell: false
 outlines: true
 outlineColor: 9f0724
-lifetime: -1
+lifetime: 36000
 
 abilities: [
     {
