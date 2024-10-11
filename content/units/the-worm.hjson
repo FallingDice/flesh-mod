@@ -50,7 +50,7 @@ weapons: [
     }
 ]
 
-crushDamage: 30
+crushDamage: 3
 segments: 10
 segmentScl: 10
 segmentPhase: 10
