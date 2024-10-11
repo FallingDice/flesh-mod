@@ -2,7 +2,7 @@ name: Flesh Nugget
 description: seed of disaster.
 type: crawl
 flying: false
-health: 40
+health: 80
 speed: 3
 hitSize: 6
 range: 120
@@ -60,7 +60,7 @@ weapons: [
 
         bullet: {
             type: SapBulletType
-            damage: 1
+            damage: 2
             sapStrength: 0.85
             length: 55
             shootEffect: shootSmall
@@ -118,7 +118,7 @@ weapons: [
             }
       bullet: {
             type: BasicBulletType
-            damage: 3
+            damage: 4
             speed: 4.25
             width: 6
             height: 8
