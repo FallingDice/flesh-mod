@@ -14,9 +14,9 @@ consumes: {}
 shoot: {
   type: ShootSpread
   shots: 16
-  spread: 60
+  spread: 10
   firstShotDelay: 1000
-  shotDelay: 5
+  shotDelay: 30
 }
 
 shootSound: plantBreak
@@ -36,5 +36,4 @@ drawTeamOverlay: false
 squareSprite: false
 buildVisibility: sandboxOnly
 
-groundLayer: 74.9
 outlineRadius: 0
