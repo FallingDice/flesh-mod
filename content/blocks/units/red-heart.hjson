@@ -34,14 +34,6 @@ shootType: {
   instantDisappear: true
   damage: 0
   spawnUnit: fleshnugget
-},
-shootType: {
-  reload: 2000
-  shootEffect: shootBig
-  smokeEffect: artilleryTrailSmoke
-  instantDisappear: true
-  damage: 0
-  spawnUnit: flesh-spider
 }
 
 drawer: {

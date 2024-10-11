@@ -1,4 +1,3 @@
-template: MissileUnitType
 name: the worm
 type: crawl
 flying: false
@@ -8,7 +7,6 @@ hitSize: 12
 range: 30
 
 controller: MissileAI
-hidden: false
 
 healColor: ff1744
 deathSound: plantBreak
@@ -59,13 +57,5 @@ segmentPhase: 10
 segmentMag: 1
 omniMovement: false
 
-//main parameter
-playerControllable: true
-createWreck: true
-logicControllable: true
-isEnemy: true
 useUnitCap: false
-physics: false
-lifetime: -1
 targetPriority: 1
-drawMinimap: true
