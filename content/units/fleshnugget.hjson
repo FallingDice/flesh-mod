@@ -57,7 +57,7 @@ weapons: [
         reload: 20
         shootSound: sap
 
-        rangeOverride: 10
+        rangeOverride: 100
 
         bullet: {
             type: SapBulletType
