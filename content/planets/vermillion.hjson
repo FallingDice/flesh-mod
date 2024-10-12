@@ -161,4 +161,4 @@ campaignRuleDefaults.showSpawns: true
 //행성 표시
 visible: true
 
-defaultEnv: 7
+defaultEnv: Env.spores
