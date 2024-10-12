@@ -21,7 +21,7 @@ mineSpeed: 3
 buildSpeed: 2
 itemCapacity: 200
 mineTier: 1
-envDisabled: 1
+envDisabled: space
 
 drawCell: false
 
