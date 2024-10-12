@@ -49,7 +49,7 @@ cloudMesh: [
    speed: 1.21
    radius: 0.1
    divisions: 6
-   color: ff174450
+   color: sf1724
    octaves: 3
    persistence: 0.3
    scl: 1
@@ -61,7 +61,7 @@ cloudMesh: [
    speed: 1.01
    radius: 0.11
    divisions: 6
-   color: ff174450
+   color: ff1744
    octaves: 3
    persistence: 0.4
    scl: 0.9
@@ -73,7 +73,7 @@ cloudMesh: [
    speed: 0.891
    radius: 0.091
    divisions: 6
-   color: ff174450
+   color: sf1724
    octaves: 3
    persistence: 0.5
    scl: 1.1
@@ -95,38 +95,70 @@ generator: {
   berylChance: 0
   ferricChance: 0.26
 }
-sectorSize: 2
-allowLaunchSchematics: false
-allowLaunchToNumbered: false
-allowLaunchLoadout: false
-allowSectorInvasion: false
+
+defaultCore: core-aggregate
+parent: sun
+solarSystem: sun
+
 startSector: 0
-tidalLock: true
-orbitSpacing: 3
+sectorSeed: 13743
+sectorSize: 2
+
+//행성 궤도 사이의 기본 간격
+orbitSpacing: 2
+
+행성구의 반지름
 radius: 1.2
+
+//카메라 움직임
 minZoom: 1.5
+
+//대기 반경 조정 매개변수
 atmosphereRadIn: 0.02
 atmosphereRadOut: 0.3
-lightSrcTo: 0.5
-lightDstFrom: 0.2
-visible: true
-atmosphereColor: ff000040
+
+//회전시간
+rotateTime: 720
+
+//낮 밤 주기 매개변수
+lightSrcTo: 0.7
+lightDstFrom: 0.1
+
+atmosphereColor: ff1744
 landCloudColor: d00000
 iconColor: ff1744
-hasAtmosphere: true
-allowWaveSimulation: true
-clearSectorOnLose: true
-allowWaves: true
-prebuildBase: false
-waveTeam:  crux
 
 launchCandidates: []
 itemWhitelist: [
     flesh, bone, fat
 ]
 
+enemyBuildSpeedMultiplier: 0.4
+
+//set rule
+waveTeam: crux
+fog: true
+lighting: true
+
+hasAtmosphere: true
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowWaves: true
+
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+
+prebuildBase: false
+tidalLock: true
 updateLighting: true
-defaultCore: core-aggregate
-parent: sun
-solarSystem: sun
-sectorSeed: 13743
+allowCampaignRules: true
+
+campaignRuleDefaults.fog: true
+campaignRuleDefaults.showSpawns: true
+
+//행성 표시
+visible: true
+
+defaultEnv: Env.underwater | Env.terrestrial
