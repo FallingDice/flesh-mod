@@ -110,7 +110,7 @@ atmosphereRadOut: 0.3
 lightSrcTo: 0.5
 lightDstFrom: 0.2
 visible: true
-atmosphereColor: ff174450
+atmosphereColor: ff000040
 landCloudColor: d00000
 iconColor: ff1744
 hasAtmosphere: true
