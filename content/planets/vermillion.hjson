@@ -107,7 +107,7 @@ sectorSize: 2
 //행성 궤도 사이의 기본 간격
 orbitSpacing: 2
 
-행성구의 반지름
+//행성구의 반지름
 radius: 1.2
 
 //카메라 움직임
