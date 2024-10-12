@@ -49,7 +49,7 @@ cloudMesh: [
    speed: 1.21
    radius: 0.1
    divisions: 6
-   color: sf172450
+   color: sf172430
    octaves: 3
    persistence: 0.3
    scl: 1
@@ -61,7 +61,7 @@ cloudMesh: [
    speed: 1.01
    radius: 0.11
    divisions: 6
-   color: ff174450
+   color: ff174430
    octaves: 3
    persistence: 0.4
    scl: 0.9
@@ -73,7 +73,7 @@ cloudMesh: [
    speed: 0.891
    radius: 0.091
    divisions: 6
-   color: sf172450
+   color: sf172430
    octaves: 3
    persistence: 0.5
    scl: 1.1
