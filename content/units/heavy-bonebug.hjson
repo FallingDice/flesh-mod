@@ -15,6 +15,7 @@ healColor: ff1744
 deathSound: plantBreak
 deathExplosionEffect: steam
 createScorch: false
+envDisabled: 1
 
 aimDst: 80
 

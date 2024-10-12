@@ -12,6 +12,7 @@ healColor: ff1744
 deathSound: plantBreak
 deathExplosionEffect: steam
 createScorch: false
+envDisabled: 1
 
 rotateSpeed: 1.5
 immunities: [wet, burning, spore-slowed]
@@ -27,6 +28,8 @@ segmentScl: 3
 segmentPhase: 3
 segmentMag: 1.5
 knockback: 0.5
+
+healFlash: true
 
 abilities: [
     {
@@ -46,5 +49,10 @@ abilities: [
         amount: 60
         reload: 300
         max: 600
+    },
+    {
+        type: LiquidRegenAbility
+        liquid: blood
+        slurpEffect: neoplasmHeal
     }
 ]

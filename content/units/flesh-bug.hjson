@@ -14,6 +14,7 @@ healColor: ff1744
 deathSound: plantBreak
 deathExplosionEffect: steam
 createScorch: false
+envDisabled: 1
 
 outlineColor: 9f0724
 drawBody: false

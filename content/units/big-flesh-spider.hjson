@@ -12,7 +12,7 @@ healColor: ff1744
 deathSound: plantBreak
 deathExplosionEffect: steam
 createScorch: false
-rotateMoveFirst: true
+envDisabled: 1
 
 groundLayer: 75 //기본값
 rotateSpeed: 1.6

@@ -33,6 +33,7 @@ lowAltitude: false
 mineHardnessScaling: false
 targetable: false
 hittable: false
+envDisabled: 1
 
 abilities: [
     {
