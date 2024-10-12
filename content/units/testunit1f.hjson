@@ -15,13 +15,13 @@ createScorch: false
 
 //test
 repairSpeed: 5
-
+template: ErekirUnitType
 
 mineSpeed: 3
 buildSpeed: 2
 itemCapacity: 200
 mineTier: 1
-envDisabled: 0
+
 
 drawCell: false
 
