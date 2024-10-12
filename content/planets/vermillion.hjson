@@ -1,6 +1,8 @@
 localizedName: Vermilion
 alwaysUnlocked: true
 
+defaultEnv: 10
+
 mesh: [
  {
     //blood
@@ -160,5 +162,3 @@ campaignRuleDefaults.showSpawns: true
 
 //행성 표시
 visible: true
-
-defaultEnv: 9
