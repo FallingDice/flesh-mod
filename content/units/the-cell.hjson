@@ -1,7 +1,7 @@
 type: tank
 flying: false
 health: 20
-armor: 10
+armor: 5
 speed: 2
 hitSize: 6
 
@@ -13,7 +13,7 @@ createScorch: false
 drawCell: false
 circleTarget: true
 targetAir: false
-controller: HugAI
+controller: groundAI
 crushDamage: 0.3
 outlineColor: 9f0724
 
@@ -28,7 +28,7 @@ weapons: [
 
         bullet: {
             type: SapBulletType
-            damage: 5
+            damage: 3
             width: 0.55
             sapStrength: 0.85
             length: 10
@@ -48,15 +48,9 @@ weapons: [
 
 abilities: [
     {
-        type: RepairFieldAbility
-      range: 0
-      amount: 10
-      reload: 1000
-    },
-    {
         type: LiquidExplodeAbility
         liquid: blood
-        amount: 10
+        amount: 5
     }
 ]
 
