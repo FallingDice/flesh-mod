@@ -32,7 +32,7 @@ weapons: [
 
         bullet: {
             type: SapBulletType
-            damage: 50
+            damage: 30
             sapStrength: 0.85
             length: 50
             shootEffect: shootSmall
@@ -50,7 +50,7 @@ weapons: [
     }
 ]
 
-crushDamage: 30
+crushDamage: 1
 segments: 10
 segmentScl: 10
 segmentPhase: 10

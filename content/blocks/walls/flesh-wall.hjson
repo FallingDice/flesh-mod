@@ -1,6 +1,6 @@
 type: PowerTurret
 size: 1
-health: 250
+health: 150
 armor: 1
 category: defense
 requirements: [
@@ -29,7 +29,7 @@ shoot: {
 shootType: {
   type: SapBulletType
   knockback: -0.5
-  damage: 2
+  damage: 1
   sapStrength: 0.85
   length: 55
   shootEffect: shootSmall

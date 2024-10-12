@@ -10,8 +10,9 @@ customShadow: true
 consumes: {}
 
 shoot: {
-  shoot: 3
+  shots: 2
   firstShotDelay: 3000
+  shotDelay: 180
 }
 
 shootSound: plantBreak
