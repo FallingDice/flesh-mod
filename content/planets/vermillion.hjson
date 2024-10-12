@@ -49,7 +49,7 @@ cloudMesh: [
    speed: 1.21
    radius: 0.1
    divisions: 6
-   color: sf1724
+   color: sf172450
    octaves: 3
    persistence: 0.3
    scl: 1
@@ -61,7 +61,7 @@ cloudMesh: [
    speed: 1.01
    radius: 0.11
    divisions: 6
-   color: ff1744
+   color: ff174450
    octaves: 3
    persistence: 0.4
    scl: 0.9
@@ -73,7 +73,7 @@ cloudMesh: [
    speed: 0.891
    radius: 0.091
    divisions: 6
-   color: sf1724
+   color: sf172450
    octaves: 3
    persistence: 0.5
    scl: 1.1
@@ -124,7 +124,7 @@ rotateTime: 720
 lightSrcTo: 0.7
 lightDstFrom: 0.1
 
-atmosphereColor: ff1744
+atmosphereColor: ff174040
 landCloudColor: d00000
 iconColor: ff1744
 
@@ -161,4 +161,4 @@ campaignRuleDefaults.showSpawns: true
 //행성 표시
 visible: true
 
-defaultEnv: Env.underwater | Env.terrestrial
+defaultEnv: 5
