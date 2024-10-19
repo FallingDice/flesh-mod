@@ -63,3 +63,4 @@ craftEffect: blastExplosion
 craftSound: drillImpact
 
 research: cultivator
+researchCostMultiplier: 0.3
