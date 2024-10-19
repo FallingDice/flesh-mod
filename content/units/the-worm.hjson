@@ -29,7 +29,6 @@ weapons: [
             y: 35
             reload: 20
             shootSound: sap
-            shootOnDeath: false
 
         bullet: {
             type: SapBulletType
