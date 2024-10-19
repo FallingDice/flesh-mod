@@ -5,6 +5,10 @@
 
 This is my first time modding. I'm still inexperienced, but, I hope you'll show me a lot of interest.
 
+Contributor: 
+    MsX07 - sprites, ideas, suggestions
+    Angelbros - suggestions
+
 0.511v - missile damage fetch
 
 0.512v - missile ai fetch
@@ -145,3 +149,7 @@ edit missile ai
 - worm-nest update
 - the-worm ai update
 - sprites update
+
+0.86v
+- bundle update
+- remove test floor
