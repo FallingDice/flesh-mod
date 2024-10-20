@@ -1,7 +1,3 @@
-//fleshunit 3T assmble
-
-name: Mega Hive(wip)
-description: seed of disaster.
 type: flying
 flying: true
 health: 10000

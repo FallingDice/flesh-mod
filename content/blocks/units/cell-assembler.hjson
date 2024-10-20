@@ -26,6 +26,7 @@ plans: [
         time: 1080
          requirements: [
             flesh-mod-the-cell/5
+            flesh-mod-large-bone-wall/2
          ]
    },
    {
@@ -34,6 +35,7 @@ plans: [
         time: 2160
          requirements: [
             flesh-mod-the-cell/7
+            flesh-mod-large-bone-wall/5
          ]
    },
    {
@@ -42,6 +44,7 @@ plans: [
         time: 3240
          requirements: [
             flesh-mod-the-cell/10
+            flesh-mod-large-bone-wall/8
          ]
    },
    {
@@ -51,7 +54,7 @@ plans: [
          requirements: [
             flesh-mod-u0-c1/3
             flesh-mod-u0-c2/5
-            flesh-mod-large-bone-wall/12
+            flesh-mod-large-bone-wall/20
          ]
    },
    {
@@ -61,7 +64,7 @@ plans: [
          requirements: [
             flesh-mod-the-cell/30
             flesh-mod-cancer-f/10
-            flesh-mod-large-flesh-wall/20
+            flesh-mod-large-flesh-wall/30
          ]
    }
 ]
