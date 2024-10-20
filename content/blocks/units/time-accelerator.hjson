@@ -25,6 +25,11 @@ requirements: [
   flesh/300, fat/100
 ]
 
+drawer: {
+  type: DrawTurret
+  basePrefix: time-accelerator-base
+}
+
 research: {
     parent: core-aggregate
     objectives: [

@@ -21,15 +21,8 @@ duct 프레임으로 애니메이션 추가, 장이 움직이듯이 부풀었다
 [미지정 list]
 
 [수정 list]
-flesh-mine x1
-time-accelerator x2
 cell-assmbler x4
 flesh-assmbler x4
-flesh-constructor x3
-
-semi-hive
-이후 기계같은 디자인은 유기체 느낌으로 수정
-
 
 @reserch list@
 

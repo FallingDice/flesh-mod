@@ -153,3 +153,6 @@ edit missile ai
 0.86v
 - bundle update
 - remove test floor
+
+0.87v
+- update sprite
