@@ -159,3 +159,6 @@ edit missile ai
 
 0.9v
 - finished all sprites
+
+0.91v
+- update bone wall sprites
