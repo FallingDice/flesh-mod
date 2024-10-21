@@ -156,3 +156,6 @@ edit missile ai
 
 0.87v
 - update sprite
+
+0.9v
+- finished all sprites

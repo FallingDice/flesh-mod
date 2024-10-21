@@ -21,8 +21,6 @@ duct 프레임으로 애니메이션 추가, 장이 움직이듯이 부풀었다
 [미지정 list]
 
 [수정 list]
-cell-assmbler x4
-flesh-assmbler x4
 
 @reserch list@
 
