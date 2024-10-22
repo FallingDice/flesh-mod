@@ -162,3 +162,6 @@ edit missile ai
 
 0.91v
 - update bone wall sprites
+
+1.0v
+- update icon png!!
