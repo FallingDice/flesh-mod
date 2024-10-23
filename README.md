@@ -165,3 +165,6 @@ edit missile ai
 
 1.0v
 - update icon png!!
+
+1.01v
+- flesh hive -> flesh pool
