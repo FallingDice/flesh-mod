@@ -20,7 +20,6 @@ const testbul = extend(BasicBulletType, {
 const gun = extend(Weapon, {
   name: fleshgun,
   y: 5,
-  shots: 5,
   x: 5,
   top: true,
   rotate: true,
