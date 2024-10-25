@@ -3,7 +3,7 @@ const testunit1f = extend(UnitType, "testunit1f", {});
 cunit.constructor = () => extend(UnitEntity, {});
 
 //유닛의 무기 정의
-const gun1 = extend(Weapon, {
+const gun = extend(Weapon, {
   y: 5,
   shots: 1,
   x: 5,
@@ -24,7 +24,7 @@ const testbul = extend(BasicBulletType, {
   height: 9,
   frontColor: Color.valueOf("#6ecdec"),
   backColor: Color.valueOf("#5091a6"),
-  status: StatusEffects.freezing,
+  status: StatusEffects.burning,
   lifetime: 32,
   buildingDamageMultiplier: 0.3,
   keepVelocity: false
@@ -32,5 +32,5 @@ const testbul = extend(BasicBulletType, {
 
 //무기 추가
 testunit1f.weapons.add(
-  gun1
+  gun
 );
