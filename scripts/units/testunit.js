@@ -1,6 +1,6 @@
 //유닛 정의
-const testunit1f = extend(UnitType, "testunit1f", {});
-testunit1f.constructor = () => extend(UnitEntity, {});
+const Tunit = extend(UnitType, "testunit1f", {});
+Tunit.constructor = () => extend(UnitEntity, {});
 
 //총알 정의
 const testbul = extend(BasicBulletType, {
@@ -32,7 +32,7 @@ const gun = extend(Weapon, {
 });
 
 //무기 추가
-testunit1f.weapons.add(
+Tunit.weapons.add(
   gun
 );
 
