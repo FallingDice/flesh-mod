@@ -1,3 +1,5 @@
+const vfx = require("flesh-mod/vfx")
+
 //유닛 정의
 const testunit1f = extend(UnitType, "testunit1f", {});
 testunit1f.constructor = () => extend(UnitEntity, {});
