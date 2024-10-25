@@ -7,6 +7,12 @@ maxRange: 200
 
 outline: false
 aimDst: 120
+
+//test
+commandLimit: 2
+rotateShooting: false
+playerTargetFlags: [generator, turret, null]
+
 commands: [move, mine, rebuild, assist]
 mineItems: [flesh, bone]
 
@@ -102,12 +108,12 @@ weapons: [
 {
 shootCone: 40
 recoil: 0
-reload: 5
+reload: 100
 
 shoot: {
   type: ShootSpread
-  shots: 15
-  spread: 4
+  shots: 5
+  spread: 360
 }
 
 shootY: 0.5
