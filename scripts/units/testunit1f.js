@@ -2,6 +2,20 @@
 const testunit1f = extend(UnitType, "testunit1f", {});
 testunit1f.constructor = () => extend(UnitEntity, {});
 
+//총알 정의
+const testbul = extend(BasicBulletType, {
+  speed: 8,
+  damage: 15,
+  width: 7,
+  height: 9,
+  frontColor: Color.valueOf("#6ecdec"),
+  backColor: Color.valueOf("#5091a6"),
+  status: StatusEffects.burning,
+  lifetime: 32,
+  buildingDamageMultiplier: 0.3,
+  keepVelocity: false
+});
+
 //유닛의 무기 정의
 const gun = extend(Weapon, {
   name: fleshgun
@@ -15,20 +29,6 @@ const gun = extend(Weapon, {
   alternate: true,
   shootSound: Sounds.pew,
   bullet: testbul
-});
-
-//총알 정의
-const testbul = extend(BasicBulletType, {
-  speed: 8,
-  damage: 15,
-  width: 7,
-  height: 9,
-  frontColor: Color.valueOf("#6ecdec"),
-  backColor: Color.valueOf("#5091a6"),
-  status: StatusEffects.burning,
-  lifetime: 32,
-  buildingDamageMultiplier: 0.3,
-  keepVelocity: false
 });
 
 //무기 추가
