@@ -5,12 +5,11 @@ speed: 2
 hitSize: 8
 maxRange: 200
 
-outline: false
 aimDst: 120
 
 //test
 commandLimit: 2
-rotateShooting: false
+rotateShooting: true
 playerTargetFlags: [generator, turret, null]
 
 commands: [move, mine, rebuild, assist]
@@ -20,7 +19,6 @@ createScorch: false
 
 //test
 repairSpeed: 5
-template: ErekirUnitType
 
 mineSpeed: 3
 buildSpeed: 2
@@ -50,86 +48,6 @@ parts: [
     hollow: true
     mirror: true
         }
-]
-
-weapons: [
-    {
-        rotate: true
-        x: 0
-        y: 0
-        reload: 10
-        shootSound: none
-
-        bullet: {
-            type: BasicBulletType
-            sprite: laser-end
-            damage: 10
-            speed: 2
-            lifetime: 2
-            recoil: -1
-            shootEffect: {
-              type: WaveEffect
-              lifetime: 25
-              sizeFrom: 0
-              sizeTo: 25
-              strokeFrom: 3
-              strokeTo: 0
-              lightColor: 73FFAEFF
-              }
-        }
-    },
-    {  
-      x: 0
-      y: 0
-      rotate: true
-      mirror: false
-      faceTarget: false
-      reload: 80
-      shootSound: none
-      ejectEffect: none
-      bullet: {
-        width: 3
-        height: 3
-        speed: 8
-        lifetime: 30
-        shootEffect: none
-        despawnEffect: none
-        hitEffect: none
-        collides: true
-        damage: 20
-        pierce: true
-        pierceBuilding: true
-        recoil: 0.1
-        impact: true
-        shrinkX: 5.7
-        shrinkY: 5.7
-      }
-    },
-{
-shootCone: 40
-recoil: 0
-reload: 100
-
-shoot: {
-  type: ShootSpread
-  shots: 5
-  spread: 360
-}
-
-shootY: 0.5
-
- bullet: {
-  type: BasicBulletType
-  hitEffect: hitMeltdown
-  lifetime: 300
-  hitColor: fda981
-  color: fda981
-  damage: 50
-  buildingDamageMultiplier: 0.3
-  timescaleDamage: true
-  homingPower: 0.03
-   }
-}
 ]
 
 abilities: [
