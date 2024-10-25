@@ -1,4 +1,4 @@
-const freezeBombWeak = new Effect(30, e => {
+const testbul = new Effect(30, e => {
   Draw.color(Color.valueOf("#6ecdec"));
   Lines.stroke(e.fout() * 2);
   let circleRad = 4 + e.finpow() * 96;
