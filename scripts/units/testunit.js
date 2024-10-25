@@ -36,4 +36,4 @@ Tunit.weapons.add(
   gun
 );
 
-Blocks.airFactory.plans.add(new UnitFactory.UnitPlan(testunit1f, 60 * 20, ItemStack.with(Items.silicon, 10, Items.titanium, 5)));
+Blocks.airFactory.plans.add(new UnitFactory.UnitPlan(Tunit, 60 * 20, ItemStack.with(Items.silicon, 10, Items.titanium, 5)));
