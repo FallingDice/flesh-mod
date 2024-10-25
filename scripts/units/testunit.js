@@ -1,6 +1,7 @@
 //유닛 정의
 const Tunit = extend(UnitType, "testunit1f", {});
 Tunit.constructor = () => extend(UnitEntity, {});
+Tunit.payloadCapacity = (40 * 40) * Vars.tilePayload;
 
 //총알 정의
 const testbul = extend(BasicBulletType, {
