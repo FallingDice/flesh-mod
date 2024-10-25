@@ -4,8 +4,9 @@ testunit1f.constructor = () => extend(UnitEntity, {});
 
 //유닛의 무기 정의
 const gun = extend(Weapon, {
+  name: fleshgun
   y: 5,
-  shots: 1,
+  shots: 5,
   x: 5,
   top: true,
   rotate: true,
@@ -34,3 +35,5 @@ const testbul = extend(BasicBulletType, {
 testunit1f.weapons.add(
   gun
 );
+
+Blocks.airFactory.plans.add(new UnitFactory.UnitPlan(testunit1f, 60 * 20, ItemStack.with(Items.silicon, 10, Items.titanium, 5)));
