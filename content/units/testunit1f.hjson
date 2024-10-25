@@ -3,14 +3,14 @@ health: 10
 armor: 10
 speed: 2
 hitSize: 8
-maxRange: 200
 
 aimDst: 120
 
+
+
 //test
-commandLimit: 2
-rotateShooting: true
-playerTargetFlags: [generator, turret, null]
+targetAir: true
+range: 288
 
 commands: [move, mine, rebuild, assist]
 mineItems: [flesh, bone]
@@ -53,7 +53,7 @@ parts: [
 abilities: [
     {
         type: RepairFieldAbility
-      range: 0
+      range: -1
       amount: 1
       reload: -1
     }
