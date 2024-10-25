@@ -1,6 +1,6 @@
 //유닛 정의
 const testunit1f = extend(UnitType, "testunit1f", {});
-cunit.constructor = () => extend(UnitEntity, {});
+testunit1f.constructor = () => extend(UnitEntity, {});
 
 //유닛의 무기 정의
 const gun = extend(Weapon, {
