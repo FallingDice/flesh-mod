@@ -1,4 +1,3 @@
-type: tank
 flying: false
 health: 10
 armor: 10
