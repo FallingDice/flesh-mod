@@ -18,7 +18,7 @@ const testbul = extend(BasicBulletType, {
 
 //유닛의 무기 정의
 const gun = extend(Weapon, {
-  name: fleshgun
+  name: fleshgun,
   y: 5,
   shots: 5,
   x: 5,
