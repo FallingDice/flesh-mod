@@ -1,15 +1,18 @@
-mineTier: 2
+mineTier: 5
 health: 9000
 armor: 5
 speed: 0.4
 accel: 0.06
 drag: 0.017
 range: 160
+speed: 2.5
 lowAltitude: true
 flying: true
 engineOffset: 10.5
-rotateShooting: false
-hitSize: 32
+rotateShooting: true
+hitSize: 8
 engineSize: 3
-payloadCapacity: 500
 buildSpeed: 2.5
+
+itemCapacity: 6000
+payloadCapacity: 800
