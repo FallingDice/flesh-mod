@@ -1,60 +1,7 @@
-flying: false
+flying: true
 health: 10
 armor: 10
 speed: 2
 hitSize: 8
 
-aimDst: 120
-
-
-
-//test
-targetAir: true
-range: 288
-
-commands: [move, mine, rebuild, assist]
-mineItems: [flesh, bone]
-
-createScorch: false
-
-//test
-repairSpeed: 5
-
-mineSpeed: 3
-buildSpeed: 2
-itemCapacity: 200
-mineTier: 1
-
-
-drawCell: false
-
-parts: [
-  {
-    type: HaloPart
-    x: 10
-    y: 0
-    color: ffffff
-    colorTo: ff6993
-    layer: 110
-    rotateSpeed: -1
-
-    radius: 30
-    radiusTo: 0
-    stroke: 0
-    strokeTo: 3
-
-    shapes: 1
-    sides: 4
-    hollow: true
-    mirror: true
-        }
-]
-
-abilities: [
-    {
-        type: RepairFieldAbility
-      range: -1
-      amount: 1
-      reload: -1
-    }
-]
+rotateShooting: false

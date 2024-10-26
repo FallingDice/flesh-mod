@@ -1,10 +1,23 @@
 //유닛 정의
 const Tunit = extend(UnitType, "testunit1f", {});
-Tunit.constructor = () => extend(UnitEntity, {});
+Tunit.constructor = () => extend(PayloadUnit, {});
 Tunit.payloadCapacity = (40 * 40) * Vars.tilePayload;
 
+//유닛의 무기 정의
+const gun = extend(Weapon, "flesh-mod-fleshgun", {
+  y: 0,
+  x: 0,
+  top: true,
+  rotate: true,
+  inaccuracy: 2,
+  reload: 10,
+  alternate: true,
+  shootSound: Sounds.pew,
+  bullet: testbullet
+});
+
 //총알 정의
-const testbul = extend(BasicBulletType, {
+const testbullet = extend(BasicBulletType, {
   speed: 8,
   damage: 15,
   width: 7,
@@ -17,23 +30,7 @@ const testbul = extend(BasicBulletType, {
   keepVelocity: false
 });
 
-//유닛의 무기 정의
-const gun = extend(Weapon, {
-  name: fleshgun,
-  y: 5,
-  x: 5,
-  top: true,
-  rotate: true,
-  inaccuracy: 2,
-  reload: 10,
-  alternate: true,
-  shootSound: Sounds.pew,
-  bullet: testbul
-});
-
 //무기 추가
 Tunit.weapons.add(
   gun
 );
-
-Blocks.airFactory.plans.add(new UnitFactory.UnitPlan(Tunit, 60 * 20, ItemStack.with(Items.silicon, 10, Items.titanium, 5)));
