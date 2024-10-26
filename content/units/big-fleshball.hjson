@@ -164,7 +164,6 @@ weapons: [
       reload: 200
       shootCone: 20
       shootStatus: fast
-      shootStatusDuration: 1
       shake: 0.7
       rotate: true
       
