@@ -1,0 +1,19 @@
+localizedName: Ravager's Passage
+description: this level is ohno......
+details: oh, no
+
+planet: vermillion
+sector: 8
+difficulty: 4
+
+research: {
+  parent: red-zone
+  objectives: [
+    {
+      type: SectorComplete
+      preset: contaminated-area
+    }
+  ]
+}
+
+//네번째 구역
