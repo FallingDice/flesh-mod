@@ -15,4 +15,4 @@ engineSize: 3
 buildSpeed: 2.5
 
 itemCapacity: 6000
-payloadCapacity: 800
+//payloadCapacity: 800
