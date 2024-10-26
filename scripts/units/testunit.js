@@ -4,7 +4,6 @@ Tunit.constructor = () => extend(PayloadUnit, {});
 Tunit.payloadCapacity = (40 * 40) * Vars.tilePayload;
 
 //유닛의 무기 정의
-/*
 const gun = extend(Weapon, "flesh-mod-fleshgun", {
   y: 0,
   x: 0,
@@ -16,7 +15,6 @@ const gun = extend(Weapon, "flesh-mod-fleshgun", {
   shootSound: Sounds.pew,
   bullet: testbullet
 });
-*/
 
 
 const testWeapon3 = new Weapon("flesh-mod-fleshgun");

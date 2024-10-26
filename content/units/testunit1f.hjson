@@ -1,7 +1,0 @@
-flying: true
-health: 10
-armor: 10
-speed: 2
-hitSize: 8
-
-rotateShooting: false
