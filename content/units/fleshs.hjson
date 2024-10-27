@@ -46,6 +46,7 @@ weapons: [
 
             status: spore-slowed
             statusDuration: 30
+            killShooter: false
       }
   } 
 ]
