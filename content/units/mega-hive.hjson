@@ -21,6 +21,8 @@ outlineColor: 9f0724
 circleTarget: true
 
 targetFlags: [core]
+loopSoundVolume: 0.24
+loopSound: bioLoop
 
 lowAltitude: true
 //100~110 bloom drawable

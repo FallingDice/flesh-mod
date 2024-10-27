@@ -29,6 +29,9 @@ segmentPhase: 3
 segmentMag: 1.5
 knockback: 0.5
 
+loopSoundVolume: 0.24
+loopSound: bioLoop
+
 healFlash: true
 
 abilities: [

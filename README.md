@@ -168,3 +168,6 @@ edit missile ai
 
 1.01v
 - flesh hive -> flesh pool
+
+1.1v
+- add unit loopsounds
