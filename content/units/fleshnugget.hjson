@@ -24,15 +24,6 @@ circleTarget: true
 parts: [
   {
     type: RegionPart
-    suffix: -glow
-    blending: additive
-    color: 330000
-    mirror: false
-    outline: false
-    layer: 60.1
-  },
-  {
-    type: RegionPart
     progress: warmup
     suffix: -nozzle
     mirror: true
