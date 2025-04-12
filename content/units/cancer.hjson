@@ -64,7 +64,7 @@ abilities: [
     },
     {
         type: UnitSpawnAbility
-        unit: cancer-f
+        unit: cancer
         spawnX: 0
         spawnY: 0
         spawnTime: 14400

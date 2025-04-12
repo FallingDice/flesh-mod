@@ -30,7 +30,7 @@ abilities: [
         amount: 3
         spread: 30
         faceOutwards: true
-        unit: cancer-f
+        unit: cancer
     },
     {
         type: LiquidExplodeAbility

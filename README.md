@@ -171,3 +171,6 @@ edit missile ai
 
 1.1v
 - add unit loopsounds
+
+1.2v
+- update sprites!

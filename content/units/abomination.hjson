@@ -39,7 +39,7 @@ abilities: [
         type: SpawnDeathAbility
         amount: 5
         spread: 40
-        unit: cancer-f
+        unit: cancer
     },
     {
         type: LiquidExplodeAbility

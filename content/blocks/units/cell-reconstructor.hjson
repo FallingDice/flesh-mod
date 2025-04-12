@@ -9,7 +9,7 @@ requirements: [
     ]
 
 upgrades: [
-   [the-cell, cancer-f]
+   [the-cell, cancer]
  ]
 
     consumes: {
