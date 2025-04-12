@@ -1,4 +1,4 @@
-type: unitFactory
+type: PowerTurret
 category: units
 size: 2
 health: 200
@@ -7,13 +7,21 @@ requirements: [
     flesh/300
 ]
 
-plans: [
-  {
-    unit: the-cell
-    requirements: []
-    time: 600
-  }
-]
+alwaysShooting: true
+shootSound: plantBreak
+shootY: 0.5
+reload: 60
+cooldownTime: 60
+solid: false
+
+shootType: {
+  shootEffect: shootBig
+  smokeEffect: artilleryTrailSmoke
+  instantDisappear: true
+  damage: 0
+  spawnUnit: the-cell
+}
+
 consumes: {}
 
 research: {

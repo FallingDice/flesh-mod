@@ -24,8 +24,9 @@ weapons: [
         x: 0
         y: 0
         reload: 7
-        mirror: true
+        mirror: false
         shootSound: none
+        faceTarget: false
 
         bullet: {
             type: SapBulletType
@@ -37,12 +38,9 @@ weapons: [
             color: ff6993
             shootEffect: none
             smokeEffect: none
-            lifetime: 5
-            recoil: -1
+            lifetime: 10
+            recoil: -0.3
             knockback: -1
-            maxRange: 200
-            rangeOverride: 200
-            range: 200
         }
     }
 ]
