@@ -24,7 +24,7 @@ aimDst: 10
 drawCell: false
 outlines: true
 outlineRadius: 2
-outlineColor: 9f0724
+outlineColor: 6b1355
 hidden: true
 range: 40
 weapons: [

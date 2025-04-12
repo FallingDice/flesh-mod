@@ -20,7 +20,7 @@ mineTier: 1
 itemCapacity: 100
 drawCell: false
 engineSize: 0
-outlineColor: 9f0724
+outlineColor: 6b1355
 
 mineFloor: true
 mineWalls: true

@@ -56,7 +56,7 @@ rippleScale: 0.8
 
 shadowElevation: 0.6
 drawCell: false
-outlineColor: 9f0724
+outlineColor: 6b1355
 
 parts: [
   {

@@ -16,7 +16,7 @@ groundLayer: 59.9
 health: 200
 drawCell: false
 outlines: true
-outlineColor: 9f0724
+outlineColor: 6b1355
 lifetime: 36000
 
 abilities: [

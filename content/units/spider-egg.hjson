@@ -15,7 +15,7 @@ lifetime: 3600
 health: 500
 drawCell: false
 outlines: true
-outlineColor: 9f0724
+outlineColor: 6b1355
 hidden: true
 
 physics: false

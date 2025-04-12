@@ -16,7 +16,7 @@ circleTarget: true
 targetAir: false
 controller: groundAI
 crushDamage: 0.3
-outlineColor: 9f0724
+outlineColor: 6b1355
 
 weapons: [
     {

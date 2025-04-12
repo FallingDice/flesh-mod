@@ -12,7 +12,7 @@ deathExplosionEffect: steam
 createScorch: false
 envDisabled: 0
 
-outlineColor: 9f0724
+outlineColor: 6b1355
 
 drawCell: false
 controller: HugAI

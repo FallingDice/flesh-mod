@@ -22,7 +22,7 @@ buildSpeed: 1
 mineTier: 1
 itemCapacity: 40
 
-outlineColor: 9f0724
+outlineColor: 6b1355
 drawCell: false
 engineSize: 0
 lowAltitude: true
