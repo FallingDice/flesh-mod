@@ -41,6 +41,8 @@ weapons: [
             lifetime: 10
             recoil: -0.3
             knockback: -1
+
+            rangeOverride: 120
         }
     }
 ]

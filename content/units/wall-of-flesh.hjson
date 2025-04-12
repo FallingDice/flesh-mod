@@ -24,6 +24,37 @@ drawCell: false
 engineSize: 0
 outlineColor: 6b1355
 
+weapons: [
+{ 
+  x: 0
+  y: 0
+  rotate: true
+  mirror: false
+  faceTarget: false
+  shootSound: none
+  reload: 60
+  bullet: {
+    type: LiquidBulletType
+    speed: 6
+    damage: 5
+    knockback: 5
+    drag: 0.05
+    lifetime: 200
+    splashDamage: 100
+    splashDamageRadius: 400
+    homingPower: 0.15
+    liquid: blood
+    orbSize: 12
+    puddleSize: 40
+    despawnHit: true
+    despawnSound: splash
+
+    status: spore-slowed
+    statusDuration: 360
+          }
+   }
+]
+
 abilities: [
 {
         type: ShieldRegenFieldAbility
