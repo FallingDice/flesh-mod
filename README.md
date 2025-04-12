@@ -174,3 +174,6 @@ edit missile ai
 
 1.2v
 - update sprites!
+
+1.23v
+- add all unit to regen Abilities

@@ -2,7 +2,7 @@
 
 type: legs
 flying: false
-health: 2200
+health: 2400
 armor: 3
 speed: 1
 hitSize: 21
@@ -228,6 +228,10 @@ abilities: [
         spawnX: 0
         spawnY: -20
         spawnTime: 1800
+    },
+    {
+        type: RegenAbility
+        amount: 0.4
     }
 ]
 

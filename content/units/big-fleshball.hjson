@@ -4,7 +4,7 @@ name: Big Fleshball
 description: seed of disaster.
 type: flying
 flying: true
-health: 1530
+health: 1600
 armor: 2
 speed: 1.5
 hitSize: 24
@@ -214,7 +214,11 @@ abilities: [
     teamColor: false
     color: ff1744
     interval: 5
-  }
+    },
+    {
+        type: RegenAbility
+        amount: 0.25
+    }
 ]
 
 research: {

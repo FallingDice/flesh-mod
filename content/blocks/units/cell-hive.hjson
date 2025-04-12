@@ -2,16 +2,17 @@ type: PowerTurret
 category: units
 size: 2
 health: 200
+range: 600
 
 requirements: [
     flesh/300
 ]
 
-alwaysShooting: true
+//alwaysShooting: true
 shootSound: plantBreak
 shootY: 0.5
-reload: 60
-cooldownTime: 60
+reload: 300
+cooldownTime: 300
 solid: false
 
 shootType: {

@@ -13,11 +13,31 @@ envDisabled: 0
 physics: false
 groundLayer: 59.9
 
-health: 200
+health: 240
 drawCell: false
 outlines: true
 outlineColor: 6b1355
 lifetime: 36000
+
+weapons: [
+    {
+        mirror: false
+        rotate: true
+        cooldownTime: 600
+        reload: 600
+        shootSound: plantBreak
+        faceTarget: false
+
+        bullet: {
+            type: BasicBulletType
+            shootEffect: shootBig
+            smokeEffect: shootBigSmoke2
+            instantDisappear: true
+            damage: 0
+            spawnUnit: the-cell
+        }
+    }
+]
 
 abilities: [
     {
@@ -33,9 +53,8 @@ abilities: [
         amount: 10
     },
     {
-        type: UnitSpawnAbility
-        unit: the-cell
-        spawnTime: 1200
+        type: RegenAbility
+        amount: 0.04
     }
 ]
 

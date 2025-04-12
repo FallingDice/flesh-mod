@@ -1,6 +1,6 @@
 type: legs
 flying: false
-health: 260
+health: 300
 armor: 1
 speed: 1.2
 hitSize: 9
@@ -215,7 +215,11 @@ abilities: [
     teamColor: false
     color: ff1744
     interval: 5
-  }
+    },
+    {
+        type: RegenAbility
+        amount: 0.05
+    }
 ]
 
 research: {

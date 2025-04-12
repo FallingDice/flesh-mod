@@ -1,6 +1,6 @@
 type: tank
 flying: false
-health: 20
+health: 24
 armor: 5
 speed: 2
 hitSize: 6
@@ -50,6 +50,10 @@ abilities: [
         type: LiquidExplodeAbility
         liquid: blood
         amount: 5
+    },
+    {
+        type: RegenAbility
+        amount: 0.004
     }
 ]
 

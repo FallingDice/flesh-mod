@@ -133,7 +133,7 @@ abilities: [
         type: LiquidExplodeAbility
         liquid: blood
         amount: 20
-    }
+    },
     {
     type: MoveEffectAbility
     minVelocity: 3.2
@@ -143,7 +143,11 @@ abilities: [
     teamColor: false
     color: ff1744
     interval: 5
-  }
+    },
+    {
+        type: RegenAbility
+        amount: 0.015
+    }
 ]
 
 research: {

@@ -1,6 +1,6 @@
 type: flying
 flying: true
-health: 10000
+health: 12000
 armor: 100
 speed: 0.3
 hitSize: 58
@@ -309,5 +309,9 @@ abilities: [
     teamColor: false
     color: ff1744
     interval: 5
-  }
+    },
+    {
+        type: RegenAbility
+        amount: 2
+    }
 ]

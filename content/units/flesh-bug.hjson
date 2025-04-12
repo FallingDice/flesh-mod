@@ -4,7 +4,7 @@ name: Flesh Bug
 description: seed of disaster.
 type: crawl
 flying: false
-health: 1620
+health: 1600
 armor: 2
 speed: 1.2
 hitSize: 16
@@ -138,6 +138,10 @@ abilities: [
         type: LiquidExplodeAbility
         liquid: blood
         amount: 70
+    },
+    {
+        type: RegenAbility
+        amount: 0.25
     }
 ]
 

@@ -3,7 +3,7 @@
 type: crawl
 flying: false
 speed: 0.2
-health: 10000
+health: 12000
 armor: 50
 hitSize: 60
 range: 40
@@ -57,5 +57,9 @@ abilities: [
         type: LiquidRegenAbility
         liquid: blood
         slurpEffect: neoplasmHeal
+    },
+    {
+        type: RegenAbility
+        amount: 2
     }
 ]

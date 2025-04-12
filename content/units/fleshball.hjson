@@ -162,7 +162,11 @@ abilities: [
     teamColor: false
     color: ff1744
     interval: 5
-  }
+    },
+    {
+        type: RegenAbility
+        amount: 0.02
+    }
 ]
 
 research: {
