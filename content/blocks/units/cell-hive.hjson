@@ -34,7 +34,7 @@ research: {
     }
   ]
 }
-customShadow: true
+customShadow: false
 drawTeamOverlay: false
 squareSprite: false
 researchCostMultiplier: 0.5
