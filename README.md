@@ -180,3 +180,6 @@ edit missile ai
 
 1.24v
 - update sprites!
+
+1.25v
+- update icon&logo!
