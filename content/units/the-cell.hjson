@@ -43,6 +43,7 @@ weapons: [
             knockback: -1
 
             rangeOverride: 120
+            range: 120
         }
     }
 ]
