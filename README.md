@@ -32,3 +32,6 @@ Contributor:
 
 1.26v
 - update sprites!
+
+1.3v
+- bugfix

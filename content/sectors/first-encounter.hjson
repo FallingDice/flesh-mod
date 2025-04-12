@@ -4,8 +4,9 @@ details: this level is so easy...
 
 planet: vermillion
 sector: 0
-research: core-aggregate
 difficulty: 1
+
+research: core-aggregate
 alwaysUnlocked: true
 addStartingItems: true
 

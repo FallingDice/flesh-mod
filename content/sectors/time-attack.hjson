@@ -4,8 +4,9 @@ details: oh, no
 
 planet: vermillion
 sector: 7
-research: core-aggregate
 difficulty: 7
+
+research: core-aggregate
 alwaysUnlocked: true
 
 attackAfterWaves: true
