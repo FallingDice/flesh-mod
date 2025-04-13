@@ -223,7 +223,7 @@ research: {
     objectives: [
     {
       type: SectorComplete
-      preset: contaminated-area
+      preset: red-zone
     }
   ]
     requirements:
