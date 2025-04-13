@@ -147,7 +147,7 @@ allowWaves: true
 
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
-allowLaunchLoadout: true
+allowLaunchLoadout: false
 allowSectorInvasion: false
 
 prebuildBase: false
