@@ -1,10 +1,10 @@
-localizedName: Ragged Channel
+localizedName: s3
 description: this level is ohno......
 details: oh, no
 
 planet: vermillion
-sector: 2
-difficulty: 4
+sector: 5
+difficulty: 6
 
 research: {
   parent: red-zone
@@ -16,4 +16,4 @@ research: {
   ]
 }
 
-//세번째 구역
+//세번째 구역2
