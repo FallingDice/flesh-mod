@@ -145,8 +145,8 @@ allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 
-allowLaunchSchematics: true
-allowLaunchToNumbered: true
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
 allowLaunchLoadout: true
 allowSectorInvasion: false
 

@@ -1,32 +1,27 @@
-type: unitFactory
+type: PowerTurret
 category: units
 size: 3
 health: 1200
 
 requirements: [
-    flesh/400,
-    lead/40,
-    metaglass/40,
-    titanium/60
+    flesh/800,
+    lead/80,
+    metaglass/80,
+    titanium/120
 ]
 
-plans: [
-  {
-    unit: fleshball
-    requirements: [flesh/80, fat/20]
-    time: 1200
-  },
-  {
-    unit: fleshnugget
-    requirements: []
-    time: 300
-  },
-  {
-    unit: the-cell
-    requirements: []
-    time: 200
-  }
-]
+shootSound: none
+reload: 600
+shootY: 0.5
+alwaysShooting: true
+
+shootType: {
+  shootEffect: shootBig
+  smokeEffect: artilleryTrailSmoke
+  instantDisappear: true
+  damage: 0
+  spawnUnit: spider-egg
+}
 
 consumes: {
   liquid: {
@@ -35,5 +30,6 @@ consumes: {
     }
 }
 
+unitCapModifier: 4
 research: bioreactor
 researchCostMultiplier: 0.3
