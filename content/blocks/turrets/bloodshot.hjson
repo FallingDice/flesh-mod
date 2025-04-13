@@ -14,7 +14,7 @@ hasLiquids: true
 liquidCapacity: 10
 recoil: 0
 
-outlineColor: 7f0724
+outlineColor: 6b1355
 reload: 20
 heatColor: ff1744
 inaccuracy: 35

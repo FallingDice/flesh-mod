@@ -13,7 +13,7 @@ requirements: [
   flesh/700, fat/300, bone/120
 ]
 
-outlineColor: 7f0724
+outlineColor: 6b1355
 
 shootType: {
   type: PointLaserBulletType
