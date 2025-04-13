@@ -131,7 +131,7 @@ landCloudColor: d00000
 iconColor: ff1744
 
 launchCandidates: []
-//itemWhitelist: [flesh, bone, fat]
+itemWhitelist: [flesh, bone, fat]
 
 enemyBuildSpeedMultiplier: 0.4
 
