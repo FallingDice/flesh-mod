@@ -14,10 +14,8 @@ research: {
     objectives: [
     {
       type: SectorComplete
-      preset: red-zone
+      preset: cell-factory
     }
   ]
 }
 researchCostMultiplier: 0.5
-
-//추후 레드존이라 쓰인 위치 수정

@@ -1,10 +1,10 @@
-localizedName: s31
+localizedName: Strong Bone
 description: this level is ohno......
 details: oh, no
 
 planet: vermillion
 sector: 2
-difficulty: 4
+difficulty: 6
 
 research: {
   parent: red-zone
@@ -16,4 +16,4 @@ research: {
   ]
 }
 
-//세번째 구역
+//세번째 구역2

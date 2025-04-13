@@ -13,9 +13,7 @@ research: {
     objectives: [
     {
       type: SectorComplete
-      preset: red-zone
+      preset: cell-factory
     }
   ]
 }
-
-//추후 레드존이라 쓰인 위치 수정

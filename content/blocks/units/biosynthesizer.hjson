@@ -1,0 +1,39 @@
+type: unitFactory
+category: units
+size: 3
+health: 1200
+
+requirements: [
+    flesh/400,
+    lead/40,
+    metaglass/40,
+    titanium/60
+]
+
+plans: [
+  {
+    unit: fleshball
+    requirements: [flesh/80, fat/20]
+    time: 1200
+  },
+  {
+    unit: fleshnugget
+    requirements: []
+    time: 300
+  },
+  {
+    unit: the-cell
+    requirements: []
+    time: 200
+  }
+]
+
+consumes: {
+  liquid: {
+        liquid: blood
+        amount: 0.1
+    }
+}
+
+research: bioreactor
+researchCostMultiplier: 0.3

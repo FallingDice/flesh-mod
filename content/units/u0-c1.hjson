@@ -223,7 +223,7 @@ research: {
     objectives: [
     {
       type: SectorComplete
-      preset: red-zone
+      preset: cell-factory
     }
   ]
     requirements:

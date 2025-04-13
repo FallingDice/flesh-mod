@@ -1,7 +1,7 @@
 type: tank
 flying: false
-health: 24
-armor: 5
+health: 30
+armor: 3
 speed: 2
 hitSize: 6
 range: 180
@@ -26,7 +26,7 @@ weapons: [
         rotate: true
         x: 0
         y: 0
-        reload: 7
+        reload: 13
         mirror: false
         shootSound: none
         faceTarget: false
@@ -35,8 +35,8 @@ weapons: [
             type: SapBulletType
             damage: 3
             width: 0.55
-            sapStrength: 0.25
-            length: 15
+            sapStrength: 0.1
+            length: 25
             hitColor: ff6993
             color: ff6993
             shootEffect: none

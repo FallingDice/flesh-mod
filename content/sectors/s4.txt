@@ -11,7 +11,7 @@ research: {
   objectives: [
     {
       type: SectorComplete
-      preset: contaminated-area
+      preset: cell-factory
     }
   ]
 }
