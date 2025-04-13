@@ -30,6 +30,11 @@ consumes: {
     }
 }
 
+drawer: {
+  type: DrawTurret
+  basePrefix: biosynthesizer-base
+}
+
 unitCapModifier: 4
 research: bioreactor
 researchCostMultiplier: 0.3
