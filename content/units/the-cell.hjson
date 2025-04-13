@@ -4,6 +4,7 @@ health: 24
 armor: 5
 speed: 2
 hitSize: 6
+range: 180
 
 healColor: ff1744
 deathSound: plantBreak
@@ -11,11 +12,13 @@ deathExplosionEffect: steam
 createScorch: false
 envDisabled: 0
 
+controller: SuicideAI
 drawCell: false
 circleTarget: true
 targetAir: false
-controller: groundAI
 crushDamage: 0.3
+omniMovement: true
+rotateSpeed: 3
 outlineColor: 6b1355
 
 weapons: [
@@ -43,7 +46,6 @@ weapons: [
             knockback: -1
 
             rangeOverride: 120
-            range: 120
         }
     }
 ]
