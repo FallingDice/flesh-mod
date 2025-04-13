@@ -131,7 +131,7 @@ landCloudColor: d00000
 iconColor: ff1744
 
 launchCandidates: []
-itemWhitelist: [flesh, bone, fat]
+//itemWhitelist: [flesh, bone, fat]
 
 enemyBuildSpeedMultiplier: 0.4
 
@@ -145,9 +145,9 @@ allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 
-allowLaunchSchematics: false
-allowLaunchToNumbered: false
-allowLaunchLoadout: false
+allowLaunchSchematics: true
+allowLaunchToNumbered: true
+allowLaunchLoadout: true
 allowSectorInvasion: false
 
 prebuildBase: false
