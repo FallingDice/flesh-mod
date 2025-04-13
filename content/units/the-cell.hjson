@@ -14,7 +14,7 @@ envDisabled: 0
 
 controller: SuicideAI
 drawCell: false
-circleTarget: false
+circleTarget: true
 targetAir: false
 crushDamage: 0.3
 omniMovement: true

@@ -64,7 +64,7 @@ ammoTypes: {
 
 drawer: {
   type: DrawTurret
-  basePrefix: redtech-
+  basePrefix: flesh-
      parts: [
         {
           type: shapePart

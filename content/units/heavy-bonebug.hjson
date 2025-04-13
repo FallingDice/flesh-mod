@@ -33,11 +33,11 @@ weapons: [
   mirror: false
   faceTarget: false
   shootSound: none
-  reload: 120
+  reload: 80
   bullet: {
     type: LiquidBulletType
     speed: 6
-    damage: 5
+    damage: 30
     knockback: 0.5
     drag: 0.05
     lifetime: 20
