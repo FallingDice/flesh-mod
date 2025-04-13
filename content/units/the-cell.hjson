@@ -14,7 +14,7 @@ envDisabled: 0
 
 controller: SuicideAI
 drawCell: false
-circleTarget: true
+circleTarget: false
 targetAir: false
 crushDamage: 0.3
 omniMovement: true
@@ -35,8 +35,8 @@ weapons: [
             type: SapBulletType
             damage: 3
             width: 0.55
-            sapStrength: 0.85
-            length: 10
+            sapStrength: 0.25
+            length: 15
             hitColor: ff6993
             color: ff6993
             shootEffect: none
@@ -47,6 +47,32 @@ weapons: [
 
             rangeOverride: 120
         }
+    },
+    { 
+      shootWarmupSpeed: 0.1
+      minWarmup: 0.3
+      warmupMaintainTime: 30
+      x: 0
+      y: 0
+      rotate: false
+      mirror: false
+      reload: 240
+      shootSound: pew
+      bullet: {
+            type: BasicBulletType
+            damage: 4
+            speed: 4.25
+            width: 6
+            height: 8
+            lifetime: 25
+            sprite: missile-large
+            trailWidth: 3
+            trailLength: 4.6
+            trailColor: ff4764
+            frontColor: ff4040
+            backColor: ff4040
+            recoil: 0.2
+      }
     }
 ]
 
@@ -58,7 +84,7 @@ abilities: [
     },
     {
         type: RegenAbility
-        amount: 0.004
+        amount: -0.001
     }
 ]
 
