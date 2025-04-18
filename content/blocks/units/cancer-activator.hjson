@@ -1,0 +1,41 @@
+type: PowerTurret
+category: units
+health: 1600
+size: 3
+constructTime: 3600
+
+requirements: [
+      flesh/800
+    ]
+
+shootSound: plantBreak
+shootY: 0.5
+reload: 1800
+cooldownTime: 1800
+solid: false
+
+    consumes: {
+        items: {
+            items: [
+              flesh/500, fat/50
+            ]
+        },
+          liquid: {
+        liquid: blood
+        amount: 0.1
+         }
+    }
+
+    shootType: {
+  shootEffect: shootBig
+  smokeEffect: artilleryTrailSmoke
+  instantDisappear: true
+  damage: 0
+  spawnUnit: cancer
+}
+
+drawTeamOverlay: false
+squareSprite: false
+
+research: cell-hive
+researchCostMultiplier: 0.3

@@ -45,7 +45,7 @@ weapons: [
             recoil: -0.3
             knockback: -1
 
-            rangeOverride: 120
+            //rangeOverride: 120
         }
     },
     { 

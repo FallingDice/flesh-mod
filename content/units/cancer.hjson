@@ -81,5 +81,5 @@ abilities: [
     }
 ]
 
-research: cell-reconstructor
+research: cancer-activator
 researchCostMultiplier: 0.3
