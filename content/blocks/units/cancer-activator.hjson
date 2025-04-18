@@ -3,6 +3,7 @@ category: units
 health: 1600
 size: 3
 constructTime: 3600
+range: 400
 
 requirements: [
       flesh/800

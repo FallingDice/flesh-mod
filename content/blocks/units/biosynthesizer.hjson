@@ -12,6 +12,7 @@ requirements: [
 
 shootSound: none
 reload: 600
+cooldownTime: 600
 shootY: 0.5
 alwaysShooting: true
 
