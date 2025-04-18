@@ -34,6 +34,12 @@ solid: false
   spawnUnit: cancer
 }
 
+hasItems: true
+hasPower: false
+hasLiquids: true
+itemCapacity: 1000
+liquidCapacity: 600
+
 drawTeamOverlay: false
 squareSprite: false
 
