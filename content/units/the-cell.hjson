@@ -23,7 +23,7 @@ outlineColor: 6b1355
 
 weapons: [
     {
-        rotate: true
+        rotate: false
         x: 0
         y: 0
         reload: 13
@@ -45,7 +45,7 @@ weapons: [
             recoil: -0.3
             knockback: -1
 
-            //rangeOverride: 120
+            rangeOverride: 120
         }
     },
     { 
