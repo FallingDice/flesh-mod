@@ -11,7 +11,10 @@ requirements: [
       flesh/1
 ]
 
-junctionReplacement: intestine-junction
+hasLiquids: true
+liquidCapacity: 10
+
+//junctionReplacement: intestine-junction
 bridgeReplacement: intestine-bridge
 
 research: {

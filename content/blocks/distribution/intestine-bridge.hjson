@@ -10,6 +10,9 @@ requirements: [
           flesh/10
 ]
 
+hasLiquids: true
+liquidCapacity: 10
+
 research: {
         parent: intestine-router
             requirements: [

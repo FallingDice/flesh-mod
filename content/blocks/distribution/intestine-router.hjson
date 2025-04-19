@@ -11,6 +11,9 @@ requirements: [
       flesh/3
 ]
 
+hasLiquids: true
+liquidCapacity: 10
+
 research: {
     parent: intestine
     requirements:
