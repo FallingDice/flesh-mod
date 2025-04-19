@@ -20,5 +20,5 @@ research: {
     ]
 }
 
-attribute: steam
+attributes: steam
 group: liquids
