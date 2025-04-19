@@ -38,3 +38,6 @@ Contributor:
 
 1.44v
 - intestine sprites update
+
+1.48v
+- intestine update!
