@@ -1,4 +1,4 @@
-type: Conveyor
+type: Duct
 category: distribution
 size: 1
 health: 40
@@ -36,3 +36,5 @@ research: {
         flesh/5
     ]
 }
+
+hidden: true

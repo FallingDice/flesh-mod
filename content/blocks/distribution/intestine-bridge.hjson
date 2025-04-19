@@ -1,4 +1,4 @@
-type: DuctBridge
+type: BufferedItemBridge
 category: distribution
 size: 1
 health: 40
