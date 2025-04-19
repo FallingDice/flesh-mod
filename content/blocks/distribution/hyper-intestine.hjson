@@ -3,7 +3,7 @@ category: distribution
 size: 1
 health: 40
 speed: 4
-displayedSpeed: 4.8
+displayedSpeed: 1.6
 underBullets: true
 solid: false
 
