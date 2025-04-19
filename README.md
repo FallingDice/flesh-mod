@@ -35,3 +35,6 @@ Contributor:
 
 1.3v
 - bugfix
+
+1.44v
+- intestine sprites update
