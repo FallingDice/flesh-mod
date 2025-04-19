@@ -7,7 +7,7 @@ liquidCapacity: 100
 pumpAmount: 1
 
 requirements: [
-      flesh/10
+      flesh/1000
 ]
 
 squareSprite: false
@@ -16,7 +16,7 @@ research: {
     parent: core-aggregate
     requirements:
     [
-        flesh/1000
+        flesh/5000
     ]
 }
 
