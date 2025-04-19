@@ -2,8 +2,8 @@ type: Conveyor
 category: distribution
 size: 1
 health: 40
-speed: 0.08
-displayedSpeed: 8.4
+speed: 0.09
+displayedSpeed: 6.2
 underBullets: true
 solid: false
 
