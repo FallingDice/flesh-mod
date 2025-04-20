@@ -9,12 +9,4 @@ requirements: [
       flesh/1
 ]
 
-research: {
-    parent: blood-vessel
-    requirements:
-    [
-        flesh/100
-    ]
-}
-
 hidden: true

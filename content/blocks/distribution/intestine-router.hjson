@@ -7,12 +7,17 @@ dumpTime: 1
 underBullets: true
 solid: false
 
+breakSound: plantBreak
+destroySound: plantBreak
+
 requirements: [
       flesh/3
 ]
 
-hasLiquids: true
-liquidCapacity: 10
+targetable: true
+
+//특정유닛이 지나가면 파괴되는지 여부
+unitMoveBreakable: true
 
 research: {
     parent: intestine

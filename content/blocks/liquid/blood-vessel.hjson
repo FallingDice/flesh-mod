@@ -10,7 +10,7 @@ requirements: [
       flesh/1
 ]
 
-junctionReplacement: blood-vessel-junction
+//junctionReplacement: blood-vessel-junction
 
 research: {
     parent: bloodsucker
