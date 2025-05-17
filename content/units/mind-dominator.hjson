@@ -1,5 +1,6 @@
 alwaysUnlocked: true
 
+name: Mind Dominator
 controller: BuilderAI
 alwaysFlee: true
 fleeRange: 500

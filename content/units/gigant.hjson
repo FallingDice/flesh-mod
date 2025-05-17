@@ -1,5 +1,6 @@
 //cell unit 3T
 
+name: Gigant
 type: mech
 flying: false
 speed: 0.4

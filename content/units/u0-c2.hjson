@@ -1,6 +1,7 @@
 //속도감 있는 전투기
 //cellunit 2t
 
+name: U0-C2
 type: flying
 flying: true
 health: 500

@@ -1,5 +1,6 @@
 //flesh unit 2t assmble
 
+name: Big Flesh Spider
 type: legs
 flying: false
 health: 2400

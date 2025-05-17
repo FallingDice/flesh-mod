@@ -1,5 +1,6 @@
 //cell hive 2T
 
+name: Cancer
 type: flying
 flying: true
 speed: 2.3

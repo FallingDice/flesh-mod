@@ -1,5 +1,6 @@
 //cell unit 3T assmble
 
+name: abomination
 type: crawl
 flying: false
 speed: 0.2
