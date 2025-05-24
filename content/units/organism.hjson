@@ -47,13 +47,6 @@ weapons: [
 
 abilities: [
     {
-        type: SpawnDeathAbility
-        amount: 1
-        spread: 0
-        faceOutwards: false
-        unit: the-cell
-    },
-    {
         type: LiquidExplodeAbility
         liquid: blood
         amount: 10
