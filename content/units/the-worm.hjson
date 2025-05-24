@@ -22,13 +22,13 @@ itemCapacity: 600
 drawCell: false
 
 weapons: [
-       {
-            mirror: true
-            rotate: false
-            x: 0
-            y: 35
-            reload: 20
-            shootSound: sap
+    {
+        mirror: true
+        rotate: false
+        x: 0
+        y: 35
+        reload: 20
+        shootSound: sap
 
         bullet: {
             type: SapBulletType
@@ -46,12 +46,13 @@ weapons: [
             status: spore-slowed
 
             rangeOverride: 120
-        },
-        {
-            mirror: true
-            rotate: true
-            reload: 5
-            shootSound: sap
+        }
+    },
+    {
+        mirror: true
+        rotate: true
+        reload: 5
+        shootSound: sap
 
         bullet: {
             type: SapBulletType
