@@ -85,40 +85,7 @@ weapons: [
           triLength: 0
         }
       ]
-    },
-  {
-    //이후 특정한 suffix anim 추가
-    mirror: true
-    rotate: true
-    alternate: true
-    x: -5
-    y: 0
-    cooldownTime: 60
-    reload: 600
-    smoothReloadSpeed: 0.15
-    shootSound: missileLaunch
-    bullet: {
-        type: BasicBulletType
-        reloadMultiplier: 0.8
-        shootEffect: shootBig
-        smokeEffect: shootBigSmoke2
-        instantDisappear: true
-        damage: 0
-        speed: 0
-        spawnUnit: the-cell
-        shootEffect: {
-                type: WaveEffect
-                lifetime: 10
-                sizeFrom: 20
-                sizeTo: 0
-                strokeFrom: 2
-                strokeTO: 4
-                colorFrom: ffffffff
-                colorTo: ff117488
-                lightColor: ff0000aa
-           }
     }
-}
 ]
 
 abilities: [

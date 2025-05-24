@@ -79,7 +79,7 @@ weapons: [
         shootCone: 360
         mirror: false
         reload: 0
-        shootOnDeath: true
+        shootOnDeath: false
         controllable: false
         shootWarmupSpeed: 0.01
         minWarmup: 0.9

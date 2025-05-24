@@ -75,39 +75,6 @@ weapons: [
       }
     },
     {
-        shootCone: 360
-        mirror: false
-        reload: 0
-        shootOnDeath: false
-        controllable: false
-        shootWarmupSpeed: 0.01
-        minWarmup: 1.5
-        warmupMaintainTime: 150
-        faceTarget: false
-        shootSound: none
-        bullet: {
-            type: BasicBulletType
-            reloadMultiplier: 0.8
-            shootEffect: none
-            instantDisappear: true
-            damage: 0
-            speed: 0
-            spawnUnit: fleshs
-            killShooter: true
-            shootEffect: {
-                    type: WaveEffect
-                    lifetime: 10
-                    sizeFrom: 10
-                    sizeTo: 0
-                    strokeFrom: 2
-                    strokeTo: 4
-                    colorFrom: ffffffff
-                    colorTo: ff117488
-                    lightColor: ff0000aa
-            }
-        }
-    },
-    {
         mirror: false
         rotate: true
         cooldownTime: 60
