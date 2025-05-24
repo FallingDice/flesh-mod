@@ -65,34 +65,6 @@ ammoTypes: {
 drawer: {
   type: DrawTurret
   basePrefix: flesh-
-     parts: [
-        {
-          type: shapePart
-          hollow: true
-          circle: true
-          layer: 110
-          color: ff6993
-          stroke: 0
-          strokeTo: 1.5
-          radiusTo: 5
-          radius: 1
-        },
-        {
-          type: HaloPart
-          radius: 1
-          tri: true
-          layer: 110
-          color: ff6993
-          haloRotateSpeed: 1.3
-          haloRadius: 3
-          haloRadiusTo: 5
-          stroke: 0
-          strokeTo: 1.5
-          shapes: 4
-          triLengthTo: 4
-          triLength: 0
-        }
-      ]
 }
 
 research: {
