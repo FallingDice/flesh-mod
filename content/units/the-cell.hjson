@@ -79,10 +79,13 @@ weapons: [
         shootCone: 360
         mirror: false
         shootOnDeath: false
-        controllable: true
-        shootWarmupSpeed: 0.01
-        minWarmup: 0.9
-        warmupMaintainTime: 18000
+        controllable: false
+        autoTarget: true
+
+        linearWarmup: true
+        minWarmup: 1
+        shootWarmupSpeed: 0.0003
+        smoothReloadSpeed: 0.0003
         faceTarget: false
         shootSound: none
         bullet: {
