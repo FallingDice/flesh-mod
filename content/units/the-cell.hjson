@@ -80,9 +80,9 @@ weapons: [
         mirror: false
         shootOnDeath: false
         controllable: true
-        shootWarmupSpeed: 0.1
-        minWarmup: 0.9
-        warmupMaintainTime: 90
+        shootWarmupSpeed: 0.01
+        minWarmup: 2.0
+        warmupMaintainTime: 200
         faceTarget: false
         shootSound: none
         bullet: {
@@ -93,7 +93,6 @@ weapons: [
             speed: 0
             spawnUnit: mutanted-cell
             killShooter: true
-            rangeOverride: 360
             shootEffect: {
                     type: WaveEffect
                     lifetime: 10
