@@ -92,7 +92,7 @@ weapons: [
             instantDisappear: true
             damage: 0
             speed: 0
-            spawnUnit: the-cell
+            spawnUnit: organism
             killShooter: true
             shootEffect: {
                     type: WaveEffect
@@ -122,7 +122,7 @@ weapons: [
             instantDisappear: true
             damage: 0
             speed: 0
-            spawnUnit: dagger
+            spawnUnit: organism
         }
     }
 ]
