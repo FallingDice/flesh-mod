@@ -92,7 +92,7 @@ weapons: [
             instantDisappear: true
             damage: 0
             speed: 0
-            spawnUnit: the-cell
+            spawnUnit: fleshs
             killShooter: true
             shootEffect: {
                     type: WaveEffect
