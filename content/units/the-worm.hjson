@@ -41,7 +41,7 @@ weapons: [
             width: 0.55
             lifetime: 30
             knockback: -3
-            recoil: -3
+            recoil: 0
 
             status: spore-slowed
 
@@ -49,7 +49,7 @@ weapons: [
         }
     },
     {
-        mirror: true
+        mirror: false
         rotate: true
         reload: 5
         shootSound: sap
@@ -64,8 +64,6 @@ weapons: [
             color: ff6993
             width: 0.55
             lifetime: 20
-            knockback: -0.5
-            recoil: -0.5
 
             status: spore-slowed
         }

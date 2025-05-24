@@ -1,9 +1,9 @@
-name: The Cell
+name: Mutanted Cell
 type: tank
 flying: false
-health: 30
+health: 300
 armor: 3
-speed: 2
+speed: 0.5
 hitSize: 6
 range: 180
 
@@ -16,10 +16,9 @@ envDisabled: 0
 controller: SuicideAI
 drawCell: false
 circleTarget: true
-targetAir: false
-crushDamage: 0.3
+crushDamage: 0.5
 omniMovement: true
-rotateSpeed: 3
+rotateSpeed: 1
 outlineColor: 6b1355
 
 weapons: [
@@ -34,15 +33,15 @@ weapons: [
 
         bullet: {
             type: SapBulletType
-            damage: 3
+            damage: 12
             width: 0.55
             sapStrength: 0.1
-            length: 25
+            length: 30
             hitColor: ff6993
             color: ff6993
             shootEffect: none
             smokeEffect: none
-            lifetime: 10
+            lifetime: 15
             recoil: -0.3
             knockback: -1
 
@@ -57,15 +56,15 @@ weapons: [
       y: 0
       rotate: false
       mirror: false
-      reload: 240
+      reload: 120
       shootSound: pew
       bullet: {
             type: BasicBulletType
-            damage: 4
+            damage: 8
             speed: 4.25
             width: 6
             height: 8
-            lifetime: 25
+            lifetime: 30
             sprite: missile-large
             trailWidth: 3
             trailLength: 4.6
@@ -79,11 +78,11 @@ weapons: [
         shootCone: 360
         mirror: false
         reload: 0
-        shootOnDeath: true
+        shootOnDeath: false
         controllable: false
         shootWarmupSpeed: 0.01
-        minWarmup: 0.9
-        warmupMaintainTime: 90
+        minWarmup: 1.5
+        warmupMaintainTime: 150
         faceTarget: false
         shootSound: none
         bullet: {
@@ -93,7 +92,7 @@ weapons: [
             instantDisappear: true
             damage: 0
             speed: 0
-            spawnUnit: mutanted-cell
+            spawnUnit: the-cell
             killShooter: true
             shootEffect: {
                     type: WaveEffect
@@ -107,6 +106,24 @@ weapons: [
                     lightColor: ff0000aa
             }
         }
+    },
+    {
+        mirror: false
+        rotate: true
+        cooldownTime: 60
+        reload: 600
+        smoothReloadSpeed: 0.15
+        shootSound: none
+        bullet: {
+            type: BasicBulletType
+            reloadMultiplier: 0.6
+            shootEffect: none
+            smokeEffect: none
+            instantDisappear: true
+            damage: 0
+            speed: 0
+            spawnUnit: the-cell
+        }
     }
 ]
 
@@ -114,20 +131,12 @@ abilities: [
     {
         type: LiquidExplodeAbility
         liquid: blood
-        amount: 5
+        amount: 15
     },
     {
         type: RegenAbility
-        amount: -0.001
+        amount: 0.001
     }
 ]
 
-research: {
-    parent: cell-hive
-    requirements:
-    [
-        flesh/1000
-    ]
-}
-
-useUnitCap: false
+research: the-cell

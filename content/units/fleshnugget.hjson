@@ -157,3 +157,5 @@ research: {
         {item: flesh, amount: 100}
     ]
 }
+
+useUnitCap: false
