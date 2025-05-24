@@ -89,7 +89,7 @@ weapons: [
             instantDisappear: true
             damage: 0
             speed: 0
-            spawnUnit: the-cell
+            spawnUnit: dagger
         }
     }
 ]
