@@ -39,13 +39,20 @@ weapons: [
             instantDisappear: true
             damage: 0
             speed: 0
-            spawnUnit: the-cell
+            spawnUnit: fleshs
             killShooter: true
         }
     }
 ]
 
 abilities: [
+    {
+        type: SpawnDeathAbility
+        amount: 1
+        spread: 0
+        faceOutwards: false
+        unit: the-cell
+    },
     {
         type: LiquidExplodeAbility
         liquid: blood
