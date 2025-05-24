@@ -78,17 +78,15 @@ weapons: [
     {
         shootCone: 360
         mirror: false
-        reload: 0
         shootOnDeath: false
-        controllable: false
-        shootWarmupSpeed: 0.01
+        controllable: true
+        shootWarmupSpeed: 0.1
         minWarmup: 0.9
         warmupMaintainTime: 90
         faceTarget: false
         shootSound: none
         bullet: {
             type: BasicBulletType
-            reloadMultiplier: 0.8
             shootEffect: none
             instantDisappear: true
             damage: 0
