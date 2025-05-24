@@ -111,7 +111,7 @@ weapons: [
         mirror: false
         rotate: true
         cooldownTime: 60
-        reload: 600
+        reload: 200
         smoothReloadSpeed: 0.15
         shootSound: none
         bullet: {

@@ -95,6 +95,7 @@ weapons: [
             speed: 0
             spawnUnit: mutanted-cell
             killShooter: true
+            rangeOverride: 360
             shootEffect: {
                     type: WaveEffect
                     lifetime: 10
