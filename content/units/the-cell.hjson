@@ -82,7 +82,7 @@ weapons: [
         controllable: true
         shootWarmupSpeed: 0.01
         minWarmup: 0.9
-        warmupMaintainTime: 1200
+        warmupMaintainTime: 18000
         faceTarget: false
         shootSound: none
         bullet: {

@@ -240,8 +240,8 @@ objectives: []
 
 
 
-
-
+minWarmup: 0.9 /pls not over 1.0
+warmupMaintainTime: 600 = 1sec?
 
 
 임시 저장소
