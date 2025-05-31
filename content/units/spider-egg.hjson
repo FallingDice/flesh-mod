@@ -67,3 +67,4 @@ abilities: [
     }
 ]
 
+useUnitCap: false
