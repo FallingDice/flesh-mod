@@ -63,3 +63,5 @@ abilities: [
         color: ff4040
     }
 ]
+
+useUnitCap: false

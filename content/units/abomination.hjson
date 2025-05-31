@@ -64,3 +64,5 @@ abilities: [
         amount: 2
     }
 ]
+
+useUnitCap: false

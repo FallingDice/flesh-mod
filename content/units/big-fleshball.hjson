@@ -197,3 +197,5 @@ research: {
         flesh/5000
     ]
 }
+
+useUnitCap: false

@@ -57,3 +57,5 @@ abilities: [
         amount: 0.04
     }
 ]
+
+useUnitCap: false

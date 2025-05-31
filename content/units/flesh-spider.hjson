@@ -198,3 +198,5 @@ abilities: [
 research: {
     parent: big-flesh-spider
 }
+
+useUnitCap: false

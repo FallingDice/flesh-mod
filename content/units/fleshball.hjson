@@ -148,3 +148,5 @@ research: {
         flesh/1500
     ]
 }
+
+useUnitCap: false

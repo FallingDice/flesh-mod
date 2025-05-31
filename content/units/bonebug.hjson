@@ -60,3 +60,5 @@ research: {
         flesh/2000
     ]
 }
+
+useUnitCap: false

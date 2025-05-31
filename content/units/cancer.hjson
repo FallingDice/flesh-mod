@@ -84,3 +84,5 @@ abilities: [
 
 research: cancer-activator
 researchCostMultiplier: 0.3
+
+useUnitCap: false

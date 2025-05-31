@@ -212,7 +212,7 @@ weapons: [
       cooldownTime: 120
       reload: 600
       smoothReloadSpeed: 0.15
-      shootSound: missileLaunch
+      shootSound: none
       bullet: {
           type: BasicBulletType
           reloadMultiplier: 0.8
@@ -241,7 +241,7 @@ weapons: [
       cooldownTime: 120
       reload: 300
       smoothReloadSpeed: 0.15
-      shootSound: missileLaunch
+      shootSound: none
       bullet: {
           type: BasicBulletType
           reloadMultiplier: 0.8
@@ -316,3 +316,5 @@ abilities: [
         amount: 2
     }
 ]
+
+useUnitCap: false

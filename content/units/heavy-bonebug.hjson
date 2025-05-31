@@ -92,3 +92,5 @@ weapons: [
 
 research: cell-reconstructor2
 researchCostMultiplier: 0.3
+
+useUnitCap: false

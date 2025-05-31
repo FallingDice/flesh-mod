@@ -107,3 +107,4 @@ abilities: [
 ]
 
 research: the-cell
+useUnitCap: false

@@ -222,3 +222,5 @@ research: {
         flesh/7500
     ]
 }
+
+useUnitCap: false

@@ -60,3 +60,5 @@ abilities: [
         layer: 59.9
     }
 ]
+
+useUnitCap: false
