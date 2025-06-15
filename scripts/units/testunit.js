@@ -11,7 +11,7 @@ const blockcheck = require("units/blockcheck");
 const subturrets = require("units/subturrets");
 
 const testunit = extend(UnitType, "testunit", {});
-testunit.constructor = () => extend(LegsUnit, {});
+testunit.constructor = () => extend(FlyingUnit, {});
 
 const installBullet = extend(BasicBulletType, {
   speed: 3,
