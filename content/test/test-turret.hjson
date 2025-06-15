@@ -1,4 +1,4 @@
-name: hive
+name: test turret
 health: 7000
 size: 3
 
@@ -24,5 +24,5 @@ shootType: {
   spin: 14
   shieldDamageMultiplier: 0.25
   instantDisappear: true
-  spawnUnit: dagger
+  spawnUnit: fleshnugget
 }
