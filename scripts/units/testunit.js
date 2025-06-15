@@ -36,7 +36,7 @@ const installBullet = extend(BasicBulletType, {
     if (canPlace && count >= 9) {
       const centerTile = Vars.world.tile(tileX, tileY);
       if (centerTile != null) {
-        centerTile.setNet(subturrets.blade, b.owner.team, 0);
+        centerTile.setNet(subturrets.hive, b.owner.team, 0);
       }
     }
   }
