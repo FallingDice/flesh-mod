@@ -1,11 +1,44 @@
-rotate: true
-rotateSpeed: 1
+name: hive
+health: 7000
+size: 3
 
-shootSound: plantBreak
-shootY: 0.5
-reload: 30
+category: turret
+
+reload: 16
+range: 130
+inaccuracy: 6
+rotateSpeed: 3
+shootCone: 361
+shoot: {
+  type: ShootMulti
+  source: ShootPattern
+  shots: 4
+  dest: [{
+    type: ShootSpread
+    shots: 2
+    spread: 15
+  }, {
+    type: ShootSpread
+    shots: 2
+    spread: 30
+    firstShotDelay: 8
+  }]
+}
 
 shootType: {
+  type: BasicBulletType
+  speed: 5
+  lifetime: 26
+  damage: 92
+  status: burning
+  statusDuration: 180
+  sprite: md3-blade-bullet
+  height: 12
+  width: 12
+  shrinkX: 0
+  shrinkY: 0
+  spin: 14
+  shieldDamageMultiplier: 0.25
   instantDisappear: true
   spawnUnit: fleshnugget
 }
