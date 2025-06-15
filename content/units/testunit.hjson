@@ -7,11 +7,9 @@ drag: 0.017
 range: 160
 speed: 2.5
 lowAltitude: true
-flying: true
 engineOffset: 10.5
 rotateShooting: true
 hitSize: 8
-engineSize: 3
 buildSpeed: 2.5
 
 itemCapacity: 6000
