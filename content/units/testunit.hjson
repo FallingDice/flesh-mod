@@ -14,3 +14,22 @@ buildSpeed: 2.5
 
 itemCapacity: 6000
 //payloadCapacity: 800
+
+abilities: [
+    {
+        type: SpawnDeathAbility
+        randAmount: 2
+        spread: 20
+        faceOutwards: true
+        unit: fleshnugget
+    },
+    {
+        type: LiquidExplodeAbility
+        liquid: blood
+        amount: 20
+    },
+    {
+        type: RegenAbility
+        amount: 0.25
+    }
+]
