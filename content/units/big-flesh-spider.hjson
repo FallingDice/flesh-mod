@@ -64,7 +64,7 @@ parts: [
     type: RegionPart
     progress: warmup
     growProgress: warmup
-    suffix: -nozzle
+    suffix: -jaw
     mirror: true
     under: true
     x: 0
@@ -93,7 +93,7 @@ weapons: [
         rotate: true
         rotateSpeed: 0.6
         mirror: true
-        x: 10
+        x: 14
         y: 0
         reload: 100
         layerOffset: -0.02

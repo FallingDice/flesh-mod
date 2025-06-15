@@ -31,6 +31,34 @@ segmentMag: 0.5
  drownTimeMultiplier: 3
 circleTarget: true
 
+parts: [
+  {
+    type: RegionPart
+    progress: warmup
+    growProgress: warmup
+    suffix: -jaw
+    mirror: true
+    under: true
+    x: 0
+    y: 0
+    moveX: 3
+    moveY: 0
+    moveRot: -30
+    layerOffset: -0.01
+
+    growX: 0.1
+    growY: 0.1
+    moves: [
+      {
+        type: partMove
+        progress: recoil
+        rot: -4
+        y: -2
+      }
+    ]
+  }
+]
+
 weapons: [
 {
     name: fleshgun
