@@ -17,6 +17,7 @@ const installBullet = extend(BasicBulletType, {
   speed: 3,
   lifetime: 30,
   damage: 0,
+  instantDisappear: true,
   despawned(b) {
     this.super$despawned(b);
 

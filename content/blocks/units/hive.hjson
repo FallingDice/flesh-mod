@@ -9,25 +9,6 @@ range: 130
 inaccuracy: 6
 rotateSpeed: 3
 
-//core
-//shootCone: 361
-
-shoot: {
-  type: ShootMulti
-  source: ShootPattern
-  shots: 4
-  dest: [{
-    type: ShootSpread
-    shots: 2
-    spread: 15
-  }, {
-    type: ShootSpread
-    shots: 2
-    spread: 30
-    firstShotDelay: 8
-  }]
-}
-
 shootType: {
   type: BasicBulletType
   speed: 5
