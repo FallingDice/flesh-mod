@@ -17,7 +17,6 @@ shootType: {
   damage: 92
   status: burning
   statusDuration: 180
-  sprite: md3-blade-bullet
   height: 12
   width: 12
   shrinkX: 0
