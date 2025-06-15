@@ -10,7 +10,7 @@ inaccuracy: 6
 rotateSpeed: 3
 
 //core
-shootCone: 361
+//shootCone: 361
 
 shoot: {
   type: ShootMulti
