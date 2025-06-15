@@ -1,0 +1,13 @@
+size: 3
+solid: false
+rotate: true
+rotateSpeed: 1
+
+shootSound: plantBreak
+shootY: 0.5
+reload: 30
+
+shootType: {
+  instantDisappear: true
+  spawnUnit: fleshnugget
+}
