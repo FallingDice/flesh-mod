@@ -1,28 +1,20 @@
 name: test turret
-health: 7000
+health: 1200
 size: 3
+
+shootY: 0.5
 
 category: turret
 
-reload: 38
+reload: 380
 range: 130
 inaccuracy: 6
-rotateSpeed: 3
+rotateSpeed: 1
 alwaysShooting: true
+shootSound: none
 
 shootType: {
   type: BasicBulletType
-  speed: 5
-  lifetime: 26
-  damage: 92
-  status: burning
-  statusDuration: 180
-  height: 12
-  width: 12
-  shrinkX: 0
-  shrinkY: 0
-  spin: 14
-  shieldDamageMultiplier: 0.25
   instantDisappear: true
   spawnUnit: fleshnugget
 }
