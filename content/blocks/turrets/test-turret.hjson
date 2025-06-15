@@ -10,7 +10,7 @@ reload: 380
 range: 130
 inaccuracy: 6
 rotateSpeed: 1
-alwaysShooting: true
+alwaysShooting: false
 shootSound: none
 
 shootType: {
@@ -18,3 +18,5 @@ shootType: {
   instantDisappear: true
   spawnUnit: testunit
 }
+
+unitCapModifier: 5
