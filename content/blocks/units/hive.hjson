@@ -8,7 +8,7 @@ reload: 16
 range: 130
 inaccuracy: 6
 rotateSpeed: 3
-shootCone: 361
+//shootCone: 361
 shoot: {
   type: ShootMulti
   source: ShootPattern
