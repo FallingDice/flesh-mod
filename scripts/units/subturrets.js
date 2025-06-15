@@ -23,20 +23,28 @@ const hive = extend(PowerTurret, "hive", {
   destructible: true,
   rebuildable: false,
   destroySound: Sounds.plantBreak,
-  update: false  // 동작 X
+  update: false
+});
+
+const spawnMissile = extend(BasicBulletType, {
+  damage: 0,
+  speed: 0,
+  lifetime: 0,
+  collides: false,
+  collidesAir: false,
+  instanceDisappear: true, // 핵심!
+  despawned(b){
+    const unitType = Vars.content.getByName(ContentType.unit, "dagger");
+    if(unitType){
+      unitType.spawn(b.team, b.x, b.y);
+    }
+  }
 });
 
 hive.buildType = () => extend(PowerTurret.PowerTurretBuild, hive, {
   placed() {
     this.super$placed();
-    // 설치될 때 소환할 유닛 지정
-    const unitType = Vars.content.getByName(ContentType.unit, "fleshball");
-    if(unitType){
-      // 설치 위치 근처에 소환
-      let spawnX = this.x;
-      let spawnY = this.y;
-      unitType.spawn(this.team, spawnX, spawnY);
-    }
+    spawnMissile.create(this, this.team, this.x, this.y, 0, 0, 0);
   }
 });
 
