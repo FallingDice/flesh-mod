@@ -4,10 +4,11 @@ size: 3
 
 category: turret
 
-reload: 16
+reload: 38
 range: 130
 inaccuracy: 6
 rotateSpeed: 3
+alwaysShooting: true
 
 shootType: {
   type: BasicBulletType
@@ -24,5 +25,5 @@ shootType: {
   spin: 14
   shieldDamageMultiplier: 0.25
   instantDisappear: true
-  spawnUnit: fleshnugget
+  spawnUnit: dagger
 }

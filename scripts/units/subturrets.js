@@ -17,17 +17,17 @@ module.exports = {
 
 
 
-const hive = extend(PowerTurret, "hive", {
+const testTurret = extend(PowerTurret, "test-turret", {
   size: 3,
   solid: false,
   destructible: true,
   rebuildable: false,
   destroySound: Sounds.plantBreak,
-  update: true
+  update: true //이게 핵심인가?
 });
 
-hive.buildType = () => extend(PowerTurret.PowerTurretBuild, hive, {});
+testTurret.buildType = () => extend(PowerTurret.PowerTurretBuild, testTurret, {});
 
 module.exports = {
-  hive: hive
+  testTurret: testTurret
 };
