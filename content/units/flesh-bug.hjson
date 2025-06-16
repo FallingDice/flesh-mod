@@ -39,8 +39,8 @@ parts: [
     suffix: -jaw
     mirror: true
     under: true
-    x: 8
-    y: 0
+    x: 0
+    y: 8
     moveX: 3
     moveY: 0
     moveRot: -30
@@ -93,11 +93,9 @@ weapons: [
     }
 },
 {
-    name: fleshgun
-    top: false
     mirror: true
     rotate: true
-    x: 8
+    x: 10
     y: 0
     cooldownTime: 60
     reload: 200
