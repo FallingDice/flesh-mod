@@ -2,7 +2,9 @@
 //bonebug 2T
 
 name: Heavy Bone Bug
+description: It is a buffer that can disable enemies. With its exoskeleton, it is extremely durable.
 type: tank
+
 flying: false
 health: 2500
 armor: 10

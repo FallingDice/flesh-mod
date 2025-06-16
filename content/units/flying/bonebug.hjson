@@ -2,7 +2,9 @@
 //new factory
 
 name: Bone Bug
+description: It can mine resources and protect itself. With its exoskeleton, it is extremely durable.
 type: flying
+
 flying: true
 health: 500
 armor: 10

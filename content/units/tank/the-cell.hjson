@@ -1,5 +1,7 @@
 name: The Cell
+description: It is most powerful when gathered in large numbers.
 type: tank
+
 flying: false
 health: 30
 armor: 3

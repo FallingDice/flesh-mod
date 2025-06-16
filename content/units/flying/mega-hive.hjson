@@ -1,5 +1,7 @@
 name: Mega Hive
+description: It is the mother of giant creatures and can produce many units.
 type: flying
+
 flying: true
 health: 12000
 armor: 100

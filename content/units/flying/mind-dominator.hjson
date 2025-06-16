@@ -1,11 +1,13 @@
 alwaysUnlocked: true
 
 name: Mind Dominator
+description: It is the unit that forms the core's foundation.
+type: flying
+
 controller: BuilderAI
 alwaysFlee: true
 fleeRange: 500
 
-type: flying
 flying: true
 health: 100
 speed: 5.6

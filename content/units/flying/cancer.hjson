@@ -1,7 +1,9 @@
 //cell hive 2T
 
 name: Cancer
+description: It can support players or other units and is capable of self-division.
 type: flying
+
 flying: true
 speed: 2.3
 health: 600

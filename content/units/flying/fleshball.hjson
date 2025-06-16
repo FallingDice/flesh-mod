@@ -1,6 +1,7 @@
 name: Flesh Ball
-description: seed of disaster.
+description: It is the most basic aerial unit.
 type: flying
+
 flying: true
 health: 120
 speed: 2.5

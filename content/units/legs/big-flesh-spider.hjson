@@ -1,7 +1,9 @@
 //flesh unit 2t assmble
 
 name: Big Flesh Spider
+description: It is a super long-range unit. It can fire very powerful bullets and produces spider eggs.
 type: legs
+
 flying: false
 health: 2400
 armor: 3

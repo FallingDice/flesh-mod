@@ -1,5 +1,7 @@
 name: Flesh Spider
+description: It is a unit born from spider eggs.
 type: legs
+
 flying: false
 health: 300
 armor: 1

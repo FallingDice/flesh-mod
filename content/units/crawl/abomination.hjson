@@ -1,7 +1,9 @@
 //cell unit 3T assmble
 
 name: abomination
+description: It is a unit specialized for siege warfare.
 type: crawl
+
 flying: false
 speed: 0.2
 health: 12000

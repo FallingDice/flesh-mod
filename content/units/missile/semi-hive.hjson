@@ -1,4 +1,7 @@
+name: Semi Hive
+description: Description of thing.
 type: missile
+
 flying: false
 speed: 0.01
 rotateSpeed: 0.01

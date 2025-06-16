@@ -1,4 +1,7 @@
+name: Wall of Flesh
+description: It is terraria boss.
 type: flying
+
 flying: true
 health: 9999999
 armor: 200

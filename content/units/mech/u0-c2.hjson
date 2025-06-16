@@ -2,7 +2,9 @@
 //cellunit 2t
 
 name: U0-C2
+description: It can attack in various ways.
 type: flying
+
 flying: true
 health: 500
 armor: 10

@@ -1,8 +1,9 @@
 //flesh unit 2t assmble
 
 name: Flesh Bug
-description: seed of disaster.
+description: It is capable of long-range attacks and can launch missiles.
 type: crawl
+
 flying: false
 health: 1600
 armor: 2

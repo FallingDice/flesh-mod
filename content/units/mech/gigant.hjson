@@ -1,7 +1,9 @@
 //cell unit 3T
 
 name: Gigant
+description: It is a unit specialized in defense.
 type: mech
+
 flying: false
 speed: 0.4
 health: 5000

@@ -1,8 +1,9 @@
 //flesh unit 2t
 
 name: Big Flesh Ball
-description: seed of disaster.
+description: It can fire bullets and powerful lasers. Upon death, it splits into multiple flashballs.
 type: flying
+
 flying: true
 health: 1600
 armor: 2

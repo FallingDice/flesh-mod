@@ -1,5 +1,7 @@
 name: Mutanted Cell
+description: It can launch long-range missiles specialized in annihilation.
 type: tank
+
 flying: false
 health: 300
 armor: 3
