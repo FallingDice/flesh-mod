@@ -39,8 +39,8 @@ parts: [
     suffix: -jaw
     mirror: true
     under: true
-    x: 0
-    y: 8
+    x: 12
+    y: 0
     moveX: 3
     moveY: 0
     moveRot: -30
