@@ -95,8 +95,8 @@ weapons: [
 {
     mirror: true
     rotate: true
-    x: 10
-    y: 0
+    x: 12
+    y: 2
     cooldownTime: 60
     reload: 200
     smoothReloadSpeed: 0.15
