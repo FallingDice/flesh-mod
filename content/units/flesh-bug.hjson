@@ -39,11 +39,11 @@ parts: [
     suffix: -jaw
     mirror: true
     under: true
-    x: 12
+    x: 0
     y: 0
-    moveX: 3
+    moveX: 12
     moveY: 0
-    moveRot: -30
+    moveRot: -60
     layerOffset: -0.01
 
     growX: 0.1
