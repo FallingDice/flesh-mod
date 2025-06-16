@@ -17,6 +17,7 @@ lifetime: 200
 rotateSpeed: 0.3
 hitSize: 6
 trailLength: 15
+trailWidth: 3
 homingDelay: 0.1
 health: 100
 trailColor: ff1744

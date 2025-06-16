@@ -17,6 +17,7 @@ lifetime: 300
 hitSize: 4
 rotateSpeed: 4
 trailLength: 5
+trailWidth: 1
 health: 50
 trailColor: ff1744
 drawCell: false
