@@ -45,7 +45,7 @@ const installBullet = extend(BasicBulletType, {
 });
 
 const installerWeapon = extend(Weapon, {
-  reload: 120,
+  reload: 360,
   bullet: installBullet,
   x: 0,
   y: 0,

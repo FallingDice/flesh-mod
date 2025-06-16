@@ -1,17 +1,24 @@
 name: test turret
 health: 1200
 size: 3
+solid: false
 
 shootY: 0.5
 
 category: turret
 
+shootWarmupSpeed: 0.05
+
 reload: 380
-range: 1300
+range: 600
 inaccuracy: 6
 rotateSpeed: 1
 alwaysShooting: false
 shootSound: none
+
+destructible: true
+rebuildable: false
+destroySound: plantBreak
 
 shootType: {
   type: BasicBulletType

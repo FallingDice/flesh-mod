@@ -18,11 +18,11 @@ module.exports = {
 
 
 const testTurret = extend(PowerTurret, "test-turret", {
-  size: 3,
-  solid: false,
-  destructible: true,
-  rebuildable: false,
-  destroySound: Sounds.plantBreak,
+  //size: 3,
+  //solid: false,
+  //destructible: true,
+  //rebuildable: false,
+  //destroySound: Sounds.plantBreak,
   update: true //이게 핵심인가?
 });
 
