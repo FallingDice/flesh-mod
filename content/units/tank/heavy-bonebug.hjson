@@ -19,6 +19,7 @@ createScorch: false
 envDisabled: 0
 
 aimDst: 80
+immunities: [active-infection]
 
 drawCell: false
 targetAir: false

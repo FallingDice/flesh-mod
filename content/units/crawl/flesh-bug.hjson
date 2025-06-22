@@ -29,7 +29,7 @@ segments: 3
 segmentScl:3
 segmentPhase: 3
 segmentMag: 0.5
- drownTimeMultiplier: 3
+drownTimeMultiplier: 3
 circleTarget: true
 
 parts: [
