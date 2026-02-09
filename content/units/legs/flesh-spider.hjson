@@ -59,7 +59,7 @@ weapons: [
         y: 0
         reload: 30
         ejectEffect: casing2
-        shootSound: pew
+        shootSound: shootAtrax
 
         bullet: {
             type: BasicBulletType
@@ -86,7 +86,7 @@ weapons: [
             x: 3
             y: 0
             reload: 20
-            shootSound: sap
+            shootSound: shootSap
 
         bullet: {
             type: SapBulletType
@@ -114,7 +114,7 @@ weapons: [
       mirror: false
       reload: 300
       shootCone: 15
-      shootSound: cannon
+      shootSound: shootAfflict
       bullet: {
             type: BasicBulletType
             damage: 30
@@ -149,8 +149,7 @@ weapons: [
       reload: 150
       shootCone: 20
 
-//퓨즈 사운드로 교체요함
-      shootSound: spark
+      shootSound: shootFuse
       bullet: {
         width: 0
         height: 0

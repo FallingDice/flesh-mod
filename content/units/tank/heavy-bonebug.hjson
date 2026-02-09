@@ -69,7 +69,7 @@ weapons: [
   shootY: 2
   recoil: 1
   ejectEffect: none
-  shootSound: flame
+  shootSound: shootFlame
 
   reload: 11
   bullet: {

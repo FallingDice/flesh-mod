@@ -20,7 +20,7 @@ drawCell: false
 circleTarget: true
 targetAir: false
 crushDamage: 0.3
-omniMovement: true
+omniMovement: false
 rotateSpeed: 3
 outlineColor: 6b1355
 
@@ -60,7 +60,7 @@ weapons: [
       rotate: false
       mirror: false
       reload: 240
-      shootSound: pew
+      shootSound: shootAtrax
       bullet: {
             type: BasicBulletType
             damage: 4
@@ -89,7 +89,7 @@ weapons: [
         shootWarmupSpeed: 0.0003
         smoothReloadSpeed: 0.0003
         faceTarget: false
-        shootSound: none
+        shootSound: shootAfflict
         bullet: {
             type: BasicBulletType
             shootEffect: none

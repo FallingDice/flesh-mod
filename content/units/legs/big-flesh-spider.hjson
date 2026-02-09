@@ -101,7 +101,7 @@ weapons: [
         layerOffset: -0.02
         alternate: false
         ejectEffect: casing3
-        shootSound: cannon
+        shootSound: shootArtillerySap
         bullet: {
             type: BasicBulletType
             damage: 30
@@ -132,7 +132,7 @@ weapons: [
       mirror: false
       reload: 400
       shootCone: 15
-      shootSound: shootBig
+      shootSound: shootArtillerySapBig
       ejectEffect: casing4
       shake: 2
       bullet: {
