@@ -6,7 +6,7 @@ type: flying
 
 flying: true
 speed: 2.3
-health: 600
+health: 500
 armor: 1
 hitSize: 10
 range: 80
@@ -80,7 +80,7 @@ abilities: [
     },
     {
         type: RegenAbility
-        amount: 0.1
+        amount: 1
     }
 ]
 

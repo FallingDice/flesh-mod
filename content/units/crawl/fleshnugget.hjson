@@ -3,7 +3,7 @@ description: It is specialized in disrupting enemies.
 type: crawl
 
 flying: false
-health: 80
+health: 100
 speed: 3
 hitSize: 6
 
@@ -48,7 +48,7 @@ weapons: [
         x: 0
         y: 0
         reload: 20
-        shootSound: sap
+        shootSound: shootSap
 
         bullet: {
             type: SapBulletType
@@ -77,7 +77,7 @@ weapons: [
       mirror: false
       reload: 200
       shootCone: 20
-      shootSound: spark
+      shootSound: shootAfflict
       bullet: {
         width: 0
         height: 0
@@ -103,7 +103,7 @@ weapons: [
       mirror: false
       reload: 200
       shootCone: 20
-      shootSound: bolt
+      shootSound: shootAtrax
       shoot: {
             shots: 3
             shotDelay: 10
@@ -147,7 +147,7 @@ abilities: [
     },
     {
         type: RegenAbility
-        amount: 0.015
+        amount: 0.05
     }
 ]
 

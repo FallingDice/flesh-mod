@@ -5,7 +5,7 @@ description: It is capable of long-range attacks and can launch missiles.
 type: crawl
 
 flying: false
-health: 1600
+health: 800
 armor: 2
 speed: 1.2
 hitSize: 16
@@ -67,7 +67,7 @@ weapons: [
     x: 0
     y: 0
     mirror: false
-    shootSound: cannon
+    shootSound: shootArtillerySap
     reload: 30
     bullet: {
         type: BasicBulletType
@@ -141,7 +141,7 @@ abilities: [
     },
     {
         type: RegenAbility
-        amount: 0.25
+        amount: 0.4
     }
 ]
 

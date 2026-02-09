@@ -80,7 +80,7 @@ abilities: [
     },
     {
         type: RegenAbility
-        amount: 0.4
+        amount: 1.2
     }
 ]
 

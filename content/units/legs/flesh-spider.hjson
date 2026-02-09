@@ -149,7 +149,7 @@ weapons: [
       reload: 150
       shootCone: 20
 
-      shootSound: shootFuse
+      shootSound: shootAfflict
       bullet: {
         width: 0
         height: 0

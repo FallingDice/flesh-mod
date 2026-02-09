@@ -3,7 +3,7 @@ description: It is the most basic aerial unit.
 type: flying
 
 flying: true
-health: 120
+health: 200
 speed: 2.5
 hitSize: 9
 range: 120
@@ -138,7 +138,7 @@ abilities: [
     },
     {
         type: RegenAbility
-        amount: 0.02
+        amount: 0.1
     }
 ]
 

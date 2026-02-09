@@ -3,7 +3,7 @@ description: It is the mother of giant creatures and can produce many units.
 type: flying
 
 flying: true
-health: 12000
+health: 10000
 armor: 100
 speed: 0.3
 hitSize: 58
@@ -315,7 +315,7 @@ abilities: [
     },
     {
         type: RegenAbility
-        amount: 2
+        amount: 5
     }
 ]
 
