@@ -20,5 +20,8 @@ research: {
     ]
 }
 
-attributes: steam
+//thanks "fatihvan178-wq"!
+attributes: {
+    steam: 1
+}
 group: liquids
