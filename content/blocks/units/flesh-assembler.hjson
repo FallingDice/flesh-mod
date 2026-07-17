@@ -54,3 +54,5 @@ plans: [
 squareSprite: false
 research: flesh-hive
 researchCostMultiplier: 0.4
+
+hidden: true

@@ -11,3 +11,5 @@ requirements: [
 
 research: assmbler-changer2
 researchCostMultiplier: 0.2
+
+hidden: true

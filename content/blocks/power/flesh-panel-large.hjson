@@ -11,3 +11,5 @@ powerProduction: 2.5
 
 research: flesh-panel
 researchCostMultiplier: 0.3
+
+hidden: true

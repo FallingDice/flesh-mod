@@ -4,12 +4,15 @@ type: Liquid
 color: a5df00
 
 coolant: false
+spreadTarget: slag
+spreadDamage: 1.5
 temperature: 1
 blockReactive: false
 viscosity: 0.75
 heatCapacity: 0.3
 effect: melting
 lightColor: a5df0060
+moveThroughBlocks: true
 
 research: {
     parent: blood

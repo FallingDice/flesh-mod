@@ -13,3 +13,5 @@ powerProduction: 1
 
 research: core-aggregate
 researchCostMultiplier: 0.33
+
+hidden: true

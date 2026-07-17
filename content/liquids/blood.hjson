@@ -3,9 +3,9 @@ description: more..
 type: CellLiquid
 cells: 20
 
-colorFrom: ff0000
-colorTo: 8B0000
-color: ff0000
+colorFrom: ff1744
+colorTo: 8B0724
+color: ff1744
 
 coolant: false
 spreadTarget: water

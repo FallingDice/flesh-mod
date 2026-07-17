@@ -24,3 +24,5 @@ research: {
                      flesh/200
                 ]
       }
+
+hidden: true

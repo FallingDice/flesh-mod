@@ -72,3 +72,5 @@ plans: [
 squareSprite: false
 research: cell-hive
 researchCostMultiplier: 0.4
+
+hidden: true

@@ -7,6 +7,8 @@ speed: 0.01
 rotateSpeed: 0.01
 hitSize: 12
 
+controller: HugAI
+
 healColor: ff1744
 deathSound: plantBreak
 deathExplosionEffect: steam

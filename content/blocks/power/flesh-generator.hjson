@@ -42,3 +42,5 @@ drawer: {
 
 research: core-aggregate
 researchCostMultiplier: 0.3
+
+hidden: true

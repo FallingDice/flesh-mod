@@ -20,3 +20,5 @@ squareSprite: false
 conductivePower: true
 researchCostMultiplier: 0.3
 maxBlockSize: 3
+
+hidden: true

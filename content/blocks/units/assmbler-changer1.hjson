@@ -19,3 +19,5 @@ research: {
   ]
 }
 researchCostMultiplier: 0.2
+
+hidden: true

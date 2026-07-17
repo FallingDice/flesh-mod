@@ -32,3 +32,4 @@ upgrades: [
 researchCostMultiplier: 0.3
 
 //추후 레드존이라 쓰인 위치 수정
+hidden: true
