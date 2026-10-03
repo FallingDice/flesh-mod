@@ -17,12 +17,7 @@ plans: [
   }
 ]
 
-consumes: {
-  liquid: {
-        liquid: blood
-        amount: 0.1
-    }
-}
+consumes: {}
 
 research: {
     parent: core-aggregate
