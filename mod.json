@@ -1,8 +1,8 @@
 {
     "name": "flesh-mod",
     "displayName": "Flesh Mod",
-    "author": "[accent]FallingDice",
-    "version": "1.68",
+    "author": "[accent]NoFaceAlpha",
+    "version": "1.69",
     "minGameVersion": "146",
     "description": "Add flesh units with various actions and skills, novel turrets and various objects."
 }

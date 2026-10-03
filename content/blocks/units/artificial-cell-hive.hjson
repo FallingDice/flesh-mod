@@ -1,0 +1,39 @@
+type: unitFactory
+category: units
+size: 2
+health: 250
+
+requirements: [
+    flesh/350
+]
+
+solid: false
+
+plans: [
+  {
+    unit: the-cell
+    requirements: []
+    time: 300
+  }
+]
+
+consumes: {
+  liquid: {
+        liquid: blood
+        amount: 0.1
+    }
+}
+
+research: {
+    parent: core-aggregate
+    objectives: [
+    {
+      type: SectorComplete
+      preset: red-zone
+    }
+  ]
+}
+customShadow: false
+drawTeamOverlay: false
+squareSprite: false
+researchCostMultiplier: 0.5
